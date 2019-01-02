@@ -8,15 +8,17 @@ keyword: "杨远发, edyang, EdwordYang,杨远发的博客, @EdwordYang, Edyang 
 url: "http://edyang.me"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
-
+# Publish posts or collection documents with a future date.
+future: true
 
 # SNS settings
 RSS: false
 weibo_username:     edwordyang
 zhihu_username:     edword-yang
 github_username:    edyang
-#twitter_username:  huxpro
+#twitter_username:   huxpro
 #facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
 
 
 
@@ -25,14 +27,18 @@ github_username:    edyang
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
 
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
 
 
 
@@ -43,20 +49,27 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: edyang
 
-
-
+# Netease settings
+netease_comment: false
 
 
 
 # Analytics settings
-# Baidu Analytics
-ba_track_id: 2cf1db7315d8611065137d763395baf9
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
 # Google Analytics
 ga_track_id: 'UA-31225670-1'            # Format: UA-xxxxxx-xx
 ga_domain: edyang.me
@@ -65,14 +78,25 @@ ga_domain: edyang.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
 
 
 
