@@ -6,15 +6,15 @@ email: edyang123@gmail.com
 description: "关于程序与设计、硬件与创意 | 杨远发，Web & Mobile Lover，Software Engineer，Hardware & creativity | 这里是 杨远发@EdwordYang 的个人博客，与你一起发现更大的世界。"
 keyword: "杨远发, edyang, EdwordYang,杨远发的博客, @EdwordYang, Edyang Blog, 博客, 个人网站, 互联网, Web, JAVA, 服务器, Python, 软件工程"
 url: "http://edyang.me"              # your host, for absolute URL
-baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     edyang123@gmail.com
-zhihu_username:     edyang123@gmail.com
-github_username:    edyang123@gmail.com
+weibo_username:     edwordyang
+zhihu_username:     edword-yang
+github_username:    edyang
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 
@@ -49,19 +49,16 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 2cf1db7315d8611065137d763395baf9
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-31225670-1'            # Format: UA-xxxxxx-xx
 ga_domain: edyang.me
 
 
