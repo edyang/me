@@ -29,7 +29,8 @@ layout: default
                 </select>
                 {% endif %}
 
-				{{ content }}
+				{% if page.tech_note %}{% include tech-note-meta.html %}{% endif %}
+                {{ content }}
 
                 <hr style="visibility: hidden;">
                 <ul class="pager">

@@ -1,0 +1,34 @@
+.tech-note-entry{padding:18px 0 24px;border-bottom:1px solid #e6ebf0;margin-bottom:12px}
+.tech-note-entry a{color:#235b83;font-weight:700;font-size:19px}
+.tech-note-entry span{display:block;margin-top:6px;color:#667788;font-size:14px}
+.tech-note-meta{background:#f6f9fc;border-left:3px solid #235b83;padding:18px 22px;margin:0 0 30px;font-size:14px;line-height:1.9}
+.tech-note-meta strong{display:inline-block;min-width:76px;color:#233648}
+.tech-note-meta p{font-size:13px!important;line-height:1.75;margin:10px 0;color:#667788}
+.tech-note-meta a{color:#235b83}
+.note-muted{color:#687b8c;font-size:14px}
+.note-header-meta{line-height:1.8!important}
+.notes-intro{margin:0 0 30px}
+.notes-intro h2{font-size:25px}
+.note-filter-label{display:block;margin:25px 0 8px;font-size:14px;color:#52687b}
+.note-search{display:block;width:100%;padding:12px 15px;border:1px solid #c8d4df;border-radius:4px;background:#fff;font-size:16px}
+.note-search:focus{outline:2px solid #8db8d7;outline-offset:2px}
+.note-month>h2{font-size:24px;color:#235b83;margin:35px 0 15px}
+.note-card{display:flex;gap:20px;padding:20px 0;border-bottom:1px solid #e6ebf0}
+.note-date{min-width:52px;color:#667788;font-size:16px;padding-top:4px;font-variant-numeric:tabular-nums}
+.note-card-content{min-width:0;flex:1}
+.note-card h3{font-size:21px;line-height:1.5;margin:0 0 8px}
+.note-card h3 a{color:#233648}
+.note-card p{font-size:15px;line-height:1.75;color:#53687b;margin:8px 0}
+.note-card-meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:#758698}
+.note-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.note-tags a{font-size:12px;background:#eef4f8;color:#235b83;padding:3px 8px;border-radius:3px;text-decoration:none}
+.note-run-log{border-top:1px solid #e6ebf0;margin-top:38px;padding-top:18px}
+.note-run-log h2{font-size:20px}
+.note-run-log p{font-size:14px;color:#667788}
+.post-container img[src*="/img/tech-notes/"]{width:100%;height:auto;border:1px solid #e1e8ef;border-radius:6px;margin:24px auto}
+.post-container table{display:block;max-width:100%;overflow:auto;font-size:15px}
+.post-container table th,.post-container table td{padding:10px 12px;border:1px solid #dce5ed}
+.post-container table th{background:#f2f6fa}
+[hidden]{display:none!important}
+@media(max-width:600px){.note-card{gap:12px}.note-card h3{font-size:19px}.note-date{min-width:43px;font-size:14px}.tech-note-meta{padding:14px 15px}.tech-note-meta strong{min-width:70px}.note-header-meta{font-size:15px!important}}
+
