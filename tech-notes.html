@@ -1,0 +1,41 @@
+---
+layout: page
+title: 技术分享
+description: 从实际问题出发，记录排查、方案与验证
+permalink: /tech-notes/
+---
+{% assign notes = site.posts | where: 'tech_note', true | sort: 'source_date' | reverse %}
+<section class="notes-intro">
+  <h2>技术交流时间线</h2>
+  <p>共 {{ notes.size }} 篇。按原始交流日期排列，文章内保留整理发布时间；同一主题有新进展时更新原文。</p>
+  <p class="note-muted">历史补档仅覆盖当前能访问且有依据的技术交流。未确认的方案会标明验证边界，原理图采用重新绘制的通用示意。</p>
+  <label class="note-filter-label" for="note-search">查找文章</label>
+  <input id="note-search" class="note-search" type="search" placeholder="搜索标题或技术标签" autocomplete="off">
+  <p id="note-result" class="note-muted" aria-live="polite">{{ notes.size }} 篇文章</p>
+</section>
+<div class="note-timeline" id="note-timeline">
+{% assign last_month = '' %}
+{% for note in notes %}
+  {% assign month = note.source_date | date: '%Y-%m' %}
+  {% if month != last_month %}{% unless forloop.first %}</section>{% endunless %}<section class="note-month"><h2>{{ month }}</h2>{% assign last_month = month %}{% endif %}
+  <article class="note-card" data-search="{{ note.title | append: ' ' | append: note.tags | escape }}">
+    <div class="note-date"><time datetime="{{ note.source_date }}">{{ note.source_date | date: "%m-%d" }}</time></div>
+    <div class="note-card-content">
+      <h3><a href="{{ note.url | prepend: site.baseurl }}">{{ note.title | escape }}</a></h3>
+      <p>{{ note.excerpt | strip_html | escape }}</p>
+      <div class="note-card-meta"><span>整理发布 {{ note.published_at | date: "%Y-%m-%d" }}</span><span>{% case note.verification %}{% when "observed" %}有实际记录{% when "partial" %}部分待验证{% when "proposal" %}方案笔记{% else %}方法整理{% endcase %}</span></div>
+      <div class="note-tags">{% for tag in note.tags %}<a href="{{ '/archive/?tag=' | prepend: site.baseurl }}{{ tag | url_encode }}">{{ tag | escape }}</a>{% endfor %}</div>
+    </div>
+  </article>
+{% endfor %}
+{% if notes.size > 0 %}</section>{% endif %}
+</div>
+<p id="note-empty" hidden>没有找到匹配的文章。</p>
+<section class="note-run-log">
+  <h2>整理记录</h2>
+  {% for run in site.data.tech_note_runs reversed %}
+  <p>{{ run.run_date }} · {% if run.kind == 'historical_backfill' %}历史补档{% else %}增量整理{% endif %} · {{ run.articles }} 篇 · {% case run.status %}{% when 'published' %}已核验上线{% when 'repository_ready' %}已提交，待核验上线{% else %}已整理{% endcase %}</p>
+  {% endfor %}
+</section>
+<script src="{{ '/js/tech-notes.js' | prepend: site.baseurl }}" defer></script>
+

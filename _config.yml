@@ -5,14 +5,14 @@ header-img: img/home-bg.jpg
 email: edyang123@gmail.com
 description: "关于程序与设计、硬件与创意 | 杨远发，Web & Mobile Lover，Software Engineer，Hardware & creativity | 这里是 杨远发@EdwordYang 的个人博客，与你一起发现更大的世界。"
 keyword: "杨远发, edyang, EdwordYang,杨远发的博客, @EdwordYang, Edyang Blog, 博客, 个人网站, 互联网, Web, JAVA, 服务器, Python, 软件工程"
-url: "http://edyang.me"              # your host, for absolute URL
+url: "https://edyang.me"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username:     edwordyang
 zhihu_username:     edword-yang
 github_username:    edyang
@@ -27,7 +27,7 @@ github_username:    edyang
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md","AGENTS.md","TECH_BLOG_AGENT.md","scripts","Gemfile","Gemfile.lock","_data"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
@@ -110,3 +110,7 @@ friends: [
         href: "http://peigen.info"
     }
 ]
+
+
+# Note date is the discussion chronology; published_at is actual publication.
+timezone: Asia/Shanghai

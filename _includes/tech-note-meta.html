@@ -1,0 +1,8 @@
+<aside class="tech-note-meta" aria-label="文章日期与验证状态">
+  <div><strong>交流日期</strong> <time datetime="{{ page.source_date }}">{{ page.source_date | date: "%Y-%m-%d" }}</time>{% if page.source_dates.size > 1 %}<span class="note-muted">（后续交流：{% for d in page.source_dates offset:1 %}{{ d | date: "%Y-%m-%d" }}{% unless forloop.last %}、{% endunless %}{% endfor %}）</span>{% endif %}</div>
+  <div><strong>整理发布</strong> <time datetime="{{ page.published_at | date_to_xmlschema }}">{{ page.published_at | date: "%Y-%m-%d %H:%M" }}</time> <span class="note-muted">北京时间</span>{% if page.updated_at != page.published_at %} · 更新 {{ page.updated_at | date: "%Y-%m-%d %H:%M" }}{% endif %}</div>
+  <div><strong>记录性质</strong> <span class="note-status">{% case page.verification %}{% when "observed" %}有实际现象或结果记录{% when "partial" %}排查记录 · 部分待验证{% when "proposal" %}方案笔记 · 待验证{% else %}技术方法整理{% endcase %}</span></div>
+  <p>由技术交流整理，已去除可识别的人员、内部地址、凭据和项目敏感细节。图示为通用原理示意，示例参数需按实际环境核对。</p>
+  <a href="{{ '/tech-notes/' | prepend: site.baseurl }}">查看技术分享时间线</a>
+</aside>
+

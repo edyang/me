@@ -1,0 +1,9 @@
+- run_date: '2026-10-12'
+  kind: historical_backfill
+  status: prepared
+  articles: 43
+  coverage: accessible_retrieval_only
+  source_from: '2026-03-30'
+  source_to: '2026-10-12'
+  published_at: '2026-10-12T12:51:43+08:00'
+  note: 仅整理当前可访问且有依据的技术交流；不代表全量聊天导出。
