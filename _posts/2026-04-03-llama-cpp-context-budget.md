@@ -48,4 +48,4 @@ request (33951 tokens) exceeds the available context size (16384 tokens)
 
 ## 参考资料
 
-- [llama.cpp server 文档](https://github.com/ggml-org/llama.cpp/tree/master/tools/server)
+- [llama.cpp server 文档](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md)

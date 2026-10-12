@@ -120,7 +120,7 @@ if args.site:
     home = args.site/"index.html"
     if not home.is_file() or "/tech-notes/" not in home.read_text(): error("homepage","timeline entry missing")
     try: ET.parse(args.site/"feed.xml")
-    except (ET.ParseError,FileNotFoundError): error("RSS","invalid rendered XML")
+    except (ET.ParseError,FileNotFoundError) as exc: error("RSS",f"invalid rendered XML: {exc}")
 
 print(json.dumps({"valid":not errors,"articles":len(notes),"diagrams":len(list((ROOT/"img/tech-notes").glob("*.svg"))),"rendered_checked":bool(args.site),"errors":errors},ensure_ascii=False,indent=2))
 sys.exit(bool(errors))

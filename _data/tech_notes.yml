@@ -504,7 +504,7 @@
   permalink: /tech/2026/04/03/llama-cpp-context-budget/
   verification: observed
   privacy_reviewed: true
-  sha256: b25238a90fd1d94216218e9deaaa570793126ff464ce5389e54f49554205bcde
+  sha256: 36a7cad168431d1a80079522046e9d3d2b1868d675a4d747482954af025ffb29
 - note_id: jetson-backup-restore-boundaries
   title: Jetson 备份：先分清文件备份、rootfs 克隆和整机恢复
   path: _posts/2026-04-03-jetson-backup-restore-boundaries.md
