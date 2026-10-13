@@ -1,10 +1,9 @@
 # Technical blog repository
 
-Read TECH_BLOG_AGENT.md before editing technical notes. Follow the existing Jekyll theme and preserve legacy posts and URLs. Use the current master head as the base for every change.
+Read TECH_BLOG_AGENT.md before editing. Preserve the Jekyll theme, unrelated legacy posts and existing URLs. Base changes on the current master head.
 
-The owner has authorized publishing sanitized technical articles and updating related archive, metadata, illustrations and publication records. Publish within that scope after validation; use normal commits and respect repository rules. Do not force-push, replace site hosting settings, or change unrelated old content.
+The owner authorizes sanitized article publication, editorial replacement, archive metadata, illustrations and publication records. The 2026-10-13 instruction supersedes the original source-date ordering: archive from 2023-02-01 at weekly intervals, explicitly labeled simulated, preserving factual source and publication timestamps.
 
-Do not commit raw chat transcripts, retrieved memory, screenshots containing identities, original business attachments, private addresses, credentials or unpublished proprietary details. Generic independently written examples and diagrams may be published.
+Every technical note requires a concrete title, the research process, technology choices, a supported conclusion, and at least one relevant local image. Never invent tests or success. Never commit raw chats, private attachments, identities, credentials or proprietary details.
 
-Run python3 scripts/validate_tech_notes.py. If CI is available, also run the Jekyll build and rendered checks before merge. Never report deployed until the public URL and assets have been verified.
-
+Run python3 scripts/validate_tech_notes.py and CI Jekyll/rendered checks. Merge normally after successful checks; no force push or hosting changes. Verify the public pages and all affected assets before reporting deployed.

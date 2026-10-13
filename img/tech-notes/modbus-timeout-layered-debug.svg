@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" role="img">
+<title>Node-RED 读取 RS485 超时的分层排查：研究路径示意</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#35658b"/></marker></defs>
+<rect width="1120" height="560" rx="16" fill="#f4f8fc"/>
+<text x="48" y="58" font-size="27" font-weight="700" fill="#173b5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">Node-RED 读取 RS485 超时的分层排查</text>
+<text x="48" y="90" font-size="16" fill="#526c80" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">研究与检查路径 · 通用示意，顺序不代表全部步骤已完成</text>
+<rect x="48" y="138" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="82" cy="172" r="18" fill="#235c8e"/>
+<text x="82" y="178" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">1</text>
+<text x="74" y="221" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">检查 USB 稳定</text>
+<rect x="409" y="138" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="443" cy="172" r="18" fill="#235c8e"/>
+<text x="443" y="178" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">2</text>
+<text x="435" y="221" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">确认设备权限</text>
+<rect x="770" y="138" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="804" cy="172" r="18" fill="#235c8e"/>
+<text x="804" y="178" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">3</text>
+<text x="796" y="221" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">单主站只读</text>
+<rect x="770" y="327" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="804" cy="361" r="18" fill="#235c8e"/>
+<text x="804" y="367" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">4</text>
+<text x="796" y="410" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">核对协议参数</text>
+<rect x="409" y="327" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="443" cy="361" r="18" fill="#235c8e"/>
+<text x="443" y="367" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">5</text>
+<text x="435" y="410" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">解析原始回包</text>
+<rect x="48" y="327" width="300" height="130" rx="12" fill="white" stroke="#c5d5e4" stroke-width="2"/>
+<circle cx="82" cy="361" r="18" fill="#235c8e"/>
+<text x="82" y="367" text-anchor="middle" fill="white" font-size="18" font-family="sans-serif">6</text>
+<text x="74" y="410" font-size="23" fill="#163a5e" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">验证连续采集</text>
+<path d="M348 203 H397" stroke="#35658b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M709 203 H758" stroke="#35658b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M920 268 V315" stroke="#35658b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M770 392 H721" stroke="#35658b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M409 392 H360" stroke="#35658b" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="48" y="510" font-size="17" fill="#526c80" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif">按文中证据区分：已观察现象、技术分析、待验证方案。</text>
+</svg>
