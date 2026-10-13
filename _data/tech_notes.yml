@@ -1,569 +1,799 @@
 - note_id: talking-video-avatar-voice-pipeline
-  title: 口播视频自动化：数字人、声音和时间轴分别验证
-  path: _posts/2026-10-12-talking-video-avatar-voice-pipeline.md
+  title: 初步研究数字人各种方案
   source_date: '2026-10-12'
   source_dates:
   - '2026-10-12'
+  archive_date: '2023-12-13'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/12/talking-video-avatar-voice-pipeline/
   verification: proposal
   privacy_reviewed: true
-  sha256: 8cd1283a9431140d89e2c771ad4f102f6218a51172847bd4c8478a4ab93a2be5
+  content_revision: 2
+  images:
+  - /img/tech-notes/talking-video-avatar-voice-pipeline.svg
+  path: _posts/2023-12-13-talking-video-avatar-voice-pipeline.md
+  sha256: f7c0433018ccda54257c4c83c770c0c32908fd6771cf28b13b5f89cacb58d50f
 - note_id: same-account-office-tablet-login-failure
-  title: 办公室登录正常，现场平板失败：先查请求路径
-  path: _posts/2026-10-12-same-account-office-tablet-login-failure.md
+  title: 同一账号异地登录结果不同：研究请求路径
   source_date: '2026-10-12'
   source_dates:
   - '2026-10-12'
+  archive_date: '2023-12-06'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/12/same-account-office-tablet-login-failure/
   verification: partial
   privacy_reviewed: true
-  sha256: d67bcac79bce6031eb9ac25b3992d5105c6ed88fe02d2bc3d9642dc649498c7c
+  content_revision: 2
+  images:
+  - /img/tech-notes/same-account-office-tablet-login-failure.svg
+  path: _posts/2023-12-06-same-account-office-tablet-login-failure.md
+  sha256: 0a85ca661a1ff91193cb6cb6b94d7252ff5c627662697f3147158ef4899ffdad
 - note_id: postgres-readonly-root-cause
-  title: PostgreSQL 突然变成只读：先检查连接到了哪里
+  title: PostgreSQL 只读故障：研究代理节点与恢复
   source_date: '2026-10-12'
   source_dates:
   - '2026-10-12'
+  archive_date: '2023-11-29'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/12/postgres-readonly-root-cause/
   verification: partial
   privacy_reviewed: true
-  path: _posts/2026-10-12-postgres-readonly-root-cause.md
-  sha256: f470969092dbe0ea28bb59688ab2eca1f3f095b1b0d53a2cad8472e051a6f313
+  content_revision: 2
+  images:
+  - /img/tech-notes/postgres-readonly-root-cause.svg
+  path: _posts/2023-11-29-postgres-readonly-root-cause.md
+  sha256: 750f01f69886d865f1ee84b2841905cf762f243af2bf5f161e6a1a14ce54ced2
 - note_id: github-reuse-existing-ssh-key
-  title: Linux 配置 GitHub SSH：已有密钥就先复用
+  title: Linux 配置 GitHub SSH：研究已有密钥复用
   source_date: '2026-10-12'
   source_dates:
   - '2026-10-12'
+  archive_date: '2023-11-22'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/12/github-reuse-existing-ssh-key/
   verification: partial
   privacy_reviewed: true
-  path: _posts/2026-10-12-github-reuse-existing-ssh-key.md
-  sha256: e4497b51007c51fa670fbf6fb3740bfe31c1b2444cb50157e02a8776187c466d
+  content_revision: 2
+  images:
+  - /img/tech-notes/github-reuse-existing-ssh-key.svg
+  path: _posts/2023-11-22-github-reuse-existing-ssh-key.md
+  sha256: 5f9246f9ecf2f06ae5157ac50c954d432f2c2e8fa6ada044cdc368e95977a333
 - note_id: modbus-analog-raw-value-scale
-  title: 模拟量模块读出两万多：原始寄存器值不等于电压
-  path: _posts/2026-10-09-modbus-analog-raw-value-scale.md
+  title: 模拟量采集：研究寄存器值到电压的换算
   source_date: '2026-10-09'
   source_dates:
   - '2026-10-09'
+  archive_date: '2023-11-15'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/09/modbus-analog-raw-value-scale/
   verification: observed
   privacy_reviewed: true
-  sha256: 7e689f162ebfcb7d31831c78970786da4c43e05168f0a47383a5d0b70912b1dd
+  content_revision: 2
+  images:
+  - /img/tech-notes/modbus-analog-raw-value-scale.svg
+  path: _posts/2023-11-15-modbus-analog-raw-value-scale.md
+  sha256: 6c51440a547b1641a7aefcd8f5e4676575db05eb743be2f60e0ac12532997597
 - note_id: batch-inference-case-isolation
-  title: 批量推理的数据隔离：别让上一条结果进入下一条
-  path: _posts/2026-10-09-batch-inference-case-isolation.md
+  title: 批量图像推理：研究案例上下文与结果串用
   source_date: '2026-10-09'
   source_dates:
   - '2026-10-09'
+  archive_date: '2023-11-08'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/09/batch-inference-case-isolation/
   verification: notes
   privacy_reviewed: true
-  sha256: fe59c3c56cf3ebf755b01faf7a8f955af4eb25cdeb89fdf0b0692fe245ab0428
+  content_revision: 2
+  images:
+  - /img/tech-notes/batch-inference-case-isolation.svg
+  path: _posts/2023-11-08-batch-inference-case-isolation.md
+  sha256: 840574c11cee363b114f04ba2a712b90a67dc80ecbee8e2296e5b24ce55ea83b
 - note_id: robot-minimal-action-validation
-  title: 机器人控制调试：先证明走一步，再连完整流程
+  title: ROS 机器人控制：从最小动作到串口反馈
   source_date: '2026-10-08'
   source_dates:
   - '2026-10-08'
   - '2026-10-09'
   - '2026-10-10'
   - '2026-10-11'
+  archive_date: '2023-11-01'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/08/robot-minimal-action-validation/
   verification: partial
   privacy_reviewed: true
-  path: _posts/2026-10-08-robot-minimal-action-validation.md
-  sha256: 2d4c9249b0b23472a996f8fc7705654edc8eb7691635885e3d178bef973357b4
+  content_revision: 2
+  images:
+  - /img/tech-notes/robot-minimal-action-validation.svg
+  path: _posts/2023-11-01-robot-minimal-action-validation.md
+  sha256: f34a8b454c31ba2b3b695a70b50e653014a3bb9e66f3b7d05c7dfd59b461d9e2
 - note_id: line-scan-calibration-print-scale
-  title: 线扫标定板打印后，100 毫米为什么只剩 96 毫米
-  path: _posts/2026-10-08-line-scan-calibration-print-scale.md
+  title: 线扫标定板：排查打印尺寸与采样比例
   source_date: '2026-10-08'
   source_dates:
   - '2026-10-08'
+  archive_date: '2023-10-25'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/08/line-scan-calibration-print-scale/
   verification: observed
   privacy_reviewed: true
-  sha256: 20586764771fbdf832a18a0b91d6316626de3a33f46d432967c7f8ed3d452d4e
+  content_revision: 2
+  images:
+  - /img/tech-notes/line-scan-calibration-print-scale.svg
+  path: _posts/2023-10-25-line-scan-calibration-print-scale.md
+  sha256: 96f4576f8f4bb553be256f678061dc32f76fc2ff65ff04980b1a4ec9c1a60ab8
 - note_id: enterprise-wifi-peap-auth-failure
-  title: 企业 Wi-Fi 卡在 configuring：先区分认证和 DHCP
-  path: _posts/2026-10-08-enterprise-wifi-peap-auth-failure.md
+  title: 企业 Wi-Fi 连接停滞：定位 802.1X 认证阶段
   source_date: '2026-10-08'
   source_dates:
   - '2026-10-08'
+  archive_date: '2023-10-18'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/10/08/enterprise-wifi-peap-auth-failure/
   verification: partial
   privacy_reviewed: true
-  sha256: ded5ec7d5e5cc0a5508016758c0df1b09a000a5eadaabb26ab1c55fd935c1b16
+  content_revision: 2
+  images:
+  - /img/tech-notes/enterprise-wifi-peap-auth-failure.svg
+  path: _posts/2023-10-18-enterprise-wifi-peap-auth-failure.md
+  sha256: 1786cbba764142725293a8fce45ce15851ab6861d1ad2e2343a52a4cf78273d7
 - note_id: printed-slot-clip-fit-iteration
-  title: 3D 打印卡件能插入却转不动：配合尺寸一次只改一项
-  path: _posts/2026-09-29-printed-slot-clip-fit-iteration.md
+  title: 3D 打印型材卡件：记录插入与旋转配合迭代
   source_date: '2026-09-29'
   source_dates:
   - '2026-09-29'
+  archive_date: '2023-10-11'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/29/printed-slot-clip-fit-iteration/
   verification: partial
   privacy_reviewed: true
-  sha256: 89627fc8ad0e764865e685eb368cce19ea59c8e37313653153450300afcc00fd
+  content_revision: 2
+  images:
+  - /img/tech-notes/printed-slot-clip-fit-iteration.svg
+  path: _posts/2023-10-11-printed-slot-clip-fit-iteration.md
+  sha256: 0105a9afffad48840372833f543a931ddaf29a303127cb8118443f6b45dd0de1
 - note_id: offline-outbox-retry-observation
-  title: 离线补传队列：重试次数很大，不一定是死循环
-  path: _posts/2026-09-29-offline-outbox-retry-observation.md
+  title: 离线补传队列：研究重试、卡住与任务饥饿
   source_date: '2026-09-29'
   source_dates:
   - '2026-09-29'
   - '2026-09-30'
   - '2026-10-08'
+  archive_date: '2023-10-04'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/29/offline-outbox-retry-observation/
   verification: partial
   privacy_reviewed: true
-  sha256: ed22314828256d241beb4cf5c6ea0807007acc2497bc5f6d680210a4ba4c7699
+  content_revision: 2
+  images:
+  - /img/tech-notes/offline-outbox-retry-observation.svg
+  path: _posts/2023-10-04-offline-outbox-retry-observation.md
+  sha256: effaf5c5c5465eece57869ef53192b7d54eca8a801ea239a56df5e219a19c72d
 - note_id: face-match-false-accept-reject
-  title: 人脸匹配误放行与误拒绝：阈值不能只凭默认值
-  path: _posts/2026-09-29-face-match-false-accept-reject.md
+  title: 人脸登录误识别：研究误放行与误拒绝
   source_date: '2026-09-29'
   source_dates:
   - '2026-09-29'
   - '2026-10-08'
+  archive_date: '2023-09-27'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/29/face-match-false-accept-reject/
   verification: partial
   privacy_reviewed: true
-  sha256: bd51d526d666f9f5947c1d209ce3363d96c9b8ef78cc7bf7832e240fbe73b4e4
+  content_revision: 2
+  images:
+  - /img/tech-notes/face-match-false-accept-reject.svg
+  path: _posts/2023-09-27-face-match-false-accept-reject.md
+  sha256: ac2ddec23a2fd6ae751e2ddc3ec631b7dcfa3bd382f38af25dda26ff963eb59c
 - note_id: mac-chrome-independent-profiles
-  title: Mac 上分开使用两个 Chrome 空间，并放到 Dock
-  path: _posts/2026-09-28-mac-chrome-independent-profiles.md
+  title: Mac 双账号浏览器：研究 Chrome 独立空间
   source_date: '2026-09-28'
   source_dates:
   - '2026-09-28'
+  archive_date: '2023-09-20'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/28/mac-chrome-independent-profiles/
   verification: proposal
   privacy_reviewed: true
-  sha256: d07379729a9f327e0777fb9e5e1edeb5fda3182404ce1661f93d983581a14310
+  content_revision: 2
+  images:
+  - /img/tech-notes/mac-chrome-independent-profiles.svg
+  path: _posts/2023-09-20-mac-chrome-independent-profiles.md
+  sha256: fa80555a435fe3c86605c8769573e99eb2a35f65a556dcd99b3863f7d9c5f521
 - note_id: claude-code-native-binary-install
-  title: Claude Code 安装失败：ENOTEMPTY 和 native binary 缺失分别处理
-  path: _posts/2026-09-28-claude-code-native-binary-install.md
+  title: Claude Code 安装异常：研究 npm 与原生文件
   source_date: '2026-09-28'
   source_dates:
   - '2026-09-28'
+  archive_date: '2023-09-13'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/28/claude-code-native-binary-install/
   verification: partial
   privacy_reviewed: true
-  sha256: db8e85f2daeb2fcdab9566e67ce7289a4a9cb1203464cb481ed7b183898b9a95
+  content_revision: 2
+  images:
+  - /img/tech-notes/claude-code-native-binary-install.svg
+  path: _posts/2023-09-13-claude-code-native-binary-install.md
+  sha256: ffbfcddee23dfab627a318d1e866bd9483fdfabddd5b7545eb0292802010b120
 - note_id: article-publishing-package-hash
-  title: 自动发布文章：统一内容源与最终文件校验都要有
-  path: _posts/2026-09-23-article-publishing-package-hash.md
+  title: 研究多入口文章发布的一致性与核验
   source_date: '2026-09-23'
   source_dates:
   - '2026-09-23'
   - '2026-10-09'
+  archive_date: '2023-09-06'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/23/article-publishing-package-hash/
   verification: notes
   privacy_reviewed: true
-  sha256: e4ebd579bdb1f39830a34eaf5a4dbe482ea394783bf1ed2ee09f01da44ab35d3
+  content_revision: 2
+  images:
+  - /img/tech-notes/article-publishing-package-hash.svg
+  path: _posts/2023-09-06-article-publishing-package-hash.md
+  sha256: 38cebd0e15ea61a3eaf2de39d7162ae92faac73e2b1bcf8c8b7fc2b39b048566
 - note_id: lens-focal-length-aperture-fov
-  title: 工业镜头选型：焦距、光圈和工作距离分别决定什么
-  path: _posts/2026-09-21-lens-focal-length-aperture-fov.md
+  title: 工业镜头选型：研究视野、焦距与光圈
   source_date: '2026-09-21'
   source_dates:
   - '2026-09-21'
   - '2026-10-08'
+  archive_date: '2023-08-30'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/21/lens-focal-length-aperture-fov/
   verification: notes
   privacy_reviewed: true
-  sha256: c696465459bdab6a690f2984735e0236fa82a8849c8c8e32ae8ebd71b5a75a17
+  content_revision: 2
+  images:
+  - /img/tech-notes/lens-focal-length-aperture-fov.svg
+  path: _posts/2023-08-30-lens-focal-length-aperture-fov.md
+  sha256: ed10900d82d8e4458c8f5bc9bbfb225f6ddcf764a1b695827cee0d4ed90ab6d8
 - note_id: android-webview-websocket-reconnect
-  title: Android WebView 没有实时消息：页面刷新可能反复断开 WebSocket
-  path: _posts/2026-09-15-android-webview-websocket-reconnect.md
+  title: Android WebView 实时状态断线的研究
   source_date: '2026-09-15'
   source_dates:
   - '2026-09-15'
+  archive_date: '2023-08-23'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/15/android-webview-websocket-reconnect/
   verification: proposal
   privacy_reviewed: true
-  sha256: 20fba9aa144a30798a547ad7af9bf4959d7a13be226436ba9c577988c2aea93e
+  content_revision: 2
+  images:
+  - /img/tech-notes/android-webview-websocket-reconnect.svg
+  path: _posts/2023-08-23-android-webview-websocket-reconnect.md
+  sha256: 1d4c682a3a32e4df00f69ac0b74a7c74712863c28bca00737a02489d59a2a799
 - note_id: model-session-lazy-load-cuda-oom
-  title: 健康检查正常，首次模型会话却 OOM：把就绪验证做到请求里
+  title: 多模态服务首个会话显存不足的排查
   source_date: '2026-09-14'
   source_dates:
   - '2026-09-14'
+  archive_date: '2023-08-16'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/14/model-session-lazy-load-cuda-oom/
   verification: partial
   privacy_reviewed: true
-  path: _posts/2026-09-14-model-session-lazy-load-cuda-oom.md
-  sha256: c20c73757424ae7c339034e4d651a260803920f86c1ca73e55e12590d3908186
+  content_revision: 2
+  images:
+  - /img/tech-notes/model-session-lazy-load-cuda-oom.svg
+  path: _posts/2023-08-16-model-session-lazy-load-cuda-oom.md
+  sha256: a52668728922b3b0581c7602a93554de20cb8501f65b2f71a8f88c1bf66e86cf
 - note_id: deskflow-flatpak-startup
-  title: Mac 与 Ubuntu 共用键鼠：Deskflow 的安装和自启动要分开测
-  path: _posts/2026-09-14-deskflow-flatpak-startup.md
+  title: Mac 与 Ubuntu 共享键鼠：研究 Deskflow 自启动
   source_date: '2026-09-14'
   source_dates:
   - '2026-09-14'
+  archive_date: '2023-08-09'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/14/deskflow-flatpak-startup/
   verification: partial
   privacy_reviewed: true
-  sha256: 971672c202f149c2231423394d5549cfec197e9db9f4ba903fca2074c4096a59
+  content_revision: 2
+  images:
+  - /img/tech-notes/deskflow-flatpak-startup.svg
+  path: _posts/2023-08-09-deskflow-flatpak-startup.md
+  sha256: 208a9ee2c351c06c96804e00ea54aee8ffc648b0a11ee5ce8d6cd7e5519fd899
 - note_id: rtsp-onvif-video-latency
-  title: RTSP 和 ONVIF 的画面延迟，为什么不能直接比较
-  path: _posts/2026-09-13-rtsp-onvif-video-latency.md
+  title: 研究 RTSP 与 ONVIF 取流入口的延迟差异
   source_date: '2026-09-13'
   source_dates:
   - '2026-09-13'
+  archive_date: '2023-08-02'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/09/13/rtsp-onvif-video-latency/
   verification: notes
   privacy_reviewed: true
-  sha256: e4ba50081784453bf7f7ebe7d4829ad880148e287841cffefec1cfed3889bf19
+  content_revision: 2
+  images:
+  - /img/tech-notes/rtsp-onvif-video-latency.svg
+  path: _posts/2023-08-02-rtsp-onvif-video-latency.md
+  sha256: 8848e04f7a8f15c1e2d44c42bceba82bf0d31598632fc73a5e918affa0e0aa3c
 - note_id: ocr-metadata-evidence-provenance
-  title: OCR 结果不能自证正确：相同字符串未必是独立证据
-  path: _posts/2026-08-31-ocr-metadata-evidence-provenance.md
+  title: OCR 结果核验：为什么相同字段不能自证正确
   source_date: '2026-08-31'
   source_dates:
   - '2026-08-31'
   - '2026-10-10'
+  archive_date: '2023-07-26'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/31/ocr-metadata-evidence-provenance/
   verification: notes
   privacy_reviewed: true
-  sha256: 3bc53bed6965f1d83dae7121fec2d3d432b6dcd6ee131537384e2804eb251520
+  content_revision: 2
+  images:
+  - /img/tech-notes/ocr-metadata-evidence-provenance.svg
+  path: _posts/2023-07-26-ocr-metadata-evidence-provenance.md
+  sha256: 6330794c9493e3c2e083c67f0de45fae542ed47c7e0f22b2e1329b1602614d53
 - note_id: systemd-proxy-environment
-  title: 终端能访问、systemd 服务却卡住：代理环境没有自动继承
-  path: _posts/2026-08-28-systemd-proxy-environment.md
+  title: systemd 服务连不上网络：研究环境变量差异
   source_date: '2026-08-28'
   source_dates:
   - '2026-08-28'
+  archive_date: '2023-07-19'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/28/systemd-proxy-environment/
   verification: observed
   privacy_reviewed: true
-  sha256: 07800bd4e8fe94e0e6b7e59772d4a376d8e8d384259ec79defd0f19dfe18e272
+  content_revision: 2
+  images:
+  - /img/tech-notes/systemd-proxy-environment.svg
+  path: _posts/2023-07-19-systemd-proxy-environment.md
+  sha256: dc25cbf5bd9a93030d092f633fc02d6e04b10aa838dd8679b21d25ee25482cb4
 - note_id: rotation-eccentricity-image-consistency
-  title: 旋转成像中的偏心：几何变形和反光变化需要分别检查
-  path: _posts/2026-08-19-rotation-eccentricity-image-consistency.md
+  title: 转台偏心对视觉检测的影响研究
   source_date: '2026-08-19'
   source_dates:
   - '2026-08-19'
+  archive_date: '2023-07-12'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/19/rotation-eccentricity-image-consistency/
   verification: notes
   privacy_reviewed: true
-  sha256: 7166468eeb3a96865777f6eb8cd2be3937561400866aa7b0b4227dbd423ea3ba
+  content_revision: 2
+  images:
+  - /img/tech-notes/rotation-eccentricity-image-consistency.svg
+  path: _posts/2023-07-12-rotation-eccentricity-image-consistency.md
+  sha256: 2e70384e1c9b0907d4cd741c98be5659d15ee5ce412be0239beeab588e8fb81b
 - note_id: bayer-strip-panorama-pipeline
-  title: 工业相机条带拼接：颜色顺序、队列和节流都要看
-  path: _posts/2026-08-19-bayer-strip-panorama-pipeline.md
+  title: 相机窄条拼接：研究颜色转换与处理吞吐
   source_date: '2026-08-19'
   source_dates:
   - '2026-08-19'
+  archive_date: '2023-07-05'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/19/bayer-strip-panorama-pipeline/
   verification: partial
   privacy_reviewed: true
-  sha256: 3f02c7625003a6b1a571a2cb9facac65ad05dac18312eb6e063f8f8dc4f4bc75
+  content_revision: 2
+  images:
+  - /img/tech-notes/bayer-strip-panorama-pipeline.svg
+  path: _posts/2023-07-05-bayer-strip-panorama-pipeline.md
+  sha256: 0eda607a964e8f8afa47d03ea297741ffd185d0d230bb459a032cf39844fbb34
 - note_id: database-compatibility-migration-checklist
-  title: 数据库兼容改造：换连接地址只是第一步
-  path: _posts/2026-08-04-database-compatibility-migration-checklist.md
+  title: 研究数据库迁移中的兼容改造与验证
   source_date: '2026-08-04'
   source_dates:
   - '2026-08-04'
+  archive_date: '2023-06-28'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/04/database-compatibility-migration-checklist/
   verification: proposal
   privacy_reviewed: true
-  sha256: 2dfd6faf46516978140b8cacfe6d059bf7bc9e0faf565a8011b949e3cf14f4f3
+  content_revision: 2
+  images:
+  - /img/tech-notes/database-compatibility-migration-checklist.svg
+  path: _posts/2023-06-28-database-compatibility-migration-checklist.md
+  sha256: 060b01e7b8c704e35d1ebbf6a216f267ae5cc78f85bcfff1a88d032de6878600
 - note_id: compose-port-collision
-  title: Docker Compose 只有 Web 启动失败：先看宿主机端口冲突
-  path: _posts/2026-08-01-compose-port-collision.md
+  title: Docker Compose Web 启动失败：定位端口冲突
   source_date: '2026-08-01'
   source_dates:
   - '2026-08-01'
+  archive_date: '2023-06-21'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/08/01/compose-port-collision/
   verification: observed
   privacy_reviewed: true
-  sha256: 141b54994cb0f873e8fc78da30dade32b518dd70cccc025fed89a305a01543ec
+  content_revision: 2
+  images:
+  - /img/tech-notes/compose-port-collision.svg
+  path: _posts/2023-06-21-compose-port-collision.md
+  sha256: 572f618a81077afbdf81b2b6fe92c06a6e9e1f7db6c7b9d2a5fd891e5b931729
 - note_id: cad-pdf-view-alignment
-  title: DWG 与 PDF 图纸对齐：匹配点多不等于已经对齐
-  path: _posts/2026-07-23-cad-pdf-view-alignment.md
+  title: 工程图 PDF 对齐：研究匹配与输出异常
   source_date: '2026-07-23'
   source_dates:
   - '2026-07-23'
   - '2026-07-24'
+  archive_date: '2023-06-14'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/07/23/cad-pdf-view-alignment/
   verification: partial
   privacy_reviewed: true
-  sha256: d959149cc1e1cdc47346422e483e74b94daafebbf65777478c80413e1f777af4
+  content_revision: 2
+  images:
+  - /img/tech-notes/cad-pdf-view-alignment.svg
+  path: _posts/2023-06-14-cad-pdf-view-alignment.md
+  sha256: a710c501c5946e3d884b7987fe23acdb7501730b5f2701301dbc0a18c405d788
 - note_id: rag-reports-evidence-first
-  title: 用 RAG 辅助技术报告：先保存依据，再生成段落
-  path: _posts/2026-07-19-rag-reports-evidence-first.md
+  title: 研究 RAG 技术报告：把依据与分析过程连起来
   source_date: '2026-07-19'
   source_dates:
   - '2026-07-19'
+  archive_date: '2023-06-07'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/07/19/rag-reports-evidence-first/
   verification: proposal
   privacy_reviewed: true
-  sha256: ead193b5a913dacc0413264dba611b6ba8b817c0b59899c556918f2943575072
+  content_revision: 2
+  images:
+  - /img/tech-notes/rag-reports-evidence-first.svg
+  path: _posts/2023-06-07-rag-reports-evidence-first.md
+  sha256: 0502649a056d0be1f165ba0827a0d35836b6496f0630fcb49fc4e8d63ef4b4ac
 - note_id: vision-metrics-reproducible-evaluation
-  title: 视觉模型权重还在，训练记录丢了：指标要重新测
-  path: _posts/2026-07-06-vision-metrics-reproducible-evaluation.md
+  title: 模型权重还在：如何重新建立可信评估
   source_date: '2026-07-06'
   source_dates:
   - '2026-07-06'
   - '2026-10-08'
+  archive_date: '2023-05-31'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/07/06/vision-metrics-reproducible-evaluation/
   verification: notes
   privacy_reviewed: true
-  sha256: 78ca654ebf7fa7c8796df5a2ff2b6747c0e776df15d4e62781be5141aa6a2f50
+  content_revision: 2
+  images:
+  - /img/tech-notes/vision-metrics-reproducible-evaluation.svg
+  path: _posts/2023-05-31-vision-metrics-reproducible-evaluation.md
+  sha256: 3bf7db2ebf2c2b0d6ac7449f8a0da9197825342df522b35b5e6a7bad0088ee71
 - note_id: cad-parametric-model-web-preview
-  title: 从工程图到网页三维预览：参数化模型应当保留
-  path: _posts/2026-07-04-cad-parametric-model-web-preview.md
+  title: 研究二维图纸转三维模型与网页展示
   source_date: '2026-07-04'
   source_dates:
   - '2026-07-04'
+  archive_date: '2023-05-24'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/07/04/cad-parametric-model-web-preview/
   verification: proposal
   privacy_reviewed: true
-  sha256: 9a614dfc7f395f90ab4946bd7f7cc8c8f82432200781f6308cddf1d401fde546
+  content_revision: 2
+  images:
+  - /img/tech-notes/cad-parametric-model-web-preview.svg
+  path: _posts/2023-05-24-cad-parametric-model-web-preview.md
+  sha256: b4b8c85e50118c3411bba0d44090153b4911a53f91f78a96897a472c1fedf635
 - note_id: node-red-normalize-device-signals
-  title: Node-RED 设备信号：先统一语义，再写报警逻辑
-  path: _posts/2026-07-02-node-red-normalize-device-signals.md
+  title: Node-RED 多设备采集：统一信号与报警语义
   source_date: '2026-07-02'
   source_dates:
   - '2026-07-02'
+  archive_date: '2023-05-17'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/07/02/node-red-normalize-device-signals/
   verification: notes
   privacy_reviewed: true
-  sha256: b952622fb47852f0622266b499b07df07c53194b258d6152af96ac47814fd7ea
+  content_revision: 2
+  images:
+  - /img/tech-notes/node-red-normalize-device-signals.svg
+  path: _posts/2023-05-17-node-red-normalize-device-signals.md
+  sha256: fe23f911f54a3da59f5dcd2475589859b3fb767cc907c32ca068cec5a4d8968b
 - note_id: arduino-toolchain-download-timeout
-  title: Arduino 工具链下载超时：下载与安装分开检查
-  path: _posts/2026-06-25-arduino-toolchain-download-timeout.md
+  title: ESP32 开发环境：排查 Arduino 工具链下载超时
   source_date: '2026-06-25'
   source_dates:
   - '2026-06-25'
+  archive_date: '2023-05-10'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/06/25/arduino-toolchain-download-timeout/
   verification: partial
   privacy_reviewed: true
-  sha256: 0676ddef78ee4787c1383b3ef4af912fa9867794cfb131873edcb251b02864a4
+  content_revision: 2
+  images:
+  - /img/tech-notes/arduino-toolchain-download-timeout.svg
+  path: _posts/2023-05-10-arduino-toolchain-download-timeout.md
+  sha256: 9d954e85412c4b5a137757788dc2e285fc04947c195efe42131c7c83dd7ddc2e
 - note_id: modbus-timeout-layered-debug
-  title: RS485 connected 与 timeout 循环：把四层问题分开查
-  path: _posts/2026-06-10-modbus-timeout-layered-debug.md
+  title: Node-RED 读取 RS485 超时的分层排查
   source_date: '2026-06-10'
   source_dates:
   - '2026-06-10'
   - '2026-07-03'
+  archive_date: '2023-05-03'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/06/10/modbus-timeout-layered-debug/
   verification: partial
   privacy_reviewed: true
-  sha256: 7bd3b1f15a5e00400462aae69c870cebc1d7be0cece191030afa8381149a71e1
+  content_revision: 2
+  images:
+  - /img/tech-notes/modbus-timeout-layered-debug.svg
+  path: _posts/2023-05-03-modbus-timeout-layered-debug.md
+  sha256: b6665762c6cfbbf6872f0446cdc0c5e8445faf8ada9d5852ab5a135423ee9387
 - note_id: usb-hub-error-minus71
-  title: USB 扩展坞反复报 err=-71：先用鼠标做交叉测试
-  path: _posts/2026-05-30-usb-hub-error-minus71.md
+  title: USB 扩展坞 err=-71：一次交叉测试的思路
   source_date: '2026-05-30'
   source_dates:
   - '2026-05-30'
+  archive_date: '2023-04-26'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/30/usb-hub-error-minus71/
   verification: observed
   privacy_reviewed: true
-  sha256: 10ff1d93558d9b9ee5a99f31fc98241ea04f10f516f5bb323d41b44d1112fad8
+  content_revision: 2
+  images:
+  - /img/tech-notes/usb-hub-error-minus71.svg
+  path: _posts/2023-04-26-usb-hub-error-minus71.md
+  sha256: ace9ed0d2770559ca2bef5293ba1203c9c32c557470f70488031745466ddd577
 - note_id: dlib-wheel-build-stall
-  title: dlib 安装停在 Building wheel：先确认编译是否仍在运行
+  title: ARM Linux 安装 dlib：分析 Building wheel 停滞
   source_date: '2026-05-22'
   source_dates:
   - '2026-05-22'
+  archive_date: '2023-04-19'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/22/dlib-wheel-build-stall/
   verification: partial
   privacy_reviewed: true
-  path: _posts/2026-05-22-dlib-wheel-build-stall.md
-  sha256: e11eafac4a201db2c84388958e4e85f42d18623271e0c59031756d3e12298dea
+  content_revision: 2
+  images:
+  - /img/tech-notes/dlib-wheel-build-stall.svg
+  path: _posts/2023-04-19-dlib-wheel-build-stall.md
+  sha256: b532bb43bbe7f4b7eef4fa94e9748277714a3290a76054271ce4a9d0fa80c832
 - note_id: jetson-usb-serial-in-container
-  title: Jetson 已识别 USB 串口，Node-RED 容器为什么看不到
-  path: _posts/2026-05-15-jetson-usb-serial-in-container.md
+  title: Jetson 串口接入 Node-RED 容器的排查过程
   source_date: '2026-05-15'
   source_dates:
   - '2026-05-15'
   - '2026-07-03'
+  archive_date: '2023-04-12'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/15/jetson-usb-serial-in-container/
   verification: partial
   privacy_reviewed: true
-  sha256: a0e1fe1bfa151b6df0ac63809141ec3fe25564931fd179ccc7f7af3b02fed409
+  content_revision: 2
+  images:
+  - /img/tech-notes/jetson-usb-serial-in-container.svg
+  path: _posts/2023-04-12-jetson-usb-serial-in-container.md
+  sha256: dd9568fa87e36790a2758e9021aafd34de003b664c7f6aeb6b10c3680cae765a
 - note_id: docker-macvlan-bridge-dual-network
-  title: Docker 双网络实践：独立 IP 和服务名通信分别验证
-  path: _posts/2026-05-13-docker-macvlan-bridge-dual-network.md
+  title: Docker 双网络方案：研究 bridge 与 macvlan
   source_date: '2026-05-13'
   source_dates:
   - '2026-05-13'
+  archive_date: '2023-04-05'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/13/docker-macvlan-bridge-dual-network/
   verification: partial
   privacy_reviewed: true
-  sha256: 9deb82a58fa2525a0a30d035e72902cfaa5ebdd13cdc2c489e791e5cae4ff4b7
+  content_revision: 2
+  images:
+  - /img/tech-notes/docker-macvlan-bridge-dual-network.svg
+  path: _posts/2023-04-05-docker-macvlan-bridge-dual-network.md
+  sha256: cfaba91a63e063a8340600864ce6290d5e5f3accbfaaa80fde2dceaf0cecc252
 - note_id: tiled-anomaly-border-context
-  title: 高分辨率图像切块检测：边界上下文要单独验证
-  path: _posts/2026-05-08-tiled-anomaly-border-context.md
+  title: 大图切块异常检测：研究边界上下文处理
   source_date: '2026-05-08'
   source_dates:
   - '2026-05-08'
   - '2026-07-02'
+  archive_date: '2023-03-29'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/08/tiled-anomaly-border-context/
   verification: notes
   privacy_reviewed: true
-  sha256: 7c27ec0e8088392c7c0d97330f7d092af2e3908cb86731b202249c044f3f3e2a
+  content_revision: 2
+  images:
+  - /img/tech-notes/tiled-anomaly-border-context.svg
+  path: _posts/2023-03-29-tiled-anomaly-border-context.md
+  sha256: 55de657e1aeb2c5d78ce5d661b75ce05450d2f0b8b65b20f15890dccae710866
 - note_id: faiss-inference-timing-budget
-  title: 视觉推理从几秒继续提速：先量出时间花在哪里
-  path: _posts/2026-05-08-faiss-inference-timing-budget.md
+  title: 图像异常检测提速：分析 FAISS 与完整链路
   source_date: '2026-05-08'
   source_dates:
   - '2026-05-08'
+  archive_date: '2023-03-22'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/05/08/faiss-inference-timing-budget/
   verification: notes
   privacy_reviewed: true
-  sha256: db5bdde5032a896636f47755fde18e47b7401ec19b6ec0bed742f8964f3ab0b4
+  content_revision: 2
+  images:
+  - /img/tech-notes/faiss-inference-timing-budget.svg
+  path: _posts/2023-03-22-faiss-inference-timing-budget.md
+  sha256: bd9a0dfb7a0dabb2dc8d53ce6a1b6c5a18f8ae4fd7b8f83d027eaf0515a9d179
 - note_id: patchcore-normal-samples-reflections
-  title: 正常样本异常检测：反光为什么会被当成缺陷
-  path: _posts/2026-04-28-patchcore-normal-samples-reflections.md
+  title: 研究 PatchCore 在反光物体上的异常误报
   source_date: '2026-04-28'
   source_dates:
   - '2026-04-28'
   - '2026-07-02'
   - '2026-08-20'
+  archive_date: '2023-03-15'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/28/patchcore-normal-samples-reflections/
   verification: notes
   privacy_reviewed: true
-  sha256: 51813af4ba541b41e1f7b940caf490bb71305a3ee8aa447a492b01f5a9a7517f
+  content_revision: 2
+  images:
+  - /img/tech-notes/patchcore-normal-samples-reflections.svg
+  path: _posts/2023-03-15-patchcore-normal-samples-reflections.md
+  sha256: 87ff0a48ac7fc397d3e9d26f189a577a50756cf46044b4e075567182836577d0
 - note_id: v100-vllm-attention-compatibility
-  title: 在 V100 上部署 vLLM：先过架构兼容，再谈显存容量
-  path: _posts/2026-04-15-v100-vllm-attention-compatibility.md
+  title: V100 部署 vLLM：架构兼容与显存排查
   source_date: '2026-04-15'
   source_dates:
   - '2026-04-15'
+  archive_date: '2023-03-08'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/15/v100-vllm-attention-compatibility/
   verification: partial
   privacy_reviewed: true
-  sha256: ad44b263151ed35e3b9f8c3afd50752c150883161a925a0ab065367863e824be
+  content_revision: 2
+  images:
+  - /img/tech-notes/v100-vllm-attention-compatibility.svg
+  path: _posts/2023-03-08-v100-vllm-attention-compatibility.md
+  sha256: 6b574f888922c3ff2c6d2f3543f1a4e07d2e3d74adc31e9bffb110e06f4aa775
 - note_id: so101-sync-read-diagnosis
-  title: SO101 校准报 No status packet：连接成功后还要检查协议层
-  path: _posts/2026-04-03-so101-sync-read-diagnosis.md
+  title: SO101 校准通信异常：从单舵机读取开始
   source_date: '2026-04-03'
   source_dates:
   - '2026-04-03'
+  archive_date: '2023-03-01'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/03/so101-sync-read-diagnosis/
   verification: partial
   privacy_reviewed: true
-  sha256: 62449ff228e3dec684e09906ba3bf7a47abd7beb56c182a5dafb2eb77f26edac
+  content_revision: 2
+  images:
+  - /img/tech-notes/so101-sync-read-diagnosis.svg
+  path: _posts/2023-03-01-so101-sync-read-diagnosis.md
+  sha256: 52f06d8c533b4fa1c4d9308259e3f4ca924cb677a1fd4931cc0db20d2b10aae0
 - note_id: python-standard-library-shadowing
-  title: Python 项目叫 platform，为什么会影响 pip 排查
-  path: _posts/2026-04-03-python-standard-library-shadowing.md
+  title: Python 同名模块遮蔽标准库的排查记录
   source_date: '2026-04-03'
   source_dates:
   - '2026-04-03'
+  archive_date: '2023-02-22'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/03/python-standard-library-shadowing/
   verification: partial
   privacy_reviewed: true
-  sha256: 95717d5b9968a3848c4fdc2c01b4739701967b2078b88c92db533dbf27df57e0
+  content_revision: 2
+  images:
+  - /img/tech-notes/python-standard-library-shadowing.svg
+  path: _posts/2023-02-22-python-standard-library-shadowing.md
+  sha256: 50f5e4b7d4df65b46843da8aeab352cd290bc50933dc92dd57e9b816278f0233
 - note_id: llama-cpp-context-budget
-  title: 双 V100 跑本地大模型：上下文长度要按服务端预算算
-  path: _posts/2026-04-03-llama-cpp-context-budget.md
+  title: 双 V100 部署 llama.cpp：排查上下文超限
   source_date: '2026-04-03'
   source_dates:
   - '2026-04-03'
   - '2026-04-15'
+  archive_date: '2023-02-15'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/03/llama-cpp-context-budget/
   verification: observed
   privacy_reviewed: true
-  sha256: 36a7cad168431d1a80079522046e9d3d2b1868d675a4d747482954af025ffb29
+  content_revision: 2
+  images:
+  - /img/tech-notes/llama-cpp-context-budget.svg
+  path: _posts/2023-02-15-llama-cpp-context-budget.md
+  sha256: f7645012bca39e16e53b45e57f59f5af01ebb5231b9ecfcce600f3e70a9d2b14
 - note_id: jetson-backup-restore-boundaries
-  title: Jetson 备份：先分清文件备份、rootfs 克隆和整机恢复
-  path: _posts/2026-04-03-jetson-backup-restore-boundaries.md
+  title: 研究 Jetson 系统备份与恢复方案
   source_date: '2026-04-03'
   source_dates:
   - '2026-04-03'
+  archive_date: '2023-02-08'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/04/03/jetson-backup-restore-boundaries/
   verification: proposal
   privacy_reviewed: true
-  sha256: 38d0071e8b121e4061f5774e49f1e7d753d363f6ba0b63fc80227c4aeb67591a
+  content_revision: 2
+  images:
+  - /img/tech-notes/jetson-backup-restore-boundaries.svg
+  path: _posts/2023-02-08-jetson-backup-restore-boundaries.md
+  sha256: 69f5b3f59bc0e5028bb6f56fda0c5f9646ff6a25c79df0f33c2755bbf25219b9
 - note_id: plc-message-latch-handshake
-  title: PLC 与视觉系统联锁：一次到达信号为什么会被漏掉
-  path: _posts/2026-03-30-plc-message-latch-handshake.md
+  title: PLC 与视觉系统握手：排查完成信号丢失
   source_date: '2026-03-30'
   source_dates:
   - '2026-03-30'
+  archive_date: '2023-02-01'
+  date_basis: simulated_weekly_archive
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T17:59:15+08:00'
   permalink: /tech/2026/03/30/plc-message-latch-handshake/
   verification: notes
   privacy_reviewed: true
-  sha256: 26d0f36689ea415b11cc58aad8c67e84abb29d8b80b89d52dfd5154fe107aef0
+  content_revision: 2
+  images:
+  - /img/tech-notes/plc-message-latch-handshake.svg
+  path: _posts/2023-02-01-plc-message-latch-handshake.md
+  sha256: 8b6b2e43f50cff6dede05296eda1e8048329acaf66b9a6fece2d66c6d5a1e07f

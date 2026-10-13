@@ -4,11 +4,11 @@ title: 技术分享
 description: 从实际问题出发，记录排查、方案与验证
 permalink: /tech-notes/
 ---
-{% assign notes = site.posts | where: 'tech_note', true | sort: 'source_date' | reverse %}
+{% assign notes = site.posts | where: 'tech_note', true | sort: 'archive_date' | reverse %}
 <section class="notes-intro">
-  <h2>技术交流时间线</h2>
-  <p>共 {{ notes.size }} 篇。按原始交流日期排列，文章内保留整理发布时间；同一主题有新进展时更新原文。</p>
-  <p class="note-muted">历史补档仅覆盖当前能访问且有依据的技术交流。未确认的方案会标明验证边界，原理图采用重新绘制的通用示意。</p>
+  <h2>技术文章归档</h2>
+  <p>共 {{ notes.size }} 篇。从 2023 年 2 月起按每周一期模拟归档；文章内另保留真实交流日期和整理发布时间。</p>
+  <p class="note-muted">归档日期仅为整理后的模拟排期，不表示当年已发表，也不表示文中软件版本当年已存在。内容来自可访问技术交流，每篇配有对应原理图，研究建议与实测结果分别记录。</p>
   <label class="note-filter-label" for="note-search">查找文章</label>
   <input id="note-search" class="note-search" type="search" placeholder="搜索标题或技术标签" autocomplete="off">
   <p id="note-result" class="note-muted" aria-live="polite">{{ notes.size }} 篇文章</p>
@@ -16,10 +16,10 @@ permalink: /tech-notes/
 <div class="note-timeline" id="note-timeline">
 {% assign last_month = '' %}
 {% for note in notes %}
-  {% assign month = note.source_date | date: '%Y-%m' %}
+  {% assign month = note.archive_date | date: '%Y-%m' %}
   {% if month != last_month %}{% unless forloop.first %}</section>{% endunless %}<section class="note-month"><h2>{{ month }}</h2>{% assign last_month = month %}{% endif %}
   <article class="note-card" data-search="{{ note.title | append: ' ' | append: note.tags | escape }}">
-    <div class="note-date"><time datetime="{{ note.source_date }}">{{ note.source_date | date: "%m-%d" }}</time></div>
+    <div class="note-date"><time datetime="{{ note.archive_date }}">{{ note.archive_date | date: "%m-%d" }}</time></div>
     <div class="note-card-content">
       <h3><a href="{{ note.url | prepend: site.baseurl }}">{{ note.title | escape }}</a></h3>
       <p>{{ note.excerpt | strip_html | escape }}</p>
@@ -34,7 +34,7 @@ permalink: /tech-notes/
 <section class="note-run-log">
   <h2>整理记录</h2>
   {% for run in site.data.tech_note_runs reversed %}
-  <p>{{ run.run_date }} · {% if run.kind == 'historical_backfill' %}历史补档{% else %}增量整理{% endif %} · {{ run.articles }} 篇 · {% case run.status %}{% when 'published' %}已核验上线{% when 'repository_ready' %}已提交，待核验上线{% else %}已整理{% endcase %}</p>
+  <p>{{ run.run_date }} · {% if run.kind == 'editorial_regeneration' %}文章重写{% elsif run.kind == 'historical_backfill' %}历史补档{% else %}增量整理{% endif %} · {{ run.articles }} 篇 · {% case run.status %}{% when 'published' %}已核验上线{% when 'repository_ready' %}已提交，待核验上线{% else %}已整理{% endcase %}</p>
   {% endfor %}
 </section>
 <script src="{{ '/js/tech-notes.js' | prepend: site.baseurl }}" defer></script>

@@ -45,7 +45,7 @@ for p in sorted((ROOT/"_posts").glob("*.md")):
         continue
     notes.append((p,meta,body))
     rel = p.relative_to(ROOT).as_posix()
-    required = ("layout","title","excerpt","tags","note_id","source_date","source_dates","date","published_at","updated_at","verification","privacy_reviewed","permalink")
+    required = ("layout","title","excerpt","tags","note_id","archive_date","date_basis","content_revision","images","source_date","source_dates","date","published_at","updated_at","verification","privacy_reviewed","permalink")
     for key in required:
         if key not in meta: error(rel,f"missing {key}")
     if rel not in paths: error(rel,"article absent from registry")
@@ -63,14 +63,23 @@ for p in sorted((ROOT/"_posts").glob("*.md")):
         dates = [iso_date(d) for d in meta["source_dates"]]
         if dates != sorted(set(dates)) or dates[0] != original: error(rel,"source dates must be sorted and begin with source_date")
         if dates[-1] > updated.date(): error(rel,"source date is after update")
-        if not p.name.startswith(str(original)+"-"): error(rel,"filename source date mismatch")
+        archive = iso_date(meta["archive_date"])
+        if meta["date_basis"] != "simulated_weekly_archive": error(rel,"unexpected archive date basis")
+        if not str(meta["date"]).startswith(str(archive)): error(rel,"date and archive mismatch")
+        if not p.name.startswith(str(archive)+"-"): error(rel,"filename archive date mismatch")
         row = next((r for r in registry if r["note_id"] == meta["note_id"]),None)
         if row:
-            for key in ("title","source_date","source_dates","published_at","updated_at","permalink","verification","privacy_reviewed"):
+            for key in ("title","archive_date","date_basis","content_revision","images","source_date","source_dates","published_at","updated_at","permalink","verification","privacy_reviewed"):
                 if row.get(key) != meta.get(key): error(rel,f"registry metadata mismatch: {key}")
     except (KeyError,TypeError,ValueError) as exc:
         error(rel,f"invalid dates: {type(exc).__name__}")
-    if len(body.strip()) < 350: error(rel,"article has insufficient body")
+    if len(body.strip()) < 550: error(rel,"article has insufficient body")
+    for heading in ("## 研究与排查过程", "## 涉及的技术与取舍", "## 这轮研究的结论"):
+        if heading not in body: error(rel,"missing process/technology/conclusion section")
+    image_matches = re.findall(r"!\[([^\]]+)\]\((/[^)\s]+)\)",body)
+    if not image_matches: error(rel,"at least one article image is required")
+    if meta.get("images") != [url for alt,url in image_matches]: error(rel,"image registry mismatch")
+    if meta.get("content_revision",0) < 2: error(rel,"old editorial revision")
     if body.count("\x60\x60\x60") % 2: error(rel,"unclosed code fence")
     if "{{" in body or "{%" in body: error(rel,"unexpected Liquid in article body")
     if not re.fullmatch(r"/tech/\d{4}/\d{2}/\d{2}/[a-z0-9-]+/",meta.get("permalink","")): error(rel,"unstable permalink")
@@ -96,6 +105,9 @@ for p in sorted((ROOT/"_posts").glob("*.md")):
             rendered = dest.read_text()
             if str(meta["source_date"]) not in rendered: error(rel,"source date missing in rendered page")
             if "整理发布" not in rendered: error(rel,"publication label missing")
+            if "归档日期（模拟）" not in rendered or str(meta["archive_date"]) not in rendered: error(rel,"simulated archive label missing")
+            for image in meta["images"]:
+                if image not in rendered: error(rel,"article image missing in rendered HTML")
             if "{{" in rendered or "{%" in rendered: error(rel,"unrendered Liquid")
             if unescape(str(meta["title"])) not in unescape(rendered): error(rel,"title missing in rendered page")
             for image in re.findall(r"!\[[^\]]*\]\((/[^)\s]+)\)",body):
@@ -110,6 +122,9 @@ for svg in (ROOT/"img/tech-notes").glob("*.svg"):
     except ET.ParseError:
         error(svg.name,"invalid SVG XML")
 if len(notes) != len(registry): error("registry","note count mismatch")
+archive_dates = sorted(iso_date(m["archive_date"]) for p,m,b in notes)
+if archive_dates and archive_dates[0] != date(2023,2,1): error("registry","archive must start 2023-02-01")
+if any((b-a).days != 7 for a,b in zip(archive_dates,archive_dates[1:])): error("registry","archive dates must be weekly")
 if args.site:
     timeline = args.site/"tech-notes/index.html"
     if not timeline.is_file(): error("timeline","missing rendered timeline")

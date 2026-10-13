@@ -3,7 +3,7 @@ layout: page
 description: "我干了什么 究竟拿了时间换了什么"
 ---
 
-<div class="tech-note-entry"><a href="{{ '/tech-notes/' | prepend: site.baseurl }}">技术分享时间线</a><span>按交流日期归档，保留实际整理发布时间</span></div>
+<div class="tech-note-entry"><a href="{{ '/tech-notes/' | prepend: site.baseurl }}">技术分享时间线</a><span>从 2023 年 2 月起每周一期模拟归档，保留真实交流与发布时间</span></div>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
@@ -25,7 +25,7 @@ description: "我干了什么 究竟拿了时间换了什么"
         </div>
     </a>
     <p class="post-meta">
-        {% if post.tech_note %}交流 {{ post.source_date | date: "%Y-%m-%d" }} · 整理发布 {{ post.published_at | date: "%Y-%m-%d" }}{% else %}Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}{% endif %}
+        {% if post.tech_note %}归档 {{ post.archive_date | date: "%Y-%m-%d" }}（模拟） · 整理发布 {{ post.published_at | date: "%Y-%m-%d" }}{% else %}Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}{% endif %}
     </p>
 </div>
 <hr>
