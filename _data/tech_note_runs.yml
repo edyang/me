@@ -1,6 +1,6 @@
 - run_date: '2026-10-13'
   kind: editorial_regeneration
-  status: repository_ready
+  status: published
   articles: 46
   regenerated_yesterday: 43
   revised_today: 3
@@ -14,3 +14,12 @@
   - '2026-10-12'
   - '2026-10-13'
   note: 按用户要求替换旧自动文章与归档数据。归档日期为每周一期模拟排期，真实交流与首次发布时间保留；未确认结果没有改写为成功。
+  verified_at: '2026-10-13T22:44:26+08:00'
+  source_commit: 830b6fd9e874ca9b8a12998af4de4a2c06ad12ef
+  verification:
+    articles: 46
+    images: 46
+    source_check: passed
+    jekyll_build: passed
+    rendered_check: passed
+    deployment: verified
