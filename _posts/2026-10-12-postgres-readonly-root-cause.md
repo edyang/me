@@ -16,7 +16,7 @@ source_date: '2026-10-12'
 source_dates:
 - '2026-10-12'
 published_at: '2026-10-12T12:51:43+08:00'
-updated_at: '2026-10-12T12:51:43+08:00'
+updated_at: '2026-10-13T08:02:56+08:00'
 verification: partial
 privacy_reviewed: true
 permalink: /tech/2026/10/12/postgres-readonly-root-cause/
@@ -46,9 +46,19 @@ SELECT inet_server_addr(), inet_server_port(),
 
 检测可以持续记录实际后端身份、读写探针与错误，但修复动作必须对应确认的原因。刷新失效连接与改变数据库主备角色是不同操作。没有明确的高可用拓扑和故障证据，不能自动 promote 或强行改写只读状态。
 
-截至整理时只有故障现象和初步检查，完整日志尚未核验，根因未定。这篇公开的是诊断路径，不披露业务库名、内部地址和运维账号。
+## 10 月 12 日补充：代理节点重新接入已有反馈
+
+后续操作反馈确认：PCP 工具安装后，执行节点重新接入操作成功，`SHOW POOL_NODES` 中两个后端均显示 up。这个结果证明 Pgpool 的节点接入状态恢复了，仍需要从应用入口验证读写和复制状态，不能仅凭 up 宣布业务故障彻底解决。
+
+当时助手根据排查材料将直接触发描述为主库连接连续超时后被代理摘除。本文没有重新取得完整原日志，因此保留为此前的排查结论；超时为什么发生，仍不能在网络、防火墙和主库资源等可能因素中定案。
+
+Pgpool-II 4.6.3 文档说明，摘除的节点在默认设置下不会自动重新接入，恢复接入前应确认流复制情况。`pcp_attach_node` 是节点接入操作；它并不替代数据恢复或拓扑核验。还要检查本机 `failback_command`，因为接入可能触发配置的回调脚本，不能认为命令必然没有其它副作用。
+
+自动巡检当时只形成了方案：确认主库可写、备库复制正常、角色符合预期且没有维护锁后，才考虑接入；异常时记录并停止修复动作。没有自动巡检部署与故障演练回执，不应标成已经实现。本文不公开实际拓扑地址、认证信息、巡检参数和运维脚本。
 
 ## 参考资料
 
 - [PostgreSQL 事务参数](https://www.postgresql.org/docs/current/runtime-config-client.html)
 - [PostgreSQL 恢复状态函数](https://www.postgresql.org/docs/current/functions-admin.html)
+- [Pgpool-II 4.6.3：节点接入命令](https://www.pgpool.net/docs/pgpool-II-4.6.3/en/html/pcp-attach-node.html)
+- [Pgpool-II 4.6.3：故障转移与重新接入](https://www.pgpool.net/docs/pgpool-II-4.6.3/en/html/runtime-config-failover.html)
