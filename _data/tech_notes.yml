@@ -24,16 +24,28 @@
   sha256: d67bcac79bce6031eb9ac25b3992d5105c6ed88fe02d2bc3d9642dc649498c7c
 - note_id: postgres-readonly-root-cause
   title: PostgreSQL 突然变成只读：先检查连接到了哪里
-  path: _posts/2026-10-12-postgres-readonly-root-cause.md
   source_date: '2026-10-12'
   source_dates:
   - '2026-10-12'
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T08:02:56+08:00'
   permalink: /tech/2026/10/12/postgres-readonly-root-cause/
   verification: partial
   privacy_reviewed: true
-  sha256: a1e228ddcf24c6fc7f64246af5b839dc86b1c5e49949ade4fc01f4889fa4f1f7
+  path: _posts/2026-10-12-postgres-readonly-root-cause.md
+  sha256: f470969092dbe0ea28bb59688ab2eca1f3f095b1b0d53a2cad8472e051a6f313
+- note_id: github-reuse-existing-ssh-key
+  title: Linux 配置 GitHub SSH：已有密钥就先复用
+  source_date: '2026-10-12'
+  source_dates:
+  - '2026-10-12'
+  published_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T08:02:56+08:00'
+  permalink: /tech/2026/10/12/github-reuse-existing-ssh-key/
+  verification: partial
+  privacy_reviewed: true
+  path: _posts/2026-10-12-github-reuse-existing-ssh-key.md
+  sha256: e4497b51007c51fa670fbf6fb3740bfe31c1b2444cb50157e02a8776187c466d
 - note_id: modbus-analog-raw-value-scale
   title: 模拟量模块读出两万多：原始寄存器值不等于电压
   path: _posts/2026-10-09-modbus-analog-raw-value-scale.md
@@ -60,17 +72,19 @@
   sha256: fe59c3c56cf3ebf755b01faf7a8f955af4eb25cdeb89fdf0b0692fe245ab0428
 - note_id: robot-minimal-action-validation
   title: 机器人控制调试：先证明走一步，再连完整流程
-  path: _posts/2026-10-08-robot-minimal-action-validation.md
   source_date: '2026-10-08'
   source_dates:
   - '2026-10-08'
   - '2026-10-09'
+  - '2026-10-10'
+  - '2026-10-11'
   published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-12T12:51:43+08:00'
+  updated_at: '2026-10-13T08:02:56+08:00'
   permalink: /tech/2026/10/08/robot-minimal-action-validation/
-  verification: observed
+  verification: partial
   privacy_reviewed: true
-  sha256: 141fc6b1d83703d3c1aa215e70a56fa0e3239866a6c340b3f5094e9b4783374a
+  path: _posts/2026-10-08-robot-minimal-action-validation.md
+  sha256: 2d4c9249b0b23472a996f8fc7705654edc8eb7691635885e3d178bef973357b4
 - note_id: line-scan-calibration-print-scale
   title: 线扫标定板打印后，100 毫米为什么只剩 96 毫米
   path: _posts/2026-10-08-line-scan-calibration-print-scale.md
@@ -196,6 +210,18 @@
   verification: proposal
   privacy_reviewed: true
   sha256: 20fba9aa144a30798a547ad7af9bf4959d7a13be226436ba9c577988c2aea93e
+- note_id: model-session-lazy-load-cuda-oom
+  title: 健康检查正常，首次模型会话却 OOM：把就绪验证做到请求里
+  source_date: '2026-09-14'
+  source_dates:
+  - '2026-09-14'
+  published_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T08:02:56+08:00'
+  permalink: /tech/2026/09/14/model-session-lazy-load-cuda-oom/
+  verification: partial
+  privacy_reviewed: true
+  path: _posts/2026-09-14-model-session-lazy-load-cuda-oom.md
+  sha256: c20c73757424ae7c339034e4d651a260803920f86c1ca73e55e12590d3908186
 - note_id: deskflow-flatpak-startup
   title: Mac 与 Ubuntu 共用键鼠：Deskflow 的安装和自启动要分开测
   path: _posts/2026-09-14-deskflow-flatpak-startup.md
@@ -392,6 +418,18 @@
   verification: observed
   privacy_reviewed: true
   sha256: 10ff1d93558d9b9ee5a99f31fc98241ea04f10f516f5bb323d41b44d1112fad8
+- note_id: dlib-wheel-build-stall
+  title: dlib 安装停在 Building wheel：先确认编译是否仍在运行
+  source_date: '2026-05-22'
+  source_dates:
+  - '2026-05-22'
+  published_at: '2026-10-13T08:02:56+08:00'
+  updated_at: '2026-10-13T08:02:56+08:00'
+  permalink: /tech/2026/05/22/dlib-wheel-build-stall/
+  verification: partial
+  privacy_reviewed: true
+  path: _posts/2026-05-22-dlib-wheel-build-stall.md
+  sha256: e11eafac4a201db2c84388958e4e85f42d18623271e0c59031756d3e12298dea
 - note_id: jetson-usb-serial-in-container
   title: Jetson 已识别 USB 串口，Node-RED 容器为什么看不到
   path: _posts/2026-05-15-jetson-usb-serial-in-container.md
