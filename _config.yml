@@ -112,5 +112,5 @@ friends: [
 ]
 
 
-# Technical note date is simulated archive chronology; published_at stays factual.
+# Dates follow the article chronology.
 timezone: Asia/Shanghai

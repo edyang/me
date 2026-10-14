@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img">
+<title>HTTP 重试：时间预算、退避与未知结果：实现与验证关系</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#2b658e"/></marker></defs>
+<rect width="1200" height="700" rx="16" fill="#f5f8fb"/>
+<text x="40" y="48" font-size="28" font-weight="700" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">HTTP 重试：时间预算、退避与未知结果</text>
+<text x="40" y="120" font-size="18" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">输入条件、处理关系和验证范围</text>
+<rect x="40" y="165" width="510" height="150" rx="12" fill="white" stroke="#bdd0df" stroke-width="2"/>
+<circle cx="73" cy="198" r="19" fill="#245b86"/>
+<text x="73" y="205" text-anchor="middle" font-size="19" fill="white" font-family="sans-serif">1</text>
+<text x="64" y="248" font-size="24" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">分类可重试错误</text>
+<rect x="645" y="165" width="510" height="150" rx="12" fill="white" stroke="#bdd0df" stroke-width="2"/>
+<circle cx="678" cy="198" r="19" fill="#245b86"/>
+<text x="678" y="205" text-anchor="middle" font-size="19" fill="white" font-family="sans-serif">2</text>
+<text x="669" y="248" font-size="24" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">设置单次整体预算</text>
+<rect x="645" y="365" width="510" height="150" rx="12" fill="white" stroke="#bdd0df" stroke-width="2"/>
+<circle cx="678" cy="398" r="19" fill="#245b86"/>
+<text x="678" y="405" text-anchor="middle" font-size="19" fill="white" font-family="sans-serif">3</text>
+<text x="669" y="448" font-size="24" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">限制退避及次数</text>
+<rect x="40" y="365" width="510" height="150" rx="12" fill="white" stroke="#bdd0df" stroke-width="2"/>
+<circle cx="73" cy="398" r="19" fill="#245b86"/>
+<text x="73" y="405" text-anchor="middle" font-size="19" fill="white" font-family="sans-serif">4</text>
+<text x="64" y="448" font-size="24" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">写入前查询未知结果</text>
+<path d="M550 240H631" stroke="#2b658e" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M900 315V351" stroke="#2b658e" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M645 440H564" stroke="#2b658e" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="40" y="558" width="1115" height="102" rx="10" fill="#e8f0f7"/>
+<text x="60" y="590" font-size="18" font-weight="700" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">验证要点</text>
+<text x="60" y="620" font-size="19" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">持续失败可及时结束</text>
+<text x="425" y="620" font-size="19" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">多客户端不密集同步重试</text>
+<text x="790" y="620" font-size="19" font-weight="400" fill="#1e3d58" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">回执丢失不重复执行</text>
+</svg>
