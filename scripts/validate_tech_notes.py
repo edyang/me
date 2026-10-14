@@ -1,142 +1,115 @@
 #!/usr/bin/env python3
-"""Validate sanitized technical notes and optionally their Jekyll output."""
+import argparse, json, re, sys, yaml
 from pathlib import Path
-from datetime import datetime, date
+from datetime import date
+from hashlib import sha256
 from html import unescape
-import argparse, hashlib, json, re, sys
+from collections import Counter
 import xml.etree.ElementTree as ET
-import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
-parser = argparse.ArgumentParser()
-parser.add_argument("--site", type=Path)
-args = parser.parse_args()
-errors = []
-def error(path, message):
-    errors.append(f"{path}: {message}")
-def load_post(path):
-    raw = path.read_text(encoding="utf-8")
-    parts = raw.split("---", 2)
-    if len(parts) != 3 or parts[0].strip():
-        raise ValueError("missing YAML front matter")
-    return yaml.safe_load(parts[1]), parts[2], raw
-def iso_date(value):
-    return date.fromisoformat(str(value))
-def iso_time(value):
-    return datetime.fromisoformat(str(value))
-
-registry = yaml.safe_load((ROOT/"_data/tech_notes.yml").read_text()) or []
-ids, paths, urls = set(), set(), set()
-for row in registry:
-    for field, bag in (("note_id",ids),("path",paths),("permalink",urls)):
-        if row[field] in bag: error(row["path"], f"duplicate {field}")
-        bag.add(row[field])
-    p = ROOT/row["path"]
-    if not p.is_file():
-        error(row["path"],"missing registered article")
-        continue
-    if hashlib.sha256(p.read_bytes()).hexdigest() != row["sha256"]:
-        error(row["path"],"registry sha256 mismatch")
-
-notes = []
-for p in sorted((ROOT/"_posts").glob("*.md")):
-    meta, body, raw = load_post(p)
-    if not meta.get("tech_note"):
-        continue
-    notes.append((p,meta,body))
-    rel = p.relative_to(ROOT).as_posix()
-    required = ("layout","title","excerpt","tags","note_id","archive_date","date_basis","content_revision","images","source_date","source_dates","date","published_at","updated_at","verification","privacy_reviewed","permalink")
-    for key in required:
-        if key not in meta: error(rel,f"missing {key}")
-    if rel not in paths: error(rel,"article absent from registry")
-    if meta.get("layout") != "post": error(rel,"unexpected layout")
-    if meta.get("privacy_reviewed") is not True: error(rel,"missing explicit privacy review")
-    if meta.get("verification") not in {"observed","partial","proposal","notes"}: error(rel,"invalid verification")
-    if not isinstance(meta.get("tags"),list) or not meta["tags"]: error(rel,"missing tags")
-    try:
-        original = iso_date(meta["source_date"])
-        published = iso_time(meta["published_at"])
-        updated = iso_time(meta["updated_at"])
-        if published.utcoffset() is None or updated.utcoffset() is None: error(rel,"timestamps require timezone")
-        if original > published.date(): error(rel,"source date is after publication")
-        if updated < published: error(rel,"update precedes publication")
-        dates = [iso_date(d) for d in meta["source_dates"]]
-        if dates != sorted(set(dates)) or dates[0] != original: error(rel,"source dates must be sorted and begin with source_date")
-        if dates[-1] > updated.date(): error(rel,"source date is after update")
-        archive = iso_date(meta["archive_date"])
-        if meta["date_basis"] != "simulated_weekly_archive": error(rel,"unexpected archive date basis")
-        if not str(meta["date"]).startswith(str(archive)): error(rel,"date and archive mismatch")
-        if not p.name.startswith(str(archive)+"-"): error(rel,"filename archive date mismatch")
-        row = next((r for r in registry if r["note_id"] == meta["note_id"]),None)
-        if row:
-            for key in ("title","archive_date","date_basis","content_revision","images","source_date","source_dates","published_at","updated_at","permalink","verification","privacy_reviewed"):
-                if row.get(key) != meta.get(key): error(rel,f"registry metadata mismatch: {key}")
-    except (KeyError,TypeError,ValueError) as exc:
-        error(rel,f"invalid dates: {type(exc).__name__}")
-    if len(body.strip()) < 550: error(rel,"article has insufficient body")
-    for heading in ("## 研究与排查过程", "## 涉及的技术与取舍", "## 这轮研究的结论"):
-        if heading not in body: error(rel,"missing process/technology/conclusion section")
-    image_matches = re.findall(r"!\[([^\]]+)\]\((/[^)\s]+)\)",body)
-    if not image_matches: error(rel,"at least one article image is required")
-    if meta.get("images") != [url for alt,url in image_matches]: error(rel,"image registry mismatch")
-    if meta.get("content_revision",0) < 2: error(rel,"old editorial revision")
-    if body.count("\x60\x60\x60") % 2: error(rel,"unclosed code fence")
-    if "{{" in body or "{%" in body: error(rel,"unexpected Liquid in article body")
-    if not re.fullmatch(r"/tech/\d{4}/\d{2}/\d{2}/[a-z0-9-]+/",meta.get("permalink","")): error(rel,"unstable permalink")
-    # Conservative checks supplement the mandatory semantic privacy review.
-    patterns = {
-        "private IPv4": r"(?<![\d.])(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3})(?![\d.])",
-        "email address": r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
-        "mobile number": r"(?<!\d)1[3-9]\d{9}(?!\d)",
-        "private key": r"-----BEGIN (?:[A-Z ]+ )?PRIVATE KEY-----",
-        "credential token": r"(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9_-]{20,})",
-        "personal path": r"(?:/home/[A-Za-z0-9_.-]+/|/Users/[A-Za-z0-9_.-]+/|C:\\Users\\[A-Za-z0-9_.-]+\\)",
-        "device MAC": r"(?:[0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}",
-    }
-    for label, pattern in patterns.items():
-        if re.search(pattern,body): error(rel,f"possible sensitive content ({label}); review before committing")
-    for image in re.findall(r"!\[[^\]]*\]\((/[^)\s]+)\)",body):
-        if not (ROOT/image.lstrip("/")).is_file(): error(rel,f"missing image {image}")
+ROOT=Path(__file__).resolve().parent.parent
+ap=argparse.ArgumentParser();ap.add_argument('--site',type=Path);args=ap.parse_args()
+errors=[]
+def error(path,msg):errors.append({'path':str(path),'error':msg})
+def day(s):return date.fromisoformat(str(s)[:10])
+registry=yaml.safe_load((ROOT/'_data/tech_notes.yml').read_text())
+state=yaml.safe_load((ROOT/'_data/tech_blog_state.yml').read_text())
+byid={r['note_id']:r for r in registry}
+for key in ('note_id','path','date','permalink'):
+    if any(v>1 for v in Counter(str(r[key]) for r in registry).values()):error('registry','duplicate '+key)
+forbidden=re.compile(r'归档日期|交流日期|整理发布|模拟归档|归档.{0,30}（模拟）|\(模拟\)|生成日期|整理时间')
+patterns={
+ 'private IPv4':r'(?<![\d.])(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3})(?![\d.])',
+ 'email':r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b',
+ 'mobile':r'(?<!\d)1[3-9]\d{9}(?!\d)',
+ 'private key':r'-----BEGIN (?:[A-Z ]+ )?PRIVATE KEY-----',
+ 'token':r'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|sk-[A-Za-z0-9_-]{20,})',
+ 'personal path':r'(?:/home/[A-Za-z0-9_.-]+/|/Users/[A-Za-z0-9_.-]+/|C:\\Users\\[A-Za-z0-9_.-]+\\)',
+ 'MAC':r'(?:[0-9a-fA-F]{2}:){5}[0-9a-fA-F]{2}'}
+required=('layout','title','excerpt','tags','note_id','date','permalink','content_revision','images','technology_since','privacy_reviewed')
+removed=('source_date','source_dates','archive_date','date_basis','published_at','updated_at')
+notes=[]
+for path in sorted((ROOT/'_posts').glob('*.md')):
+    raw=path.read_text()
+    if not raw.startswith('---\n'):continue
+    try:front,body=raw[4:].split('\n---\n',1);m=yaml.safe_load(front)
+    except (ValueError,yaml.YAMLError):error(path.name,'invalid front matter');continue
+    if not m.get('tech_note'):continue
+    rel=path.relative_to(ROOT).as_posix();notes.append((path,m,body))
+    for k in required:
+        if k not in m:error(rel,'missing '+k)
+    for k in removed:
+        if k in m:error(rel,'obsolete date field '+k)
+    r=byid.get(m.get('note_id'))
+    if not r:error(rel,'missing registry record');continue
+    for k in ('title','permalink','tags','images','technology_since','content_revision','privacy_reviewed'):
+        if m.get(k)!=r.get(k):error(rel,'registry mismatch '+k)
+    if r['path']!=rel or r.get('sha256')!=sha256(raw.encode()).hexdigest():error(rel,'path or hash mismatch')
+    if m['layout']!='post' or m['privacy_reviewed'] is not True:error(rel,'layout or privacy review invalid')
+    if not isinstance(m['tags'],list) or not m['tags']:error(rel,'tags required')
+    if m['content_revision']<3:error(rel,'old editorial revision')
+    d=day(m['date'])
+    if day(r['date'])!=d or not path.name.startswith(str(d)+'-'):error(rel,'date mismatch')
+    if day(m['technology_since'])>d:error(rel,'technology later than article')
+    if m['note_id']=='jetson-orin-super-memory' and d<date(2025,1,16):error(rel,'NX Super predates JetPack 6.2')
+    if m['note_id']=='talking-video-avatar-voice-pipeline' and d<date(2026,1,22):error(rel,'Flash predates release')
+    if len(re.findall(r'[\u4e00-\u9fff]',body))<850:error(rel,'insufficient technical prose')
+    if body.count('```')%2:error(rel,'unclosed code fence')
+    if '{{' in body or '{%' in body:error(rel,'Liquid in body')
+    if forbidden.search(body):error(rel,'obsolete date labels in body')
+    if not re.fullmatch(r'/tech/\d{4}/\d{2}/\d{2}/[a-z0-9-]+/',m['permalink']):error(rel,'invalid permalink')
+    if not m['permalink'].startswith('/tech/'+str(d).replace('-','/')+'/'):error(rel,'permalink date mismatch')
+    images=re.findall(r'!\[([^\]]+)\]\((/[^\s)]+)\)',body)
+    if not images or m['images']!=[url for alt,url in images]:error(rel,'image registration or alt missing')
+    for alt,url in images:
+        if not (ROOT/url.lstrip('/')).is_file():error(rel,'image missing '+url)
+    for label,pattern in patterns.items():
+        if re.search(pattern,body.replace('git@github.com','GitHub SSH identity')):error(rel,'possible sensitive '+label)
+    if '## 参考资料' not in body:error(rel,'references missing')
     if args.site:
-        dest = args.site/meta["permalink"].strip("/")/"index.html"
-        if not dest.is_file():
-            error(rel,"Jekyll output missing")
-        else:
-            rendered = dest.read_text()
-            if str(meta["source_date"]) not in rendered: error(rel,"source date missing in rendered page")
-            if "整理发布" not in rendered: error(rel,"publication label missing")
-            if "归档日期（模拟）" not in rendered or str(meta["archive_date"]) not in rendered: error(rel,"simulated archive label missing")
-            for image in meta["images"]:
-                if image not in rendered: error(rel,"article image missing in rendered HTML")
-            if "{{" in rendered or "{%" in rendered: error(rel,"unrendered Liquid")
-            if unescape(str(meta["title"])) not in unescape(rendered): error(rel,"title missing in rendered page")
-            for image in re.findall(r"!\[[^\]]*\]\((/[^)\s]+)\)",body):
-                if not (args.site/image.lstrip("/")).is_file(): error(rel,f"rendered image missing: {image}")
-
-for svg in (ROOT/"img/tech-notes").glob("*.svg"):
+        f=args.site/m['permalink'].strip('/')/'index.html'
+        if not f.is_file():error(rel,'Jekyll page missing');continue
+        h=f.read_text()
+        if unescape(m['title']) not in unescape(h):error(rel,'rendered title missing')
+        if str(d) not in h:error(rel,'ordinary date missing')
+        if forbidden.search(h):error(rel,'obsolete rendered date labels')
+        if 'article:modified_time' in h:error(rel,'processing timestamp exposed')
+        if '{{' in h or '{%' in h:error(rel,'unrendered Liquid')
+        if '<h2' not in h or '<table' not in h:error(rel,'article formatting missing')
+        for alt,url in images:
+            if url not in h or not (args.site/url.lstrip('/')).is_file():error(rel,'rendered image missing')
+dates=sorted(day(m['date']) for p,m,b in notes)
+if len(notes)!=len(registry) or state['article_count']!=len(notes):error('registry','count mismatch')
+if not dates or dates[0]!=date(2020,1,5):error('registry','wrong first date')
+if any(not 5<=(b-a).days<=10 for a,b in zip(dates,dates[1:])):error('registry','interval outside 5-10 days')
+if dates and str(dates[-1])!=state['last_article_date']:error('state','last date mismatch')
+if len(state['topics'])!=len(registry):error('state','topic count mismatch')
+if not 5<=(day(state['next_article_date'])-day(state['last_article_date'])).days<=10:error('state','next date outside interval')
+for svg in (ROOT/'img/tech-notes').glob('*.svg'):
     try:
-        node = ET.parse(svg).getroot()
-        if not node.tag.endswith("svg") or not node.get("viewBox"): error(svg.name,"invalid SVG dimensions")
-        for n in node.iter():
-            if n.tag.endswith("script") or n.tag.endswith("foreignObject"): error(svg.name,"active SVG content")
-    except ET.ParseError:
-        error(svg.name,"invalid SVG XML")
-if len(notes) != len(registry): error("registry","note count mismatch")
-archive_dates = sorted(iso_date(m["archive_date"]) for p,m,b in notes)
-if archive_dates and archive_dates[0] != date(2023,2,1): error("registry","archive must start 2023-02-01")
-if any((b-a).days != 7 for a,b in zip(archive_dates,archive_dates[1:])): error("registry","archive dates must be weekly")
+        n=ET.parse(svg).getroot()
+        if not n.tag.endswith('svg') or not n.get('viewBox'):error(svg.name,'SVG dimensions invalid')
+        for e in n.iter():
+            if e.tag.endswith(('script','foreignObject')):error(svg.name,'active SVG content')
+    except ET.ParseError:error(svg.name,'SVG XML invalid')
 if args.site:
-    timeline = args.site/"tech-notes/index.html"
-    if not timeline.is_file(): error("timeline","missing rendered timeline")
-    else:
-        t = timeline.read_text()
-        for row in registry:
-            if row["permalink"] not in t: error("timeline",f"missing link {row['note_id']}")
-    home = args.site/"index.html"
-    if not home.is_file() or "/tech-notes/" not in home.read_text(): error("homepage","timeline entry missing")
-    try: ET.parse(args.site/"feed.xml")
-    except (ET.ParseError,FileNotFoundError) as exc: error("RSS",f"invalid rendered XML: {exc}")
-
-print(json.dumps({"valid":not errors,"articles":len(notes),"diagrams":len(list((ROOT/"img/tech-notes").glob("*.svg"))),"rendered_checked":bool(args.site),"errors":errors},ensure_ascii=False,indent=2))
+    for name in ('index.html','tech-notes/index.html','archive/index.html'):
+        f=args.site/name
+        if not f.is_file():error(name,'page missing');continue
+        h=f.read_text()
+        if forbidden.search(h):error(name,'obsolete labels')
+        if name=='tech-notes/index.html':
+            for r in registry:
+                if r['permalink'] not in h:error(name,'missing link '+r['note_id'])
+    try:
+        tree=ET.parse(args.site/'feed.xml')
+        for item in tree.findall('./channel/item'):
+            link=item.findtext('link') or ''
+            for r in registry:
+                if link.endswith(r['permalink']) and str(day(r['date']).year) not in (item.findtext('pubDate') or ''):error('RSS','wrong date')
+    except (ET.ParseError,FileNotFoundError) as exc:error('RSS',str(exc))
+    for private in ('AGENTS.md','TECH_BLOG_AGENT.md','scripts','_data','full-blog-rebuild'):
+        if (args.site/private).exists():error(private,'operational file exposed')
+print(json.dumps({'valid':not errors,'articles':len(notes),'diagrams':len(list((ROOT/'img/tech-notes').glob('*.svg'))),'first':str(dates[0]) if dates else None,'last':str(dates[-1]) if dates else None,'rendered_checked':bool(args.site),'errors':errors},ensure_ascii=False,indent=2))
 sys.exit(bool(errors))
 

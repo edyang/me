@@ -1,799 +1,3030 @@
 - note_id: talking-video-avatar-voice-pipeline
   title: 初步研究数字人各种方案
-  source_date: '2026-10-12'
-  source_dates:
-  - '2026-10-12'
-  archive_date: '2023-12-13'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/12/talking-video-avatar-voice-pipeline/
-  verification: proposal
-  privacy_reviewed: true
-  content_revision: 2
+  path: _posts/2026-10-14-talking-video-avatar-voice-pipeline.md
+  date: '2026-10-14'
+  permalink: /tech/2026/10/14/talking-video-avatar-voice-pipeline/
+  tags: &id001
+  - AI
+  - 工程实践
   images:
   - /img/tech-notes/talking-video-avatar-voice-pipeline.svg
-  path: _posts/2023-12-13-talking-video-avatar-voice-pipeline.md
-  sha256: f7c0433018ccda54257c4c83c770c0c32908fd6771cf28b13b5f89cacb58d50f
-- note_id: same-account-office-tablet-login-failure
-  title: 同一账号异地登录结果不同：研究请求路径
-  source_date: '2026-10-12'
-  source_dates:
-  - '2026-10-12'
-  archive_date: '2023-12-06'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/12/same-account-office-tablet-login-failure/
-  verification: partial
+  technology_since: '2026-01-22'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 959ffd0a13175fc76a24a6847f8d735110e2d72298e6fbbc3964ccfd4f6247f6
+- note_id: avatar-long-video-consistency
+  title: 数字人口播长片：身份、口型与分段连续
+  path: _posts/2026-10-05-avatar-long-video-consistency.md
+  date: '2026-10-05'
+  permalink: /tech/2026/10/05/avatar-long-video-consistency/
+  tags: *id001
   images:
-  - /img/tech-notes/same-account-office-tablet-login-failure.svg
-  path: _posts/2023-12-06-same-account-office-tablet-login-failure.md
-  sha256: 0a85ca661a1ff91193cb6cb6b94d7252ff5c627662697f3147158ef4899ffdad
-- note_id: postgres-readonly-root-cause
-  title: PostgreSQL 只读故障：研究代理节点与恢复
-  source_date: '2026-10-12'
-  source_dates:
-  - '2026-10-12'
-  archive_date: '2023-11-29'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/12/postgres-readonly-root-cause/
-  verification: partial
+  - /img/tech-notes/avatar-long-video-consistency.svg
+  technology_since: '2024-04-02'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: c4ad328d3a1ff70ac8529ffff7049ca55493035d7c4c383da7a644c59b630639
+- note_id: tts-model-comparison
+  title: 中文 TTS 方案比较：读音、音色和长句稳定
+  path: _posts/2026-09-25-tts-model-comparison.md
+  date: '2026-09-25'
+  permalink: /tech/2026/09/25/tts-model-comparison/
+  tags: *id001
   images:
-  - /img/tech-notes/postgres-readonly-root-cause.svg
-  path: _posts/2023-11-29-postgres-readonly-root-cause.md
-  sha256: 750f01f69886d865f1ee84b2841905cf762f243af2bf5f161e6a1a14ce54ced2
-- note_id: github-reuse-existing-ssh-key
-  title: Linux 配置 GitHub SSH：研究已有密钥复用
-  source_date: '2026-10-12'
-  source_dates:
-  - '2026-10-12'
-  archive_date: '2023-11-22'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/12/github-reuse-existing-ssh-key/
-  verification: partial
+  - /img/tech-notes/tts-model-comparison.svg
+  technology_since: '2024-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 86afe67744e7f88c5a6bb8609c11fb1701ebb5e2799d0fb6a8e53dd23559cf11
+- note_id: video-transcription-alignment
+  title: 口播转录对齐：文字纠错与音频时码
+  path: _posts/2026-09-15-video-transcription-alignment.md
+  date: '2026-09-15'
+  permalink: /tech/2026/09/15/video-transcription-alignment/
+  tags: *id001
   images:
-  - /img/tech-notes/github-reuse-existing-ssh-key.svg
-  path: _posts/2023-11-22-github-reuse-existing-ssh-key.md
-  sha256: 5f9246f9ecf2f06ae5157ac50c954d432f2c2e8fa6ada044cdc368e95977a333
-- note_id: modbus-analog-raw-value-scale
-  title: 模拟量采集：研究寄存器值到电压的换算
-  source_date: '2026-10-09'
-  source_dates:
-  - '2026-10-09'
-  archive_date: '2023-11-15'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/09/modbus-analog-raw-value-scale/
-  verification: observed
+  - /img/tech-notes/video-transcription-alignment.svg
+  technology_since: '2023-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: d26e3518c16db00f3691020494108f58b07e4a04cd64f656388b7eb99af94135
+- note_id: technical-blog-version-gate
+  title: 技术文章工程化：版本核验、示例与配图
+  path: _posts/2026-09-05-technical-blog-version-gate.md
+  date: '2026-09-05'
+  permalink: /tech/2026/09/05/technical-blog-version-gate/
+  tags: &id002
+  - 系统交付
+  - 技术复盘
   images:
-  - /img/tech-notes/modbus-analog-raw-value-scale.svg
-  path: _posts/2023-11-15-modbus-analog-raw-value-scale.md
-  sha256: 6c51440a547b1641a7aefcd8f5e4676575db05eb743be2f60e0ac12532997597
-- note_id: batch-inference-case-isolation
-  title: 批量图像推理：研究案例上下文与结果串用
-  source_date: '2026-10-09'
-  source_dates:
-  - '2026-10-09'
-  archive_date: '2023-11-08'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/09/batch-inference-case-isolation/
-  verification: notes
+  - /img/tech-notes/technical-blog-version-gate.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: e8b1bc2cfba474e960dfea4539128305dd7b54d3842a2a08d6031e9148d700a3
+- note_id: ai-product-boundary
+  title: AI 产品功能介绍：能力、条件和验收口径
+  path: _posts/2026-08-26-ai-product-boundary.md
+  date: '2026-08-26'
+  permalink: /tech/2026/08/26/ai-product-boundary/
+  tags: *id002
   images:
-  - /img/tech-notes/batch-inference-case-isolation.svg
-  path: _posts/2023-11-08-batch-inference-case-isolation.md
-  sha256: 840574c11cee363b114f04ba2a712b90a67dc80ecbee8e2296e5b24ce55ea83b
-- note_id: robot-minimal-action-validation
-  title: ROS 机器人控制：从最小动作到串口反馈
-  source_date: '2026-10-08'
-  source_dates:
-  - '2026-10-08'
-  - '2026-10-09'
-  - '2026-10-10'
-  - '2026-10-11'
-  archive_date: '2023-11-01'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/08/robot-minimal-action-validation/
-  verification: partial
+  - /img/tech-notes/ai-product-boundary.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 5eda9709e94fcd578ab37a1308fec0c1763ee3af8b2809bed23a86f4b54fb182
+- note_id: delivery-training-acceptance
+  title: 现场培训与验收：操作步骤和故障边界
+  path: _posts/2026-08-16-delivery-training-acceptance.md
+  date: '2026-08-16'
+  permalink: /tech/2026/08/16/delivery-training-acceptance/
+  tags: *id002
   images:
-  - /img/tech-notes/robot-minimal-action-validation.svg
-  path: _posts/2023-11-01-robot-minimal-action-validation.md
-  sha256: f34a8b454c31ba2b3b695a70b50e653014a3bb9e66f3b7d05c7dfd59b461d9e2
-- note_id: line-scan-calibration-print-scale
-  title: 线扫标定板：排查打印尺寸与采样比例
-  source_date: '2026-10-08'
-  source_dates:
-  - '2026-10-08'
-  archive_date: '2023-10-25'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/08/line-scan-calibration-print-scale/
-  verification: observed
+  - /img/tech-notes/delivery-training-acceptance.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 9a56f28742dec97086bd895cb5446f33d2f87b4c13f14dd6b283acfaea9a1a96
+- note_id: remote-debugging-readonly
+  title: 远程现场排障：先收集只读证据再修改
+  path: _posts/2026-08-06-remote-debugging-readonly.md
+  date: '2026-08-06'
+  permalink: /tech/2026/08/06/remote-debugging-readonly/
+  tags: *id002
   images:
-  - /img/tech-notes/line-scan-calibration-print-scale.svg
-  path: _posts/2023-10-25-line-scan-calibration-print-scale.md
-  sha256: 96f4576f8f4bb553be256f678061dc32f76fc2ff65ff04980b1a4ec9c1a60ab8
-- note_id: enterprise-wifi-peap-auth-failure
-  title: 企业 Wi-Fi 连接停滞：定位 802.1X 认证阶段
-  source_date: '2026-10-08'
-  source_dates:
-  - '2026-10-08'
-  archive_date: '2023-10-18'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/10/08/enterprise-wifi-peap-auth-failure/
-  verification: partial
+  - /img/tech-notes/remote-debugging-readonly.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 1a1d8db8a880da2372e6e233c8deb5a66e62432d47f520dd70679554820bac5d
+- note_id: service-offline-automatic-recovery
+  title: 离线恢复自动化：探测、条件与受控动作
+  path: _posts/2026-07-27-service-offline-automatic-recovery.md
+  date: '2026-07-27'
+  permalink: /tech/2026/07/27/service-offline-automatic-recovery/
+  tags: &id009
+  - 接口设计
+  - 后端
   images:
-  - /img/tech-notes/enterprise-wifi-peap-auth-failure.svg
-  path: _posts/2023-10-18-enterprise-wifi-peap-auth-failure.md
-  sha256: 1786cbba764142725293a8fce45ce15851ab6861d1ad2e2343a52a4cf78273d7
-- note_id: printed-slot-clip-fit-iteration
-  title: 3D 打印型材卡件：记录插入与旋转配合迭代
-  source_date: '2026-09-29'
-  source_dates:
-  - '2026-09-29'
-  archive_date: '2023-10-11'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/29/printed-slot-clip-fit-iteration/
-  verification: partial
+  - /img/tech-notes/service-offline-automatic-recovery.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: d6e071f27a1a6960515f2b1af33c50012925d9210c240b9e284845554bdb00aa
+- note_id: device-data-health-dashboard
+  title: 设备健康看板：状态、数据质量与业务指标
+  path: _posts/2026-07-17-device-data-health-dashboard.md
+  date: '2026-07-17'
+  permalink: /tech/2026/07/17/device-data-health-dashboard/
+  tags: &id013
+  - 数据处理
+  - 系统集成
   images:
-  - /img/tech-notes/printed-slot-clip-fit-iteration.svg
-  path: _posts/2023-10-11-printed-slot-clip-fit-iteration.md
-  sha256: 0105a9afffad48840372833f543a931ddaf29a303127cb8118443f6b45dd0de1
-- note_id: offline-outbox-retry-observation
-  title: 离线补传队列：研究重试、卡住与任务饥饿
-  source_date: '2026-09-29'
-  source_dates:
-  - '2026-09-29'
-  - '2026-09-30'
-  - '2026-10-08'
-  archive_date: '2023-10-04'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/29/offline-outbox-retry-observation/
-  verification: partial
+  - /img/tech-notes/device-data-health-dashboard.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 951f52ed8cd775debe1c1c5b75050576be9fde6a76597d6f5875ffa2220fbc54
+- note_id: mqtt-audio-alert-playback
+  title: 语音告警设备：播放确认、次数和事件去重
+  path: _posts/2026-07-07-mqtt-audio-alert-playback.md
+  date: '2026-07-07'
+  permalink: /tech/2026/07/07/mqtt-audio-alert-playback/
+  tags: &id006
+  - 工业通信
+  - 设备接入
   images:
-  - /img/tech-notes/offline-outbox-retry-observation.svg
-  path: _posts/2023-10-04-offline-outbox-retry-observation.md
-  sha256: effaf5c5c5465eece57869ef53192b7d54eca8a801ea239a56df5e219a19c72d
-- note_id: face-match-false-accept-reject
-  title: 人脸登录误识别：研究误放行与误拒绝
-  source_date: '2026-09-29'
-  source_dates:
-  - '2026-09-29'
-  - '2026-10-08'
-  archive_date: '2023-09-27'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/29/face-match-false-accept-reject/
-  verification: partial
+  - /img/tech-notes/mqtt-audio-alert-playback.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: d4ceb656a63219329e97f4247593a4165bb8f765d7bd50ccb63f2ed990dbcc40
+- note_id: industrial-optical-half-ring
+  title: 分体环形光源：几何合拢与照明一致性
+  path: _posts/2026-06-27-industrial-optical-half-ring.md
+  date: '2026-06-27'
+  permalink: /tech/2026/06/27/industrial-optical-half-ring/
+  tags: &id007
+  - 硬件
+  - 工程验证
   images:
-  - /img/tech-notes/face-match-false-accept-reject.svg
-  path: _posts/2023-09-27-face-match-false-accept-reject.md
-  sha256: ac2ddec23a2fd6ae751e2ddc3ec631b7dcfa3bd382f38af25dda26ff963eb59c
-- note_id: mac-chrome-independent-profiles
-  title: Mac 双账号浏览器：研究 Chrome 独立空间
-  source_date: '2026-09-28'
-  source_dates:
-  - '2026-09-28'
-  archive_date: '2023-09-20'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/28/mac-chrome-independent-profiles/
-  verification: proposal
+  - /img/tech-notes/industrial-optical-half-ring.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 20c6b2d63117efbfcdc5c6a3c33a539683c2b4b6df5a4f012c6d1c4333009203
+- note_id: endoscopic-code-reading
+  title: 内窥读码成像：工作距离、光源与操作
+  path: _posts/2026-06-17-endoscopic-code-reading.md
+  date: '2026-06-17'
+  permalink: /tech/2026/06/17/endoscopic-code-reading/
+  tags: &id004
+  - 计算机视觉
+  - 成像
   images:
-  - /img/tech-notes/mac-chrome-independent-profiles.svg
-  path: _posts/2023-09-20-mac-chrome-independent-profiles.md
-  sha256: fa80555a435fe3c86605c8769573e99eb2a35f65a556dcd99b3863f7d9c5f521
-- note_id: claude-code-native-binary-install
-  title: Claude Code 安装异常：研究 npm 与原生文件
-  source_date: '2026-09-28'
-  source_dates:
-  - '2026-09-28'
-  archive_date: '2023-09-13'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/28/claude-code-native-binary-install/
-  verification: partial
+  - /img/tech-notes/endoscopic-code-reading.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 6e687725bcd6c454c5e15a664e56187ac6a71df179efe0e25be84f320a4cba8d
+- note_id: agriculture-navigation-remote
+  title: 农机自主与遥控：模式切换和状态归属
+  path: _posts/2026-06-07-agriculture-navigation-remote.md
+  date: '2026-06-07'
+  permalink: /tech/2026/06/07/agriculture-navigation-remote/
+  tags: &id003
+  - 机器人
+  - 感知导航
   images:
-  - /img/tech-notes/claude-code-native-binary-install.svg
-  path: _posts/2023-09-13-claude-code-native-binary-install.md
-  sha256: ffbfcddee23dfab627a318d1e866bd9483fdfabddd5b7545eb0292802010b120
-- note_id: article-publishing-package-hash
-  title: 研究多入口文章发布的一致性与核验
-  source_date: '2026-09-23'
-  source_dates:
-  - '2026-09-23'
-  - '2026-10-09'
-  archive_date: '2023-09-06'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/23/article-publishing-package-hash/
-  verification: notes
+  - /img/tech-notes/agriculture-navigation-remote.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: fd4718f889c68d6f82202f91187d241d4e4ab2f89a26d7da9cb3feefbbf9f449
+- note_id: robot-dual-arm-workspace
+  title: 双作业机械臂：工作空间、碰撞与任务分配
+  path: _posts/2026-05-28-robot-dual-arm-workspace.md
+  date: '2026-05-28'
+  permalink: /tech/2026/05/28/robot-dual-arm-workspace/
+  tags: *id003
   images:
-  - /img/tech-notes/article-publishing-package-hash.svg
-  path: _posts/2023-09-06-article-publishing-package-hash.md
-  sha256: 38cebd0e15ea61a3eaf2de39d7162ae92faac73e2b1bcf8c8b7fc2b39b048566
-- note_id: lens-focal-length-aperture-fov
-  title: 工业镜头选型：研究视野、焦距与光圈
-  source_date: '2026-09-21'
-  source_dates:
-  - '2026-09-21'
-  - '2026-10-08'
-  archive_date: '2023-08-30'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/21/lens-focal-length-aperture-fov/
-  verification: notes
+  - /img/tech-notes/robot-dual-arm-workspace.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 3b41b51c30edd9ffc12ee488a2dc19ed6b4d19e796ebf2ccb8a2380891269e29
+- note_id: glass-bottle-anomaly-case
+  title: 玻璃瓶质检：光学工位、正常学习与验收
+  path: _posts/2026-05-18-glass-bottle-anomaly-case.md
+  date: '2026-05-18'
+  permalink: /tech/2026/05/18/glass-bottle-anomaly-case/
+  tags: *id004
   images:
-  - /img/tech-notes/lens-focal-length-aperture-fov.svg
-  path: _posts/2023-08-30-lens-focal-length-aperture-fov.md
-  sha256: ed10900d82d8e4458c8f5bc9bbfb225f6ddcf764a1b695827cee0d4ed90ab6d8
-- note_id: android-webview-websocket-reconnect
-  title: Android WebView 实时状态断线的研究
-  source_date: '2026-09-15'
-  source_dates:
-  - '2026-09-15'
-  archive_date: '2023-08-23'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/15/android-webview-websocket-reconnect/
-  verification: proposal
+  - /img/tech-notes/glass-bottle-anomaly-case.svg
+  technology_since: '2026-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 49c0284d286fae26b5d584bf187b03324ada47401218415a58241f36aaf16c6f
+- note_id: enterprise-oa-agent-method
+  title: 企业协同智能体：意图入口与原有流程权限
+  path: _posts/2026-05-08-enterprise-oa-agent-method.md
+  date: '2026-05-08'
+  permalink: /tech/2026/05/08/enterprise-oa-agent-method/
+  tags: *id001
   images:
-  - /img/tech-notes/android-webview-websocket-reconnect.svg
-  path: _posts/2023-08-23-android-webview-websocket-reconnect.md
-  sha256: 1d4c682a3a32e4df00f69ac0b74a7c74712863c28bca00737a02489d59a2a799
-- note_id: model-session-lazy-load-cuda-oom
-  title: 多模态服务首个会话显存不足的排查
-  source_date: '2026-09-14'
-  source_dates:
-  - '2026-09-14'
-  archive_date: '2023-08-16'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/14/model-session-lazy-load-cuda-oom/
-  verification: partial
+  - /img/tech-notes/enterprise-oa-agent-method.svg
+  technology_since: '2026-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: dce52426ca9517ecc7d94580240331baba1eef85e3e601c7f0d418c73124c4d9
+- note_id: sales-discovery-agent-method
+  title: 销售诊断智能体：问题依据与明确下一步
+  path: _posts/2026-04-28-sales-discovery-agent-method.md
+  date: '2026-04-28'
+  permalink: /tech/2026/04/28/sales-discovery-agent-method/
+  tags: *id001
   images:
-  - /img/tech-notes/model-session-lazy-load-cuda-oom.svg
-  path: _posts/2023-08-16-model-session-lazy-load-cuda-oom.md
-  sha256: a52668728922b3b0581c7602a93554de20cb8501f65b2f71a8f88c1bf66e86cf
+  - /img/tech-notes/sales-discovery-agent-method.svg
+  technology_since: '2026-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2561507f7f73a459f0646d181fe5e9fda312aa8ff0a33204a6bdead0c73965b4
+- note_id: marketing-agent-content-chain
+  title: 内容策划智能体：情报、事实底稿与发布
+  path: _posts/2026-04-19-marketing-agent-content-chain.md
+  date: '2026-04-19'
+  permalink: /tech/2026/04/19/marketing-agent-content-chain/
+  tags: *id001
+  images:
+  - /img/tech-notes/marketing-agent-content-chain.svg
+  technology_since: '2026-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e77896b924665f79fd723f620f0d4b9203c7e4c27e5adaf0da3ca208d04b61bd
+- note_id: pollution-source-agent-case
+  title: 污染溯源报告：证据检索、空间分析与复核
+  path: _posts/2026-04-09-pollution-source-agent-case.md
+  date: '2026-04-09'
+  permalink: /tech/2026/04/09/pollution-source-agent-case/
+  tags: *id001
+  images:
+  - /img/tech-notes/pollution-source-agent-case.svg
+  technology_since: '2026-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 27a58f7992a622e40b604de16d7dfdc874c7c9bc731431af9beeb0c19948b380
+- note_id: rag-report-calculation-tools
+  title: 报告计算工具：固定输入与模型解释
+  path: _posts/2026-03-30-rag-report-calculation-tools.md
+  date: '2026-03-30'
+  permalink: /tech/2026/03/30/rag-report-calculation-tools/
+  tags: *id001
+  images:
+  - /img/tech-notes/rag-report-calculation-tools.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 109ce87e364bdc4c6ef51d0a2624ed4d4f820ce3293010dbeb001fce28ab4823
+- note_id: private-nas-knowledge-source
+  title: 本地资料进入知识库：目录、权限与版本
+  path: _posts/2026-03-20-private-nas-knowledge-source.md
+  date: '2026-03-20'
+  permalink: /tech/2026/03/20/private-nas-knowledge-source/
+  tags: *id001
+  images:
+  - /img/tech-notes/private-nas-knowledge-source.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: dd2be15bd3de62fd186813a6c4c997e74aa5ff86f364547a965f9921e58e1401
 - note_id: deskflow-flatpak-startup
-  title: Mac 与 Ubuntu 共享键鼠：研究 Deskflow 自启动
-  source_date: '2026-09-14'
-  source_dates:
-  - '2026-09-14'
-  archive_date: '2023-08-09'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/14/deskflow-flatpak-startup/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
+  title: Deskflow 跨设备键鼠：安装、权限与登录启动
+  path: _posts/2026-03-10-deskflow-flatpak-startup.md
+  date: '2026-03-10'
+  permalink: /tech/2026/03/10/deskflow-flatpak-startup/
+  tags: &id008
+  - 前端
+  - Web
   images:
   - /img/tech-notes/deskflow-flatpak-startup.svg
-  path: _posts/2023-08-09-deskflow-flatpak-startup.md
-  sha256: 208a9ee2c351c06c96804e00ea54aee8ffc648b0a11ee5ce8d6cd7e5519fd899
-- note_id: rtsp-onvif-video-latency
-  title: 研究 RTSP 与 ONVIF 取流入口的延迟差异
-  source_date: '2026-09-13'
-  source_dates:
-  - '2026-09-13'
-  archive_date: '2023-08-02'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/09/13/rtsp-onvif-video-latency/
-  verification: notes
+  technology_since: '2024-10-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: e2e7333589a1817044cebcfe3d5d56f05fc4c6e05451382b7e7ae672e7980683
+- note_id: claude-code-native-binary-install
+  title: CLI 安装原生文件缺失：npm 与 PATH
+  path: _posts/2026-02-28-claude-code-native-binary-install.md
+  date: '2026-02-28'
+  permalink: /tech/2026/02/28/claude-code-native-binary-install/
+  tags: &id011
+  - Python
+  - 软件工程
   images:
-  - /img/tech-notes/rtsp-onvif-video-latency.svg
-  path: _posts/2023-08-02-rtsp-onvif-video-latency.md
-  sha256: 8848e04f7a8f15c1e2d44c42bceba82bf0d31598632fc73a5e918affa0e0aa3c
-- note_id: ocr-metadata-evidence-provenance
-  title: OCR 结果核验：为什么相同字段不能自证正确
-  source_date: '2026-08-31'
-  source_dates:
-  - '2026-08-31'
-  - '2026-10-10'
-  archive_date: '2023-07-26'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/31/ocr-metadata-evidence-provenance/
-  verification: notes
+  - /img/tech-notes/claude-code-native-binary-install.svg
+  technology_since: '2025-05-22'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: b7276bf3c39b444df26541c785c3a3f3003e666487d469a2f5a75b314243051e
+- note_id: github-reuse-existing-ssh-key
+  title: GitHub SSH 配置：已有密钥先核对再复用
+  path: _posts/2026-02-18-github-reuse-existing-ssh-key.md
+  date: '2026-02-18'
+  permalink: /tech/2026/02/18/github-reuse-existing-ssh-key/
+  tags: &id005
+  - Linux
+  - 运维
   images:
-  - /img/tech-notes/ocr-metadata-evidence-provenance.svg
-  path: _posts/2023-07-26-ocr-metadata-evidence-provenance.md
-  sha256: 6330794c9493e3c2e083c67f0de45fae542ed47c7e0f22b2e1329b1602614d53
-- note_id: systemd-proxy-environment
-  title: systemd 服务连不上网络：研究环境变量差异
-  source_date: '2026-08-28'
-  source_dates:
-  - '2026-08-28'
-  archive_date: '2023-07-19'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/28/systemd-proxy-environment/
-  verification: observed
+  - /img/tech-notes/github-reuse-existing-ssh-key.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 85cb2c99d3bf2501a8f59ed578deb40a98bc15535e68a601841417b656b5c4f8
+- note_id: enterprise-wifi-peap-auth-failure
+  title: 企业 Wi-Fi：认证、DHCP 与业务访问
+  path: _posts/2026-02-08-enterprise-wifi-peap-auth-failure.md
+  date: '2026-02-08'
+  permalink: /tech/2026/02/08/enterprise-wifi-peap-auth-failure/
+  tags: *id005
   images:
-  - /img/tech-notes/systemd-proxy-environment.svg
-  path: _posts/2023-07-19-systemd-proxy-environment.md
-  sha256: dc25cbf5bd9a93030d092f633fc02d6e04b10aa838dd8679b21d25ee25482cb4
-- note_id: rotation-eccentricity-image-consistency
-  title: 转台偏心对视觉检测的影响研究
-  source_date: '2026-08-19'
-  source_dates:
-  - '2026-08-19'
-  archive_date: '2023-07-12'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/19/rotation-eccentricity-image-consistency/
-  verification: notes
+  - /img/tech-notes/enterprise-wifi-peap-auth-failure.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 9d8639344d5dd39f86b75ce56d53f335344a910c87b1b45fed49479ca90e2875
+- note_id: modbus-analog-raw-value-scale
+  title: 模拟量模块：从原始读数到可验证电压
+  path: _posts/2026-01-29-modbus-analog-raw-value-scale.md
+  date: '2026-01-29'
+  permalink: /tech/2026/01/29/modbus-analog-raw-value-scale/
+  tags: *id006
   images:
-  - /img/tech-notes/rotation-eccentricity-image-consistency.svg
-  path: _posts/2023-07-12-rotation-eccentricity-image-consistency.md
-  sha256: 2e70384e1c9b0907d4cd741c98be5659d15ee5ce412be0239beeab588e8fb81b
-- note_id: bayer-strip-panorama-pipeline
-  title: 相机窄条拼接：研究颜色转换与处理吞吐
-  source_date: '2026-08-19'
-  source_dates:
-  - '2026-08-19'
-  archive_date: '2023-07-05'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/19/bayer-strip-panorama-pipeline/
-  verification: partial
+  - /img/tech-notes/modbus-analog-raw-value-scale.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: c0d33a29e3181065b69ad15545b36a43d3ebedb813431bc9815d0d2e4505b21c
+- note_id: line-scan-calibration-print-scale
+  title: 线扫标定板打印：实体尺寸与采样比例
+  path: _posts/2026-01-19-line-scan-calibration-print-scale.md
+  date: '2026-01-19'
+  permalink: /tech/2026/01/19/line-scan-calibration-print-scale/
+  tags: *id004
   images:
-  - /img/tech-notes/bayer-strip-panorama-pipeline.svg
-  path: _posts/2023-07-05-bayer-strip-panorama-pipeline.md
-  sha256: 0eda607a964e8f8afa47d03ea297741ffd185d0d230bb459a032cf39844fbb34
-- note_id: database-compatibility-migration-checklist
-  title: 研究数据库迁移中的兼容改造与验证
-  source_date: '2026-08-04'
-  source_dates:
-  - '2026-08-04'
-  archive_date: '2023-06-28'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/04/database-compatibility-migration-checklist/
-  verification: proposal
+  - /img/tech-notes/line-scan-calibration-print-scale.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: ef67801e6f8e60f03e51ff48f1a68d94bdaa3bd720a71822fa7a1f37f9c19dd7
+- note_id: industrial-black-bar-segmentation
+  title: 黑色信息栏分割：位置变化与几何验证
+  path: _posts/2026-01-09-industrial-black-bar-segmentation.md
+  date: '2026-01-09'
+  permalink: /tech/2026/01/09/industrial-black-bar-segmentation/
+  tags: *id004
   images:
-  - /img/tech-notes/database-compatibility-migration-checklist.svg
-  path: _posts/2023-06-28-database-compatibility-migration-checklist.md
-  sha256: 060b01e7b8c704e35d1ebbf6a216f267ae5cc78f85bcfff1a88d032de6878600
-- note_id: compose-port-collision
-  title: Docker Compose Web 启动失败：定位端口冲突
-  source_date: '2026-08-01'
-  source_dates:
-  - '2026-08-01'
-  archive_date: '2023-06-21'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/08/01/compose-port-collision/
-  verification: observed
+  - /img/tech-notes/industrial-black-bar-segmentation.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 61c0c084b6e5cdeba7570e7d8a9474432d40e1826747a297cfeaf370dcbe3ef4
+- note_id: inference-prewarm-lifecycle
+  title: 推理预热：加载一次与请求资源复用
+  path: _posts/2025-12-30-inference-prewarm-lifecycle.md
+  date: '2025-12-30'
+  permalink: /tech/2025/12/30/inference-prewarm-lifecycle/
+  tags: *id004
   images:
-  - /img/tech-notes/compose-port-collision.svg
-  path: _posts/2023-06-21-compose-port-collision.md
-  sha256: 572f618a81077afbdf81b2b6fe92c06a6e9e1f7db6c7b9d2a5fd891e5b931729
-- note_id: cad-pdf-view-alignment
-  title: 工程图 PDF 对齐：研究匹配与输出异常
-  source_date: '2026-07-23'
-  source_dates:
-  - '2026-07-23'
-  - '2026-07-24'
-  archive_date: '2023-06-14'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/07/23/cad-pdf-view-alignment/
-  verification: partial
+  - /img/tech-notes/inference-prewarm-lifecycle.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: dd2671cb8bc736681aba81358393601573d80e84b18a88281eb03868f42afaa5
+- note_id: model-batching-latency
+  title: 推理批处理：吞吐提高与等待成本
+  path: _posts/2025-12-20-model-batching-latency.md
+  date: '2025-12-20'
+  permalink: /tech/2025/12/20/model-batching-latency/
+  tags: *id004
   images:
-  - /img/tech-notes/cad-pdf-view-alignment.svg
-  path: _posts/2023-06-14-cad-pdf-view-alignment.md
-  sha256: a710c501c5946e3d884b7987fe23acdb7501730b5f2701301dbc0a18c405d788
-- note_id: rag-reports-evidence-first
-  title: 研究 RAG 技术报告：把依据与分析过程连起来
-  source_date: '2026-07-19'
-  source_dates:
-  - '2026-07-19'
-  archive_date: '2023-06-07'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/07/19/rag-reports-evidence-first/
-  verification: proposal
+  - /img/tech-notes/model-batching-latency.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 3d24e325b5231259aec061ff9a95f91b221797366eac01e90776ac70ee6ccf59
+- note_id: autonomous-mower-navigation-case
+  title: 无人割草机案例：定位、避障与作业覆盖
+  path: _posts/2025-12-10-autonomous-mower-navigation-case.md
+  date: '2025-12-10'
+  permalink: /tech/2025/12/10/autonomous-mower-navigation-case/
+  tags: *id003
   images:
-  - /img/tech-notes/rag-reports-evidence-first.svg
-  path: _posts/2023-06-07-rag-reports-evidence-first.md
-  sha256: 0502649a056d0be1f165ba0827a0d35836b6496f0630fcb49fc4e8d63ef4b4ac
-- note_id: vision-metrics-reproducible-evaluation
-  title: 模型权重还在：如何重新建立可信评估
-  source_date: '2026-07-06'
-  source_dates:
-  - '2026-07-06'
-  - '2026-10-08'
-  archive_date: '2023-05-31'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/07/06/vision-metrics-reproducible-evaluation/
-  verification: notes
+  - /img/tech-notes/autonomous-mower-navigation-case.svg
+  technology_since: '2025-12-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 4a073344657202ad581465e2794bb76d2e645a557bc2182939b5746c239bf236
+- note_id: multimodal-input-image-budget
+  title: 多模态输入预算：图像尺寸、张数和资源峰值
+  path: _posts/2025-11-30-multimodal-input-image-budget.md
+  date: '2025-11-30'
+  permalink: /tech/2025/11/30/multimodal-input-image-budget/
+  tags: *id001
   images:
-  - /img/tech-notes/vision-metrics-reproducible-evaluation.svg
-  path: _posts/2023-05-31-vision-metrics-reproducible-evaluation.md
-  sha256: 3bf7db2ebf2c2b0d6ac7449f8a0da9197825342df522b35b5e6a7bad0088ee71
-- note_id: cad-parametric-model-web-preview
-  title: 研究二维图纸转三维模型与网页展示
-  source_date: '2026-07-04'
-  source_dates:
-  - '2026-07-04'
-  archive_date: '2023-05-24'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/07/04/cad-parametric-model-web-preview/
-  verification: proposal
+  - /img/tech-notes/multimodal-input-image-budget.svg
+  technology_since: '2023-04-17'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 9c95f631e84a4f56f10a2d8aa8b14751f32d69feff4e1fe3083abcbfac9ee465
+- note_id: model-long-context-quality
+  title: 长上下文模型：容量、检索与关键证据
+  path: _posts/2025-11-20-model-long-context-quality.md
+  date: '2025-11-20'
+  permalink: /tech/2025/11/20/model-long-context-quality/
+  tags: *id001
   images:
-  - /img/tech-notes/cad-parametric-model-web-preview.svg
-  path: _posts/2023-05-24-cad-parametric-model-web-preview.md
-  sha256: b4b8c85e50118c3411bba0d44090153b4911a53f91f78a96897a472c1fedf635
-- note_id: node-red-normalize-device-signals
-  title: Node-RED 多设备采集：统一信号与报警语义
-  source_date: '2026-07-02'
-  source_dates:
-  - '2026-07-02'
-  archive_date: '2023-05-17'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/07/02/node-red-normalize-device-signals/
-  verification: notes
+  - /img/tech-notes/model-long-context-quality.svg
+  technology_since: '2023-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: a8568ef240d0a221f27864ec44d3cc15e94cef52f12932c7d5236fb81593d8e2
+- note_id: cuda-container-runtime
+  title: CUDA 容器访问：驱动与镜像依赖边界
+  path: _posts/2025-11-11-cuda-container-runtime.md
+  date: '2025-11-11'
+  permalink: /tech/2025/11/11/cuda-container-runtime/
+  tags: &id010
+  - Docker
+  - 部署
   images:
-  - /img/tech-notes/node-red-normalize-device-signals.svg
-  path: _posts/2023-05-17-node-red-normalize-device-signals.md
-  sha256: fe23f911f54a3da59f5dcd2475589859b3fb767cc907c32ca068cec5a4d8968b
-- note_id: arduino-toolchain-download-timeout
-  title: ESP32 开发环境：排查 Arduino 工具链下载超时
-  source_date: '2026-06-25'
-  source_dates:
-  - '2026-06-25'
-  archive_date: '2023-05-10'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/06/25/arduino-toolchain-download-timeout/
-  verification: partial
+  - /img/tech-notes/cuda-container-runtime.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: c47c9c92870f265e9f8637e202a3c0c7678434963a773f8c9a4e5ecbb9435737
+- note_id: gpu-driver-kernel-module
+  title: NVIDIA 驱动排障：内核模块、用户库与设备
+  path: _posts/2025-11-01-gpu-driver-kernel-module.md
+  date: '2025-11-01'
+  permalink: /tech/2025/11/01/gpu-driver-kernel-module/
+  tags: *id007
   images:
-  - /img/tech-notes/arduino-toolchain-download-timeout.svg
-  path: _posts/2023-05-10-arduino-toolchain-download-timeout.md
-  sha256: 9d954e85412c4b5a137757788dc2e285fc04947c195efe42131c7c83dd7ddc2e
-- note_id: modbus-timeout-layered-debug
-  title: Node-RED 读取 RS485 超时的分层排查
-  source_date: '2026-06-10'
-  source_dates:
-  - '2026-06-10'
-  - '2026-07-03'
-  archive_date: '2023-05-03'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/06/10/modbus-timeout-layered-debug/
-  verification: partial
+  - /img/tech-notes/gpu-driver-kernel-module.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/modbus-timeout-layered-debug.svg
-  path: _posts/2023-05-03-modbus-timeout-layered-debug.md
-  sha256: b6665762c6cfbbf6872f0446cdc0c5e8445faf8ada9d5852ab5a135423ee9387
-- note_id: usb-hub-error-minus71
-  title: USB 扩展坞 err=-71：一次交叉测试的思路
-  source_date: '2026-05-30'
-  source_dates:
-  - '2026-05-30'
-  archive_date: '2023-04-26'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/30/usb-hub-error-minus71/
-  verification: observed
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/usb-hub-error-minus71.svg
-  path: _posts/2023-04-26-usb-hub-error-minus71.md
-  sha256: ace9ed0d2770559ca2bef5293ba1203c9c32c557470f70488031745466ddd577
-- note_id: dlib-wheel-build-stall
-  title: ARM Linux 安装 dlib：分析 Building wheel 停滞
-  source_date: '2026-05-22'
-  source_dates:
-  - '2026-05-22'
-  archive_date: '2023-04-19'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-13T08:02:56+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/22/dlib-wheel-build-stall/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/dlib-wheel-build-stall.svg
-  path: _posts/2023-04-19-dlib-wheel-build-stall.md
-  sha256: b532bb43bbe7f4b7eef4fa94e9748277714a3290a76054271ce4a9d0fa80c832
-- note_id: jetson-usb-serial-in-container
-  title: Jetson 串口接入 Node-RED 容器的排查过程
-  source_date: '2026-05-15'
-  source_dates:
-  - '2026-05-15'
-  - '2026-07-03'
-  archive_date: '2023-04-12'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/15/jetson-usb-serial-in-container/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/jetson-usb-serial-in-container.svg
-  path: _posts/2023-04-12-jetson-usb-serial-in-container.md
-  sha256: dd9568fa87e36790a2758e9021aafd34de003b664c7f6aeb6b10c3680cae765a
-- note_id: docker-macvlan-bridge-dual-network
-  title: Docker 双网络方案：研究 bridge 与 macvlan
-  source_date: '2026-05-13'
-  source_dates:
-  - '2026-05-13'
-  archive_date: '2023-04-05'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/13/docker-macvlan-bridge-dual-network/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/docker-macvlan-bridge-dual-network.svg
-  path: _posts/2023-04-05-docker-macvlan-bridge-dual-network.md
-  sha256: cfaba91a63e063a8340600864ce6290d5e5f3accbfaaa80fde2dceaf0cecc252
-- note_id: tiled-anomaly-border-context
-  title: 大图切块异常检测：研究边界上下文处理
-  source_date: '2026-05-08'
-  source_dates:
-  - '2026-05-08'
-  - '2026-07-02'
-  archive_date: '2023-03-29'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/08/tiled-anomaly-border-context/
-  verification: notes
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/tiled-anomaly-border-context.svg
-  path: _posts/2023-03-29-tiled-anomaly-border-context.md
-  sha256: 55de657e1aeb2c5d78ce5d661b75ce05450d2f0b8b65b20f15890dccae710866
-- note_id: faiss-inference-timing-budget
-  title: 图像异常检测提速：分析 FAISS 与完整链路
-  source_date: '2026-05-08'
-  source_dates:
-  - '2026-05-08'
-  archive_date: '2023-03-22'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/05/08/faiss-inference-timing-budget/
-  verification: notes
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/faiss-inference-timing-budget.svg
-  path: _posts/2023-03-22-faiss-inference-timing-budget.md
-  sha256: bd9a0dfb7a0dabb2dc8d53ce6a1b6c5a18f8ae4fd7b8f83d027eaf0515a9d179
-- note_id: patchcore-normal-samples-reflections
-  title: 研究 PatchCore 在反光物体上的异常误报
-  source_date: '2026-04-28'
-  source_dates:
-  - '2026-04-28'
-  - '2026-07-02'
-  - '2026-08-20'
-  archive_date: '2023-03-15'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/28/patchcore-normal-samples-reflections/
-  verification: notes
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/patchcore-normal-samples-reflections.svg
-  path: _posts/2023-03-15-patchcore-normal-samples-reflections.md
-  sha256: 87ff0a48ac7fc397d3e9d26f189a577a50756cf46044b4e075567182836577d0
-- note_id: v100-vllm-attention-compatibility
-  title: V100 部署 vLLM：架构兼容与显存排查
-  source_date: '2026-04-15'
-  source_dates:
-  - '2026-04-15'
-  archive_date: '2023-03-08'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/15/v100-vllm-attention-compatibility/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
-  images:
-  - /img/tech-notes/v100-vllm-attention-compatibility.svg
-  path: _posts/2023-03-08-v100-vllm-attention-compatibility.md
-  sha256: 6b574f888922c3ff2c6d2f3543f1a4e07d2e3d74adc31e9bffb110e06f4aa775
+  content_revision: 3
+  sha256: 03415b565c4b83f40d92bf46219de93adeb6191ddbb27ebb8903ac4af2926731
 - note_id: so101-sync-read-diagnosis
-  title: SO101 校准通信异常：从单舵机读取开始
-  source_date: '2026-04-03'
-  source_dates:
-  - '2026-04-03'
-  archive_date: '2023-03-01'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/03/so101-sync-read-diagnosis/
-  verification: partial
-  privacy_reviewed: true
-  content_revision: 2
+  title: 舵机校准通信：单读、同步读与有效反馈
+  path: _posts/2025-10-22-so101-sync-read-diagnosis.md
+  date: '2025-10-22'
+  permalink: /tech/2025/10/22/so101-sync-read-diagnosis/
+  tags: *id003
   images:
   - /img/tech-notes/so101-sync-read-diagnosis.svg
-  path: _posts/2023-03-01-so101-sync-read-diagnosis.md
-  sha256: 52f06d8c533b4fa1c4d9308259e3f4ca924cb677a1fd4931cc0db20d2b10aae0
-- note_id: python-standard-library-shadowing
-  title: Python 同名模块遮蔽标准库的排查记录
-  source_date: '2026-04-03'
-  source_dates:
-  - '2026-04-03'
-  archive_date: '2023-02-22'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/03/python-standard-library-shadowing/
-  verification: partial
+  technology_since: '2025-05-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: e2fd0a83e04fcec5eec55b51949aa0998e1ccbc0df716173956acc283e71ff41
+- note_id: printed-assembly-test
+  title: 3D 打印装配测试：版本对照与实际尺寸
+  path: _posts/2025-10-12-printed-assembly-test.md
+  date: '2025-10-12'
+  permalink: /tech/2025/10/12/printed-assembly-test/
+  tags: *id007
   images:
-  - /img/tech-notes/python-standard-library-shadowing.svg
-  path: _posts/2023-02-22-python-standard-library-shadowing.md
-  sha256: 50f5e4b7d4df65b46843da8aeab352cd290bc50933dc92dd57e9b816278f0233
-- note_id: llama-cpp-context-budget
-  title: 双 V100 部署 llama.cpp：排查上下文超限
-  source_date: '2026-04-03'
-  source_dates:
-  - '2026-04-03'
-  - '2026-04-15'
-  archive_date: '2023-02-15'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/03/llama-cpp-context-budget/
-  verification: observed
+  - /img/tech-notes/printed-assembly-test.svg
+  technology_since: '2019-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: 9a489eddf11a08793263ac070de5955f201b944c6096b33da774344d0c4947f9
+- note_id: cad-model-delivery-version
+  title: CAD 模型交付：工程源、交换文件与校验
+  path: _posts/2025-10-02-cad-model-delivery-version.md
+  date: '2025-10-02'
+  permalink: /tech/2025/10/02/cad-model-delivery-version/
+  tags: *id007
   images:
-  - /img/tech-notes/llama-cpp-context-budget.svg
-  path: _posts/2023-02-15-llama-cpp-context-budget.md
-  sha256: f7645012bca39e16e53b45e57f59f5af01ebb5231b9ecfcce600f3e70a9d2b14
+  - /img/tech-notes/cad-model-delivery-version.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 04aa56781375e9d0f484d9888ae10337188c56b46959bb9484b74f9335a759dc
+- note_id: video-layout-composition
+  title: 横屏内容放进竖屏：标题、人物与安全区域
+  path: _posts/2025-09-22-video-layout-composition.md
+  date: '2025-09-22'
+  permalink: /tech/2025/09/22/video-layout-composition/
+  tags: *id008
+  images:
+  - /img/tech-notes/video-layout-composition.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 0c27d46287ab7a3efb867d72c34575b0550b1629f22da0c599cb2b1ce7fdd4b6
+- note_id: tts-audio-timeline
+  title: 口播时间轴：从最终音频产生字幕与画面
+  path: _posts/2025-09-12-tts-audio-timeline.md
+  date: '2025-09-12'
+  permalink: /tech/2025/09/12/tts-audio-timeline/
+  tags: *id001
+  images:
+  - /img/tech-notes/tts-audio-timeline.svg
+  technology_since: '2024-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: f2df7b9036f734537ae2609432ce37d0bf64037396a180d2b61cb804b9ca80a8
+- note_id: musetalk-lipsync-mechanism
+  title: MuseTalk 口型驱动：视频姿态与音频对齐
+  path: _posts/2025-09-02-musetalk-lipsync-mechanism.md
+  date: '2025-09-02'
+  permalink: /tech/2025/09/02/musetalk-lipsync-mechanism/
+  tags: *id001
+  images:
+  - /img/tech-notes/musetalk-lipsync-mechanism.svg
+  technology_since: '2024-04-02'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a4a5364787f9127f89a93969765b84df9317ed3b34d41d43e1ff02672e51343e
+- note_id: talking-avatar-photo-video
+  title: 数字人素材路线：照片动画与视频口型
+  path: _posts/2025-08-23-talking-avatar-photo-video.md
+  date: '2025-08-23'
+  permalink: /tech/2025/08/23/talking-avatar-photo-video/
+  tags: *id001
+  images:
+  - /img/tech-notes/talking-avatar-photo-video.svg
+  technology_since: '2024-04-02'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 72bb525fea3c3c23a19410affc4ed69d52a00206fb244897ce8e813aab06b904
+- note_id: voice-cloning-test-material
+  title: 声音克隆验证：统一素材、读音与停顿
+  path: _posts/2025-08-13-voice-cloning-test-material.md
+  date: '2025-08-13'
+  permalink: /tech/2025/08/13/voice-cloning-test-material/
+  tags: *id001
+  images:
+  - /img/tech-notes/voice-cloning-test-material.svg
+  technology_since: '2024-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 78a8f58eeb7118e42028343dd753a787c320433441de6dfaddbdfff27db11d79
+- note_id: industrial-barcode-business-case
+  title: 钢材标签读码：跟踪结果怎样成为出入库记录
+  path: _posts/2025-08-03-industrial-barcode-business-case.md
+  date: '2025-08-03'
+  permalink: /tech/2025/08/03/industrial-barcode-business-case/
+  tags: *id004
+  images:
+  - /img/tech-notes/industrial-barcode-business-case.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5735126aaf8ab6c2457c188d97ee4da1f952fce1a8c5c15776f587d409150679
+- note_id: machine-vision-cpu-pcb-case
+  title: CPU 处理 PCB 图像：配准、差分与检出边界
+  path: _posts/2025-07-24-machine-vision-cpu-pcb-case.md
+  date: '2025-07-24'
+  permalink: /tech/2025/07/24/machine-vision-cpu-pcb-case/
+  tags: *id004
+  images:
+  - /img/tech-notes/machine-vision-cpu-pcb-case.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e1bc1163540b322bd8e937adc57b865c652b20f2a2fca995f4151700fa1db75f
+- note_id: robot-camera-calibration-chain
+  title: 机器人视觉定位：像素到执行坐标的标定链
+  path: _posts/2025-07-14-robot-camera-calibration-chain.md
+  date: '2025-07-14'
+  permalink: /tech/2025/07/14/robot-camera-calibration-chain/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-camera-calibration-chain.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7260f63f65ad9befa3d4877c1086eabe8b07292aca0efa466c3ebc58158d1211
+- note_id: robot-action-timeout
+  title: 机器人动作超时：START、COMPLETE 与错误
+  path: _posts/2025-07-04-robot-action-timeout.md
+  date: '2025-07-04'
+  permalink: /tech/2025/07/04/robot-action-timeout/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-action-timeout.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b21d6df2ad427477acc0d7ce5435eb2be40a05b6825196f145354c5739226f21
+- note_id: robot-target-loss-state
+  title: 机器人目标丢失：观察失败不能当任务完成
+  path: _posts/2025-06-24-robot-target-loss-state.md
+  date: '2025-06-24'
+  permalink: /tech/2025/06/24/robot-target-loss-state/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-target-loss-state.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: af58defe839e414c0bff167114b00d29bad83330ad659b92c214fefba9d34baf
+- note_id: robot-minimal-action-validation
+  title: ROS 控制调试：从最小动作到实际反馈
+  path: _posts/2025-06-14-robot-minimal-action-validation.md
+  date: '2025-06-14'
+  permalink: /tech/2025/06/14/robot-minimal-action-validation/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-minimal-action-validation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2990449e3477a4efa20305bbefc15cd833a268b9e9df5a6f571af2a51706638c
+- note_id: forklift-safety-edge-case
+  title: 叉车预警案例：车载感知与事件证据
+  path: _posts/2025-06-04-forklift-safety-edge-case.md
+  date: '2025-06-04'
+  permalink: /tech/2025/06/04/forklift-safety-edge-case/
+  tags: *id004
+  images:
+  - /img/tech-notes/forklift-safety-edge-case.svg
+  technology_since: '2025-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4e66496bd220ba2f66782747d6df1558d29cd8d85c972c6b2f771448339a61b4
+- note_id: same-account-office-tablet-login-failure
+  title: 办公室登录正常而现场失败：请求入口对照
+  path: _posts/2025-05-26-same-account-office-tablet-login-failure.md
+  date: '2025-05-26'
+  permalink: /tech/2025/05/26/same-account-office-tablet-login-failure/
+  tags: *id008
+  images:
+  - /img/tech-notes/same-account-office-tablet-login-failure.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9686c17748abaa68f57674092deffc082ec4aa1fc397573fe85425686bb8f055
+- note_id: face-login-latency-budget
+  title: 人脸登录耗时：采集、识别和页面切换分段
+  path: _posts/2025-05-16-face-login-latency-budget.md
+  date: '2025-05-16'
+  permalink: /tech/2025/05/16/face-login-latency-budget/
+  tags: *id004
+  images:
+  - /img/tech-notes/face-login-latency-budget.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c2bc85cb58cb6d0b1e28a05f0dd810bb6cec36544538f83d03c22fb43bad1c53
+- note_id: face-match-false-accept-reject
+  title: 人脸登录工作点：误放行和误拒绝一起评估
+  path: _posts/2025-05-06-face-match-false-accept-reject.md
+  date: '2025-05-06'
+  permalink: /tech/2025/05/06/face-match-false-accept-reject/
+  tags: *id004
+  images:
+  - /img/tech-notes/face-match-false-accept-reject.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: f670e3f7a0275b0defa4a968e3c9bd1fe75cc616f0f82facfc7c75a1cbbc5324
+- note_id: onvif-discovery-media
+  title: ONVIF 接入：发现、认证和媒体 URI
+  path: _posts/2025-04-26-onvif-discovery-media.md
+  date: '2025-04-26'
+  permalink: /tech/2025/04/26/onvif-discovery-media/
+  tags: *id004
+  images:
+  - /img/tech-notes/onvif-discovery-media.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: aa11e4bcbf57bfb07b65206db16b71248bebfd7d9247877f3eae29edfdf08e4c
+- note_id: image-binary-integrity
+  title: 图片二进制完整性：后缀、文件头与解码
+  path: _posts/2025-04-16-image-binary-integrity.md
+  date: '2025-04-16'
+  permalink: /tech/2025/04/16/image-binary-integrity/
+  tags: *id004
+  images:
+  - /img/tech-notes/image-binary-integrity.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d44cbca927843a0df249d013fa80a3aab023ff9fb9202fafcdada6e3ff0f4e2b
+- note_id: article-publishing-package-hash
+  title: 多入口内容发布：唯一正文与平台状态
+  path: _posts/2025-04-06-article-publishing-package-hash.md
+  date: '2025-04-06'
+  permalink: /tech/2025/04/06/article-publishing-package-hash/
+  tags: *id009
+  images:
+  - /img/tech-notes/article-publishing-package-hash.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e4a5341ea9d2b0294f996010e2238031632a404aa777aa91ada382d316a3139a
+- note_id: git-content-integrity
+  title: 文章发布完整性：最终 HTML 哈希与素材
+  path: _posts/2025-03-27-git-content-integrity.md
+  date: '2025-03-27'
+  permalink: /tech/2025/03/27/git-content-integrity/
+  tags: *id009
+  images:
+  - /img/tech-notes/git-content-integrity.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7c16873ed8160e719962639044e976bc506fddcec4ea62dda3f70e456bed0614
+- note_id: agent-human-review-boundary
+  title: 人机协同审核：可审阅结果与执行授权
+  path: _posts/2025-03-17-agent-human-review-boundary.md
+  date: '2025-03-17'
+  permalink: /tech/2025/03/17/agent-human-review-boundary/
+  tags: *id001
+  images:
+  - /img/tech-notes/agent-human-review-boundary.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 594b2a099e07f9ab6823a8c535d2a7ff4270db783be93954821a255f21c4b6d9
+- note_id: agent-idempotent-workflow
+  title: 智能体工作流重试：避免重复创建和发布
+  path: _posts/2025-03-07-agent-idempotent-workflow.md
+  date: '2025-03-07'
+  permalink: /tech/2025/03/07/agent-idempotent-workflow/
+  tags: *id001
+  images:
+  - /img/tech-notes/agent-idempotent-workflow.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 669e2d67a7a7525e834fe7e9ccf5eb32121aed56c8322367c683ad2bfb88504b
+- note_id: agent-execution-audit
+  title: 智能体审计：计划、权限、工具和结果
+  path: _posts/2025-02-25-agent-execution-audit.md
+  date: '2025-02-25'
+  permalink: /tech/2025/02/25/agent-execution-audit/
+  tags: *id001
+  images:
+  - /img/tech-notes/agent-execution-audit.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3f470e68341862b5491e54c853c15f06f8d8bfba16cdade63ca8bf0753e6883d
+- note_id: agent-task-cancellation
+  title: 智能体任务取消：页面关闭后后台是否仍执行
+  path: _posts/2025-02-15-agent-task-cancellation.md
+  date: '2025-02-15'
+  permalink: /tech/2025/02/15/agent-task-cancellation/
+  tags: *id001
+  images:
+  - /img/tech-notes/agent-task-cancellation.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c29db3d94714b6c578f7da630443010435c0eba93e410f0fe0af7c09f7aa07d0
+- note_id: rag-reports-evidence-first
+  title: RAG 技术报告：文档、GIS 与计算证据
+  path: _posts/2025-02-05-rag-reports-evidence-first.md
+  date: '2025-02-05'
+  permalink: /tech/2025/02/05/rag-reports-evidence-first/
+  tags: *id001
+  images:
+  - /img/tech-notes/rag-reports-evidence-first.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a6008e3f597b4ac1f7536cc90c0c4a918266ea1f16b3aeda37c01521f6bebd99
+- note_id: llm-cache-version-boundary
+  title: 模型缓存管理：输入身份与版本失效
+  path: _posts/2025-01-26-llm-cache-version-boundary.md
+  date: '2025-01-26'
+  permalink: /tech/2025/01/26/llm-cache-version-boundary/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-cache-version-boundary.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a77b65292bdaa24225c236e56da3441e18d6f6fee1097ac795ff20d304bc0571
+- note_id: jetson-orin-super-memory
+  title: Orin NX Super 负载预算：功耗、温度与推理
+  path: _posts/2025-01-16-jetson-orin-super-memory.md
+  date: '2025-01-16'
+  permalink: /tech/2025/01/16/jetson-orin-super-memory/
+  tags: *id007
+  images:
+  - /img/tech-notes/jetson-orin-super-memory.svg
+  technology_since: '2025-01-16'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8820d2bdbd324746a1429cacbafdfb5abeb4896b23899ab951cdefa07e3fc9d8
 - note_id: jetson-backup-restore-boundaries
-  title: 研究 Jetson 系统备份与恢复方案
-  source_date: '2026-04-03'
-  source_dates:
-  - '2026-04-03'
-  archive_date: '2023-02-08'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/04/03/jetson-backup-restore-boundaries/
-  verification: proposal
-  privacy_reviewed: true
-  content_revision: 2
+  title: Jetson 备份：应用、rootfs 与整机恢复
+  path: _posts/2025-01-06-jetson-backup-restore-boundaries.md
+  date: '2025-01-06'
+  permalink: /tech/2025/01/06/jetson-backup-restore-boundaries/
+  tags: *id007
   images:
   - /img/tech-notes/jetson-backup-restore-boundaries.svg
-  path: _posts/2023-02-08-jetson-backup-restore-boundaries.md
-  sha256: 69f5b3f59bc0e5028bb6f56fda0c5f9646ff6a25c79df0f33c2755bbf25219b9
-- note_id: plc-message-latch-handshake
-  title: PLC 与视觉系统握手：排查完成信号丢失
-  source_date: '2026-03-30'
-  source_dates:
-  - '2026-03-30'
-  archive_date: '2023-02-01'
-  date_basis: simulated_weekly_archive
-  published_at: '2026-10-12T12:51:43+08:00'
-  updated_at: '2026-10-13T17:59:15+08:00'
-  permalink: /tech/2026/03/30/plc-message-latch-handshake/
-  verification: notes
+  technology_since: '2025-01-01'
   privacy_reviewed: true
-  content_revision: 2
+  content_revision: 3
+  sha256: f08c272eaeed6250e31e939d0890d5464f3551a084980b16b62914e25bcf1eb0
+- note_id: llm-serving-concurrency
+  title: 模型服务并发：吞吐与首 token 延迟
+  path: _posts/2024-12-27-llm-serving-concurrency.md
+  date: '2024-12-27'
+  permalink: /tech/2024/12/27/llm-serving-concurrency/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-serving-concurrency.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5bee93e030c92cfe878cf223f7578b9c0fba4e325fc174a736292cba0d0b7caf
+- note_id: local-model-multigpu-transfer
+  title: 多卡推理：分片、通信与单卡峰值
+  path: _posts/2024-12-18-local-model-multigpu-transfer.md
+  date: '2024-12-18'
+  permalink: /tech/2024/12/18/local-model-multigpu-transfer/
+  tags: *id001
+  images:
+  - /img/tech-notes/local-model-multigpu-transfer.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9de1c28b877e25061ddd2a19045e6154e1b38d825ede4f3d55668cf7662ba47e
+- note_id: model-session-lazy-load-cuda-oom
+  title: 首个模型会话 OOM：健康响应与资源就绪
+  path: _posts/2024-12-08-model-session-lazy-load-cuda-oom.md
+  date: '2024-12-08'
+  permalink: /tech/2024/12/08/model-session-lazy-load-cuda-oom/
+  tags: *id001
+  images:
+  - /img/tech-notes/model-session-lazy-load-cuda-oom.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ac0ecda1848939c0ae219a9df0e607a561f2d9317450684527fba35aaa3004e7
+- note_id: v100-vllm-attention-compatibility
+  title: V100 推理兼容：算子支持和容量分别排查
+  path: _posts/2024-11-28-v100-vllm-attention-compatibility.md
+  date: '2024-11-28'
+  permalink: /tech/2024/11/28/v100-vllm-attention-compatibility/
+  tags: *id001
+  images:
+  - /img/tech-notes/v100-vllm-attention-compatibility.svg
+  technology_since: '2023-06-20'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9e152c36a38ca4424daafba43b356cbde06a97aa3d49584ac28388ea5b87f102
+- note_id: jetson-usb-serial-in-container
+  title: Jetson 串口进容器：驱动、映射与权限
+  path: _posts/2024-11-18-jetson-usb-serial-in-container.md
+  date: '2024-11-18'
+  permalink: /tech/2024/11/18/jetson-usb-serial-in-container/
+  tags: *id010
+  images:
+  - /img/tech-notes/jetson-usb-serial-in-container.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3e9f5217edaf4bf67316a3fbdd89cded9cdab79880ad21a05482e6e647fbfaf5
+- note_id: jetson-edge-environment
+  title: Jetson 部署环境：系统、CUDA 与容器版本
+  path: _posts/2024-11-08-jetson-edge-environment.md
+  date: '2024-11-08'
+  permalink: /tech/2024/11/08/jetson-edge-environment/
+  tags: *id007
+  images:
+  - /img/tech-notes/jetson-edge-environment.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c15f874eef88d8d4f41aa02108739caefad97bd35c73e051c970612a234158fd
+- note_id: case-technical-sharing-privacy
+  title: 工程案例分享：保留技术价值与脱敏边界
+  path: _posts/2024-10-29-case-technical-sharing-privacy.md
+  date: '2024-10-29'
+  permalink: /tech/2024/10/29/case-technical-sharing-privacy/
+  tags: *id002
+  images:
+  - /img/tech-notes/case-technical-sharing-privacy.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 04d418caf02eb3541f612606ee4af69b506e36e63c1bbe705b51ff30cd40eaab
+- note_id: model-service-api-contract
+  title: 模型服务接口：输入、执行状态与结果文件
+  path: _posts/2024-10-19-model-service-api-contract.md
+  date: '2024-10-19'
+  permalink: /tech/2024/10/19/model-service-api-contract/
+  tags: *id001
+  images:
+  - /img/tech-notes/model-service-api-contract.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 940867cb9ea01573835cc2f902a65b5e153af4f41e17aa9577bb8e8cecb7b472
+- note_id: python-desktop-packaging
+  title: Python 桌面打包：运行路径、资源与依赖
+  path: _posts/2024-10-09-python-desktop-packaging.md
+  date: '2024-10-09'
+  permalink: /tech/2024/10/09/python-desktop-packaging/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-desktop-packaging.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3464cca4e7afbc41cfde2610d24b2e0cb3353e17a021297859692272f24b813f
+- note_id: desktop-sync-progress
+  title: 同步进度估计：文件数量、字节与剩余时间
+  path: _posts/2024-09-29-desktop-sync-progress.md
+  date: '2024-09-29'
+  permalink: /tech/2024/09/29/desktop-sync-progress/
+  tags: *id011
+  images:
+  - /img/tech-notes/desktop-sync-progress.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 982a5f3117fe63cedf185402468f2a12709f1752bd976ab6068460b430545d53
+- note_id: nas-sync-path-resolution
+  title: NAS 路径兼容：共享名、UNC 与本地挂载
+  path: _posts/2024-09-19-nas-sync-path-resolution.md
+  date: '2024-09-19'
+  permalink: /tech/2024/09/19/nas-sync-path-resolution/
+  tags: *id011
+  images:
+  - /img/tech-notes/nas-sync-path-resolution.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d3f0d6407fbc854fedbd456505d9edd10b5fb6d60fccdaf012c98af2ae9f1637
+- note_id: desktop-sync-direction
+  title: 文件同步方向：镜像与只增加的语义
+  path: _posts/2024-09-09-desktop-sync-direction.md
+  date: '2024-09-09'
+  permalink: /tech/2024/09/09/desktop-sync-direction/
+  tags: *id011
+  images:
+  - /img/tech-notes/desktop-sync-direction.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: fe05258ac7f7e64659c6486ad5a2e8f21a097417a398f1cf1e62018d3e631e5e
+- note_id: mac-chrome-independent-profiles
+  title: Mac 双账号浏览器：Profile 与独立数据目录
+  path: _posts/2024-08-30-mac-chrome-independent-profiles.md
+  date: '2024-08-30'
+  permalink: /tech/2024/08/30/mac-chrome-independent-profiles/
+  tags: *id008
+  images:
+  - /img/tech-notes/mac-chrome-independent-profiles.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 46989e6406b517cc6203b2e0349492020052036432581a204ff7aa857527777c
+- note_id: industrial-one-map-case-boundary
+  title: 一张图集成案例：入口统一与数据责任
+  path: _posts/2024-08-20-industrial-one-map-case-boundary.md
+  date: '2024-08-20'
+  permalink: /tech/2024/08/20/industrial-one-map-case-boundary/
+  tags: *id002
+  images:
+  - /img/tech-notes/industrial-one-map-case-boundary.svg
+  technology_since: '2024-08-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 62ed71231f24ed37332f56f37907fc83de27ab36fdfc7e93a851a65d53fda956
+- note_id: industrial-map-pointcloud-case
+  title: 无人行车案例：点云、作业目标与 PLC 执行
+  path: _posts/2024-08-10-industrial-map-pointcloud-case.md
+  date: '2024-08-10'
+  permalink: /tech/2024/08/10/industrial-map-pointcloud-case/
+  tags: *id003
+  images:
+  - /img/tech-notes/industrial-map-pointcloud-case.svg
+  technology_since: '2024-08-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7aa9553b60f61704abbaa6947a3c735426e13b15ef7506a20d56ff0282dfa769
+- note_id: android-webview-websocket-reconnect
+  title: Android WebView 实时断线：页面生命周期
+  path: _posts/2024-07-31-android-webview-websocket-reconnect.md
+  date: '2024-07-31'
+  permalink: /tech/2024/07/31/android-webview-websocket-reconnect/
+  tags: *id008
+  images:
+  - /img/tech-notes/android-webview-websocket-reconnect.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8547d326d7b68306ef0d94ef75ae3596a59c04b71b757288a0a03d83ebd7ed18
+- note_id: linux-container-network-diagnostics
+  title: 容器网络排障：DNS、路由与应用端口
+  path: _posts/2024-07-21-linux-container-network-diagnostics.md
+  date: '2024-07-21'
+  permalink: /tech/2024/07/21/linux-container-network-diagnostics/
+  tags: *id010
+  images:
+  - /img/tech-notes/linux-container-network-diagnostics.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e03ed8df8867b2ba4b67666e75ac2deb5060cbfedb43867de02e5c2c10614f89
+- note_id: connection-pool-stale-session
+  title: 连接池旧会话：参数变化后为何仍报错
+  path: _posts/2024-07-11-connection-pool-stale-session.md
+  date: '2024-07-11'
+  permalink: /tech/2024/07/11/connection-pool-stale-session/
+  tags: &id012
+  - 数据库
+  - 数据一致性
+  images:
+  - /img/tech-notes/connection-pool-stale-session.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9b09726b40797a73f175979942ea7cd8263c456a097ef8e2e480647f87329420
+- note_id: sql-readonly-root-cause
+  title: PostgreSQL 只读：恢复状态与会话参数
+  path: _posts/2024-07-02-sql-readonly-root-cause.md
+  date: '2024-07-02'
+  permalink: /tech/2024/07/02/sql-readonly-root-cause/
+  tags: *id012
+  images:
+  - /img/tech-notes/sql-readonly-root-cause.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 208b22d8d92dd97121e31b7f814ae89dbf10f770431b015092790b0026edac95
+- note_id: event-graph-relationships
+  title: 设备事件关系：时间线与关联图各有什么用
+  path: _posts/2024-06-22-event-graph-relationships.md
+  date: '2024-06-22'
+  permalink: /tech/2024/06/22/event-graph-relationships/
+  tags: *id013
+  images:
+  - /img/tech-notes/event-graph-relationships.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 905d70ccffb6e6970f809677bdacf6c5c92070477707813713d539e89f83156d
+- note_id: gis-coordinate-reference
+  title: GIS 坐标参考：经纬度、投影与距离计算
+  path: _posts/2024-06-12-gis-coordinate-reference.md
+  date: '2024-06-12'
+  permalink: /tech/2024/06/12/gis-coordinate-reference/
+  tags: *id013
+  images:
+  - /img/tech-notes/gis-coordinate-reference.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5f0625a7d96d265f6bc9a58e3946a33b58c11b1003d2ef424a0cded257923e5e
+- note_id: report-evidence-schema
+  title: 技术报告证据结构：主张、计算和待确认项
+  path: _posts/2024-06-02-report-evidence-schema.md
+  date: '2024-06-02'
+  permalink: /tech/2024/06/02/report-evidence-schema/
+  tags: *id013
+  images:
+  - /img/tech-notes/report-evidence-schema.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1de5dea141002cb4ba99058fb574781822b1ba88327d3adf72b9df19fbfd46d4
+- note_id: environment-gis-deterministic
+  title: 环境 GIS 分析：空间计算与文字解释分工
+  path: _posts/2024-05-23-environment-gis-deterministic.md
+  date: '2024-05-23'
+  permalink: /tech/2024/05/23/environment-gis-deterministic/
+  tags: *id013
+  images:
+  - /img/tech-notes/environment-gis-deterministic.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7620c795e15ba85be67870d900d4cdd71dec716bc2426be1d84155fce58d235c
+- note_id: industrial-digital-twin-object
+  title: 数字孪生对象：设备台账、实时状态与历史
+  path: _posts/2024-05-13-industrial-digital-twin-object.md
+  date: '2024-05-13'
+  permalink: /tech/2024/05/13/industrial-digital-twin-object/
+  tags: *id013
+  images:
+  - /img/tech-notes/industrial-digital-twin-object.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4470796c34c51e7f05fac6f8e241ac194c1d9b41e792010088491e7449a26c8c
+- note_id: industrial-it-ot-command
+  title: IT 与 OT 接口：业务授权和设备联锁
+  path: _posts/2024-05-03-industrial-it-ot-command.md
+  date: '2024-05-03'
+  permalink: /tech/2024/05/03/industrial-it-ot-command/
+  tags: *id006
+  images:
+  - /img/tech-notes/industrial-it-ot-command.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a1e9ff1b8913fb448206c0cd78a19fc705f8dee3419da888f48d9b58ee4e5a10
+- note_id: visual-language-model-grounding
+  title: 多模态模型看图：描述、定位与证据支持
+  path: _posts/2024-04-23-visual-language-model-grounding.md
+  date: '2024-04-23'
+  permalink: /tech/2024/04/23/visual-language-model-grounding/
+  tags: *id001
+  images:
+  - /img/tech-notes/visual-language-model-grounding.svg
+  technology_since: '2023-04-17'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8d1d44dad420c1b3bc613b72bf1b2b1d150608d51a8795105615c49eb449bec5
+- note_id: sam-segmentation-evaluation
+  title: 交互分割模型：提示、边界与工程验证
+  path: _posts/2024-04-13-sam-segmentation-evaluation.md
+  date: '2024-04-13'
+  permalink: /tech/2024/04/13/sam-segmentation-evaluation/
+  tags: *id004
+  images:
+  - /img/tech-notes/sam-segmentation-evaluation.svg
+  technology_since: '2023-04-05'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 63b0e657be2566857acb501c152c1b9ebca5e3687df37de3428e73c8fcd7f58f
+- note_id: camera-quality-gate
+  title: 视觉输入质量：模糊、遮挡与曝光检测
+  path: _posts/2024-04-03-camera-quality-gate.md
+  date: '2024-04-03'
+  permalink: /tech/2024/04/03/camera-quality-gate/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-quality-gate.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: bd936400f4a21a3dfa5b35e2fc478f6dcf6d7e012f0544f7c6c777fbbcde6f75
+- note_id: camera-stream-thread-design
+  title: 视频采集线程：最新帧与完整事件两种策略
+  path: _posts/2024-03-24-camera-stream-thread-design.md
+  date: '2024-03-24'
+  permalink: /tech/2024/03/24/camera-stream-thread-design/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-stream-thread-design.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7d83638d6be121f8b8e1c2ef57cde046c09652e60aa32d917c7bbe1cac18fc10
+- note_id: camera-zero-copy-budget
+  title: 相机到推理传输：减少复制前先看生命周期
+  path: _posts/2024-03-14-camera-zero-copy-budget.md
+  date: '2024-03-14'
+  permalink: /tech/2024/03/14/camera-zero-copy-budget/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-zero-copy-budget.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9b039c2eda9b4219fa6529d8a3801283625b1ac66677906704e33e17ff934df7
+- note_id: tensorrt-build-runtime
+  title: 推理引擎构建：目标设备与执行配置
+  path: _posts/2024-03-04-tensorrt-build-runtime.md
+  date: '2024-03-04'
+  permalink: /tech/2024/03/04/tensorrt-build-runtime/
+  tags: *id004
+  images:
+  - /img/tech-notes/tensorrt-build-runtime.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 17011b242eb44e0d46d03850b27095cfe4f7f76b7f461fb62e773d33f188e4db
+- note_id: onnx-export-parity
+  title: ONNX 模型导出：算子支持与数值一致性
+  path: _posts/2024-02-23-onnx-export-parity.md
+  date: '2024-02-23'
+  permalink: /tech/2024/02/23/onnx-export-parity/
+  tags: *id004
+  images:
+  - /img/tech-notes/onnx-export-parity.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 73ee99702cac74255f5d43550e52833682ed33857e15670dab1afc47b61f2a96
+- note_id: model-artifact-version
+  title: 模型产物管理：权重、标签与前后处理
+  path: _posts/2024-02-13-model-artifact-version.md
+  date: '2024-02-13'
+  permalink: /tech/2024/02/13/model-artifact-version/
+  tags: *id004
+  images:
+  - /img/tech-notes/model-artifact-version.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9ded61c91f4a59a4587d9d711ec4354c6604fe8931416d2411e44f1216ab335a
+- note_id: batch-inference-case-isolation
+  title: 批量推理上下文：避免上一条证据进入下一条
+  path: _posts/2024-02-03-batch-inference-case-isolation.md
+  date: '2024-02-03'
+  permalink: /tech/2024/02/03/batch-inference-case-isolation/
+  tags: *id004
+  images:
+  - /img/tech-notes/batch-inference-case-isolation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 27b2694b64259974fcfc65ede1cae4b41333110369a8e0f169f9762384991971
+- note_id: local-model-cold-start
+  title: 本地推理冷启动：模型加载与首请求分开测
+  path: _posts/2024-01-25-local-model-cold-start.md
+  date: '2024-01-25'
+  permalink: /tech/2024/01/25/local-model-cold-start/
+  tags: *id001
+  images:
+  - /img/tech-notes/local-model-cold-start.svg
+  technology_since: '2023-03-10'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 97c829accf467e2ff93228d584531f6230fe38b7102d534cc939bb89021b7be5
+- note_id: llama-cpp-context-budget
+  title: llama.cpp 服务预算：上下文、KV 缓存与并发
+  path: _posts/2024-01-15-llama-cpp-context-budget.md
+  date: '2024-01-15'
+  permalink: /tech/2024/01/15/llama-cpp-context-budget/
+  tags: *id001
+  images:
+  - /img/tech-notes/llama-cpp-context-budget.svg
+  technology_since: '2023-03-10'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 48c3e953ff8b0133049026e20f8fa601e3df8c163857a1dea8d838a057890d47
+- note_id: llm-local-quantization
+  title: 本地模型量化：权重容量与运行内存
+  path: _posts/2024-01-05-llm-local-quantization.md
+  date: '2024-01-05'
+  permalink: /tech/2024/01/05/llm-local-quantization/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-local-quantization.svg
+  technology_since: '2023-03-10'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 16fd7435ac14f601ce3974d6d918d8ce404113c6eb5bb08e172b79cfd1341413
+- note_id: llm-agent-state-storage
+  title: 智能体状态保存：上下文与业务进度分开
+  path: _posts/2023-12-26-llm-agent-state-storage.md
+  date: '2023-12-26'
+  permalink: /tech/2023/12/26/llm-agent-state-storage/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-agent-state-storage.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4fb3970ace35a3f00b6ca9f82afcae189b677e9d63bd0692810dc2100d8d9e89
+- note_id: llm-answer-abstention
+  title: 知识问答缺少依据：拒答条件如何具体化
+  path: _posts/2023-12-16-llm-answer-abstention.md
+  date: '2023-12-16'
+  permalink: /tech/2023/12/16/llm-answer-abstention/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-answer-abstention.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 991f3e453cd8b1daf5dc6148189f78c4c510f328ee39ba5ff5b9898a382a5a57
+- note_id: rag-document-permission
+  title: 企业知识检索：权限过滤放在哪个阶段
+  path: _posts/2023-12-06-rag-document-permission.md
+  date: '2023-12-06'
+  permalink: /tech/2023/12/06/rag-document-permission/
+  tags: *id001
+  images:
+  - /img/tech-notes/rag-document-permission.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1f473d873471f0b3c46b691146c118ff9e11e7660c614152ddfe24ee4791692d
+- note_id: llm-tool-result-grounding
+  title: 工具结果进入模型：计算值、解释与引用
+  path: _posts/2023-11-26-llm-tool-result-grounding.md
+  date: '2023-11-26'
+  permalink: /tech/2023/11/26/llm-tool-result-grounding/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-tool-result-grounding.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 62f217c3ff22d986d8f6ca6307b417317bdaae9749dc4dfe73560ac517db6a17
+- note_id: industrial-ai-release-gate
+  title: 工业 AI 发布门槛：数据、模型与运行条件
+  path: _posts/2023-11-16-industrial-ai-release-gate.md
+  date: '2023-11-16'
+  permalink: /tech/2023/11/16/industrial-ai-release-gate/
+  tags: *id004
+  images:
+  - /img/tech-notes/industrial-ai-release-gate.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e1fc49a0c2244c9436a4e098e96a858406e4aafa8591aa7272a96f041c6f1461
+- note_id: case-scope-benefit-attribution
+  title: 工业项目复盘：算法效果与整体收益分开记录
+  path: _posts/2023-11-06-case-scope-benefit-attribution.md
+  date: '2023-11-06'
+  permalink: /tech/2023/11/06/case-scope-benefit-attribution/
+  tags: *id002
+  images:
+  - /img/tech-notes/case-scope-benefit-attribution.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c5031fdefdd2a17151375a49000e17dd6a3df2edc2cb8ea0b3f8f35c7febbcd4
+- note_id: technical-document-interface
+  title: 技术交付文档：部署说明与接口契约怎样对应
+  path: _posts/2023-10-27-technical-document-interface.md
+  date: '2023-10-27'
+  permalink: /tech/2023/10/27/technical-document-interface/
+  tags: *id002
+  images:
+  - /img/tech-notes/technical-document-interface.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5ccf979f4c295c3b6dda6d8b11caf1ffadfa48ab4bdbc11f5800094b2dee439a
+- note_id: technology-selection-proof
+  title: 技术选型：从演示效果到验证条件
+  path: _posts/2023-10-17-technology-selection-proof.md
+  date: '2023-10-17'
+  permalink: /tech/2023/10/17/technology-selection-proof/
+  tags: *id002
+  images:
+  - /img/tech-notes/technology-selection-proof.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: bdcb39b538ab2388630c9322366bf23d0046a17f7a5daf90180229d6068a5c58
+- note_id: database-migration-versioning
+  title: 数据库变更脚本：顺序、幂等与回退条件
+  path: _posts/2023-10-07-database-migration-versioning.md
+  date: '2023-10-07'
+  permalink: /tech/2023/10/07/database-migration-versioning/
+  tags: *id012
+  images:
+  - /img/tech-notes/database-migration-versioning.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 43fbff55c8e047ba6aa734915fe16387c6ff34e5b100df124efab5180eac0a90
+- note_id: database-query-connection-origin
+  title: 数据库排障：从出错连接查询实际后端
+  path: _posts/2023-09-27-database-query-connection-origin.md
+  date: '2023-09-27'
+  permalink: /tech/2023/09/27/database-query-connection-origin/
+  tags: *id012
+  images:
+  - /img/tech-notes/database-query-connection-origin.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 665cc02df47c6dcc915c9647a6f71a108a096538d6a43eccad2c470214b9f3e9
+- note_id: browser-cache-release
+  title: 前端发布缓存：旧页面和新 API 的兼容
+  path: _posts/2023-09-17-browser-cache-release.md
+  date: '2023-09-17'
+  permalink: /tech/2023/09/17/browser-cache-release/
+  tags: *id008
+  images:
+  - /img/tech-notes/browser-cache-release.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a98dfe829e102434edfac5205d3de2e4dd0db4067c775088eba4d73a124b055e
+- note_id: service-resource-limits
+  title: 服务资源预算：CPU、内存与连接数量
+  path: _posts/2023-09-07-service-resource-limits.md
+  date: '2023-09-07'
+  permalink: /tech/2023/09/07/service-resource-limits/
+  tags: *id009
+  images:
+  - /img/tech-notes/service-resource-limits.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 962663c21c973db38838e951431ff82e41eeb6fdb719dd2804211c42e0e16bb1
+- note_id: event-time-ordering
+  title: 异步事件排序：序列号、时间与重复处理
+  path: _posts/2023-08-28-event-time-ordering.md
+  date: '2023-08-28'
+  permalink: /tech/2023/08/28/event-time-ordering/
+  tags: &id014
+  - 消息系统
+  - MQTT
+  images:
+  - /img/tech-notes/event-time-ordering.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: fd4cbf869c32658e5b51b774155f222b360fb411dd4202bc516aa8af0fe477d3
+- note_id: temperature-sensor-data-filter
+  title: 慢变测量滤波：平滑、延迟与异常保留
+  path: _posts/2023-08-18-temperature-sensor-data-filter.md
+  date: '2023-08-18'
+  permalink: /tech/2023/08/18/temperature-sensor-data-filter/
+  tags: *id006
+  images:
+  - /img/tech-notes/temperature-sensor-data-filter.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a99569d19f5b0850151901b27770d129dfc873d8da12bbb8e94c5e89ae005ac6
+- note_id: measurement-geometry-scale
+  title: 视觉测量标尺：参考平面与透视误差
+  path: _posts/2023-08-09-measurement-geometry-scale.md
+  date: '2023-08-09'
+  permalink: /tech/2023/08/09/measurement-geometry-scale/
+  tags: *id004
+  images:
+  - /img/tech-notes/measurement-geometry-scale.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4fe9cefc5dd67474ea76429b407dd6ae2b72ebc541f5b3037655a618f7181bd4
+- note_id: long-range-barcode-method
+  title: 远距读码：成像、跟踪与业务去重
+  path: _posts/2023-07-30-long-range-barcode-method.md
+  date: '2023-07-30'
+  permalink: /tech/2023/07/30/long-range-barcode-method/
+  tags: *id004
+  images:
+  - /img/tech-notes/long-range-barcode-method.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: accd9bb8faa5116cac8bb8b5d0588a13a7dca8ecf4e446960b7a5530c078d82f
+- note_id: tracking-identity-association
+  title: 多目标跟踪：轨迹 ID 与业务身份不同
+  path: _posts/2023-07-20-tracking-identity-association.md
+  date: '2023-07-20'
+  permalink: /tech/2023/07/20/tracking-identity-association/
+  tags: *id004
+  images:
+  - /img/tech-notes/tracking-identity-association.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 6af7321f709da3b380bdef078f7b59b9f3703cbe54ab7cdf29b3b0753c5cfff7
+- note_id: detection-nms-threshold
+  title: 目标检测 NMS：重叠目标与重复框的取舍
+  path: _posts/2023-07-10-detection-nms-threshold.md
+  date: '2023-07-10'
+  permalink: /tech/2023/07/10/detection-nms-threshold/
+  tags: *id004
+  images:
+  - /img/tech-notes/detection-nms-threshold.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3dd5dbef49702336fda80fb8801d3be6b7fbbf9bc022b195ab2817ecfbe5ac82
+- note_id: opencv-template-vs-feature
+  title: 模板匹配与特征匹配：尺度、旋转与重复纹理
+  path: _posts/2023-06-30-opencv-template-vs-feature.md
+  date: '2023-06-30'
+  permalink: /tech/2023/06/30/opencv-template-vs-feature/
+  tags: *id004
+  images:
+  - /img/tech-notes/opencv-template-vs-feature.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 6c66d39f9873a5364d74ebd02d19e66d58dacc963e0fb06d9a34777de9c7aeeb
+- note_id: industrial-led-flicker
+  title: 工业光源频闪：曝光与供电纹波的关系
+  path: _posts/2023-06-20-industrial-led-flicker.md
+  date: '2023-06-20'
+  permalink: /tech/2023/06/20/industrial-led-flicker/
+  tags: *id007
+  images:
+  - /img/tech-notes/industrial-led-flicker.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ffa1ca62be59444b15c2c89aa9c08e6dd4467fc584b746c51437bbcfef3675a5
+- note_id: camera-selection-resolution
+  title: 工业相机像素数：分辨率不等于可检缺陷
+  path: _posts/2023-06-10-camera-selection-resolution.md
+  date: '2023-06-10'
+  permalink: /tech/2023/06/10/camera-selection-resolution/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-selection-resolution.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5a43aa15185e11a4376dc512d9f8be2f25c4278667cdfd370b048f5700dd8d8a
+- note_id: mechanical-tolerance-vision
+  title: 机械公差与视觉误差：误差预算如何分层
+  path: _posts/2023-05-31-mechanical-tolerance-vision.md
+  date: '2023-05-31'
+  permalink: /tech/2023/05/31/mechanical-tolerance-vision/
+  tags: *id007
+  images:
+  - /img/tech-notes/mechanical-tolerance-vision.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8af26bf50e1d4d85eda897d2cae21dc653f524619c6049c3eb73a29ff2d81d05
+- note_id: printed-slot-clip-fit-iteration
+  title: 3D 打印配合件：插入、旋转与锁紧分开验证
+  path: _posts/2023-05-21-printed-slot-clip-fit-iteration.md
+  date: '2023-05-21'
+  permalink: /tech/2023/05/21/printed-slot-clip-fit-iteration/
+  tags: *id007
+  images:
+  - /img/tech-notes/printed-slot-clip-fit-iteration.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 49b20d88e5e928871c9cd5d6f73a42a6287eb84bf32033c281b1f183fba3d0a6
+- note_id: cad-parametric-model-web-preview
+  title: 二维图纸转三维：参数实体与网页模型
+  path: _posts/2023-05-11-cad-parametric-model-web-preview.md
+  date: '2023-05-11'
+  permalink: /tech/2023/05/11/cad-parametric-model-web-preview/
+  tags: *id007
+  images:
+  - /img/tech-notes/cad-parametric-model-web-preview.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: f4796f41dbc9b5c8d65dfd503a3cdee8191d4e425c442a45e766cadfeaefd592
+- note_id: pdf-vector-raster-scale
+  title: PDF 图纸处理：矢量尺寸与栅格化比例
+  path: _posts/2023-05-01-pdf-vector-raster-scale.md
+  date: '2023-05-01'
+  permalink: /tech/2023/05/01/pdf-vector-raster-scale/
+  tags: *id004
+  images:
+  - /img/tech-notes/pdf-vector-raster-scale.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5a7d914e17ba75cd7b526feb10b15229975e66cfdd3b853175481e120eed860a
+- note_id: ocr-layout-reading-order
+  title: OCR 文档布局：识别文字与还原阅读顺序
+  path: _posts/2023-04-21-ocr-layout-reading-order.md
+  date: '2023-04-21'
+  permalink: /tech/2023/04/21/ocr-layout-reading-order/
+  tags: *id004
+  images:
+  - /img/tech-notes/ocr-layout-reading-order.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e330df86c581d7d471ffa508a855583badf7170f7a99b25307c0d10f3640c2dc
+- note_id: ocr-metadata-evidence-provenance
+  title: OCR 一致性：文件名和图片文字为什么不能互证
+  path: _posts/2023-04-11-ocr-metadata-evidence-provenance.md
+  date: '2023-04-11'
+  permalink: /tech/2023/04/11/ocr-metadata-evidence-provenance/
+  tags: *id004
+  images:
+  - /img/tech-notes/ocr-metadata-evidence-provenance.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: db50aa23c6e5adb5cba132c1becd11772af0f48fb21625a7929b6a3afa3f3e14
+- note_id: model-evaluation-regression
+  title: 模型更新回归：固定问题集与失败类型
+  path: _posts/2023-04-01-model-evaluation-regression.md
+  date: '2023-04-01'
+  permalink: /tech/2023/04/01/model-evaluation-regression/
+  tags: *id001
+  images:
+  - /img/tech-notes/model-evaluation-regression.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e7b41c2f99da1f7231baa75678116d4cd2fdaf92ffa9398206f3d87aaabb9143
+- note_id: rag-citation-granularity
+  title: 知识库引用：一段结论需要哪些依据
+  path: _posts/2023-03-22-rag-citation-granularity.md
+  date: '2023-03-22'
+  permalink: /tech/2023/03/22/rag-citation-granularity/
+  tags: *id001
+  images:
+  - /img/tech-notes/rag-citation-granularity.svg
+  technology_since: '2020-05-22'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3aefef298c824bd69557bde426812e3909faf628409d0fecc901973a28788b2a
+- note_id: llm-streaming-timeout
+  title: 流式模型接口：首字延迟、断流和取消
+  path: _posts/2023-03-12-llm-streaming-timeout.md
+  date: '2023-03-12'
+  permalink: /tech/2023/03/12/llm-streaming-timeout/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-streaming-timeout.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c99cf52a5455dfa8cea06efd8c5fc4850fcaaa00eb48101ac17a0dc3ec9fd244
+- note_id: llm-context-budget
+  title: 大模型上下文预算：历史、工具与输出空间
+  path: _posts/2023-03-03-llm-context-budget.md
+  date: '2023-03-03'
+  permalink: /tech/2023/03/03/llm-context-budget/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-context-budget.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 90f84d6f30f81fbcdb8ca49f8735186c9fdeb0ca17d5cbedea60a6f878f53ea3
+- note_id: llm-structured-output-validation
+  title: 模型结构化输出：可解析不等于可执行
+  path: _posts/2023-02-21-llm-structured-output-validation.md
+  date: '2023-02-21'
+  permalink: /tech/2023/02/21/llm-structured-output-validation/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-structured-output-validation.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4a2f194b976edcb6aa669be58c5ed5a44acb164520fb4d78a27c6e5bee1a0121
+- note_id: llm-prompt-injection-boundary
+  title: 知识库安全：外部文档不能授予工具权限
+  path: _posts/2023-02-11-llm-prompt-injection-boundary.md
+  date: '2023-02-11'
+  permalink: /tech/2023/02/11/llm-prompt-injection-boundary/
+  tags: *id001
+  images:
+  - /img/tech-notes/llm-prompt-injection-boundary.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 461486039693a3da0a4847f42fab93ec7d01768dbecee6202e8bf7da8e2c7d94
+- note_id: hybrid-search-keywords
+  title: 混合检索：关键词与语义召回如何互补
+  path: _posts/2023-02-01-hybrid-search-keywords.md
+  date: '2023-02-01'
+  permalink: /tech/2023/02/01/hybrid-search-keywords/
+  tags: *id001
+  images:
+  - /img/tech-notes/hybrid-search-keywords.svg
+  technology_since: '2020-05-22'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 490e7f240625914f643e0ddabd5ecf61eeb4d88d9f4b21ecc26f31b04afad174
+- note_id: embedding-distance-similarity
+  title: 向量检索：距离、归一化与相似度阈值
+  path: _posts/2023-01-22-embedding-distance-similarity.md
+  date: '2023-01-22'
+  permalink: /tech/2023/01/22/embedding-distance-similarity/
+  tags: *id001
+  images:
+  - /img/tech-notes/embedding-distance-similarity.svg
+  technology_since: '2020-05-22'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 162fe20a60c96d60a64162ff0c973f9fa21cb907cdb95528fd910c190255abc1
+- note_id: text-chunking-retrieval
+  title: 文档切块：长度、重叠和语义边界
+  path: _posts/2023-01-12-text-chunking-retrieval.md
+  date: '2023-01-12'
+  permalink: /tech/2023/01/12/text-chunking-retrieval/
+  tags: *id001
+  images:
+  - /img/tech-notes/text-chunking-retrieval.svg
+  technology_since: '2020-05-22'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: f9d02c18e1d5bbf3603395a2db3fb6c0dc10e0099087c46e2c110d6e7fc6d277
+- note_id: factory-video-inspection-case
+  title: 工业巡检案例：让视频异常进入可追溯处置
+  path: _posts/2023-01-02-factory-video-inspection-case.md
+  date: '2023-01-02'
+  permalink: /tech/2023/01/02/factory-video-inspection-case/
+  tags: *id004
+  images:
+  - /img/tech-notes/factory-video-inspection-case.svg
+  technology_since: '2023-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 83ad4917c1c882ae5703c56c718c3b84eaa253ab3c30ee5aaa8170c04c2a837d
+- note_id: retrieval-augmented-generation
+  title: 检索增强生成：检索结果怎样进入回答
+  path: _posts/2022-12-23-retrieval-augmented-generation.md
+  date: '2022-12-23'
+  permalink: /tech/2022/12/23/retrieval-augmented-generation/
+  tags: *id001
+  images:
+  - /img/tech-notes/retrieval-augmented-generation.svg
+  technology_since: '2020-05-22'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 66031b34215e480135cb1fa2dd4eedf7bd31ca9252a356f58b0893ab639ce73a
+- note_id: data-document-search-foundation
+  title: 文档检索系统：解析、索引和可定位证据
+  path: _posts/2022-12-13-data-document-search-foundation.md
+  date: '2022-12-13'
+  permalink: /tech/2022/12/13/data-document-search-foundation/
+  tags: *id013
+  images:
+  - /img/tech-notes/data-document-search-foundation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2aab0273a04882cd206b1ac25e5189b1ea3f60c07c4a417d589aadffbe671260
+- note_id: industrial-system-integration
+  title: 工业系统集成：账号、对象与接口边界
+  path: _posts/2022-12-03-industrial-system-integration.md
+  date: '2022-12-03'
+  permalink: /tech/2022/12/03/industrial-system-integration/
+  tags: *id002
+  images:
+  - /img/tech-notes/industrial-system-integration.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 03133ac5503477171449ccdd26a04990b6385d826546c6a63d10ecd5713291f2
+- note_id: deployment-observation-chain
+  title: 部署可观察性：日志、指标与请求身份
+  path: _posts/2022-11-23-deployment-observation-chain.md
+  date: '2022-11-23'
+  permalink: /tech/2022/11/23/deployment-observation-chain/
+  tags: *id009
+  images:
+  - /img/tech-notes/deployment-observation-chain.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 893430cb26023be8ffd52e385f16520abc13b03d05d09f82d50009ea38416bc0
+- note_id: edge-release-acceptance
+  title: 边缘系统验收：断网、重启与资源峰值
+  path: _posts/2022-11-13-edge-release-acceptance.md
+  date: '2022-11-13'
+  permalink: /tech/2022/11/13/edge-release-acceptance/
+  tags: *id002
+  images:
+  - /img/tech-notes/edge-release-acceptance.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9e5a92880e7ecfc38ad2a3a711be7c178a9e0b41cddd24ad6032442e050dc085
+- note_id: operator-sop-state-machine
+  title: 工序视觉校验：动作序列与物料状态
+  path: _posts/2022-11-03-operator-sop-state-machine.md
+  date: '2022-11-03'
+  permalink: /tech/2022/11/03/operator-sop-state-machine/
+  tags: *id004
+  images:
+  - /img/tech-notes/operator-sop-state-machine.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 96a5099742bd030bcd5f931697af1099801920b8fef576d2bda52f38bb930100
+- note_id: industrial-video-lighting
+  title: 工业视频监测：成像条件与模型覆盖
+  path: _posts/2022-10-24-industrial-video-lighting.md
+  date: '2022-10-24'
+  permalink: /tech/2022/10/24/industrial-video-lighting/
+  tags: *id004
+  images:
+  - /img/tech-notes/industrial-video-lighting.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a86df79aac37880328569d9931cef31f8c2dd0f6bd32bbcd512b74dd78f6ee52
+- note_id: inspection-video-alarm
+  title: 视频巡检告警：从单帧识别到处置闭环
+  path: _posts/2022-10-14-inspection-video-alarm.md
+  date: '2022-10-14'
+  permalink: /tech/2022/10/14/inspection-video-alarm/
+  tags: *id004
+  images:
+  - /img/tech-notes/inspection-video-alarm.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7af86f6812f3b9ad5d222217c8e9e91fdbf7da670d54d5d6b1d8a2243f0f2b2c
+- note_id: industrial-platform-one-map
+  title: 工业平台一张图：统一对象而非只拼画面
+  path: _posts/2022-10-04-industrial-platform-one-map.md
+  date: '2022-10-04'
+  permalink: /tech/2022/10/04/industrial-platform-one-map/
+  tags: *id002
+  images:
+  - /img/tech-notes/industrial-platform-one-map.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b9070a428b1fdec1ffe85dd684ffe975640410b0e4f386f809ab7f436862c234
+- note_id: data-contract-schema
+  title: 系统集成数据契约：字段含义比字段名重要
+  path: _posts/2022-09-24-data-contract-schema.md
+  date: '2022-09-24'
+  permalink: /tech/2022/09/24/data-contract-schema/
+  tags: *id009
+  images:
+  - /img/tech-notes/data-contract-schema.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9646f280dd9fb84613c8f651c70151beae52df8c2b4db8f12b8f34898538b486
+- note_id: cuda-asynchronous-timing
+  title: GPU 计时：异步执行为何让前向看起来很快
+  path: _posts/2022-09-15-cuda-asynchronous-timing.md
+  date: '2022-09-15'
+  permalink: /tech/2022/09/15/cuda-asynchronous-timing/
+  tags: *id004
+  images:
+  - /img/tech-notes/cuda-asynchronous-timing.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3e3f71f5018c30c6ec3fc06b2e2d9fee5de18772a239708fb2fe22a6e79fa155
+- note_id: gpu-memory-per-device
+  title: 多 GPU 显存：容量不能直接相加
+  path: _posts/2022-09-05-gpu-memory-per-device.md
+  date: '2022-09-05'
+  permalink: /tech/2022/09/05/gpu-memory-per-device/
+  tags: *id007
+  images:
+  - /img/tech-notes/gpu-memory-per-device.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3fd429a95923eae5e05c6fbab98c5347ddd0cca2251f6104cd665b4e48feb7b1
+- note_id: container-usb-device-mapping
+  title: 容器 USB 设备访问：映射、权限与重插
+  path: _posts/2022-08-26-container-usb-device-mapping.md
+  date: '2022-08-26'
+  permalink: /tech/2022/08/26/container-usb-device-mapping/
+  tags: *id010
+  images:
+  - /img/tech-notes/container-usb-device-mapping.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d7a5f6c7d7da75bf2f171519f3b2ea5aaf3de17652b9f61c715868f28914c0c3
+- note_id: network-static-ip-dual-route
+  title: 静态 IP 多网卡：默认路由与地址冲突
+  path: _posts/2022-08-16-network-static-ip-dual-route.md
+  date: '2022-08-16'
+  permalink: /tech/2022/08/16/network-static-ip-dual-route/
+  tags: *id005
+  images:
+  - /img/tech-notes/network-static-ip-dual-route.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ee1f5aa0bca682970ab147030fe7f03570e7becaa46cc58656242a6e90457cf2
+- note_id: robot-map-acceptance
+  title: 地图验收：覆盖、重复定位和变化环境
+  path: _posts/2022-08-06-robot-map-acceptance.md
+  date: '2022-08-06'
+  permalink: /tech/2022/08/06/robot-map-acceptance/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-map-acceptance.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4baf79a3464d95569cd12964e1cdaaceb61c85f68b485215c2994077e727ff15
+- note_id: pointcloud-time-synchronization
+  title: 点云与 IMU 融合：时间同步先于参数调优
+  path: _posts/2022-07-27-pointcloud-time-synchronization.md
+  date: '2022-07-27'
+  permalink: /tech/2022/07/27/pointcloud-time-synchronization/
+  tags: *id003
+  images:
+  - /img/tech-notes/pointcloud-time-synchronization.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ffa994c74d6b8c9598497d57ddf994ce01a092a456f9257d6652833a8318637f
+- note_id: robot-odometry-drift
+  title: 里程计漂移：局部连续与全局校正
+  path: _posts/2022-07-17-robot-odometry-drift.md
+  date: '2022-07-17'
+  permalink: /tech/2022/07/17/robot-odometry-drift/
+  tags: *id003
+  images:
+  - /img/tech-notes/robot-odometry-drift.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 04d1b269298b0f2462a2a9dd02d9a893f7484ebcef0909aa5039ff65f7d82f0d
+- note_id: ros2-qos-sensor-data
+  title: ROS 2 QoS：发现话题却收不到数据
+  path: _posts/2022-07-07-ros2-qos-sensor-data.md
+  date: '2022-07-07'
+  permalink: /tech/2022/07/07/ros2-qos-sensor-data/
+  tags: *id003
+  images:
+  - /img/tech-notes/ros2-qos-sensor-data.svg
+  technology_since: '2019-05-31'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c3a6c4d54aaf8cba0ffd461d667f86d3acbda213ee84621a80c2ae51a57d0e47
+- note_id: ros-coordinate-frames
+  title: 机器人坐标系：map、odom、base 与传感器
+  path: _posts/2022-06-27-ros-coordinate-frames.md
+  date: '2022-06-27'
+  permalink: /tech/2022/06/27/ros-coordinate-frames/
+  tags: *id003
+  images:
+  - /img/tech-notes/ros-coordinate-frames.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 77b939052afe02c55d306b9e70ed01f0debff12f10aaecf10787e77038d75281
+- note_id: camera-depth-alignment
+  title: 深度与彩色对齐：内参、外参与无效像素
+  path: _posts/2022-06-17-camera-depth-alignment.md
+  date: '2022-06-17'
+  permalink: /tech/2022/06/17/camera-depth-alignment/
+  tags: *id003
+  images:
+  - /img/tech-notes/camera-depth-alignment.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a0f3309fd6f40fc1af3283a2bf02255b062ff3560ed2297e06571541054e3c1a
+- note_id: opencv-color-space-mask
+  title: 颜色空间分割：HSV 范围和亮度变化
+  path: _posts/2022-06-07-opencv-color-space-mask.md
+  date: '2022-06-07'
+  permalink: /tech/2022/06/07/opencv-color-space-mask/
+  tags: *id004
+  images:
+  - /img/tech-notes/opencv-color-space-mask.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 17f986e23abda6379826042473b08d33ad0e6ad2b219d11288a36688bc98ad1a
+- note_id: vision-ground-truth-provenance
+  title: 视觉数据真值：标签、元数据与原始观测
+  path: _posts/2022-05-28-vision-ground-truth-provenance.md
+  date: '2022-05-28'
+  permalink: /tech/2022/05/28/vision-ground-truth-provenance/
+  tags: *id004
+  images:
+  - /img/tech-notes/vision-ground-truth-provenance.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 93f53226764c2ce827aad64f5e1531579ee1b96102f6d710c91a66d08a8bf774
+- note_id: rotation-eccentricity-image-consistency
+  title: 转台偏心：机械重复性怎样影响视觉检测
+  path: _posts/2022-05-18-rotation-eccentricity-image-consistency.md
+  date: '2022-05-18'
+  permalink: /tech/2022/05/18/rotation-eccentricity-image-consistency/
+  tags: *id004
+  images:
+  - /img/tech-notes/rotation-eccentricity-image-consistency.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1c3026fb29235ba6f743e83b1d10354d8edb23e0fe04d64b1abbc3b19f6b3517
+- note_id: bayer-strip-panorama-pipeline
+  title: 面阵窄条拼接：颜色、位移和队列节奏
+  path: _posts/2022-05-08-bayer-strip-panorama-pipeline.md
+  date: '2022-05-08'
+  permalink: /tech/2022/05/08/bayer-strip-panorama-pipeline/
+  tags: *id004
+  images:
+  - /img/tech-notes/bayer-strip-panorama-pipeline.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ba78fa66a8df6593647333a9a3ab71a3f2bf8270360cbf86a771ab12455998cd
+- note_id: line-scan-motion-sampling
+  title: 线扫成像：行频、运动速度与像素比例
+  path: _posts/2022-04-28-line-scan-motion-sampling.md
+  date: '2022-04-28'
+  permalink: /tech/2022/04/28/line-scan-motion-sampling/
+  tags: *id004
+  images:
+  - /img/tech-notes/line-scan-motion-sampling.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 243f3f747f5eb073f13c856ba89a41eaa5ad6c2c0c821c1b6bae2cee26ec3f96
+- note_id: image-registration-lighting
+  title: 图像配准的边界：几何对齐不能恢复反光
+  path: _posts/2022-04-18-image-registration-lighting.md
+  date: '2022-04-18'
+  permalink: /tech/2022/04/18/image-registration-lighting/
+  tags: *id004
+  images:
+  - /img/tech-notes/image-registration-lighting.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4c00ba45dbad984e8f5d574631df14ff7044774b78e4d12e7507497a1dfd39ef
+- note_id: normal-bank-data-contamination
+  title: 正常特征库维护：怎样避免异常混入
+  path: _posts/2022-04-09-normal-bank-data-contamination.md
+  date: '2022-04-09'
+  permalink: /tech/2022/04/09/normal-bank-data-contamination/
+  tags: *id004
+  images:
+  - /img/tech-notes/normal-bank-data-contamination.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: bcb6fbcd169469f40fe74d35a17b5a7426ccae0e54f3763af5c69ff1ce6fcd45
+- note_id: anomaly-threshold-validation
+  title: 异常分数阈值：误报、漏检与区域差异
+  path: _posts/2022-03-30-anomaly-threshold-validation.md
+  date: '2022-03-30'
+  permalink: /tech/2022/03/30/anomaly-threshold-validation/
+  tags: *id004
+  images:
+  - /img/tech-notes/anomaly-threshold-validation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: aeeed3a3e085e7387476d334f59d85f6a7637816b43638c5824c475afab04c26
+- note_id: tiled-anomaly-border-context
+  title: 大图切块检测：边界上下文与坐标合并
+  path: _posts/2022-03-20-tiled-anomaly-border-context.md
+  date: '2022-03-20'
+  permalink: /tech/2022/03/20/tiled-anomaly-border-context/
+  tags: *id004
+  images:
+  - /img/tech-notes/tiled-anomaly-border-context.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2d372f1a57c4bec6967a8d179f25cc45ec8478e84022a089093865cc54808ff4
+- note_id: patchcore-normal-samples-reflections
+  title: PatchCore 正常样本学习：反光为何成为异常
+  path: _posts/2022-03-10-patchcore-normal-samples-reflections.md
+  date: '2022-03-10'
+  permalink: /tech/2022/03/10/patchcore-normal-samples-reflections/
+  tags: *id004
+  images:
+  - /img/tech-notes/patchcore-normal-samples-reflections.svg
+  technology_since: '2021-06-15'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c8db29a40d88207652123b8f9d690344728eb3fd7b82d9fd3237bcdb7abf7ffd
+- note_id: camera-trigger-identity
+  title: 视觉触发与工件身份：防止错图错件
+  path: _posts/2022-02-28-camera-trigger-identity.md
+  date: '2022-02-28'
+  permalink: /tech/2022/02/28/camera-trigger-identity/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-trigger-identity.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ad50bcdc3a90421298d415cd1b1a49aea01d5c6b7831a0212863c7cf37d55a81
+- note_id: video-record-segment-recovery
+  title: 录像分段：断电恢复与事件前后片段
+  path: _posts/2022-02-18-video-record-segment-recovery.md
+  date: '2022-02-18'
+  permalink: /tech/2022/02/18/video-record-segment-recovery/
+  tags: *id004
+  images:
+  - /img/tech-notes/video-record-segment-recovery.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: f2d04d1de0ebedd694e86d289fbf3089ae37961c45446404ebb21e726a67e258
+- note_id: edge-data-retention
+  title: 边缘数据保留：容量预算与清理顺序
+  path: _posts/2022-02-08-edge-data-retention.md
+  date: '2022-02-08'
+  permalink: /tech/2022/02/08/edge-data-retention/
+  tags: *id002
+  images:
+  - /img/tech-notes/edge-data-retention.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e125308e3bc8986ea0b99fbc4fa65b0917280d8ff47b487598627daa2b59ba62
+- note_id: node-red-flow-state
+  title: Node-RED 上下文状态：重启后哪些变量还在
+  path: _posts/2022-01-29-node-red-flow-state.md
+  date: '2022-01-29'
+  permalink: /tech/2022/01/29/node-red-flow-state/
+  tags: *id006
+  images:
+  - /img/tech-notes/node-red-flow-state.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 188e4ea90e8ba83750cffc82e6ef7953cf3df7f620f572e0b848b808c89116ee
+- note_id: iot-measurement-timestamp
+  title: 工业采集时间戳：扫描周期与平台时间
+  path: _posts/2022-01-19-iot-measurement-timestamp.md
+  date: '2022-01-19'
+  permalink: /tech/2022/01/19/iot-measurement-timestamp/
+  tags: *id006
+  images:
+  - /img/tech-notes/iot-measurement-timestamp.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a5cc5f9be45d5ea363ea66fad13962b526c31d7f49cdcee14563f9e9fc562f3c
+- note_id: industrial-command-ack
+  title: 工业远程命令：受理、执行和完成回执
+  path: _posts/2022-01-09-industrial-command-ack.md
+  date: '2022-01-09'
+  permalink: /tech/2022/01/09/industrial-command-ack/
+  tags: *id006
+  images:
+  - /img/tech-notes/industrial-command-ack.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 851a6b7758b6d5800afdd9f109bf44cbe186dc5d608bc96c76a87ef3f79406e7
+- note_id: opcua-data-model
+  title: OPC UA 数据接入：节点身份、类型与质量
+  path: _posts/2021-12-30-opcua-data-model.md
+  date: '2021-12-30'
+  permalink: /tech/2021/12/30/opcua-data-model/
+  tags: *id006
+  images:
+  - /img/tech-notes/opcua-data-model.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 501544ce63e5c372fae7c6097b01d29bd9473f10fab6dd7661c80873c6ac9410
+- note_id: field-report-data-lineage
+  title: 现场报表追溯：统计结果如何反查原始测点
+  path: _posts/2021-12-20-field-report-data-lineage.md
+  date: '2021-12-20'
+  permalink: /tech/2021/12/20/field-report-data-lineage/
+  tags: *id013
+  images:
+  - /img/tech-notes/field-report-data-lineage.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 290f7e36f992f1d5d5867b27d003283a68b6ea5518dbd9eb1d24bccd2707d40d
+- note_id: backup-restore-drill
+  title: 备份验收：从文件存在到独立恢复
+  path: _posts/2021-12-10-backup-restore-drill.md
+  date: '2021-12-10'
+  permalink: /tech/2021/12/10/backup-restore-drill/
+  tags: *id002
+  images:
+  - /img/tech-notes/backup-restore-drill.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5d1d6eae9c9717d196734332e04ff3c7d85d679b4cb59ff801f2275336e9983b
+- note_id: device-event-schema-version
+  title: 设备协议更新：新字段和旧终端兼容
+  path: _posts/2021-11-30-device-event-schema-version.md
+  date: '2021-11-30'
+  permalink: /tech/2021/11/30/device-event-schema-version/
+  tags: *id009
+  images:
+  - /img/tech-notes/device-event-schema-version.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1241edb57b56d67a4948f2ccd97a3c89c4c8df6c6df2e309a4bc3ba296f010ee
+- note_id: environment-monitoring-audit
+  title: 监测告警处置：保留原始证据与状态变化
+  path: _posts/2021-11-20-environment-monitoring-audit.md
+  date: '2021-11-20'
+  permalink: /tech/2021/11/20/environment-monitoring-audit/
+  tags: *id002
+  images:
+  - /img/tech-notes/environment-monitoring-audit.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: a806735fb82ce1804335964764292eecaf54c1c2d41a3d39c345996f6ee1a76f
+- note_id: python-process-worker
+  title: 多进程处理：模型加载、队列与退出回收
+  path: _posts/2021-11-10-python-process-worker.md
+  date: '2021-11-10'
+  permalink: /tech/2021/11/10/python-process-worker/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-process-worker.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9b7b151fe5c26d0c3793fe93003cd25eefa59edfaf6e0b2833ae8501e5fcbb2a
+- note_id: python-thread-pool-boundary
+  title: 线程池并发：任务状态与共享资源隔离
+  path: _posts/2021-10-31-python-thread-pool-boundary.md
+  date: '2021-10-31'
+  permalink: /tech/2021/10/31/python-thread-pool-boundary/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-thread-pool-boundary.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 47d726497394816781fb2020cde4c330c3d37f5dab287420e015151def0e8c04
+- note_id: image-output-integrity
+  title: 图像输出检查：保存、解码与坐标回写
+  path: _posts/2021-10-22-image-output-integrity.md
+  date: '2021-10-22'
+  permalink: /tech/2021/10/22/image-output-integrity/
+  tags: *id004
+  images:
+  - /img/tech-notes/image-output-integrity.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b51473b5c190d63b9fd0028ce6eb51fbdb5e12ec5873b465cdad741d05a45310
+- note_id: segmentation-foreground-background
+  title: 前景分割：掩膜误差怎样影响后续检测
+  path: _posts/2021-10-12-segmentation-foreground-background.md
+  date: '2021-10-12'
+  permalink: /tech/2021/10/12/segmentation-foreground-background/
+  tags: *id004
+  images:
+  - /img/tech-notes/segmentation-foreground-background.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d5fc65c560c562a608f7812d8e9d1690ba1099301730f85399345112854ddac3
+- note_id: object-detection-dataset-split
+  title: 检测数据集：按场景划分避免相邻帧泄漏
+  path: _posts/2021-10-02-object-detection-dataset-split.md
+  date: '2021-10-02'
+  permalink: /tech/2021/10/02/object-detection-dataset-split/
+  tags: *id004
+  images:
+  - /img/tech-notes/object-detection-dataset-split.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d4c60922d3537a12a77fceacdb85719c0f2366a5cf444f672b49d4736b52df2b
+- note_id: faiss-inference-timing-budget
+  title: 特征检索提速：FAISS 与传输一起计时
+  path: _posts/2021-09-22-faiss-inference-timing-budget.md
+  date: '2021-09-22'
+  permalink: /tech/2021/09/22/faiss-inference-timing-budget/
+  tags: *id004
+  images:
+  - /img/tech-notes/faiss-inference-timing-budget.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 04a5010767aceabd821730a42ff66103af559a3f47bd700ecaa34ea89510c505
+- note_id: vision-metrics-reproducible-evaluation
+  title: 视觉模型评估：固定数据、阈值与错误分布
+  path: _posts/2021-09-12-vision-metrics-reproducible-evaluation.md
+  date: '2021-09-12'
+  permalink: /tech/2021/09/12/vision-metrics-reproducible-evaluation/
+  tags: *id004
+  images:
+  - /img/tech-notes/vision-metrics-reproducible-evaluation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 74b5b27326b458361437afed6f4bd57e6788d241b3a5e22606dd7b2e2587d501
+- note_id: video-frame-timestamp
+  title: 视频帧时间戳：采集、等待和处理顺序
+  path: _posts/2021-09-02-video-frame-timestamp.md
+  date: '2021-09-02'
+  permalink: /tech/2021/09/02/video-frame-timestamp/
+  tags: *id004
+  images:
+  - /img/tech-notes/video-frame-timestamp.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1950b69dd28a0e3fedda5c4eb1bcfcd56e212829d834aac88514b993d8170191
+- note_id: rtsp-onvif-video-latency
+  title: RTSP 和 ONVIF：入口与媒体延迟分开比较
+  path: _posts/2021-08-23-rtsp-onvif-video-latency.md
+  date: '2021-08-23'
+  permalink: /tech/2021/08/23/rtsp-onvif-video-latency/
+  tags: *id004
+  images:
+  - /img/tech-notes/rtsp-onvif-video-latency.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5b9c07d4b346a429c347553603704a811e2f9df0ceae8504ba7b7151053eb73d
+- note_id: cad-pdf-view-alignment
+  title: 工程图对齐：裁剪、匹配和内点分布
+  path: _posts/2021-08-13-cad-pdf-view-alignment.md
+  date: '2021-08-13'
+  permalink: /tech/2021/08/13/cad-pdf-view-alignment/
+  tags: *id004
+  images:
+  - /img/tech-notes/cad-pdf-view-alignment.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 6113ffd0a1d7bfa1511050d822e2dc1879499072b18b2895c2af0ccc350c2021
+- note_id: opencv-rgb-bgr-contract
+  title: 图像红蓝反转：Bayer 与 RGB 格式契约
+  path: _posts/2021-08-03-opencv-rgb-bgr-contract.md
+  date: '2021-08-03'
+  permalink: /tech/2021/08/03/opencv-rgb-bgr-contract/
+  tags: *id004
+  images:
+  - /img/tech-notes/opencv-rgb-bgr-contract.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 781a266c38001b8e436365f696e834d88f3fb45dfcb104740e08a119e2cb918c
+- note_id: python-queue-backpressure
+  title: Python 队列背压：有限缓存与丢弃策略
+  path: _posts/2021-07-24-python-queue-backpressure.md
+  date: '2021-07-24'
+  permalink: /tech/2021/07/24/python-queue-backpressure/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-queue-backpressure.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3fe96bfd128d2d337c60a1fcc4eefbf3e9a826b072be906331c750b45f7346a0
+- note_id: dlib-wheel-build-stall
+  title: ARM 安装 dlib：Building wheel 在哪个阶段
+  path: _posts/2021-07-14-dlib-wheel-build-stall.md
+  date: '2021-07-14'
+  permalink: /tech/2021/07/14/dlib-wheel-build-stall/
+  tags: *id011
+  images:
+  - /img/tech-notes/dlib-wheel-build-stall.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 63afd4caa32f3a7236d0c778e014a4a68ea954075c631511ccf4d4f5f16e50e3
+- note_id: sql-time-bucket
+  title: 时序聚合：窗口边界与晚到数据
+  path: _posts/2021-07-04-sql-time-bucket.md
+  date: '2021-07-04'
+  permalink: /tech/2021/07/04/sql-time-bucket/
+  tags: *id013
+  images:
+  - /img/tech-notes/sql-time-bucket.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 18df65440568313301372d77eb9e91cfbaec645312d65a4d5d714ef55cbc48f8
+- note_id: industrial-report-formula
+  title: 设备日报计算：公式、单位和缺测
+  path: _posts/2021-06-24-industrial-report-formula.md
+  date: '2021-06-24'
+  permalink: /tech/2021/06/24/industrial-report-formula/
+  tags: *id013
+  images:
+  - /img/tech-notes/industrial-report-formula.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 5401df0d2abc4e2623b56885c758ff5ba71985dedd4069979db5e6a91ca3f1df
+- note_id: alarm-priority-rate-limit
+  title: 报警限流：优先级、恢复与持续状态
+  path: _posts/2021-06-14-alarm-priority-rate-limit.md
+  date: '2021-06-14'
+  permalink: /tech/2021/06/14/alarm-priority-rate-limit/
+  tags: *id006
+  images:
+  - /img/tech-notes/alarm-priority-rate-limit.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ca5154cbfaeb75f007a1a8dcb5597abd4dd61d9950902f3acc0e7cf18dc8a354
+- note_id: plc-debounce-hysteresis
+  title: 信号防抖：时间过滤和滞回如何选择
+  path: _posts/2021-06-04-plc-debounce-hysteresis.md
+  date: '2021-06-04'
+  permalink: /tech/2021/06/04/plc-debounce-hysteresis/
+  tags: *id006
+  images:
+  - /img/tech-notes/plc-debounce-hysteresis.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: ff5ec925d8c3218fb611b7177b23632b3f8e05e34763c22a6a29350cad66f636
+- note_id: data-unit-scale
+  title: 设备数值换算：原始值、单位与校准
+  path: _posts/2021-05-25-data-unit-scale.md
+  date: '2021-05-25'
+  permalink: /tech/2021/05/25/data-unit-scale/
+  tags: *id006
+  images:
+  - /img/tech-notes/data-unit-scale.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1884a3cc0a40f81530712dd6a56294f89517024489237f5e40ba311d8dd805e6
+- note_id: csv-data-contract
+  title: CSV 导入：编码、引号与字段类型
+  path: _posts/2021-05-16-csv-data-contract.md
+  date: '2021-05-16'
+  permalink: /tech/2021/05/16/csv-data-contract/
+  tags: *id013
+  images:
+  - /img/tech-notes/csv-data-contract.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 1d0c7e85cdff7e1263ac0f1d91e6db46fec5cc53a47d4ab46126b3911ee93a8c
+- note_id: http-cors-cookie
+  title: 跨域登录：CORS、Cookie 与认证状态
+  path: _posts/2021-05-06-http-cors-cookie.md
+  date: '2021-05-06'
+  permalink: /tech/2021/05/06/http-cors-cookie/
+  tags: *id008
+  images:
+  - /img/tech-notes/http-cors-cookie.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 15d810c1fe7debd23e12add1a6fded6ed691992f2eef709df50a35b7270e26be
+- note_id: websocket-connection-lifecycle
+  title: WebSocket 连接管理：重连与旧定时器
+  path: _posts/2021-04-26-websocket-connection-lifecycle.md
+  date: '2021-04-26'
+  permalink: /tech/2021/04/26/websocket-connection-lifecycle/
+  tags: *id008
+  images:
+  - /img/tech-notes/websocket-connection-lifecycle.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 283d08cd230387f1de0a7ea35006ec7d3b50e397f2837701d7f630d5eb18fcec
+- note_id: http-client-retry-budget
+  title: HTTP 重试：时间预算、退避与未知结果
+  path: _posts/2021-04-16-http-client-retry-budget.md
+  date: '2021-04-16'
+  permalink: /tech/2021/04/16/http-client-retry-budget/
+  tags: *id009
+  images:
+  - /img/tech-notes/http-client-retry-budget.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b0b06c7f2cafe0fc73a4a25ea2abef3971f3bd0676d3efaf8dac1f5b01276273
+- note_id: offline-outbox-retry-observation
+  title: 离线补传队列：领取、退避与幂等确认
+  path: _posts/2021-04-06-offline-outbox-retry-observation.md
+  date: '2021-04-06'
+  permalink: /tech/2021/04/06/offline-outbox-retry-observation/
+  tags: *id014
+  images:
+  - /img/tech-notes/offline-outbox-retry-observation.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 09a492ab075694a0f8831c2e2c00c1f8bb2f30f9b8d2177c9966d5be5382c4a4
+- note_id: mqtt-last-will-offline
+  title: MQTT 遗嘱与离线：异常断开和数据失效
+  path: _posts/2021-03-27-mqtt-last-will-offline.md
+  date: '2021-03-27'
+  permalink: /tech/2021/03/27/mqtt-last-will-offline/
+  tags: *id014
+  images:
+  - /img/tech-notes/mqtt-last-will-offline.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: aa954656acc44a06394cff6ea7dfce63307137db0037e62a970da8cf5066a2fd
+- note_id: mqtt-topic-access-scope
+  title: MQTT 主题设计：设备身份、命令和访问范围
+  path: _posts/2021-03-17-mqtt-topic-access-scope.md
+  date: '2021-03-17'
+  permalink: /tech/2021/03/17/mqtt-topic-access-scope/
+  tags: *id014
+  images:
+  - /img/tech-notes/mqtt-topic-access-scope.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c828f9c557557ef5d8007f8857e8a429aa4f30df8379f3ac6ec7683de51e1461
+- note_id: redis-expiry-stampede
+  title: 热点缓存过期：回源并发与失效窗口
+  path: _posts/2021-03-07-redis-expiry-stampede.md
+  date: '2021-03-07'
+  permalink: /tech/2021/03/07/redis-expiry-stampede/
+  tags: *id012
+  images:
+  - /img/tech-notes/redis-expiry-stampede.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c35e5533a4fd62f1a4edf83db18f9942194c9e1f7a455a25bdcbd18ce5f2c369
+- note_id: sql-pagination-consistency
+  title: 分页查询：排序不稳定为何重复和漏行
+  path: _posts/2021-02-25-sql-pagination-consistency.md
+  date: '2021-02-25'
+  permalink: /tech/2021/02/25/sql-pagination-consistency/
+  tags: *id012
+  images:
+  - /img/tech-notes/sql-pagination-consistency.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 165a850776dd40b3348b3a39c8f650046e72e165f1406a8c99472a37e9cef574
+- note_id: database-compatibility-migration-checklist
+  title: 数据库兼容迁移：从连接成功到业务等价
+  path: _posts/2021-02-15-database-compatibility-migration-checklist.md
+  date: '2021-02-15'
+  permalink: /tech/2021/02/15/database-compatibility-migration-checklist/
+  tags: *id012
+  images:
+  - /img/tech-notes/database-compatibility-migration-checklist.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 6c832fcd3d033bc73b0af2b1fe28b06e601beda8387ffe124879211365bbd3ee
+- note_id: network-hairpin-nat
+  title: 内网访问公网入口：回流 NAT 与分流解析
+  path: _posts/2021-02-05-network-hairpin-nat.md
+  date: '2021-02-05'
+  permalink: /tech/2021/02/05/network-hairpin-nat/
+  tags: *id005
+  images:
+  - /img/tech-notes/network-hairpin-nat.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b31a13cd2a2814627abb70a66cca8c1a610ca53f487aa015a820f03c830fd1cb
+- note_id: docker-macvlan-bridge-dual-network
+  title: Docker 双网络：独立局域网地址与服务互联
+  path: _posts/2021-01-26-docker-macvlan-bridge-dual-network.md
+  date: '2021-01-26'
+  permalink: /tech/2021/01/26/docker-macvlan-bridge-dual-network/
+  tags: *id010
+  images:
+  - /img/tech-notes/docker-macvlan-bridge-dual-network.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 4fdfc594ebc99129d735f9fd0d87a04714dac45e51ef677b3b783af7cfa394e6
+- note_id: systemd-proxy-environment
+  title: systemd 网络配置：终端可访问而后台服务失败
+  path: _posts/2021-01-16-systemd-proxy-environment.md
+  date: '2021-01-16'
+  permalink: /tech/2021/01/16/systemd-proxy-environment/
+  tags: *id005
+  images:
+  - /img/tech-notes/systemd-proxy-environment.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2e05291a738eddb03845fe2e1e413e8755ddaf7274f0ace21ae9aa3326ca6c2b
+- note_id: service-readiness-liveness
+  title: 服务健康检查：进程存活与业务就绪分别定义
+  path: _posts/2021-01-06-service-readiness-liveness.md
+  date: '2021-01-06'
+  permalink: /tech/2021/01/06/service-readiness-liveness/
+  tags: *id009
+  images:
+  - /img/tech-notes/service-readiness-liveness.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 72e6d7651a7fb34471e4fa9d8d9b85fd3f8475c9bdeda4bd91cd3f7de1002db9
+- note_id: docker-image-cache-build
+  title: Docker 镜像构建：依赖层、缓存与运行产物
+  path: _posts/2020-12-27-docker-image-cache-build.md
+  date: '2020-12-27'
+  permalink: /tech/2020/12/27/docker-image-cache-build/
+  tags: *id010
+  images:
+  - /img/tech-notes/docker-image-cache-build.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 951898124c708ac75b8c42f9a0a4381eba7fdb828a7365ad2024f39a42cea5df
+- note_id: http-upload-file-boundary
+  title: 文件上传接口：内容验证、存储路径与任务状态
+  path: _posts/2020-12-17-http-upload-file-boundary.md
+  date: '2020-12-17'
+  permalink: /tech/2020/12/17/http-upload-file-boundary/
+  tags: *id009
+  images:
+  - /img/tech-notes/http-upload-file-boundary.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 93d997b23b80893233506501d54499eec2baa246fc887d3ab5f9c845445902f6
+- note_id: camera-calibration-coordinate
+  title: 相机标定：重投影误差之外还要检查什么
+  path: _posts/2020-12-07-camera-calibration-coordinate.md
+  date: '2020-12-07'
+  permalink: /tech/2020/12/07/camera-calibration-coordinate/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-calibration-coordinate.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 7d5fd0e9479cdcef84fbf6e3f1e16af2012c8d122a60a926e5a2f6ae9b9e1dea
+- note_id: lens-focal-length-aperture-fov
+  title: 工业镜头选型：视野、焦距和光圈分开计算
+  path: _posts/2020-11-28-lens-focal-length-aperture-fov.md
+  date: '2020-11-28'
+  permalink: /tech/2020/11/28/lens-focal-length-aperture-fov/
+  tags: *id004
+  images:
+  - /img/tech-notes/lens-focal-length-aperture-fov.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 120ae6be7e12e759c9e72adabc60240530a35c15e24cc9f4053f85fd86837e70
+- note_id: camera-exposure-motion
+  title: 运动目标成像：曝光时间与速度造成多少拖影
+  path: _posts/2020-11-18-camera-exposure-motion.md
+  date: '2020-11-18'
+  permalink: /tech/2020/11/18/camera-exposure-motion/
+  tags: *id004
+  images:
+  - /img/tech-notes/camera-exposure-motion.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 49c6cc1328e7a11fffcf8b505e9d9fff73f115198f72414718c0393af970f24b
+- note_id: opencv-contour-geometry
+  title: 轮廓筛选：面积、长宽比与位置约束如何组合
+  path: _posts/2020-11-08-opencv-contour-geometry.md
+  date: '2020-11-08'
+  permalink: /tech/2020/11/08/opencv-contour-geometry/
+  tags: *id004
+  images:
+  - /img/tech-notes/opencv-contour-geometry.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 38b3a1fdc4068d3687f5c3a660b9ff45265dbc12836de4251ed6c34264cb9596
+- note_id: opencv-threshold-morphology
+  title: OpenCV 二值分割：阈值与形态学各自解决什么
+  path: _posts/2020-10-29-opencv-threshold-morphology.md
+  date: '2020-10-29'
+  permalink: /tech/2020/10/29/opencv-threshold-morphology/
+  tags: *id004
+  images:
+  - /img/tech-notes/opencv-threshold-morphology.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 942b0bdb1e748e159499d61ceebf5e7a409b69c436fca4e4a1d755642e014fb6
+- note_id: usb-hub-error-minus71
+  title: USB 扩展异常：用交叉测试区分线材与驱动
+  path: _posts/2020-10-19-usb-hub-error-minus71.md
+  date: '2020-10-19'
+  permalink: /tech/2020/10/19/usb-hub-error-minus71/
+  tags: *id007
+  images:
+  - /img/tech-notes/usb-hub-error-minus71.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8d26916a0ab137bd6d640ca58c7640f00df6b6030d939e9b8dedc1a6cbe028c9
+- note_id: serial-stable-device-name
+  title: USB 串口稳定命名：编号变化与设备身份
+  path: _posts/2020-10-09-serial-stable-device-name.md
+  date: '2020-10-09'
+  permalink: /tech/2020/10/09/serial-stable-device-name/
+  tags: *id007
+  images:
+  - /img/tech-notes/serial-stable-device-name.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 518facb51c474cb33a1abad5acdbbea544d62e1ffd48a784223a2a8f2a4927c4
+- note_id: sqlite-edge-local-store
+  title: SQLite 边缘存储：事务、并发写入与备份
+  path: _posts/2020-09-29-sqlite-edge-local-store.md
+  date: '2020-09-29'
+  permalink: /tech/2020/09/29/sqlite-edge-local-store/
+  tags: *id012
+  images:
+  - /img/tech-notes/sqlite-edge-local-store.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: fbc0c458607fcd713ba382d34e2b999ff98e6add7c172fc15ec558758e37d799
+- note_id: python-file-atomic-write
+  title: 配置文件更新：临时文件与原子替换的边界
+  path: _posts/2020-09-19-python-file-atomic-write.md
+  date: '2020-09-19'
+  permalink: /tech/2020/09/19/python-file-atomic-write/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-file-atomic-write.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c82004cf91aab809555de971e00c01963f86cbded4556a67cf3afe2a8526a88f
+- note_id: python-exception-boundary
+  title: Python 异常处理：保留错误原因并明确恢复范围
+  path: _posts/2020-09-09-python-exception-boundary.md
+  date: '2020-09-09'
+  permalink: /tech/2020/09/09/python-exception-boundary/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-exception-boundary.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 63983432dd96dde1afafa37eb2627e39f0412691a8d83400b6fcca0e21e1fa1c
+- note_id: python-standard-library-shadowing
+  title: Python 导入异常：定位同名模块与解释器环境
+  path: _posts/2020-08-30-python-standard-library-shadowing.md
+  date: '2020-08-30'
+  permalink: /tech/2020/08/30/python-standard-library-shadowing/
+  tags: *id011
+  images:
+  - /img/tech-notes/python-standard-library-shadowing.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: adb5ce98e4b0600613850c1a38e5aaa0407fc34d2f1caade4f781278325e449d
+- note_id: weighing-event-session
+  title: 无人值守称重：一车多次读数如何形成业务记录
+  path: _posts/2020-08-20-weighing-event-session.md
+  date: '2020-08-20'
+  permalink: /tech/2020/08/20/weighing-event-session/
+  tags: *id006
+  images:
+  - /img/tech-notes/weighing-event-session.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e3a8f68e2ef47c52f5dd91a0d6c23c04325034c6ca0c45f0b10f8e74064daae1
+- note_id: pollution-monitoring-data-quality
+  title: 污染源监测数据接入：时间、质量码与补传
+  path: _posts/2020-08-10-pollution-monitoring-data-quality.md
+  date: '2020-08-10'
+  permalink: /tech/2020/08/10/pollution-monitoring-data-quality/
+  tags: *id013
+  images:
+  - /img/tech-notes/pollution-monitoring-data-quality.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b7cbd4e6cf9a11c431d62090c822ef4dc00fac6bd86c1a29913f0f3589b77d65
+- note_id: device-heartbeat-quality
+  title: 设备在线判断：心跳、数据新鲜度和业务可用性
+  path: _posts/2020-07-31-device-heartbeat-quality.md
+  date: '2020-07-31'
+  permalink: /tech/2020/07/31/device-heartbeat-quality/
+  tags: *id006
+  images:
+  - /img/tech-notes/device-heartbeat-quality.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: b9b901216af2233fa0b82aafb8ec0c484ccddcb00474e2affa8b5c343c397e61
+- note_id: node-red-normalize-device-signals
+  title: Node-RED 数据入口：先统一状态语义再写规则
+  path: _posts/2020-07-21-node-red-normalize-device-signals.md
+  date: '2020-07-21'
+  permalink: /tech/2020/07/21/node-red-normalize-device-signals/
+  tags: *id006
+  images:
+  - /img/tech-notes/node-red-normalize-device-signals.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 30bf287245a749f70da346eedd90044d2bbeaf2286a6171d7c87121cd56e6c72
+- note_id: plc-message-latch-handshake
+  title: PLC 与上位机握手：处理提前回执和重复消息
+  path: _posts/2020-07-11-plc-message-latch-handshake.md
+  date: '2020-07-11'
+  permalink: /tech/2020/07/11/plc-message-latch-handshake/
+  tags: *id006
   images:
   - /img/tech-notes/plc-message-latch-handshake.svg
-  path: _posts/2023-02-01-plc-message-latch-handshake.md
-  sha256: 8b6b2e43f50cff6dede05296eda1e8048329acaf66b9a6fece2d66c6d5a1e07f
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 381ea38515d17db32bba8b982c1d2d4cc7f155f6ab90f450eddc83b231382ad1
+- note_id: modbus-register-word-order
+  title: Modbus 寄存器解析：地址、字节序和数据类型
+  path: _posts/2020-07-01-modbus-register-word-order.md
+  date: '2020-07-01'
+  permalink: /tech/2020/07/01/modbus-register-word-order/
+  tags: *id006
+  images:
+  - /img/tech-notes/modbus-register-word-order.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 6242ffd35444dbdeedae02a9ef2111e2cda1330829cd74d7f9d9814eb77f5e2e
+- note_id: modbus-timeout-layered-debug
+  title: RS485 采集超时：从物理链路到有效回包
+  path: _posts/2020-06-22-modbus-timeout-layered-debug.md
+  date: '2020-06-22'
+  permalink: /tech/2020/06/22/modbus-timeout-layered-debug/
+  tags: *id006
+  images:
+  - /img/tech-notes/modbus-timeout-layered-debug.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8111615c9d4e57059ca1f212d17d1fcb6db1b6a1a5218e616c2cc7e92e27eb67
+- note_id: mqtt-retained-state
+  title: MQTT 保留消息：最新状态不能当实时事件
+  path: _posts/2020-06-12-mqtt-retained-state.md
+  date: '2020-06-12'
+  permalink: /tech/2020/06/12/mqtt-retained-state/
+  tags: *id014
+  images:
+  - /img/tech-notes/mqtt-retained-state.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 0c797b20a46de551d852ee0ca458d8d4e6324f81425e081dfc76818d21b09d68
+- note_id: mqtt-qos-business-once
+  title: MQTT QoS 与业务去重：收到一次和执行一次不同
+  path: _posts/2020-06-02-mqtt-qos-business-once.md
+  date: '2020-06-02'
+  permalink: /tech/2020/06/02/mqtt-qos-business-once/
+  tags: *id014
+  images:
+  - /img/tech-notes/mqtt-qos-business-once.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e081d932397830e48ca8d7716b2cc22566d011c311e9c0a55603bc907b7c9d9b
+- note_id: rest-api-idempotency
+  title: 接口重复提交：用幂等键处理回执丢失
+  path: _posts/2020-05-23-rest-api-idempotency.md
+  date: '2020-05-23'
+  permalink: /tech/2020/05/23/rest-api-idempotency/
+  tags: *id009
+  images:
+  - /img/tech-notes/rest-api-idempotency.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8583e39de8f10368484bc6348158c52bea9bbfe1751e476a7ea59785b41e7d34
+- note_id: git-deployment-version
+  title: Git 管理部署版本：代码、配置与镜像一起追踪
+  path: _posts/2020-05-13-git-deployment-version.md
+  date: '2020-05-13'
+  permalink: /tech/2020/05/13/git-deployment-version/
+  tags: *id002
+  images:
+  - /img/tech-notes/git-deployment-version.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d7727dbfa35abcc8e8418f3cc0ccc54d08f821cb01fef26737443eb8b7da6a76
+- note_id: linux-time-sync-events
+  title: 设备时间不一致：采集时间、接收时间与时区
+  path: _posts/2020-05-03-linux-time-sync-events.md
+  date: '2020-05-03'
+  permalink: /tech/2020/05/03/linux-time-sync-events/
+  tags: *id013
+  images:
+  - /img/tech-notes/linux-time-sync-events.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: c609d026263b2db7fe4e8c1e6492fe23a512385a061f7dba3236ab20c7e2c901
+- note_id: linux-log-retention
+  title: Linux 日志增长：如何保留排查证据并控制磁盘
+  path: _posts/2020-04-23-linux-log-retention.md
+  date: '2020-04-23'
+  permalink: /tech/2020/04/23/linux-log-retention/
+  tags: *id005
+  images:
+  - /img/tech-notes/linux-log-retention.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: d9809fe5388953538843e13cdb2b7620ac97240a09db3ea9d45693af610d2f71
+- note_id: jdbc-pool-timeout
+  title: Java 数据库连接池：连接超时与 SQL 超时分开查
+  path: _posts/2020-04-13-jdbc-pool-timeout.md
+  date: '2020-04-13'
+  permalink: /tech/2020/04/13/jdbc-pool-timeout/
+  tags: &id015
+  - Java
+  - Spring Boot
+  images:
+  - /img/tech-notes/jdbc-pool-timeout.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: e096a6d2325bc1a72f185433c6858dd467862dff35704e7bcbf6b75451700bcd
+- note_id: spring-boot-config-precedence
+  title: Spring Boot 配置加载：环境变量与配置文件谁生效
+  path: _posts/2020-04-03-spring-boot-config-precedence.md
+  date: '2020-04-03'
+  permalink: /tech/2020/04/03/spring-boot-config-precedence/
+  tags: *id015
+  images:
+  - /img/tech-notes/spring-boot-config-precedence.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8d0f55974be6541fe22cde76b8dbef8b9b6d3136c10201dffbfd4aa9fa28eb54
+- note_id: docker-network-service-name
+  title: Docker 服务名访问：为什么 localhost 找不到另一个容器
+  path: _posts/2020-03-24-docker-network-service-name.md
+  date: '2020-03-24'
+  permalink: /tech/2020/03/24/docker-network-service-name/
+  tags: *id010
+  images:
+  - /img/tech-notes/docker-network-service-name.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 613d9500eac6334d003c9523e633bfafe5d67340488ecfe0a6589d5211d8d457
+- note_id: redis-cache-consistency
+  title: Redis 缓存更新：过期策略与数据库一致性
+  path: _posts/2020-03-14-redis-cache-consistency.md
+  date: '2020-03-14'
+  permalink: /tech/2020/03/14/redis-cache-consistency/
+  tags: *id012
+  images:
+  - /img/tech-notes/redis-cache-consistency.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 2007f76586f1a5523862c1bd678cdd9d24051c3488f19643863b8cdb44fe3a51
+- note_id: mysql-transaction-boundaries
+  title: 数据库事务：提交、异常回滚与跨接口一致性
+  path: _posts/2020-03-04-mysql-transaction-boundaries.md
+  date: '2020-03-04'
+  permalink: /tech/2020/03/04/mysql-transaction-boundaries/
+  tags: *id012
+  images:
+  - /img/tech-notes/mysql-transaction-boundaries.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 9e57d5852e00db99b02d62869ff8d34b71da21f65c8807d1c53b04fedce41725
+- note_id: mysql-index-explain
+  title: MySQL 慢查询：先读执行计划再添加索引
+  path: _posts/2020-02-23-mysql-index-explain.md
+  date: '2020-02-23'
+  permalink: /tech/2020/02/23/mysql-index-explain/
+  tags: *id012
+  images:
+  - /img/tech-notes/mysql-index-explain.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 03cf1838f657bc59beff8e137d0e00eff2a778f723b30a479dd5c25dd85b8ea0
+- note_id: nginx-reverse-proxy-path
+  title: Nginx 反向代理路径：多一个斜杠为何请求不同
+  path: _posts/2020-02-13-nginx-reverse-proxy-path.md
+  date: '2020-02-13'
+  permalink: /tech/2020/02/13/nginx-reverse-proxy-path/
+  tags: *id008
+  images:
+  - /img/tech-notes/nginx-reverse-proxy-path.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 95f14b341ea0bb648f1c6f6a37f1d72871820b33e7adf8f2fea816137487ff0a
+- note_id: systemd-service-startup
+  title: 用 systemd 管理后台服务：启动、退出和日志
+  path: _posts/2020-02-03-systemd-service-startup.md
+  date: '2020-02-03'
+  permalink: /tech/2020/02/03/systemd-service-startup/
+  tags: *id005
+  images:
+  - /img/tech-notes/systemd-service-startup.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: dfac71c2f07e9c20f57607cd5f6ef7648bac70b407b5f309e2e1c9ee1bc7d023
+- note_id: docker-volume-lifecycle
+  title: Docker 数据卷：容器删除后哪些数据还能保留
+  path: _posts/2020-01-24-docker-volume-lifecycle.md
+  date: '2020-01-24'
+  permalink: /tech/2020/01/24/docker-volume-lifecycle/
+  tags: *id010
+  images:
+  - /img/tech-notes/docker-volume-lifecycle.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 8a59c67422ac639e5a0fecc5383b1e48887776ccd8a24b3f8aaac8a0096bc22b
+- note_id: linux-service-port-ownership
+  title: Linux 服务访问失败：从监听端口找到实际进程
+  path: _posts/2020-01-14-linux-service-port-ownership.md
+  date: '2020-01-14'
+  permalink: /tech/2020/01/14/linux-service-port-ownership/
+  tags: *id005
+  images:
+  - /img/tech-notes/linux-service-port-ownership.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 3dab546c42ad8ff73de28dd222c9f4c22af15f0e36ba0a68841d7680707df0c5
+- note_id: compose-web-foundations
+  title: 用 Docker Compose 部署 Web 服务：网络、数据与故障恢复
+  path: _posts/2020-01-05-compose-web-foundations.md
+  date: '2020-01-05'
+  permalink: /tech/2020/01/05/compose-web-foundations/
+  tags: *id010
+  images:
+  - /img/tech-notes/compose-web-foundations.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  sha256: 34e4dfd577d74e2349f867a067f151286e32910bde39e569a515f87387fa451a

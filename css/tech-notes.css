@@ -32,3 +32,4 @@
 [hidden]{display:none!important}
 @media(max-width:600px){.note-card{gap:12px}.note-card h3{font-size:19px}.note-date{min-width:43px;font-size:14px}.tech-note-meta{padding:14px 15px}.tech-note-meta strong{min-width:70px}.note-header-meta{font-size:15px!important}}
 
+.tech-note-nav{font-size:14px;margin:0 0 25px}.tech-note-nav a{color:#235b83}
