@@ -3028,3 +3028,3114 @@
   privacy_reviewed: true
   content_revision: 3
   sha256: 34e4dfd577d74e2349f867a067f151286e32910bde39e569a515f87387fa451a
+- note_id: iot-vision-research-review-2019
+  title: 物联网与视觉研究复盘：把能力边界写进交付清单
+  date: '2019-12-25'
+  permalink: /tech/2019/12/25/iot-vision-research-review-2019/
+  tags: &id016
+  - 边缘计算
+  - 物联网视觉
+  images:
+  - /img/tech-notes/iot-vision-research-review-2019.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-12-25-iot-vision-research-review-2019.md
+  sha256: fe6b6f6fd678f5287b290cd2758f578b83fc4938cf8ba27775904d9d018a533d
+- note_id: document-title-seal-demo-completion
+  title: 文档视觉小应用：从上传到标题、印章与复核结果
+  date: '2019-12-15'
+  permalink: /tech/2019/12/15/document-title-seal-demo-completion/
+  tags: *id016
+  images:
+  - /img/tech-notes/document-title-seal-demo-completion.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-12-15-document-title-seal-demo-completion.md
+  sha256: df70ac368af1232af64bb86c2217a328c1446819e0422acc59c87ee1f09c8784
+- note_id: iot-environment-monitoring-demo
+  title: 物联网小系统：把采样、上报、趋势和告警串起来
+  date: '2019-12-05'
+  permalink: /tech/2019/12/05/iot-environment-monitoring-demo/
+  tags: *id016
+  images:
+  - /img/tech-notes/iot-environment-monitoring-demo.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-12-05-iot-environment-monitoring-demo.md
+  sha256: a9b3f197428ff79ecc49a216a3dbb1a4ea7d1e729af043dbb57d5b1ae05ecd1c
+- note_id: iot-vision-command-result-boundary
+  title: 物联网视觉联动：识别到了不代表动作完成
+  date: '2019-11-25'
+  permalink: /tech/2019/11/25/iot-vision-command-result-boundary/
+  tags: *id016
+  images:
+  - /img/tech-notes/iot-vision-command-result-boundary.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-11-25-iot-vision-command-result-boundary.md
+  sha256: 652f75f45017f4102f5032c1d06cf05f901114c3318e7c8584ea861ceb0345c9
+- note_id: edge-queue-backpressure-images
+  title: 边缘视觉队列：图像处理慢时不要无限堆内存
+  date: '2019-11-15'
+  permalink: /tech/2019/11/15/edge-queue-backpressure-images/
+  tags: *id016
+  images:
+  - /img/tech-notes/edge-queue-backpressure-images.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-11-15-edge-queue-backpressure-images.md
+  sha256: 29f625e8e039e78faf69b82eee6d29e4f6bee049f28176191ff611c38b07f654
+- note_id: iot-vision-event-correlation
+  title: 物联网与视觉融合：事件、图片和设备状态如何对齐
+  date: '2019-11-05'
+  permalink: /tech/2019/11/05/iot-vision-event-correlation/
+  tags: *id016
+  images:
+  - /img/tech-notes/iot-vision-event-correlation.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-11-05-iot-vision-event-correlation.md
+  sha256: 57932868822de1b93719a9398349bea0283f3aa90fd90fc6e43786fd871b64b4
+- note_id: vision-human-review-confidence
+  title: 视觉应用：低置信度结果怎样进入人工复核
+  date: '2019-10-25'
+  permalink: /tech/2019/10/25/vision-human-review-confidence/
+  tags: &id017
+  - YOLOv3
+  - 机器视觉
+  images:
+  - /img/tech-notes/vision-human-review-confidence.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-10-25-vision-human-review-confidence.md
+  sha256: 14229be172833e50c7c6403299bc0aa3f045a08edc8a67321a052b8d34459e1c
+- note_id: vision-domain-shift-scanner
+  title: 视觉泛化：换扫描仪后效果为何可能变化
+  date: '2019-10-15'
+  permalink: /tech/2019/10/15/vision-domain-shift-scanner/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-domain-shift-scanner.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-10-15-vision-domain-shift-scanner.md
+  sha256: 75164183b9a15fa7c1d9954ea01f851a69b1aa00d258222973d1950413a260a7
+- note_id: vision-hard-negative-feedback
+  title: 视觉迭代：误检样本怎样进入下一轮数据
+  date: '2019-10-05'
+  permalink: /tech/2019/10/05/vision-hard-negative-feedback/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-hard-negative-feedback.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-10-05-vision-hard-negative-feedback.md
+  sha256: 4636a22f2d815c6e8320f02bf11156ac7593e184291540dcdc22bc111acd2ec9
+- note_id: iot-alert-dedup-clear
+  title: 物联网告警：触发、持续、恢复要有完整状态
+  date: '2019-09-25'
+  permalink: /tech/2019/09/25/iot-alert-dedup-clear/
+  tags: *id016
+  images:
+  - /img/tech-notes/iot-alert-dedup-clear.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-09-25-iot-alert-dedup-clear.md
+  sha256: e55b3b5520fc3254c3dcd1a9fa669d82f2090d58f448ab0b2a175a3579818d3c
+- note_id: vision-latency-stage-measurement
+  title: 视觉服务性能：解码、预处理和推理分别计时
+  date: '2019-09-15'
+  permalink: /tech/2019/09/15/vision-latency-stage-measurement/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-latency-stage-measurement.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-09-15-vision-latency-stage-measurement.md
+  sha256: de34fc474e74cfb01f087e0b488215edcbf9166016b3504f43e3533134f5af31
+- note_id: edge-inference-resource-budget
+  title: 边缘视觉部署：先算内存、温度和并发预算
+  date: '2019-09-05'
+  permalink: /tech/2019/09/05/edge-inference-resource-budget/
+  tags: *id016
+  images:
+  - /img/tech-notes/edge-inference-resource-budget.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-09-05-edge-inference-resource-budget.md
+  sha256: d1652f57cbb1eb68311069115be4f9858c405ca163707b87959e8222807cc431
+- note_id: iot-command-authorization-audit
+  title: 物联网命令：谁能控制、控制了什么要可追溯
+  date: '2019-08-25'
+  permalink: /tech/2019/08/25/iot-command-authorization-audit/
+  tags: &id018
+  - 物联网
+  - 可靠性
+  images:
+  - /img/tech-notes/iot-command-authorization-audit.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-08-25-iot-command-authorization-audit.md
+  sha256: c36ff24d7c9369c6a4ae07b20cca00270c80513e7b6e8c7b7e2276dba6bd39f0
+- note_id: iot-device-credential-lifecycle
+  title: 物联网设备身份：批量共用一个密码的问题
+  date: '2019-08-15'
+  permalink: /tech/2019/08/15/iot-device-credential-lifecycle/
+  tags: *id018
+  images:
+  - /img/tech-notes/iot-device-credential-lifecycle.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-08-15-iot-device-credential-lifecycle.md
+  sha256: dc447a9491fa460baa9084d308eecf593e8142125396ee6bfc5203e7df4cea93
+- note_id: iot-tls-server-identity
+  title: 物联网安全研究：TLS 加密还需要验证对端身份
+  date: '2019-08-05'
+  permalink: /tech/2019/08/05/iot-tls-server-identity/
+  tags: *id018
+  images:
+  - /img/tech-notes/iot-tls-server-identity.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-08-05-iot-tls-server-identity.md
+  sha256: 87eddc72ba6476628da45eac608406de8b6b6833ced71fa521350eb000772828
+- note_id: vision-tiling-boundary-merge
+  title: 大幅文档切片：边缘目标和重复框怎样合并
+  date: '2019-07-25'
+  permalink: /tech/2019/07/25/vision-tiling-boundary-merge/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-tiling-boundary-merge.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-07-25-vision-tiling-boundary-merge.md
+  sha256: e3ffe36452cfbecadaf0b36308a6adb879f4778df4fe587e7c5985bca46791fe
+- note_id: vision-small-object-document-scale
+  title: 文档小目标研究：输入缩小后还剩多少像素
+  date: '2019-07-15'
+  permalink: /tech/2019/07/15/vision-small-object-document-scale/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-small-object-document-scale.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-07-15-vision-small-object-document-scale.md
+  sha256: 38d6e9408da4d87fef143cb8f1abc5d18c31b956560f1b6cd76400da26b2d66b
+- note_id: vision-threshold-pr-curve
+  title: 视觉评估研究：阈值选择要对应业务代价
+  date: '2019-07-05'
+  permalink: /tech/2019/07/05/vision-threshold-pr-curve/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-threshold-pr-curve.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-07-05-vision-threshold-pr-curve.md
+  sha256: 69644e0e2128caa5bd616ce3ff5d00723e031c98de61804af5d776346dd3f56a
+- note_id: vision-augmentation-document-realism
+  title: 视觉训练研究：文档增强要像真实成像
+  date: '2019-06-25'
+  permalink: /tech/2019/06/25/vision-augmentation-document-realism/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-augmentation-document-realism.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-06-25-vision-augmentation-document-realism.md
+  sha256: e3d2ad05283e6b353465a848bd4246b22a8e212e1e63456c9312316488760c2d
+- note_id: vision-class-imbalance-negative
+  title: 视觉训练研究：负样本与类别不均衡怎样观察
+  date: '2019-06-15'
+  permalink: /tech/2019/06/15/vision-class-imbalance-negative/
+  tags: *id017
+  images:
+  - /img/tech-notes/vision-class-imbalance-negative.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-06-15-vision-class-imbalance-negative.md
+  sha256: 68c8a3e26d9849f2d9270d552b470c3ede4f7305eb3e9ba5d9392c04596c18b9
+- note_id: yolov3-anchor-document-shapes
+  title: YOLOv3 文档研究：锚框要与目标尺寸分布匹配
+  date: '2019-06-05'
+  permalink: /tech/2019/06/05/yolov3-anchor-document-shapes/
+  tags: *id017
+  images:
+  - /img/tech-notes/yolov3-anchor-document-shapes.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-06-05-yolov3-anchor-document-shapes.md
+  sha256: 01ef9f39647fbd53667a8e7eba205b7d4cc587157e8e5a79ea39f0345b51da96
+- note_id: document-rotation-box-transform
+  title: 文档视觉：旋转图片时标注框也要一起旋转
+  date: '2019-05-25'
+  permalink: /tech/2019/05/25/document-rotation-box-transform/
+  tags: &id019
+  - OpenCV
+  - 文档视觉
+  images:
+  - /img/tech-notes/document-rotation-box-transform.svg
+  technology_since: '2017-12-22'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-05-25-document-rotation-box-transform.md
+  sha256: bea51b64a19ab02c791200de19cd88d7c5e664f0867f2c9d1b81822626dff0a8
+- note_id: document-perspective-rectification
+  title: 文档视觉：透视矫正需要可靠的四角对应
+  date: '2019-05-15'
+  permalink: /tech/2019/05/15/document-perspective-rectification/
+  tags: *id019
+  images:
+  - /img/tech-notes/document-perspective-rectification.svg
+  technology_since: '2017-12-22'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-05-15-document-perspective-rectification.md
+  sha256: 825db88019a44c994d537c74126224b399ec2eb091255048c2d1d9d6a81cbd62
+- note_id: vision-letterbox-inverse-mapping
+  title: 视觉几何：等比例缩放补边后的框怎样还原
+  date: '2019-05-05'
+  permalink: /tech/2019/05/05/vision-letterbox-inverse-mapping/
+  tags: *id019
+  images:
+  - /img/tech-notes/vision-letterbox-inverse-mapping.svg
+  technology_since: '2017-12-22'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-05-05-vision-letterbox-inverse-mapping.md
+  sha256: 2e8a1f1701186c4a907188c67a223583ea3d90aa161cae94e2daf81db5c502ef
+- note_id: gateway-offline-buffer-replay
+  title: 树莓派网关：断网缓存需要容量和补传规则
+  date: '2019-04-25'
+  permalink: /tech/2019/04/25/gateway-offline-buffer-replay/
+  tags: &id020
+  - 树莓派
+  - 工业协议
+  images:
+  - /img/tech-notes/gateway-offline-buffer-replay.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-04-25-gateway-offline-buffer-replay.md
+  sha256: bff56fc00346fd63aa1b2a09ab4891a1f43b6c409eb25bfb15deca23b012843b
+- note_id: modbus-byte-word-order
+  title: 树莓派网关：两个寄存器怎样组合成浮点数
+  date: '2019-04-15'
+  permalink: /tech/2019/04/15/modbus-byte-word-order/
+  tags: *id020
+  images:
+  - /img/tech-notes/modbus-byte-word-order.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-04-15-modbus-byte-word-order.md
+  sha256: 3ddd048c11159bda939fb3f0f458c4af3c2d7cbebf90dea20e894428b5e48b73
+- note_id: modbus-register-addressing
+  title: 树莓派网关：Modbus 文档地址与协议偏移
+  date: '2019-04-05'
+  permalink: /tech/2019/04/05/modbus-register-addressing/
+  tags: *id020
+  images:
+  - /img/tech-notes/modbus-register-addressing.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-04-05-modbus-register-addressing.md
+  sha256: 65868bdf56d5de04af63fe9c7004da5ae9165ed84e06683a632c77a2d2e94093
+- note_id: nodered-flow-project-dependencies
+  title: Node-RED 工程化：流程文件之外还要保存什么
+  date: '2019-03-25'
+  permalink: /tech/2019/03/25/nodered-flow-project-dependencies/
+  tags: &id021
+  - Node-RED
+  - 边缘流程
+  images:
+  - /img/tech-notes/nodered-flow-project-dependencies.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-03-25-nodered-flow-project-dependencies.md
+  sha256: 4b6cd3e5df2cc5438acba5d9e79daabe5921e7b15e809ee4bc6d37a2c3bb4750
+- note_id: nodered-flow-replay-test
+  title: Node-RED 流程验证：用固定消息回放检查转换
+  date: '2019-03-15'
+  permalink: /tech/2019/03/15/nodered-flow-replay-test/
+  tags: *id021
+  images:
+  - /img/tech-notes/nodered-flow-replay-test.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-03-15-nodered-flow-replay-test.md
+  sha256: 281b157e7288c721b45e05fd9508666a7f587a20650c35bc0309f075f6e83982
+- note_id: nodered019-file-context-durability
+  title: Node-RED 0.19：文件上下文不等于每次写入立刻落盘
+  date: '2019-03-05'
+  permalink: /tech/2019/03/05/nodered019-file-context-durability/
+  tags: *id021
+  images:
+  - /img/tech-notes/nodered019-file-context-durability.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-03-05-nodered019-file-context-durability.md
+  sha256: ad28a5fd09beddb54dec6a7a1e17563799ec62bc086cf4d938aeade8aeab0be8
+- note_id: esp32-watchdog-task-health
+  title: ESP32 看门狗：喂狗要反映真实进度
+  date: '2019-02-25'
+  permalink: /tech/2019/02/25/esp32-watchdog-task-health/
+  tags: &id022
+  - ESP32
+  - 设备管理
+  images:
+  - /img/tech-notes/esp32-watchdog-task-health.svg
+  technology_since: '2018-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-02-25-esp32-watchdog-task-health.md
+  sha256: 46ccea45c8ba73ebb9dfccbd718d50750f30b3cf45484fdc76534dd8d2656f22
+- note_id: esp32-ota-partition-recovery
+  title: ESP32 OTA：下载完成之前先设计失败恢复
+  date: '2019-02-15'
+  permalink: /tech/2019/02/15/esp32-ota-partition-recovery/
+  tags: *id022
+  images:
+  - /img/tech-notes/esp32-ota-partition-recovery.svg
+  technology_since: '2018-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-02-15-esp32-ota-partition-recovery.md
+  sha256: 5e0dae8d73f7d1caa9c76f9074b90326639277d6522b508131f05e0887eb3792
+- note_id: esp32-nvs-config-version
+  title: ESP32 配置持久化：NVS 键值也需要版本
+  date: '2019-02-05'
+  permalink: /tech/2019/02/05/esp32-nvs-config-version/
+  tags: *id022
+  images:
+  - /img/tech-notes/esp32-nvs-config-version.svg
+  technology_since: '2018-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-02-05-esp32-nvs-config-version.md
+  sha256: f69abee04c3f569bd9eb3c9512688ac65e74b9a365af09b07dfc173aa51e3d0f
+- note_id: iot-sample-time-receive-time
+  title: 物联网时间研究：采样时刻与接收时刻不能混成一列
+  date: '2019-01-25'
+  permalink: /tech/2019/01/25/iot-sample-time-receive-time/
+  tags: *id018
+  images:
+  - /img/tech-notes/iot-sample-time-receive-time.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-01-25-iot-sample-time-receive-time.md
+  sha256: 1b1b8963552d65e2609f407bb99ccb9e311ce9acb3d0f373fd0de7769e885072
+- note_id: mqtt-session-reconnect-duplicates
+  title: MQTT 重连：会话恢复与业务补传分别设计
+  date: '2019-01-15'
+  permalink: /tech/2019/01/15/mqtt-session-reconnect-duplicates/
+  tags: *id018
+  images:
+  - /img/tech-notes/mqtt-session-reconnect-duplicates.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-01-15-mqtt-session-reconnect-duplicates.md
+  sha256: 95e983329e3b69ad45aedbf52e878afdcdf980e5a56f904432fef87302585a63
+- note_id: mqtt-last-will-heartbeat-freshness
+  title: MQTT 设备在线：遗嘱、心跳和数据新鲜度分开看
+  date: '2019-01-05'
+  permalink: /tech/2019/01/05/mqtt-last-will-heartbeat-freshness/
+  tags: *id018
+  images:
+  - /img/tech-notes/mqtt-last-will-heartbeat-freshness.svg
+  technology_since: '2018-08-14'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2019-01-05-mqtt-last-will-heartbeat-freshness.md
+  sha256: fde606939b3e68da44922b28cfee0835a732239c28c0f433996a148e50f3dc8c
+- note_id: vision-model-release-record
+  title: 视觉模型交付：权重、阈值和数据口径一起版本化
+  date: '2018-12-25'
+  permalink: /tech/2018/12/25/vision-model-release-record/
+  tags: &id023
+  - Darknet
+  - 机器视觉
+  images:
+  - /img/tech-notes/vision-model-release-record.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-12-25-vision-model-release-record.md
+  sha256: 7588f0f6a2a2db3af2027032c5b555818364dffaad56b16a35ef4f10304714e5
+- note_id: darknet-document-api-contract
+  title: Darknet 应用服务：输入、任务状态与结果文件
+  date: '2018-12-15'
+  permalink: /tech/2018/12/15/darknet-document-api-contract/
+  tags: *id023
+  images:
+  - /img/tech-notes/darknet-document-api-contract.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-12-15-darknet-document-api-contract.md
+  sha256: 135338ddf71d2c9907557e82e8362042950a8383ea92ec516c4f8235955a0097
+- note_id: document-detection-ocr-pipeline
+  title: 文档应用：标题定位、裁剪与 OCR 怎样衔接
+  date: '2018-12-05'
+  permalink: /tech/2018/12/05/document-detection-ocr-pipeline/
+  tags: &id024
+  - 文档检测
+  - 数据集
+  images:
+  - /img/tech-notes/document-detection-ocr-pipeline.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-12-05-document-detection-ocr-pipeline.md
+  sha256: f82be3e0d4fb9e4a06910a01c57eff7485a25f73128f7a0f58a4bf21d5db3189
+- note_id: stamp-box-versus-authenticity
+  title: 印章检测应用：找到印章与验证真伪是两项任务
+  date: '2018-11-25'
+  permalink: /tech/2018/11/25/stamp-box-versus-authenticity/
+  tags: *id024
+  images:
+  - /img/tech-notes/stamp-box-versus-authenticity.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-11-25-stamp-box-versus-authenticity.md
+  sha256: ce7a5669d4d67ae2b20733bb0290df7dada7bbe09b786fe61b065b8902b6ed39
+- note_id: stamp-detection-overlap-title
+  title: 文档检测研究：印章压住标题时怎样标注
+  date: '2018-11-15'
+  permalink: /tech/2018/11/15/stamp-detection-overlap-title/
+  tags: *id024
+  images:
+  - /img/tech-notes/stamp-detection-overlap-title.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-11-15-stamp-detection-overlap-title.md
+  sha256: 0e6bcf3bc8d49303626c7e2859d2bd64aab40b153e0cdb8a6c0c321a272109ee
+- note_id: stamp-color-segmentation-baseline
+  title: 印章检测研究：先建立颜色与轮廓基线
+  date: '2018-11-05'
+  permalink: /tech/2018/11/05/stamp-color-segmentation-baseline/
+  tags: *id024
+  images:
+  - /img/tech-notes/stamp-color-segmentation-baseline.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-11-05-stamp-color-segmentation-baseline.md
+  sha256: b9694ac3092e51a6cf6d4ddbe721fc19f5ee7d6a2c039bfe57d9b08cc6e21b58
+- note_id: detection-precision-recall-iou
+  title: 视觉评估：IoU、召回率和误检不能只看一个分数
+  date: '2018-10-25'
+  permalink: /tech/2018/10/25/detection-precision-recall-iou/
+  tags: *id024
+  images:
+  - /img/tech-notes/detection-precision-recall-iou.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-10-25-detection-precision-recall-iou.md
+  sha256: a3a72c65642673fd2c9a4fa9e5171aebfe5f73f2e8a1dde647013af82731a2fa
+- note_id: darknet-training-resume-artifacts
+  title: Darknet 训练：断点、配置和数据版本一起保存
+  date: '2018-10-15'
+  permalink: /tech/2018/10/15/darknet-training-resume-artifacts/
+  tags: *id023
+  images:
+  - /img/tech-notes/darknet-training-resume-artifacts.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-10-15-darknet-training-resume-artifacts.md
+  sha256: 2925dd776f2d3b22c516f0790e647ecbc66ee0a13744a8f42af71ab1b7b703ec
+- note_id: yolov3-custom-classes-filters
+  title: YOLOv3 自定义训练：classes 与 filters 必须对应
+  date: '2018-10-05'
+  permalink: /tech/2018/10/05/yolov3-custom-classes-filters/
+  tags: *id023
+  images:
+  - /img/tech-notes/yolov3-custom-classes-filters.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-10-05-yolov3-custom-classes-filters.md
+  sha256: 3d0e63b49f429ef23ace1b17de7e1b4f0a3fd94bcdd57cfa2ce26d471cbdfaa0
+- note_id: document-dataset-split-leakage
+  title: 文档数据集：同一原件的变体不能跨训练和测试
+  date: '2018-09-25'
+  permalink: /tech/2018/09/25/document-dataset-split-leakage/
+  tags: *id024
+  images:
+  - /img/tech-notes/document-dataset-split-leakage.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-09-25-document-dataset-split-leakage.md
+  sha256: f139c116a347a76b31842f45829ea679114201f2130fbc697ed6acd98f043bb5
+- note_id: yolo-normalized-box-coordinates
+  title: 文档标注：像素框怎样正确转成 YOLO 坐标
+  date: '2018-09-15'
+  permalink: /tech/2018/09/15/yolo-normalized-box-coordinates/
+  tags: *id024
+  images:
+  - /img/tech-notes/yolo-normalized-box-coordinates.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-09-15-yolo-normalized-box-coordinates.md
+  sha256: 852f4cf1613caa53cd16760d321b02778724498981a1a0cad1c2c4066613f0d2
+- note_id: document-title-label-policy
+  title: 文档标题检测：先约定什么才算标题
+  date: '2018-09-05'
+  permalink: /tech/2018/09/05/document-title-label-policy/
+  tags: *id024
+  images:
+  - /img/tech-notes/document-title-label-policy.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-09-05-document-title-label-policy.md
+  sha256: 036cc18f6ff2eefe38a85e2ce32c0b60d5bcdd67c63ede82e9d85fb434f98581
+- note_id: darknet-dataset-layout
+  title: Darknet 自定义数据：路径、类别与标注一一对应
+  date: '2018-08-25'
+  permalink: /tech/2018/08/25/darknet-dataset-layout/
+  tags: *id023
+  images:
+  - /img/tech-notes/darknet-dataset-layout.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-08-25-darknet-dataset-layout.md
+  sha256: 722f94cee881363ee4c2fcc7401b5c5ceaba67fa417acade93f269a3f73ae0ca
+- note_id: yolo2-detection-heads
+  title: Darknet 与 YOLOv2：检测头输出的是什么
+  date: '2018-08-15'
+  permalink: /tech/2018/08/15/yolo2-detection-heads/
+  tags: *id023
+  images:
+  - /img/tech-notes/yolo2-detection-heads.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-08-15-yolo2-detection-heads.md
+  sha256: c81910c400933b9db2e90e59e2f5c778fbac5284951f32edfc4af937e2de7974
+- note_id: darknet2018-cpu-first-build
+  title: Darknet 研究：先跑通 CPU，再核对 GPU 构建
+  date: '2018-08-05'
+  permalink: /tech/2018/08/05/darknet2018-cpu-first-build/
+  tags: *id023
+  images:
+  - /img/tech-notes/darknet2018-cpu-first-build.svg
+  technology_since: '2018-05-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-08-05-darknet2018-cpu-first-build.md
+  sha256: 20017c3123c46a2918056cb650dce0267b69d58d0e1449995b1d6b7c413f9ce8
+- note_id: nodered-device-adapter-layer
+  title: Node-RED 接米家思路：用适配层隔开设备协议
+  date: '2018-07-25'
+  permalink: /tech/2018/07/25/nodered-device-adapter-layer/
+  tags: &id025
+  - 米家
+  - 智能家居
+  images:
+  - /img/tech-notes/nodered-device-adapter-layer.svg
+  technology_since: '2017-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-07-25-nodered-device-adapter-layer.md
+  sha256: 4c78960c8ceab1f7b9df90afdda02778a33a3af9472802c7b9db5f88ac9796fd
+- note_id: home-automation-hysteresis
+  title: 智能家居规则：阈值附近抖动要用迟滞处理
+  date: '2018-07-15'
+  permalink: /tech/2018/07/15/home-automation-hysteresis/
+  tags: *id025
+  images:
+  - /img/tech-notes/home-automation-hysteresis.svg
+  technology_since: '2017-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-07-15-home-automation-hysteresis.md
+  sha256: 440d3b8eaa6978d1455917fae9db517f6cd8c50efe09ad3dd2514fa29992e034
+- note_id: mijia-local-cloud-boundary
+  title: 米家与本地自动化：断网后哪些能力仍然成立
+  date: '2018-07-05'
+  permalink: /tech/2018/07/05/mijia-local-cloud-boundary/
+  tags: *id025
+  images:
+  - /img/tech-notes/mijia-local-cloud-boundary.svg
+  technology_since: '2017-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-07-05-mijia-local-cloud-boundary.md
+  sha256: f8d10df16c041ce16552eced452d1ec0dea0cea5f4f87bd33df418961fbd6b29
+- note_id: raspberrypi-uart-voltage
+  title: 树莓派研究：UART 能接上软件之前先确认电平
+  date: '2018-06-25'
+  permalink: /tech/2018/06/25/raspberrypi-uart-voltage/
+  tags: &id026
+  - 树莓派
+  - Linux
+  images:
+  - /img/tech-notes/raspberrypi-uart-voltage.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-06-25-raspberrypi-uart-voltage.md
+  sha256: 30f8c85482b50fd0839c69accd3a8e7945c70fa2dd2270fdfbf07147b48c8f69
+- note_id: raspberrypi-systemd-service
+  title: 树莓派研究：把采集脚本交给 systemd 管理
+  date: '2018-06-15'
+  permalink: /tech/2018/06/15/raspberrypi-systemd-service/
+  tags: *id026
+  images:
+  - /img/tech-notes/raspberrypi-systemd-service.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-06-15-raspberrypi-systemd-service.md
+  sha256: cabb212cc52212e468854ed6e621da2ea95afe303160c52d7df6a76aa467d467
+- note_id: raspberrypi3-power-sd-reliability
+  title: 树莓派研究：随机重启先查供电与存储
+  date: '2018-06-05'
+  permalink: /tech/2018/06/05/raspberrypi3-power-sd-reliability/
+  tags: *id026
+  images:
+  - /img/tech-notes/raspberrypi3-power-sd-reliability.svg
+  technology_since: '2016-02-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-06-05-raspberrypi3-power-sd-reliability.md
+  sha256: dcb0ffc75e953aff9dc40cc9ebd3646a0d78a3af3d3d6c2d11ed206ed1f4a493
+- note_id: arduino-serial-command-framing
+  title: Arduino 串口：先定义一条命令怎样结束
+  date: '2018-05-25'
+  permalink: /tech/2018/05/25/arduino-serial-command-framing/
+  tags: &id027
+  - Arduino
+  - 嵌入式
+  images:
+  - /img/tech-notes/arduino-serial-command-framing.svg
+  technology_since: '2017-09-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-05-25-arduino-serial-command-framing.md
+  sha256: 296c8e1532c741c71357948f4fbd741ca3de82af9c7e519a3194e0659e8d7b18
+- note_id: arduino-millis-nonblocking
+  title: Arduino 编程：用 millis 替代长时间 delay
+  date: '2018-05-15'
+  permalink: /tech/2018/05/15/arduino-millis-nonblocking/
+  tags: *id027
+  images:
+  - /img/tech-notes/arduino-millis-nonblocking.svg
+  technology_since: '2017-09-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-05-15-arduino-millis-nonblocking.md
+  sha256: d851d9c50746cbf44969b27adf75bcbe0a1f484561f4a85009336400142662d8
+- note_id: arduino18-board-library-version
+  title: Arduino 环境：板卡核心与库版本怎样共同影响编译
+  date: '2018-05-05'
+  permalink: /tech/2018/05/05/arduino18-board-library-version/
+  tags: *id027
+  images:
+  - /img/tech-notes/arduino18-board-library-version.svg
+  technology_since: '2017-09-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-05-05-arduino18-board-library-version.md
+  sha256: 68e4e3ceb24778dfd53c347523ce556e9ab88f0b6f2904feade96a4f3bccbd44
+- note_id: esp32-wifi-reconnect-state
+  title: ESP32 联网：连接、取地址与业务上线分开
+  date: '2018-04-25'
+  permalink: /tech/2018/04/25/esp32-wifi-reconnect-state/
+  tags: &id028
+  - ESP32
+  - 嵌入式
+  images:
+  - /img/tech-notes/esp32-wifi-reconnect-state.svg
+  technology_since: '2017-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-04-25-esp32-wifi-reconnect-state.md
+  sha256: 8c1228b1d69b25aed2b84969fe7b337df633c5efc1a52c7c8ccbef656612ef15
+- note_id: esp32-adc-raw-calibration
+  title: ESP32 采样：ADC 原始值不能直接当电压
+  date: '2018-04-15'
+  permalink: /tech/2018/04/15/esp32-adc-raw-calibration/
+  tags: *id028
+  images:
+  - /img/tech-notes/esp32-adc-raw-calibration.svg
+  technology_since: '2017-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-04-15-esp32-adc-raw-calibration.md
+  sha256: 72a73ceda21f1cba26773c7a6a25ca8e44ee35519d537bc456fe407350dc340f
+- note_id: esp32-idf21-flash-monitor
+  title: ESP32 入门：先打通编译、烧录和串口监视
+  date: '2018-04-05'
+  permalink: /tech/2018/04/05/esp32-idf21-flash-monitor/
+  tags: *id028
+  images:
+  - /img/tech-notes/esp32-idf21-flash-monitor.svg
+  technology_since: '2017-09-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-04-05-esp32-idf21-flash-monitor.md
+  sha256: 6479f8620e963f3078d65fe238a6db5d330fc00dd0d929ace8dacbfb53b72d30
+- note_id: nodered-error-retry-branch
+  title: Node-RED 异常处理：重试应有边界和原始身份
+  date: '2018-03-25'
+  permalink: /tech/2018/03/25/nodered-error-retry-branch/
+  tags: &id029
+  - Node-RED
+  - 物联网
+  images:
+  - /img/tech-notes/nodered-error-retry-branch.svg
+  technology_since: '2018-01-31'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-03-25-nodered-error-retry-branch.md
+  sha256: 46557d5dfb037cf399fbd46e3b53809a2d6bb6b4c169df3366ba3dade8f23330
+- note_id: nodered-context-lifecycle
+  title: Node-RED 状态：context、flow 与 global 的归属
+  date: '2018-03-15'
+  permalink: /tech/2018/03/15/nodered-context-lifecycle/
+  tags: *id029
+  images:
+  - /img/tech-notes/nodered-context-lifecycle.svg
+  technology_since: '2018-01-31'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-03-15-nodered-context-lifecycle.md
+  sha256: d39764b06407d2e6749151502e775b235184c16b44c4a458b227f8009444d105
+- note_id: nodered018-message-schema
+  title: Node-RED 入门：先看完整 msg，再接下一根线
+  date: '2018-03-05'
+  permalink: /tech/2018/03/05/nodered018-message-schema/
+  tags: *id029
+  images:
+  - /img/tech-notes/nodered018-message-schema.svg
+  technology_since: '2018-01-31'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-03-05-nodered018-message-schema.md
+  sha256: 78adf5aa7d585d918d9a58367c739b1c46117fd6f767c3c145df081bb923ed0a
+- note_id: mijia-device-gateway-cloud
+  title: 米家研究：设备、网关、云与授权的关系
+  date: '2018-02-25'
+  permalink: /tech/2018/02/25/mijia-device-gateway-cloud/
+  tags: *id025
+  images:
+  - /img/tech-notes/mijia-device-gateway-cloud.svg
+  technology_since: '2017-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-02-25-mijia-device-gateway-cloud.md
+  sha256: c39ad45261bb0a20eccba2caa4e70d676dba63fd4caf5151f603249232260010
+- note_id: iot-coap-http-mqtt-selection
+  title: 物联网基础：HTTP、MQTT 与 CoAP 按交互方式比较
+  date: '2018-02-15'
+  permalink: /tech/2018/02/15/iot-coap-http-mqtt-selection/
+  tags: &id030
+  - 物联网
+  - 通信协议
+  images:
+  - /img/tech-notes/iot-coap-http-mqtt-selection.svg
+  technology_since: '2014-10-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-02-15-iot-coap-http-mqtt-selection.md
+  sha256: 6e5ebe61667c300b8146f4a2b09307e84302707366ba46e4ea7367c4656b07c5
+- note_id: iot-device-data-contract
+  title: 物联网基础：设备数据契约先定义单位和质量
+  date: '2018-02-05'
+  permalink: /tech/2018/02/05/iot-device-data-contract/
+  tags: *id030
+  images:
+  - /img/tech-notes/iot-device-data-contract.svg
+  technology_since: '2014-10-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-02-05-iot-device-data-contract.md
+  sha256: df9271f92267c586da51b273a0ced5bb042e626af2adc35ce78d01333cf570f0
+- note_id: mqtt-retained-message-state
+  title: MQTT 保留消息：适合状态，不适合随便保存动作
+  date: '2018-01-25'
+  permalink: /tech/2018/01/25/mqtt-retained-message-state/
+  tags: *id030
+  images:
+  - /img/tech-notes/mqtt-retained-message-state.svg
+  technology_since: '2014-10-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-01-25-mqtt-retained-message-state.md
+  sha256: 9e5119e888626e602d488aecd7bb24e6d5a2a3dd22172831d87e3fe299ad6663
+- note_id: mqtt311-qos-business-once
+  title: MQTT QoS：协议确认不等于业务只执行一次
+  date: '2018-01-15'
+  permalink: /tech/2018/01/15/mqtt311-qos-business-once/
+  tags: *id030
+  images:
+  - /img/tech-notes/mqtt311-qos-business-once.svg
+  technology_since: '2014-10-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-01-15-mqtt311-qos-business-once.md
+  sha256: 5caa61c850d6be0fb5e290985508c922c974416cb33ecf3d6186b5a2e8799299
+- note_id: mqtt311-topics-command-telemetry
+  title: 物联网协议：命令、遥测和状态主题分开设计
+  date: '2018-01-05'
+  permalink: /tech/2018/01/05/mqtt311-topics-command-telemetry/
+  tags: *id030
+  images:
+  - /img/tech-notes/mqtt311-topics-command-telemetry.svg
+  technology_since: '2014-10-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2018-01-05-mqtt311-topics-command-telemetry.md
+  sha256: c508cdbd51d7d6c0b7b307abd723b21569f79756c13b481069a735f495b1ffff
+- note_id: can-control-feedback-stop
+  title: 车灯控制研究：命令已发出与灯真正改变要分开验证
+  date: '2017-12-25'
+  permalink: /tech/2017/12/25/can-control-feedback-stop/
+  tags: &id031
+  - 车联网
+  - CAN总线
+  images:
+  - /img/tech-notes/can-control-feedback-stop.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-12-25-can-control-feedback-stop.md
+  sha256: 960012e5312b51c45b0a33be76217e6786d62e2845d3b0dee4ee285d180942bd
+- note_id: can-vcan-turn-signal-state
+  title: 车灯控制台架：先在 vcan 上验证左右灯状态机
+  date: '2017-12-15'
+  permalink: /tech/2017/12/15/can-vcan-turn-signal-state/
+  tags: *id031
+  images:
+  - /img/tech-notes/can-vcan-turn-signal-state.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-12-15-can-vcan-turn-signal-state.md
+  sha256: a983dee4a827a455c709f9d26b8adf665785a134a0c798578b5925025f168305
+- note_id: scirocco-can-gateway-topology
+  title: 大众尚酷车灯研究：网关可能隔开诊断口与目标模块
+  date: '2017-12-05'
+  permalink: /tech/2017/12/05/scirocco-can-gateway-topology/
+  tags: *id031
+  images:
+  - /img/tech-notes/scirocco-can-gateway-topology.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-12-05-scirocco-can-gateway-topology.md
+  sha256: f0a238d7217554ad6e63e199d331d4a0eea2600dd04fd8b7e5eb843068cd7bb9
+- note_id: scirocco-can-signal-candidates
+  title: 大众尚酷 CAN 研究：怎样筛选左右灯候选信号
+  date: '2017-11-25'
+  permalink: /tech/2017/11/25/scirocco-can-signal-candidates/
+  tags: *id031
+  images:
+  - /img/tech-notes/scirocco-can-signal-candidates.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-11-25-scirocco-can-signal-candidates.md
+  sha256: 167b43c679d8200252c90c07101ec681f55091fb8785c27dc0006a78d1e94cce
+- note_id: socketcan-listen-capture
+  title: 车联网学习：先用 SocketCAN 建立可重复的只读记录
+  date: '2017-11-15'
+  permalink: /tech/2017/11/15/socketcan-listen-capture/
+  tags: *id031
+  images:
+  - /img/tech-notes/socketcan-listen-capture.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-11-15-socketcan-listen-capture.md
+  sha256: b2d8108782f945a1c22c71cd6e57e9dd923c784fc30954f4cacd8d88964254d7
+- note_id: canbus-arbitration-physical-layer
+  title: 车联网学习：CAN 仲裁、帧与物理层先分清
+  date: '2017-11-05'
+  permalink: /tech/2017/11/05/canbus-arbitration-physical-layer/
+  tags: *id031
+  images:
+  - /img/tech-notes/canbus-arbitration-physical-layer.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-11-05-canbus-arbitration-physical-layer.md
+  sha256: 43d25bfa26ad8f340fbdfff790329c97be11b1651e5c537d121ee65f247c9773
+- note_id: android-release-acceptance-matrix
+  title: Android 交付：用一张场景表验证完整软件
+  date: '2017-10-25'
+  permalink: /tech/2017/10/25/android-release-acceptance-matrix/
+  tags: &id032
+  - Android
+  - 移动开发
+  images:
+  - /img/tech-notes/android-release-acceptance-matrix.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-10-25-android-release-acceptance-matrix.md
+  sha256: 05971b2f69a149d8122d38ab8d7000b383a5f3052a6f7382facb4654f7868037
+- note_id: android-apk-signing-release
+  title: Android 发布：调试包与正式签名包的区别
+  date: '2017-10-15'
+  permalink: /tech/2017/10/15/android-apk-signing-release/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-apk-signing-release.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-10-15-android-apk-signing-release.md
+  sha256: aea9d7e554a18c7e2598f7d6bc30f0ee62463d0f14cebfea6f832d05a33b3fd1
+- note_id: android-app-complete-notes
+  title: Android 小应用实作：从列表、编辑到本地保存闭环
+  date: '2017-10-05'
+  permalink: /tech/2017/10/05/android-app-complete-notes/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-app-complete-notes.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-10-05-android-app-complete-notes.md
+  sha256: 30cc228f5e1d7721c4cb450e5c106a857f348548dee9a4bb165d54ed7ab5d758
+- note_id: android-runtime-permission
+  title: Android 权限：清单声明与运行时授权分别处理
+  date: '2017-09-25'
+  permalink: /tech/2017/09/25/android-runtime-permission/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-runtime-permission.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-09-25-android-runtime-permission.md
+  sha256: 61e27070bcc68fb95328672845a7e88c9cbd7445728b8e540effc4bd9230ddff
+- note_id: android-sqlite-upgrade
+  title: Android 本地存储：SQLite 建表与版本升级
+  date: '2017-09-15'
+  permalink: /tech/2017/09/15/android-sqlite-upgrade/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-sqlite-upgrade.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-09-15-android-sqlite-upgrade.md
+  sha256: f34c5d0094c649212cd4d68e3ea54a6e573a8a8b9fe05e00d06370cdb78343f1
+- note_id: android-network-main-thread
+  title: Android 网络：请求放到后台，结果回到有效界面
+  date: '2017-09-05'
+  permalink: /tech/2017/09/05/android-network-main-thread/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-network-main-thread.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-09-05-android-network-main-thread.md
+  sha256: c06b69a41b4f764abe5cea641b57c5e8aa0ea65ee5d7302267b9d53f560644e2
+- note_id: android-recyclerview-reuse
+  title: Android 列表：RecyclerView 复用时必须重绑完整状态
+  date: '2017-08-25'
+  permalink: /tech/2017/08/25/android-recyclerview-reuse/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-recyclerview-reuse.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-08-25-android-recyclerview-reuse.md
+  sha256: fa85d81c6d20041b0a74b0761e7a5eae960dcf792dbd5ebe47d2aedc05e69e64
+- note_id: android-layout-density-units
+  title: Android 界面：dp、sp 与真实像素分开设计
+  date: '2017-08-15'
+  permalink: /tech/2017/08/15/android-layout-density-units/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-layout-density-units.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-08-15-android-layout-density-units.md
+  sha256: fed67f918d05bfc02b6f73cded8ab11a238816585e2284dd1de3873d116274aa
+- note_id: android-activity-lifecycle-state
+  title: Android 深入：旋转屏幕后为什么重新创建页面
+  date: '2017-08-05'
+  permalink: /tech/2017/08/05/android-activity-lifecycle-state/
+  tags: *id032
+  images:
+  - /img/tech-notes/android-activity-lifecycle-state.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-08-05-android-activity-lifecycle-state.md
+  sha256: 09733e966402d236f7155158b01ecac69c89eb8fe8975dba35e78fd92e044eb0
+- note_id: android23-first-activity-install
+  title: Android 从零到应用：让第一个 Activity 真正在设备运行
+  date: '2017-07-25'
+  permalink: /tech/2017/07/25/android23-first-activity-install/
+  tags: *id032
+  images:
+  - /img/tech-notes/android23-first-activity-install.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-07-25-android23-first-activity-install.md
+  sha256: 19bf776c2973c432faafb81b1145ed03f74dbbd2d1eb72af6e345b8e31571c65
+- note_id: android23-gradle-project-structure
+  title: Android 工程结构：模块、Manifest 和资源目录
+  date: '2017-07-15'
+  permalink: /tech/2017/07/15/android23-gradle-project-structure/
+  tags: *id032
+  images:
+  - /img/tech-notes/android23-gradle-project-structure.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-07-15-android23-gradle-project-structure.md
+  sha256: 99db92a3496e69c389250a51ebf66eca990955ba83634485eb5cb324d63ef191
+- note_id: android23-environment-toolchain
+  title: Android 开发起步：JDK、SDK、Gradle 与 IDE 的关系
+  date: '2017-07-05'
+  permalink: /tech/2017/07/05/android23-environment-toolchain/
+  tags: *id032
+  images:
+  - /img/tech-notes/android23-environment-toolchain.svg
+  technology_since: '2017-03-06'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-07-05-android23-environment-toolchain.md
+  sha256: a2f95be9bd118dd3fc448af526e8a9de487b9e8485ab71415d6b73d05a842ad0
+- note_id: frontend-component-contract
+  title: 前端深入研究：组件接口要表达状态与事件
+  date: '2017-06-25'
+  permalink: /tech/2017/06/25/frontend-component-contract/
+  tags: &id033
+  - 前端
+  - 应用设计
+  images:
+  - /img/tech-notes/frontend-component-contract.svg
+  technology_since: '2015-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-06-25-frontend-component-contract.md
+  sha256: 3a29b70f9409d5f7980a38e7d9cec7ca9a2e7d04080876385ee3f246b972e896
+- note_id: frontend-css-grid-progressive
+  title: 前端深入研究：新布局能力要配合回退方案
+  date: '2017-06-15'
+  permalink: /tech/2017/06/15/frontend-css-grid-progressive/
+  tags: *id033
+  images:
+  - /img/tech-notes/frontend-css-grid-progressive.svg
+  technology_since: '2015-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-06-15-frontend-css-grid-progressive.md
+  sha256: dc614da373a68121a985a0e5b415cf652065559d8c9859ce6686859aedaffdc0
+- note_id: frontend-state-draft-versus-saved
+  title: 前端深入研究：编辑草稿与服务器事实分开保存
+  date: '2017-06-05'
+  permalink: /tech/2017/06/05/frontend-state-draft-versus-saved/
+  tags: *id033
+  images:
+  - /img/tech-notes/frontend-state-draft-versus-saved.svg
+  technology_since: '2015-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-06-05-frontend-state-draft-versus-saved.md
+  sha256: 12569f44cc186ebc92b28b3c335d4fb3b2fb27fb86f7af9fec26823d90aad30d
+- note_id: postgres96-window-functions
+  title: 深入 PostgreSQL：窗口函数保留明细又计算排名
+  date: '2017-05-25'
+  permalink: /tech/2017/05/25/postgres96-window-functions/
+  tags: &id034
+  - PostgreSQL
+  - 数据库
+  images:
+  - /img/tech-notes/postgres96-window-functions.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-05-25-postgres96-window-functions.md
+  sha256: f064b36f555559923da7e2d2a0c3aec45ca6915a0dbef0a21cfe4304678a1b13
+- note_id: postgres96-recursive-cte-tree
+  title: 深入 PostgreSQL：递归 CTE 查询组织树
+  date: '2017-05-15'
+  permalink: /tech/2017/05/15/postgres96-recursive-cte-tree/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-recursive-cte-tree.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-05-15-postgres96-recursive-cte-tree.md
+  sha256: 393400b32a201300cee771e08b5e39aad56b436e79bb400f63d6354f0d42414b
+- note_id: postgres96-jsonb-relational-boundary
+  title: 深入 PostgreSQL：JSONB 与关系字段各放什么
+  date: '2017-05-05'
+  permalink: /tech/2017/05/05/postgres96-jsonb-relational-boundary/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-jsonb-relational-boundary.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-05-05-postgres96-jsonb-relational-boundary.md
+  sha256: 39e5d247735d2697b563bdf413e46cf525ab0a38f1ce1e01649809d70039d254
+- note_id: postgres96-index-types
+  title: 深入 PostgreSQL：B-tree、GIN 与 BRIN 怎样选择
+  date: '2017-04-25'
+  permalink: /tech/2017/04/25/postgres96-index-types/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-index-types.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-04-25-postgres96-index-types.md
+  sha256: cd6c0a40facfee2505d83c56d84cd70fbe5d551312bfd78025f0e15b249ac271
+- note_id: postgres96-explain-analyze
+  title: 深入 PostgreSQL：EXPLAIN ANALYZE 会真正执行语句
+  date: '2017-04-15'
+  permalink: /tech/2017/04/15/postgres96-explain-analyze/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-explain-analyze.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-04-15-postgres96-explain-analyze.md
+  sha256: 4a742a2a28bf92fdf4eb8e52ed3fb4ecdd522c6f766d220c90f2ca8724f51f48
+- note_id: postgres96-mvcc-vacuum
+  title: 深入 PostgreSQL：更新为什么会留下旧版本
+  date: '2017-04-05'
+  permalink: /tech/2017/04/05/postgres96-mvcc-vacuum/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-mvcc-vacuum.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-04-05-postgres96-mvcc-vacuum.md
+  sha256: b4daa10b2b6288bcc51de14ba5d87b3522e5acca052353d464b1a12a854a481a
+- note_id: postgres96-backup-restore
+  title: 深入 PostgreSQL：pg_dump 成功后还要验证恢复
+  date: '2017-03-25'
+  permalink: /tech/2017/03/25/postgres96-backup-restore/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-backup-restore.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-03-25-postgres96-backup-restore.md
+  sha256: 9fa0e64b54f785c331c8158caa844f4091185cff3bc7713de6c12c54a6c898b0
+- note_id: postgres96-encoding-timezone
+  title: 深入 PostgreSQL：编码、时区与时间字段语义
+  date: '2017-03-15'
+  permalink: /tech/2017/03/15/postgres96-encoding-timezone/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-encoding-timezone.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-03-15-postgres96-encoding-timezone.md
+  sha256: 17826ef35cefb892bb88a47af9efb572d68eeb4f9429e77998059ce0809b9bfd
+- note_id: postgres96-connection-schema
+  title: 深入 PostgreSQL：先确认连到哪台库和哪个 schema
+  date: '2017-03-05'
+  permalink: /tech/2017/03/05/postgres96-connection-schema/
+  tags: *id034
+  images:
+  - /img/tech-notes/postgres96-connection-schema.svg
+  technology_since: '2016-09-29'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-03-05-postgres96-connection-schema.md
+  sha256: 73b86cf6e68df69bd9d4b92ed25a01aa925f483840b89f46a8dcc8649c10fdd9
+- note_id: company-scope-change-control
+  title: 公司经营笔记：需求变更要连到工期和验收
+  date: '2017-02-25'
+  permalink: /tech/2017/02/25/company-scope-change-control/
+  tags: &id035
+  - 互联网创业
+  - 公司经营
+  images:
+  - /img/tech-notes/company-scope-change-control.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-02-25-company-scope-change-control.md
+  sha256: 2326d1cf99a3463843b500481649ca4bbeaac7baf1ce5ff346c93807df170932
+- note_id: company-project-contribution-cost
+  title: 公司经营笔记：项目毛利里哪些成本容易漏掉
+  date: '2017-02-15'
+  permalink: /tech/2017/02/15/company-project-contribution-cost/
+  tags: *id035
+  images:
+  - /img/tech-notes/company-project-contribution-cost.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-02-15-company-project-contribution-cost.md
+  sha256: 7286ce8e1d61bbad73f56697c1cab94638f9646cd414f4a319bbcb6b183edc49
+- note_id: company-cash-runway-scenarios
+  title: 公司经营笔记：现金还能支撑多久要按情景计算
+  date: '2017-02-05'
+  permalink: /tech/2017/02/05/company-cash-runway-scenarios/
+  tags: *id035
+  images:
+  - /img/tech-notes/company-cash-runway-scenarios.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-02-05-company-cash-runway-scenarios.md
+  sha256: 12877e605d3e77098963687fa24f88ef7b89bbc73bb9fd1d1893a834444c9ccd
+- note_id: startup-data-room-evidence
+  title: 互联网投融资笔记：资料包应让数字能追溯
+  date: '2017-01-25'
+  permalink: /tech/2017/01/25/startup-data-room-evidence/
+  tags: *id035
+  images:
+  - /img/tech-notes/startup-data-room-evidence.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-01-25-startup-data-room-evidence.md
+  sha256: 69e0136a3b75db3b73df625b1fd2324c702c0de8f77679145d8ea0a52d756468
+- note_id: startup-pre-post-money-dilution
+  title: 互联网投融资笔记：投前、投后与稀释的简单演算
+  date: '2017-01-15'
+  permalink: /tech/2017/01/15/startup-pre-post-money-dilution/
+  tags: *id035
+  images:
+  - /img/tech-notes/startup-pre-post-money-dilution.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-01-15-startup-pre-post-money-dilution.md
+  sha256: ecb1e42e52df15ca3c77da634c5e561f3e47d101edc469ca04f15cab8c88a1f8
+- note_id: startup-financing-problem-fit
+  title: 互联网投融资笔记：融资要解决哪一个经营问题
+  date: '2017-01-05'
+  permalink: /tech/2017/01/05/startup-financing-problem-fit/
+  tags: *id035
+  images:
+  - /img/tech-notes/startup-financing-problem-fit.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2017-01-05-startup-financing-problem-fit.md
+  sha256: f12211fc417cd4ab2c8da6e3437d581cff95a9d475868f4b3a8ce207dd85f673
+- note_id: high-concurrency-overload-design
+  title: 高并发系统研究：过载时拒绝比无限等待更可控
+  date: '2016-12-25'
+  permalink: /tech/2016/12/25/high-concurrency-overload-design/
+  tags: &id036
+  - 高并发
+  - 性能分析
+  images:
+  - /img/tech-notes/high-concurrency-overload-design.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-12-25-high-concurrency-overload-design.md
+  sha256: 29fda4ad96bfa986e59020e3be67aad0c32ab96c8758b5324975346c22f09952
+- note_id: high-performance-memory-allocation
+  title: 高性能研究：减少对象分配之前先量化来源
+  date: '2016-12-15'
+  permalink: /tech/2016/12/15/high-performance-memory-allocation/
+  tags: *id036
+  images:
+  - /img/tech-notes/high-performance-memory-allocation.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-12-15-high-performance-memory-allocation.md
+  sha256: b62498c958daa3620574f224306ebe0755115e890b85e3e629a88c1bbf965623
+- note_id: disruptor-ring-buffer-sequence
+  title: 高性能框架研究：Disruptor 的序号比环形数组更关键
+  date: '2016-12-05'
+  permalink: /tech/2016/12/05/disruptor-ring-buffer-sequence/
+  tags: *id036
+  images:
+  - /img/tech-notes/disruptor-ring-buffer-sequence.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-12-05-disruptor-ring-buffer-sequence.md
+  sha256: f05ba3a5727d8db1a0b83a804a987974b5e9fe145f35293577b3adac99a63e1a
+- note_id: redis-hot-key-large-value
+  title: Redis 缓存研究：热键与大值分别怎样拖慢系统
+  date: '2016-11-25'
+  permalink: /tech/2016/11/25/redis-hot-key-large-value/
+  tags: &id037
+  - Redis
+  - 缓存
+  images:
+  - /img/tech-notes/redis-hot-key-large-value.svg
+  technology_since: '2015-04-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-11-25-redis-hot-key-large-value.md
+  sha256: 43b058c27d2f3a1584ac3c875e7fa02d1c6d81a1781b5dd631c99fafdbf7368c
+- note_id: redis-cache-stampede
+  title: Redis 缓存研究：热点过期后的回源洪峰
+  date: '2016-11-15'
+  permalink: /tech/2016/11/15/redis-cache-stampede/
+  tags: *id037
+  images:
+  - /img/tech-notes/redis-cache-stampede.svg
+  technology_since: '2015-04-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-11-15-redis-cache-stampede.md
+  sha256: 3e7779cf52019a087d8919b3a5bb6a023b2a503ea82a78d05747d4c572da15c2
+- note_id: redis-cache-aside-race
+  title: Redis 缓存研究：先更新数据库再删缓存仍有竞争
+  date: '2016-11-05'
+  permalink: /tech/2016/11/05/redis-cache-aside-race/
+  tags: *id037
+  images:
+  - /img/tech-notes/redis-cache-aside-race.svg
+  technology_since: '2015-04-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-11-05-redis-cache-aside-race.md
+  sha256: 5ec18cd2b60026733ee0eed9c6fb52c3a8e90455ba1567a4eb155cbc1a123b55
+- note_id: sharding-cross-shard-pagination
+  title: 分库分表研究：全局排序和聚合会付出什么成本
+  date: '2016-10-25'
+  permalink: /tech/2016/10/25/sharding-cross-shard-pagination/
+  tags: &id038
+  - 分库分表
+  - 系统架构
+  images:
+  - /img/tech-notes/sharding-cross-shard-pagination.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-10-25-sharding-cross-shard-pagination.md
+  sha256: 873135b5a70924789547fb76c3e8874182931e22bfb8ec0b669156de6205797d
+- note_id: distributed-id-clock-boundary
+  title: 分布式编号研究：时间、节点与序号的约束
+  date: '2016-10-15'
+  permalink: /tech/2016/10/15/distributed-id-clock-boundary/
+  tags: *id038
+  images:
+  - /img/tech-notes/distributed-id-clock-boundary.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-10-15-distributed-id-clock-boundary.md
+  sha256: d5da83257182af9f1054640b138fa189120953083bc0458660c70130258c9592
+- note_id: sharding-key-query-affinity
+  title: 分库分表研究：分片键要跟主要查询走
+  date: '2016-10-05'
+  permalink: /tech/2016/10/05/sharding-key-query-affinity/
+  tags: *id038
+  images:
+  - /img/tech-notes/sharding-key-query-affinity.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-10-05-sharding-key-query-affinity.md
+  sha256: a89f64cc06a92df1e64d1e8abec245a1cbf04b6b3f013aac11890df13bfa1bd7
+- note_id: netty-bytebuf-reference-count
+  title: Netty 研究：ByteBuf 的引用计数与跨线程传递
+  date: '2016-09-25'
+  permalink: /tech/2016/09/25/netty-bytebuf-reference-count/
+  tags: &id039
+  - Netty
+  - 网络编程
+  images:
+  - /img/tech-notes/netty-bytebuf-reference-count.svg
+  technology_since: '2015-11-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-09-25-netty-bytebuf-reference-count.md
+  sha256: a35f864661c47d7bc5aa11d9efe9972e060820221945d2a7472af4269a49ffeb
+- note_id: netty-eventloop-blocking
+  title: Netty 研究：EventLoop 里为什么不能随便查数据库
+  date: '2016-09-15'
+  permalink: /tech/2016/09/15/netty-eventloop-blocking/
+  tags: *id039
+  images:
+  - /img/tech-notes/netty-eventloop-blocking.svg
+  technology_since: '2015-11-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-09-15-netty-eventloop-blocking.md
+  sha256: 96d1f56a514392cd204fe78cc44d0533d1249ebe872550eb0286d532a6e196fc
+- note_id: netty-tcp-frame-decoder
+  title: Netty 研究：粘包拆包其实是消息边界问题
+  date: '2016-09-05'
+  permalink: /tech/2016/09/05/netty-tcp-frame-decoder/
+  tags: *id039
+  images:
+  - /img/tech-notes/netty-tcp-frame-decoder.svg
+  technology_since: '2015-11-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-09-05-netty-tcp-frame-decoder.md
+  sha256: 3f1ca7241a1f6ff49e9f370eaafb9fa74323627ab59f853f5d43236d0d912f3f
+- note_id: latency-percentiles-queue
+  title: 高并发研究：平均延迟会遮住哪些问题
+  date: '2016-08-25'
+  permalink: /tech/2016/08/25/latency-percentiles-queue/
+  tags: *id036
+  images:
+  - /img/tech-notes/latency-percentiles-queue.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-08-25-latency-percentiles-queue.md
+  sha256: 68bc6da73224fafad27b5354d25d50ee73a34387e36aa186bdfcf094394f3ce6
+- note_id: load-test-open-closed-model
+  title: 高并发研究：压测客户端也可能掩盖过载
+  date: '2016-08-15'
+  permalink: /tech/2016/08/15/load-test-open-closed-model/
+  tags: *id036
+  images:
+  - /img/tech-notes/load-test-open-closed-model.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-08-15-load-test-open-closed-model.md
+  sha256: 2971c5b3081beecae0131cb1fe0a2a815385ae055dd9f2e6e02f2a59ffc709e2
+- note_id: concurrency-littles-law
+  title: 高并发研究：用 Little 定律理解在途请求
+  date: '2016-08-05'
+  permalink: /tech/2016/08/05/concurrency-littles-law/
+  tags: *id036
+  images:
+  - /img/tech-notes/concurrency-littles-law.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-08-05-concurrency-littles-law.md
+  sha256: d7a627fae926e8cc1733fd2b5b123f0b77f5a2e7b8a8c59691b66be989893dab
+- note_id: cloud-bulkhead-fallback-capacity
+  title: Spring Cloud 隔离：慢服务不能占满全部请求容量
+  date: '2016-07-25'
+  permalink: /tech/2016/07/25/cloud-bulkhead-fallback-capacity/
+  tags: &id040
+  - Spring Cloud
+  - 服务治理
+  images:
+  - /img/tech-notes/cloud-bulkhead-fallback-capacity.svg
+  technology_since: '2016-05-11'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-07-25-cloud-bulkhead-fallback-capacity.md
+  sha256: ee54d714e719c55fac147bf37c9958e6a0b87db3b06b705cfe6697905d951b58
+- note_id: cloud-timeout-total-budget
+  title: Spring Cloud 调用链：每层超时要服从总预算
+  date: '2016-07-15'
+  permalink: /tech/2016/07/15/cloud-timeout-total-budget/
+  tags: *id040
+  images:
+  - /img/tech-notes/cloud-timeout-total-budget.svg
+  technology_since: '2016-05-11'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-07-15-cloud-timeout-total-budget.md
+  sha256: 03765b6bcbcd805facd836a82052630b22cca72269e9b8497534454200a34b6f
+- note_id: cloud-brixton-zuul-routing
+  title: Spring Cloud Zuul：路径转发与业务权限的边界
+  date: '2016-07-05'
+  permalink: /tech/2016/07/05/cloud-brixton-zuul-routing/
+  tags: *id040
+  images:
+  - /img/tech-notes/cloud-brixton-zuul-routing.svg
+  technology_since: '2016-05-11'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-07-05-cloud-brixton-zuul-routing.md
+  sha256: 9cf4b11c22a285a23fdeecea0018d9e1df771c201b28dd01057b73ce22dc3216
+- note_id: boot13-scheduled-multi-instance
+  title: Spring Boot 定时任务：多实例会不会重复执行
+  date: '2016-06-25'
+  permalink: /tech/2016/06/25/boot13-scheduled-multi-instance/
+  tags: &id041
+  - Spring Boot
+  - 后端工程
+  images:
+  - /img/tech-notes/boot13-scheduled-multi-instance.svg
+  technology_since: '2015-11-16'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-06-25-boot13-scheduled-multi-instance.md
+  sha256: 9eb6e1b89e9474e454cdbebea389753e8f8deed3fb370ff10d1d22cba49cac0b
+- note_id: boot13-async-context
+  title: Spring Boot 异步方法：线程边界会带走哪些上下文
+  date: '2016-06-15'
+  permalink: /tech/2016/06/15/boot13-async-context/
+  tags: *id041
+  images:
+  - /img/tech-notes/boot13-async-context.svg
+  technology_since: '2015-11-16'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-06-15-boot13-async-context.md
+  sha256: b244532edd7ebce3d53ed9a1882906e2cf605d32fbe519e8349242bd8ded4498
+- note_id: boot13-connection-pool-budget
+  title: Spring Boot 性能：连接池大不等于数据库更快
+  date: '2016-06-05'
+  permalink: /tech/2016/06/05/boot13-connection-pool-budget/
+  tags: *id041
+  images:
+  - /img/tech-notes/boot13-connection-pool-budget.svg
+  technology_since: '2015-11-16'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-06-05-boot13-connection-pool-budget.md
+  sha256: d90ad6a6a3f0d08c57f0b8d9f8a098b559f616a78db5c1362b43d9e58a5e08b1
+- note_id: frontend-reflow-batch-dom
+  title: 前端性能研究：读写布局交错为什么会变慢
+  date: '2016-05-25'
+  permalink: /tech/2016/05/25/frontend-reflow-batch-dom/
+  tags: &id043
+  - 前端
+  - HTML
+  - CSS
+  images:
+  - /img/tech-notes/frontend-reflow-batch-dom.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-05-25-frontend-reflow-batch-dom.md
+  sha256: 613ffca8f993debd6774d4f1839035075ec90d442fa36055900fdc538e5ab6f4
+- note_id: frontend-xss-text-output
+  title: 前端安全研究：innerHTML 与纯文本输出
+  date: '2016-05-15'
+  permalink: /tech/2016/05/15/frontend-xss-text-output/
+  tags: &id042
+  - JavaScript
+  - 前端原理
+  images:
+  - /img/tech-notes/frontend-xss-text-output.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-05-15-frontend-xss-text-output.md
+  sha256: a7913199128fcc5fdc7a05c88210e06d8abf91dad014beb105c905878de839a0
+- note_id: browser-cors-preflight
+  title: 浏览器跨域：预检请求与业务请求分开看
+  date: '2016-05-05'
+  permalink: /tech/2016/05/05/browser-cors-preflight/
+  tags: *id042
+  images:
+  - /img/tech-notes/browser-cors-preflight.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-05-05-browser-cors-preflight.md
+  sha256: 7b2b3932c25fdaa6b4cf702f589cdcf610f55bdd7736887787b2836144d41500
+- note_id: js-xhr-stale-response
+  title: 深入 JavaScript：搜索请求返回乱序怎样处理
+  date: '2016-04-25'
+  permalink: /tech/2016/04/25/js-xhr-stale-response/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-xhr-stale-response.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-04-25-js-xhr-stale-response.md
+  sha256: 4547830ba2ad7bc270335f6a0e1bbb901b617f89274a96eb6f47c1f2977c2676
+- note_id: js-timer-event-loop
+  title: 深入 JavaScript：setTimeout 的零毫秒不是立即执行
+  date: '2016-04-15'
+  permalink: /tech/2016/04/15/js-timer-event-loop/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-timer-event-loop.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-04-15-js-timer-event-loop.md
+  sha256: e2417e7cbbb5370af88198f9666af6ab95989ac507c70e7101dd0badc1159f7a
+- note_id: js-event-delegation
+  title: 深入 JavaScript：事件委托为何适合动态列表
+  date: '2016-04-05'
+  permalink: /tech/2016/04/05/js-event-delegation/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-event-delegation.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-04-05-js-event-delegation.md
+  sha256: 7ff9d8d80843da4e7da640f51b472c892015a9ec6019d9624bfee1b7e8ae988f
+- note_id: js-this-call-site
+  title: 深入 JavaScript：this 由调用方式决定什么
+  date: '2016-03-25'
+  permalink: /tech/2016/03/25/js-this-call-site/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-this-call-site.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-03-25-js-this-call-site.md
+  sha256: fb4852fd65e7be0b7dd5dbe39b34e1da262b64eb5ad0997fd75c36f12969a338
+- note_id: js-closure-loop
+  title: 深入 JavaScript：循环回调为什么都读到最后一个值
+  date: '2016-03-15'
+  permalink: /tech/2016/03/15/js-closure-loop/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-closure-loop.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-03-15-js-closure-loop.md
+  sha256: 8c788dbd4398e2ccd5c7743674f583a7862a7d5b0707fb160ec749ed92a36523
+- note_id: js-scope-hoisting
+  title: 深入 JavaScript：变量提升不会替你完成赋值
+  date: '2016-03-05'
+  permalink: /tech/2016/03/05/js-scope-hoisting/
+  tags: *id042
+  images:
+  - /img/tech-notes/js-scope-hoisting.svg
+  technology_since: '2011-06-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-03-05-js-scope-hoisting.md
+  sha256: 786dddcec6884dca29221d31991dc53abb124da47a305ac865aa7ef447c4fbed
+- note_id: css-flex-min-width
+  title: 深入 CSS Flexbox：为什么子项有时不肯缩小
+  date: '2016-02-25'
+  permalink: /tech/2016/02/25/css-flex-min-width/
+  tags: *id043
+  images:
+  - /img/tech-notes/css-flex-min-width.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-02-25-css-flex-min-width.md
+  sha256: 7538c8d24e9b3ebdefc8d0a9ba94986fd8d326d2363fdacf24fffbe3b02d587c
+- note_id: css-bfc-float-collapse
+  title: 深入 CSS：浮动、父容器高度与 BFC
+  date: '2016-02-15'
+  permalink: /tech/2016/02/15/css-bfc-float-collapse/
+  tags: *id043
+  images:
+  - /img/tech-notes/css-bfc-float-collapse.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-02-15-css-bfc-float-collapse.md
+  sha256: a7f68ad3274fa5ae83f95d9e64363de197c8c390c435a3471921560855293370
+- note_id: css-box-sizing-width
+  title: 深入 CSS：盒模型中的宽度究竟包括什么
+  date: '2016-02-05'
+  permalink: /tech/2016/02/05/css-box-sizing-width/
+  tags: *id043
+  images:
+  - /img/tech-notes/css-box-sizing-width.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-02-05-css-box-sizing-width.md
+  sha256: 7ffd2c7e945c0eaa9d22ea7607c4b7f8f0eb9a70117a84d2e17496da94a27dd9
+- note_id: html-image-responsive-dimensions
+  title: 深入 HTML：图片尺寸、比例与页面跳动
+  date: '2016-01-25'
+  permalink: /tech/2016/01/25/html-image-responsive-dimensions/
+  tags: *id043
+  images:
+  - /img/tech-notes/html-image-responsive-dimensions.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-01-25-html-image-responsive-dimensions.md
+  sha256: 79712c3365658a2f0131ede04b5474dcdb692c4030b572811c295d372ef9ece1
+- note_id: html-form-submit-validation
+  title: 深入 HTML：表单提交的默认行为与校验
+  date: '2016-01-15'
+  permalink: /tech/2016/01/15/html-form-submit-validation/
+  tags: *id043
+  images:
+  - /img/tech-notes/html-form-submit-validation.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-01-15-html-form-submit-validation.md
+  sha256: 6c31e0a1658ee0bd90a782719ab86165aaa1be62c5865432fa7b9b613079cfbf
+- note_id: html5-semantic-document
+  title: 深入 HTML：语义结构比 div 数量更重要
+  date: '2016-01-05'
+  permalink: /tech/2016/01/05/html5-semantic-document/
+  tags: *id043
+  images:
+  - /img/tech-notes/html5-semantic-document.svg
+  technology_since: '2014-10-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2016-01-05-html5-semantic-document.md
+  sha256: 508eb7f7c438972a29bf2168b16f85198dc3adba73115e36a921fe242b659422
+- note_id: cloud10-distributed-request-trace
+  title: Spring Cloud 学习：跨服务排查先打通请求身份
+  date: '2015-12-25'
+  permalink: /tech/2015/12/25/cloud10-distributed-request-trace/
+  tags: &id044
+  - Spring Cloud
+  - 分布式系统
+  images:
+  - /img/tech-notes/cloud10-distributed-request-trace.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-12-25-cloud10-distributed-request-trace.md
+  sha256: 766cdb21c85fc143f64f716478078d42b61f7dd09dcf38164cad6c03a1202a13
+- note_id: cloud10-hystrix-isolation
+  title: Spring Cloud Hystrix：隔离和降级不能伪造成功
+  date: '2015-12-15'
+  permalink: /tech/2015/12/15/cloud10-hystrix-isolation/
+  tags: *id044
+  images:
+  - /img/tech-notes/cloud10-hystrix-isolation.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-12-15-cloud10-hystrix-isolation.md
+  sha256: 9f4aae3936d0f8067cf7762b34a065651d234130ffbc5a79a2cbb5c2916ebd79
+- note_id: cloud10-config-version
+  title: Spring Cloud Config：配置仓库也要有版本依据
+  date: '2015-12-05'
+  permalink: /tech/2015/12/05/cloud10-config-version/
+  tags: *id044
+  images:
+  - /img/tech-notes/cloud10-config-version.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-12-05-cloud10-config-version.md
+  sha256: 4de27a1ea67847151364f26b338ba850782197a0fb930f6401e3be4ec95f1d75
+- note_id: cloud10-ribbon-client-balancing
+  title: Spring Cloud Ribbon：负载均衡选中实例以后仍可能失败
+  date: '2015-11-25'
+  permalink: /tech/2015/11/25/cloud10-ribbon-client-balancing/
+  tags: *id044
+  images:
+  - /img/tech-notes/cloud10-ribbon-client-balancing.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-11-25-cloud10-ribbon-client-balancing.md
+  sha256: 718d4c05db7007507d826e0c28d8d46b0819774dca1d31d8bffc787ba224e14b
+- note_id: cloud10-eureka-eventual-view
+  title: Spring Cloud Eureka：注册成功不等于所有调用方立刻可见
+  date: '2015-11-15'
+  permalink: /tech/2015/11/15/cloud10-eureka-eventual-view/
+  tags: *id044
+  images:
+  - /img/tech-notes/cloud10-eureka-eventual-view.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-11-15-cloud10-eureka-eventual-view.md
+  sha256: df2e28a34be291eb0f27e91558b3a0c5c4104dd4566012a82f4413d6f857cae2
+- note_id: cloud10-service-boundary
+  title: Spring Cloud 学习：先划服务边界，再接注册中心
+  date: '2015-11-05'
+  permalink: /tech/2015/11/05/cloud10-service-boundary/
+  tags: *id044
+  images:
+  - /img/tech-notes/cloud10-service-boundary.svg
+  technology_since: '2015-03-04'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-11-05-cloud10-service-boundary.md
+  sha256: bf71bfa41e08d5d8d53333157471f73f025acefea98a374b9e3605e3681b2a77
+- note_id: mysql56-replication-lag
+  title: 深入 MySQL：读写分离为什么会读到旧数据
+  date: '2015-10-25'
+  permalink: /tech/2015/10/25/mysql56-replication-lag/
+  tags: &id045
+  - MySQL
+  - 数据库原理
+  images:
+  - /img/tech-notes/mysql56-replication-lag.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-10-25-mysql56-replication-lag.md
+  sha256: 735eadc4f52f6a0db9c01d57a7369640c6073e652500d47659ce5337f98b0928
+- note_id: mysql56-redo-binlog
+  title: 深入 MySQL：redo log 与 binlog 各自解决什么
+  date: '2015-10-15'
+  permalink: /tech/2015/10/15/mysql56-redo-binlog/
+  tags: *id045
+  images:
+  - /img/tech-notes/mysql56-redo-binlog.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-10-15-mysql56-redo-binlog.md
+  sha256: 2c4127b3a83da9186ca92221f7fbe797a1d3b92320491d2b5772fc9d1ab4ef8b
+- note_id: mysql56-explain-estimation
+  title: 深入 MySQL：EXPLAIN 的估计不能当成实测
+  date: '2015-10-05'
+  permalink: /tech/2015/10/05/mysql56-explain-estimation/
+  tags: *id045
+  images:
+  - /img/tech-notes/mysql56-explain-estimation.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-10-05-mysql56-explain-estimation.md
+  sha256: 6c823815ad152adeb922d2db4b6a51f7c08c769b2d6f913e9b14409e874bb5d8
+- note_id: mysql56-deadlock-order
+  title: 深入 MySQL：死锁要从等待环看起
+  date: '2015-09-25'
+  permalink: /tech/2015/09/25/mysql56-deadlock-order/
+  tags: *id045
+  images:
+  - /img/tech-notes/mysql56-deadlock-order.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-09-25-mysql56-deadlock-order.md
+  sha256: f7a5a9b7a02d2dfb91dd64fc4091d248b4f0431d273837c5a80f217310f73659
+- note_id: mysql56-mvcc-read-view
+  title: 深入 MySQL：一致性读与当前读分开理解
+  date: '2015-09-15'
+  permalink: /tech/2015/09/15/mysql56-mvcc-read-view/
+  tags: *id045
+  images:
+  - /img/tech-notes/mysql56-mvcc-read-view.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-09-15-mysql56-mvcc-read-view.md
+  sha256: 018caf8a003b99671fad4c5fe920f510304405cc8edf86a23f31466e40c32b7a
+- note_id: mysql56-btree-composite-index
+  title: 深入 MySQL：联合索引怎样利用最左前缀
+  date: '2015-09-05'
+  permalink: /tech/2015/09/05/mysql56-btree-composite-index/
+  tags: *id045
+  images:
+  - /img/tech-notes/mysql56-btree-composite-index.svg
+  technology_since: '2015-02-02'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-09-05-mysql56-btree-composite-index.md
+  sha256: c262e9d7425378dde6c1b18057b964f0ce74fb23affa91710fe20d67007bdbb4
+- note_id: mybatis-pagination-stable-order
+  title: MyBatis：分页不只是给 SQL 加 limit
+  date: '2015-08-25'
+  permalink: /tech/2015/08/25/mybatis-pagination-stable-order/
+  tags: &id046
+  - MyBatis
+  - SQL
+  images:
+  - /img/tech-notes/mybatis-pagination-stable-order.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-08-25-mybatis-pagination-stable-order.md
+  sha256: 7d3f5aacad75240f4c1638798ddd8d1f1e5450a39bcb3971081e0204119aad33
+- note_id: mybatis-batch-insert-flush
+  title: MyBatis：批处理执行、刷新和事务提交
+  date: '2015-08-15'
+  permalink: /tech/2015/08/15/mybatis-batch-insert-flush/
+  tags: *id046
+  images:
+  - /img/tech-notes/mybatis-batch-insert-flush.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-08-15-mybatis-batch-insert-flush.md
+  sha256: ab8df404d8dc8efa8b33aa8529aceb5c37caeddf482fe68ab4d445cf7fac7ac0
+- note_id: mybatis-cache-invalidation
+  title: MyBatis：一级缓存不等于全局实时数据
+  date: '2015-08-05'
+  permalink: /tech/2015/08/05/mybatis-cache-invalidation/
+  tags: *id046
+  images:
+  - /img/tech-notes/mybatis-cache-invalidation.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-08-05-mybatis-cache-invalidation.md
+  sha256: 26ca8b6be7596b39bbaf2461ac6b4a90a446f3bf6cb049a764f2a15c6960cd3c
+- note_id: mybatis-resultmap-alias
+  title: MyBatis：联表结果的别名与 resultMap
+  date: '2015-07-25'
+  permalink: /tech/2015/07/25/mybatis-resultmap-alias/
+  tags: *id046
+  images:
+  - /img/tech-notes/mybatis-resultmap-alias.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-07-25-mybatis-resultmap-alias.md
+  sha256: 4d18d752d999e23eb6ba705290aa9c9f85c3a1722255d16b3e9a153a523cd16a
+- note_id: mybatis-dynamic-where
+  title: MyBatis：动态 where 与空条件的业务风险
+  date: '2015-07-15'
+  permalink: /tech/2015/07/15/mybatis-dynamic-where/
+  tags: *id046
+  images:
+  - /img/tech-notes/mybatis-dynamic-where.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-07-15-mybatis-dynamic-where.md
+  sha256: d1d8561efd50798b725383bb20d7b3e03b88a75aa9cfbcb6cd0b37bd50f89ae8
+- note_id: mybatis-parameter-binding
+  title: MyBatis：占位参数与字符串替换的边界
+  date: '2015-07-05'
+  permalink: /tech/2015/07/05/mybatis-parameter-binding/
+  tags: *id046
+  images:
+  - /img/tech-notes/mybatis-parameter-binding.svg
+  technology_since: '2015-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-07-05-mybatis-parameter-binding.md
+  sha256: 40a7805e04d0d4e74b6272900e574dbc49841ada9d8581e25ff82dcf5e1ecf39
+- note_id: boot12-test-layering
+  title: Spring Boot 测试：不要每个规则都启动整个容器
+  date: '2015-06-25'
+  permalink: /tech/2015/06/25/boot12-test-layering/
+  tags: &id047
+  - Spring Boot
+  - Java
+  images:
+  - /img/tech-notes/boot12-test-layering.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-06-25-boot12-test-layering.md
+  sha256: 1190a931f962937b61b9e95d873add8470715e26186134468b9238085610ea7e
+- note_id: boot12-executable-jar-deployment
+  title: Spring Boot 部署：可执行 jar 与外部配置
+  date: '2015-06-15'
+  permalink: /tech/2015/06/15/boot12-executable-jar-deployment/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-executable-jar-deployment.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-06-15-boot12-executable-jar-deployment.md
+  sha256: 37135fa6690b7bdbd49ce63e280e135dccf359f4c65153f95d4472b64f3b33c3
+- note_id: boot12-configuration-properties
+  title: Spring Boot：把零散配置收敛成有类型的对象
+  date: '2015-06-05'
+  permalink: /tech/2015/06/05/boot12-configuration-properties/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-configuration-properties.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-06-05-boot12-configuration-properties.md
+  sha256: 003bce2e849cb54cf139220b4ca2954e6c1d3a93c3253fbc19070ef3d4d950a9
+- note_id: boot12-health-endpoint
+  title: Spring Boot Actuator：健康响应要说明检查了什么
+  date: '2015-05-25'
+  permalink: /tech/2015/05/25/boot12-health-endpoint/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-health-endpoint.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-05-25-boot12-health-endpoint.md
+  sha256: 9fe16ede58cb9535714dd3e25439377ac1a8ba4ab28b3281a436b503dd40136b
+- note_id: boot12-jdbc-transaction
+  title: Spring Boot 数据访问：事务要放在业务边界
+  date: '2015-05-15'
+  permalink: /tech/2015/05/15/boot12-jdbc-transaction/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-jdbc-transaction.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-05-15-boot12-jdbc-transaction.md
+  sha256: 7f5b73fc333dda2b61a503b1ec5c0848bdd7fdbcb1c345aee2922325e2591a67
+- note_id: boot12-request-validation
+  title: Spring Boot Web：表单校验与业务校验分层
+  date: '2015-05-05'
+  permalink: /tech/2015/05/05/boot12-request-validation/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-request-validation.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-05-05-boot12-request-validation.md
+  sha256: 1a3f74d78644159bbe49b4f9f920185bc3f318c9aee77a9726f3386ec3fbaa7a
+- note_id: boot12-configuration-precedence
+  title: Spring Boot 配置：同一个端口为什么读取了另一个值
+  date: '2015-04-25'
+  permalink: /tech/2015/04/25/boot12-configuration-precedence/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-configuration-precedence.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-04-25-boot12-configuration-precedence.md
+  sha256: d16fd481a69b065494afea3556019f01b7dc7a6835fb59d2e59c0ceed425d951
+- note_id: boot12-auto-configuration
+  title: Spring Boot 深入：自动配置为何会生效或退让
+  date: '2015-04-15'
+  permalink: /tech/2015/04/15/boot12-auto-configuration/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-auto-configuration.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-04-15-boot12-auto-configuration.md
+  sha256: 290b457be991b145a697a46f262c631d72596a93114cbf9bc0ef86d1170208d9
+- note_id: boot12-minimal-web-project
+  title: Spring Boot 入门：从一个可执行 Web 工程开始
+  date: '2015-04-05'
+  permalink: /tech/2015/04/05/boot12-minimal-web-project/
+  tags: *id047
+  images:
+  - /img/tech-notes/boot12-minimal-web-project.svg
+  technology_since: '2015-02-27'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-04-05-boot12-minimal-web-project.md
+  sha256: a7e3ae836ec948d40f3c9f265c0c9d992742918a7e9c4c82e6316db4335eed81
+- note_id: git-small-commits-review
+  title: 研究 Git：小提交应该按业务意图拆分
+  date: '2015-03-25'
+  permalink: /tech/2015/03/25/git-small-commits-review/
+  tags: &id048
+  - Git
+  - 版本管理
+  images:
+  - /img/tech-notes/git-small-commits-review.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-03-25-git-small-commits-review.md
+  sha256: 7089c31370b2065ff1e6a303eb58aa049b6563a19dec750237b26059fd8b1c7f
+- note_id: git-bisect-regression
+  title: 研究 Git：用二分查找定位回归提交
+  date: '2015-03-15'
+  permalink: /tech/2015/03/15/git-bisect-regression/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-bisect-regression.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-03-15-git-bisect-regression.md
+  sha256: 06077f31f045d46273be5f7b23bfc4f6a66030ef25edaa37f051e89918cb283f
+- note_id: git-fetch-pull-remote
+  title: 研究 Git：fetch、pull 与远端跟踪分支
+  date: '2015-03-05'
+  permalink: /tech/2015/03/05/git-fetch-pull-remote/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-fetch-pull-remote.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-03-05-git-fetch-pull-remote.md
+  sha256: be11658d966aa3f1d0b36494e88a940ba8047cb73f72f01cea69603b55b7821a
+- note_id: git-revert-versus-reset
+  title: 研究 Git：撤销提交与移动分支不是同一操作
+  date: '2015-02-25'
+  permalink: /tech/2015/02/25/git-revert-versus-reset/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-revert-versus-reset.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-02-25-git-revert-versus-reset.md
+  sha256: d66b2407a8de6ee644f697466f7b59405abf7fac61b91c7ff49cbb6abac04e47
+- note_id: git-rebase-shared-history
+  title: 研究 Git：rebase 改变的是提交身份
+  date: '2015-02-15'
+  permalink: /tech/2015/02/15/git-rebase-shared-history/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-rebase-shared-history.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-02-15-git-rebase-shared-history.md
+  sha256: 597b2fd4d80b6ceb265dc460745beb6a2a6164537f56c685970b9884d85391f4
+- note_id: git-merge-conflict-intent
+  title: 研究 Git：合并冲突解决的是意图，不只是标记
+  date: '2015-02-05'
+  permalink: /tech/2015/02/05/git-merge-conflict-intent/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-merge-conflict-intent.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-02-05-git-merge-conflict-intent.md
+  sha256: 918c3b75d8346cbb8716806acb72e7691763b24282ee8a330b86e79f2bc3aa3d
+- note_id: git-ignore-tracked-files
+  title: 研究 Git：忽略规则为什么挡不住已经跟踪的文件
+  date: '2015-01-25'
+  permalink: /tech/2015/01/25/git-ignore-tracked-files/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-ignore-tracked-files.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-01-25-git-ignore-tracked-files.md
+  sha256: 29735012f551f4c69ec07646c9b58cb605ffb0e4b55a65cfdbb2e8a464dbaf92
+- note_id: git-commit-dag-branches
+  title: 研究 Git：分支只是指向提交的可移动引用
+  date: '2015-01-15'
+  permalink: /tech/2015/01/15/git-commit-dag-branches/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-commit-dag-branches.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-01-15-git-commit-dag-branches.md
+  sha256: 90f26bff2824f573427e8750412d3a597f0eedb6bf3c59159dd6ab07a70de05b
+- note_id: git-working-index-head
+  title: 研究 Git：工作区、暂存区与 HEAD 三份状态
+  date: '2015-01-05'
+  permalink: /tech/2015/01/05/git-working-index-head/
+  tags: *id048
+  images:
+  - /img/tech-notes/git-working-index-head.svg
+  technology_since: '2014-10-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2015-01-05-git-working-index-head.md
+  sha256: db23c80815101b251961690f9927e78f19f2d1f2a75e2240d838dffe20eef91a
+- note_id: groupbuy-customer-service-loop
+  title: 团购网站创业：把客服问题变成可追踪的产品反馈
+  date: '2014-12-25'
+  permalink: /tech/2014/12/25/groupbuy-customer-service-loop/
+  tags: &id049
+  - 团购网站
+  - 产品设计
+  images:
+  - /img/tech-notes/groupbuy-customer-service-loop.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-12-25-groupbuy-customer-service-loop.md
+  sha256: eb493646e32df2c4ae82d494ac093914b1f9e33d97d0cc3afa3486ceb0ade4ea
+- note_id: groupbuy-funnel-definition
+  title: 团购网站创业：浏览、支付与核销分别看转化
+  date: '2014-12-15'
+  permalink: /tech/2014/12/15/groupbuy-funnel-definition/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-funnel-definition.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-12-15-groupbuy-funnel-definition.md
+  sha256: 7f9c0d45412d08e892d51634537c2e47201c362858294403dd1bcd96cc4372d3
+- note_id: groupbuy-merchant-onboarding
+  title: 团购网站创业：商家上线先把履约条件说清楚
+  date: '2014-12-05'
+  permalink: /tech/2014/12/05/groupbuy-merchant-onboarding/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-merchant-onboarding.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-12-05-groupbuy-merchant-onboarding.md
+  sha256: be46b951a9b9587b603dc8ef20d493fbabe354b39be89f3e80e7b46d197ac5dd
+- note_id: java-web-deployment-context
+  title: Java Web 部署：端口、上下文路径和代理地址
+  date: '2014-11-25'
+  permalink: /tech/2014/11/25/java-web-deployment-context/
+  tags: &id050
+  - 软件工程
+  - 职场笔记
+  images:
+  - /img/tech-notes/java-web-deployment-context.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-11-25-java-web-deployment-context.md
+  sha256: a7d66c7f0b9435b99d1b6be1f4f2c24d484b92dd13de8020d47730977a09ac59
+- note_id: java-web-war-reproducible-build
+  title: Java Web 工程：WAR 包要能从干净环境重新构建
+  date: '2014-11-15'
+  permalink: /tech/2014/11/15/java-web-war-reproducible-build/
+  tags: *id050
+  images:
+  - /img/tech-notes/java-web-war-reproducible-build.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-11-15-java-web-war-reproducible-build.md
+  sha256: 90e0f54d3c2d3181f41f225e517ab04470189811d893f1c6ad058e86e71359c5
+- note_id: java-web-request-logging
+  title: Java Web 工程：一条请求日志应该留下什么
+  date: '2014-11-05'
+  permalink: /tech/2014/11/05/java-web-request-logging/
+  tags: *id050
+  images:
+  - /img/tech-notes/java-web-request-logging.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-11-05-java-web-request-logging.md
+  sha256: c879dd96d90656d1644ca145f4d6f59b2f689e8fa7f7da1aba835d68fa99b22c
+- note_id: groupbuy-expiry-settlement
+  title: 团购网站设计：券过期与商家结算不要共用一个状态
+  date: '2014-10-25'
+  permalink: /tech/2014/10/25/groupbuy-expiry-settlement/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-expiry-settlement.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-10-25-groupbuy-expiry-settlement.md
+  sha256: d138bd429dda940e48912fbc1c48be47c8c6f3c9d30b6061c20c457409701cbb
+- note_id: groupbuy-refund-state-machine
+  title: 团购网站设计：退款申请不等于资金已退回
+  date: '2014-10-15'
+  permalink: /tech/2014/10/15/groupbuy-refund-state-machine/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-refund-state-machine.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-10-15-groupbuy-refund-state-machine.md
+  sha256: 73f390d5aacb129490b1873f9e47d1045ff03578a7afb9ef929b5ad4e69629c8
+- note_id: groupbuy-voucher-redemption
+  title: 团购网站设计：消费券核销怎样避免重复使用
+  date: '2014-10-05'
+  permalink: /tech/2014/10/05/groupbuy-voucher-redemption/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-voucher-redemption.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-10-05-groupbuy-voucher-redemption.md
+  sha256: 4efc1caf5ca179e1d7df3369f378f1e2aea57f356e2573cb6990c1e6f6e665af
+- note_id: groupbuy-threshold-state
+  title: 团购网站设计：成团人数与支付状态分别建模
+  date: '2014-09-25'
+  permalink: /tech/2014/09/25/groupbuy-threshold-state/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-threshold-state.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-09-25-groupbuy-threshold-state.md
+  sha256: fec6b6a28983f4c725b17fdccd30e043bf846317702e06ae9a636306cd0f364a
+- note_id: groupbuy-stock-conditional-update
+  title: 团购网站设计：最后一份库存怎样防止超卖
+  date: '2014-09-15'
+  permalink: /tech/2014/09/15/groupbuy-stock-conditional-update/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-stock-conditional-update.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-09-15-groupbuy-stock-conditional-update.md
+  sha256: f11c6da3810aaaf43c86f1888294c5d874387c95df01bd684007fcfcc473c5ca
+- note_id: groupbuy-product-sku-snapshot
+  title: 团购网站设计：商品、套餐与成交快照
+  date: '2014-09-05'
+  permalink: /tech/2014/09/05/groupbuy-product-sku-snapshot/
+  tags: *id049
+  images:
+  - /img/tech-notes/groupbuy-product-sku-snapshot.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-09-05-groupbuy-product-sku-snapshot.md
+  sha256: 362ea9fc1c9f1fa7249282f7c0991a0f38c02379018d20fc5da4dbf2b989dc24
+- note_id: velocity-layout-macro-cache
+  title: Velocity：宏、公共布局与模板缓存
+  date: '2014-08-25'
+  permalink: /tech/2014/08/25/velocity-layout-macro-cache/
+  tags: &id051
+  - Velocity
+  - 模板引擎
+  images:
+  - /img/tech-notes/velocity-layout-macro-cache.svg
+  technology_since: '2010-11-19'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-08-25-velocity-layout-macro-cache.md
+  sha256: 41a26471d7c592cd94bf8a8c9e9a344abb605f7912026e981cc1e5c8916b801c
+- note_id: velocity-html-escaping
+  title: Velocity：输出编码要按 HTML 上下文处理
+  date: '2014-08-15'
+  permalink: /tech/2014/08/15/velocity-html-escaping/
+  tags: *id051
+  images:
+  - /img/tech-notes/velocity-html-escaping.svg
+  technology_since: '2010-11-19'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-08-15-velocity-html-escaping.md
+  sha256: 646360d64994067eb16bbbc54e3de94a884977a474727c2edd521caac6747be7
+- note_id: velocity-model-null-handling
+  title: Velocity：页面模型与空值约定
+  date: '2014-08-05'
+  permalink: /tech/2014/08/05/velocity-model-null-handling/
+  tags: *id051
+  images:
+  - /img/tech-notes/velocity-model-null-handling.svg
+  technology_since: '2010-11-19'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-08-05-velocity-model-null-handling.md
+  sha256: 1d82cf17cb626921b0dc3fdb03cb91047588b2209dd934917f475aa9c2f4e196
+- note_id: hibernate-pagination-n-plus-one
+  title: Hibernate：分页查询与 N+1 不能只改 fetch
+  date: '2014-07-25'
+  permalink: /tech/2014/07/25/hibernate-pagination-n-plus-one/
+  tags: &id052
+  - Hibernate
+  - 数据库
+  images:
+  - /img/tech-notes/hibernate-pagination-n-plus-one.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-07-25-hibernate-pagination-n-plus-one.md
+  sha256: 13a7140a1287e63eb0321bca95df1de163d367508316cad4a0bb184e47fe0cf4
+- note_id: hibernate-optimistic-locking
+  title: Hibernate：版本字段怎样避免覆盖别人的修改
+  date: '2014-07-15'
+  permalink: /tech/2014/07/15/hibernate-optimistic-locking/
+  tags: *id052
+  images:
+  - /img/tech-notes/hibernate-optimistic-locking.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-07-15-hibernate-optimistic-locking.md
+  sha256: a5eb2695933ee85188907617262990f5844aa287b72950f49c58672dcbac06d2
+- note_id: hibernate-transaction-flush
+  title: Hibernate：flush 与 commit 为什么不是同一个动作
+  date: '2014-07-05'
+  permalink: /tech/2014/07/05/hibernate-transaction-flush/
+  tags: *id052
+  images:
+  - /img/tech-notes/hibernate-transaction-flush.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-07-05-hibernate-transaction-flush.md
+  sha256: 2db3c79be3a2bbb4726ffb3953c742f269bf7d44f7e894b411accb7fd1acea1d
+- note_id: hibernate-one-to-many-owner
+  title: Hibernate：一对多映射中谁维护外键
+  date: '2014-06-25'
+  permalink: /tech/2014/06/25/hibernate-one-to-many-owner/
+  tags: *id052
+  images:
+  - /img/tech-notes/hibernate-one-to-many-owner.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-06-25-hibernate-one-to-many-owner.md
+  sha256: 1a84e9394f30969cbb7215cf6ae892d4fb5c097197012060eb0faf6c5032fbf7
+- note_id: hibernate-lazy-session
+  title: Hibernate：懒加载异常为什么发生在页面渲染时
+  date: '2014-06-15'
+  permalink: /tech/2014/06/15/hibernate-lazy-session/
+  tags: *id052
+  images:
+  - /img/tech-notes/hibernate-lazy-session.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-06-15-hibernate-lazy-session.md
+  sha256: 99ae5ca38480a005702775ae5c88ef9ea74b7208f364e393618f3134c9284efc
+- note_id: hibernate-entity-state
+  title: Hibernate：瞬时、持久与游离对象的区别
+  date: '2014-06-05'
+  permalink: /tech/2014/06/05/hibernate-entity-state/
+  tags: *id052
+  images:
+  - /img/tech-notes/hibernate-entity-state.svg
+  technology_since: '2013-12-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-06-05-hibernate-entity-state.md
+  sha256: bb8ffb46bd2bb93a26f36c0172055ccdc4161c154d3db95c00cf2d339603e499
+- note_id: spring-mvc-file-upload-boundary
+  title: Spring MVC：文件上传先划清存储和访问边界
+  date: '2014-05-25'
+  permalink: /tech/2014/05/25/spring-mvc-file-upload-boundary/
+  tags: &id053
+  - Spring
+  - Java Web
+  images:
+  - /img/tech-notes/spring-mvc-file-upload-boundary.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-05-25-spring-mvc-file-upload-boundary.md
+  sha256: 29cc76ef787180feb75cf5a389298d016d20a8622f8bc43ef47a5560b8e6c342
+- note_id: spring-mvc-exception-contract
+  title: Spring MVC：统一异常响应要保留错误含义
+  date: '2014-05-15'
+  permalink: /tech/2014/05/15/spring-mvc-exception-contract/
+  tags: *id053
+  images:
+  - /img/tech-notes/spring-mvc-exception-contract.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-05-15-spring-mvc-exception-contract.md
+  sha256: 20c61d813e42a3d405a423fa945883e96e4cd822a3d4f64c07eb4a56db10da95
+- note_id: spring-mvc-binding-validation
+  title: Spring MVC：参数绑定成功不代表输入合法
+  date: '2014-05-05'
+  permalink: /tech/2014/05/05/spring-mvc-binding-validation/
+  tags: *id053
+  images:
+  - /img/tech-notes/spring-mvc-binding-validation.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-05-05-spring-mvc-binding-validation.md
+  sha256: 0f1f80adade1b30c2185c1632a4ed6e7873e4aad611684680039d0a69ff0451e
+- note_id: spring-bean-lifecycle
+  title: Spring 学习：Bean 生命周期与资源释放
+  date: '2014-04-25'
+  permalink: /tech/2014/04/25/spring-bean-lifecycle/
+  tags: *id053
+  images:
+  - /img/tech-notes/spring-bean-lifecycle.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-04-25-spring-bean-lifecycle.md
+  sha256: 93de37688893d19e34477d51d35db45b1b7400e22355ab95cbb50334b0461b3a
+- note_id: spring-aop-proxy-boundary
+  title: Spring AOP 学习：同类内部调用为何绕过事务
+  date: '2014-04-15'
+  permalink: /tech/2014/04/15/spring-aop-proxy-boundary/
+  tags: *id053
+  images:
+  - /img/tech-notes/spring-aop-proxy-boundary.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-04-15-spring-aop-proxy-boundary.md
+  sha256: a7eaf6545206438f4609a7e5e76090c19652c9fde3f8836536d5f4667208e920
+- note_id: spring-ioc-constructor
+  title: Spring 学习：用构造依赖说明 IoC 的价值
+  date: '2014-04-05'
+  permalink: /tech/2014/04/05/spring-ioc-constructor/
+  tags: *id053
+  images:
+  - /img/tech-notes/spring-ioc-constructor.svg
+  technology_since: '2013-12-12'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-04-05-spring-ioc-constructor.md
+  sha256: 4f9c9b8884ddc156dcec9063aae277a81a764955640e82ceeecc565b615e6142
+- note_id: maven-dependency-conflict
+  title: Maven 依赖冲突：为什么编译和运行用到不同的类
+  date: '2014-03-25'
+  permalink: /tech/2014/03/25/maven-dependency-conflict/
+  tags: *id050
+  images:
+  - /img/tech-notes/maven-dependency-conflict.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-03-25-maven-dependency-conflict.md
+  sha256: 0adaf663d1ba8aa8e39ed621c3f985472bbdd055e78314e93d507001c43d480a
+- note_id: eclipse-breakpoint-request
+  title: Eclipse 调试：从一个断点还原请求状态
+  date: '2014-03-15'
+  permalink: /tech/2014/03/15/eclipse-breakpoint-request/
+  tags: *id050
+  images:
+  - /img/tech-notes/eclipse-breakpoint-request.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-03-15-eclipse-breakpoint-request.md
+  sha256: 368f982f549923659ae0198e6c19a0fc8fe97acf5c9a4aa901153079504c6758
+- note_id: eclipse-jdk-workspace
+  title: Eclipse 配置：工程 JDK、编译级别和运行时分开检查
+  date: '2014-03-05'
+  permalink: /tech/2014/03/05/eclipse-jdk-workspace/
+  tags: *id050
+  images:
+  - /img/tech-notes/eclipse-jdk-workspace.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-03-05-eclipse-jdk-workspace.md
+  sha256: 0070d6631fc90adcc539d6723f1e2f81bb69bc30ef001fb86c7abfe5186d4fd0
+- note_id: svn-branch-tag-merge
+  title: SVN 分支与标签：复制便宜，合并仍要有依据
+  date: '2014-02-25'
+  permalink: /tech/2014/02/25/svn-branch-tag-merge/
+  tags: &id054
+  - SVN
+  - 版本管理
+  images:
+  - /img/tech-notes/svn-branch-tag-merge.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-02-25-svn-branch-tag-merge.md
+  sha256: 42324b074e9a4184c24f023d76561cf4b9f3a28d986b8f5a3229d15fcaa302f5
+- note_id: svn-update-conflict-resolution
+  title: SVN 冲突处理：先理解双方修改，再标记解决
+  date: '2014-02-15'
+  permalink: /tech/2014/02/15/svn-update-conflict-resolution/
+  tags: *id054
+  images:
+  - /img/tech-notes/svn-update-conflict-resolution.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-02-15-svn-update-conflict-resolution.md
+  sha256: e232651af742af40c9b0341b946b7ffbbf92c7b39efe1797766d26d570683b86
+- note_id: svn-working-copy-status
+  title: SVN 入门：工作副本、状态和提交范围
+  date: '2014-02-05'
+  permalink: /tech/2014/02/05/svn-working-copy-status/
+  tags: *id054
+  images:
+  - /img/tech-notes/svn-working-copy-status.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-02-05-svn-working-copy-status.md
+  sha256: 3f1686cf56a35b460f3dd4f33b15141345017fc0338b9edb35a5f45f442f10b9
+- note_id: first-job-reading-legacy-code
+  title: 初入职场：接手旧代码先画请求链路
+  date: '2014-01-25'
+  permalink: /tech/2014/01/25/first-job-reading-legacy-code/
+  tags: *id050
+  images:
+  - /img/tech-notes/first-job-reading-legacy-code.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-01-25-first-job-reading-legacy-code.md
+  sha256: 4dcb3bf45a86b1714acef9d769e0bc23e3b1b3638bfa7b0ffc48c9ba01400d21
+- note_id: first-job-task-acceptance
+  title: 初入职场：把“做个列表”拆成可验收任务
+  date: '2014-01-15'
+  permalink: /tech/2014/01/15/first-job-task-acceptance/
+  tags: *id050
+  images:
+  - /img/tech-notes/first-job-task-acceptance.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-01-15-first-job-task-acceptance.md
+  sha256: 195e617d148cf3f8e7c06a69b9d6817a8fca369d68c1f33d016a6fe28991597e
+- note_id: first-job-reproducible-bug
+  title: 初入职场：怎样写一份能复现的缺陷记录
+  date: '2014-01-05'
+  permalink: /tech/2014/01/05/first-job-reproducible-bug/
+  tags: *id050
+  images:
+  - /img/tech-notes/first-job-reproducible-bug.svg
+  technology_since: '2013-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2014-01-05-first-job-reproducible-bug.md
+  sha256: 53ecfb7ce837ea13e8478607ec78030ae978b3f17aac02ff860c2028e5c8007b
+- note_id: mobile-startup-learning-roadmap
+  title: 移动互联网创业笔记：把技术学习转成可交付的小闭环
+  date: '2013-12-25'
+  permalink: /tech/2013/12/25/mobile-startup-learning-roadmap/
+  tags: &id055
+  - 移动互联网
+  - 创业思考
+  images:
+  - /img/tech-notes/mobile-startup-learning-roadmap.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-12-25-mobile-startup-learning-roadmap.md
+  sha256: 9fd9f9db20bba98abd9f3e190d1494443c6c1adcc587c45698f236fd9f343ee0
+- note_id: mobile-startup-api-network
+  title: 移动互联网创业笔记：弱网下的移动接口怎样设计
+  date: '2013-12-15'
+  permalink: /tech/2013/12/15/mobile-startup-api-network/
+  tags: *id055
+  images:
+  - /img/tech-notes/mobile-startup-api-network.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-12-15-mobile-startup-api-network.md
+  sha256: 97c94d530927f98b43543203d0ddacbc3778063741c4c7252db9ab50c8418289
+- note_id: mobile-startup-unit-economics
+  title: 移动互联网创业笔记：一单赚钱不代表公司有现金
+  date: '2013-12-05'
+  permalink: /tech/2013/12/05/mobile-startup-unit-economics/
+  tags: *id055
+  images:
+  - /img/tech-notes/mobile-startup-unit-economics.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-12-05-mobile-startup-unit-economics.md
+  sha256: 3247bcea68cd09daa834385888ec4fb0d09277d91ce69bc49520de532eebf0a7
+- note_id: mobile-startup-retention-cohort
+  title: 移动互联网创业笔记：留存要按同批用户比较
+  date: '2013-11-25'
+  permalink: /tech/2013/11/25/mobile-startup-retention-cohort/
+  tags: *id055
+  images:
+  - /img/tech-notes/mobile-startup-retention-cohort.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-11-25-mobile-startup-retention-cohort.md
+  sha256: b8337ac5a78d38e689655a64de9ff0f089562464b135d6b64a13f9d79d3531a7
+- note_id: mobile-startup-mvp-boundary
+  title: 移动互联网创业笔记：最小可行产品的边界
+  date: '2013-11-15'
+  permalink: /tech/2013/11/15/mobile-startup-mvp-boundary/
+  tags: *id055
+  images:
+  - /img/tech-notes/mobile-startup-mvp-boundary.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-11-15-mobile-startup-mvp-boundary.md
+  sha256: b3df5612f4605d8bdf8516363d64741947a36e55d14af05b0a5b9ba660146fda
+- note_id: mobile-startup-user-problem
+  title: 移动互联网创业笔记：先验证问题，再讨论功能
+  date: '2013-11-05'
+  permalink: /tech/2013/11/05/mobile-startup-user-problem/
+  tags: *id055
+  images:
+  - /img/tech-notes/mobile-startup-user-problem.svg
+  technology_since: '2011-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-11-05-mobile-startup-user-problem.md
+  sha256: f070393c25f811862c000672bae610aaee284a5e3d996a294a55a9e346850208
+- note_id: payment-timeouts-retry-budget
+  title: 大型支付系统学习：超时、重试与结果未知
+  date: '2013-10-25'
+  permalink: /tech/2013/10/25/payment-timeouts-retry-budget/
+  tags: &id056
+  - 支付系统
+  - 系统设计
+  images:
+  - /img/tech-notes/payment-timeouts-retry-budget.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-10-25-payment-timeouts-retry-budget.md
+  sha256: 541bb11db205af509d560ac682a20d8e87d66aeb77521328263bd37101617dde
+- note_id: payment-reconciliation-differences
+  title: 大型支付系统学习：对账不是只比较总金额
+  date: '2013-10-15'
+  permalink: /tech/2013/10/15/payment-reconciliation-differences/
+  tags: *id056
+  images:
+  - /img/tech-notes/payment-reconciliation-differences.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-10-15-payment-reconciliation-differences.md
+  sha256: 0a45d951c77a7baf15c8c2042fe56a8daa24b9bd8463b9009eb3b6afe920fd40
+- note_id: payment-ledger-minor-units
+  title: 大型支付系统学习：金额精度与账务分录
+  date: '2013-10-05'
+  permalink: /tech/2013/10/05/payment-ledger-minor-units/
+  tags: *id056
+  images:
+  - /img/tech-notes/payment-ledger-minor-units.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-10-05-payment-ledger-minor-units.md
+  sha256: c03f909ce10f5a9684fda9f349faf65764eeb4b044351bfeaf1602f03710b405
+- note_id: payment-callback-authentication
+  title: 大型支付系统学习：回调验签以后还要核对什么
+  date: '2013-09-25'
+  permalink: /tech/2013/09/25/payment-callback-authentication/
+  tags: *id056
+  images:
+  - /img/tech-notes/payment-callback-authentication.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-09-25-payment-callback-authentication.md
+  sha256: bafdf9d862c0ada8bd45a21dfe1f238ee4af720c3dce9e5255dd46cae605eff9
+- note_id: payment-idempotency-unique-key
+  title: 大型支付系统学习：用唯一键约束重复请求
+  date: '2013-09-15'
+  permalink: /tech/2013/09/15/payment-idempotency-unique-key/
+  tags: *id056
+  images:
+  - /img/tech-notes/payment-idempotency-unique-key.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-09-15-payment-idempotency-unique-key.md
+  sha256: e837b62c35c23f5f5738977947a9e9a12a9eb54d0ed645651725c2b93883de35
+- note_id: payment-order-state-machine
+  title: 大型支付系统学习：订单状态不能只靠一个成功标记
+  date: '2013-09-05'
+  permalink: /tech/2013/09/05/payment-order-state-machine/
+  tags: *id056
+  images:
+  - /img/tech-notes/payment-order-state-machine.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-09-05-payment-order-state-machine.md
+  sha256: ee725730d743c8163c18e283e647b442905c2db952a5e81ffcc104e6d0681f90
+- note_id: jdk7-bounded-blockingqueue
+  title: 透彻学习 JDK：阻塞队列如何连接生产者和消费者
+  date: '2013-08-25'
+  permalink: /tech/2013/08/25/jdk7-bounded-blockingqueue/
+  tags: &id057
+  - Java
+  - JDK源码
+  images:
+  - /img/tech-notes/jdk7-bounded-blockingqueue.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-08-25-jdk7-bounded-blockingqueue.md
+  sha256: e3350fad8468aa5b20520efb3939e8770c467bc537d2a39577d825068529671e
+- note_id: jdk7-gc-reachability
+  title: 透彻学习 JDK：对象不可用了，为何还没被回收
+  date: '2013-08-15'
+  permalink: /tech/2013/08/15/jdk7-gc-reachability/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-gc-reachability.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-08-15-jdk7-gc-reachability.md
+  sha256: a194857285e26c3a1f840af638cc71d3a23a6c85539f313e37514a496ef02cfd
+- note_id: jdk7-jvm-memory-regions
+  title: 透彻学习 JDK：堆、线程栈与永久代怎样区分
+  date: '2013-08-05'
+  permalink: /tech/2013/08/05/jdk7-jvm-memory-regions/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-jvm-memory-regions.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-08-05-jdk7-jvm-memory-regions.md
+  sha256: 7185a9ca279be679a3d707bb5310dc538e78aba6ed1de3ced42073f2155c1f29
+- note_id: jdk7-future-cancellation
+  title: 透彻学习 JDK：Future 超时以后任务停了吗
+  date: '2013-07-25'
+  permalink: /tech/2013/07/25/jdk7-future-cancellation/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-future-cancellation.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-07-25-jdk7-future-cancellation.md
+  sha256: 808993f2a6e4cd62ab3c904fe3a427ce0f54ba228ba83455ce7f6caf93e77d5a
+- note_id: jdk7-concurrenthashmap-segments
+  title: 透彻学习 JDK 7：ConcurrentHashMap 的分段锁
+  date: '2013-07-15'
+  permalink: /tech/2013/07/15/jdk7-concurrenthashmap-segments/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-concurrenthashmap-segments.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-07-15-jdk7-concurrenthashmap-segments.md
+  sha256: 71809b9409448a7a570409f1b3bbe8da3521bb50c759cb5f19022dec6be5132f
+- note_id: jdk7-threadpool-backpressure
+  title: 透彻学习 JDK：线程池队列满了以后怎么办
+  date: '2013-07-05'
+  permalink: /tech/2013/07/05/jdk7-threadpool-backpressure/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-threadpool-backpressure.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-07-05-jdk7-threadpool-backpressure.md
+  sha256: 17bb7c471de78498b8d460599c6fc4cd6c67d1c380b168ced374a373ac8bb8a2
+- note_id: jdk7-volatile-atomicity
+  title: 透彻学习 JDK：volatile 能见度不等于复合操作原子性
+  date: '2013-06-25'
+  permalink: /tech/2013/06/25/jdk7-volatile-atomicity/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-volatile-atomicity.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-06-25-jdk7-volatile-atomicity.md
+  sha256: 591a14f30881d35eba00dbd5ec58deb43616f9ac2da48f13b90dc1e26a13c9ec
+- note_id: jdk7-monitor-wait-notify
+  title: 透彻学习 JDK：wait 为什么必须放在 while 中
+  date: '2013-06-15'
+  permalink: /tech/2013/06/15/jdk7-monitor-wait-notify/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-monitor-wait-notify.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-06-15-jdk7-monitor-wait-notify.md
+  sha256: 3fd0573af70095f24cfc1196db72413846cbf4d85b1750a7e05a98751e2fd0c8
+- note_id: jdk7-thread-lifecycle
+  title: 透彻学习 JDK：start 与 run 的线程边界
+  date: '2013-06-05'
+  permalink: /tech/2013/06/05/jdk7-thread-lifecycle/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-thread-lifecycle.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-06-05-jdk7-thread-lifecycle.md
+  sha256: cf3f90ff80c5a8eef70a88ab7b6dfc536fcbe3bfaf565c5530228e810b670321
+- note_id: jdk7-io-charset
+  title: 透彻学习 JDK：字节流、字符流与乱码定位
+  date: '2013-05-25'
+  permalink: /tech/2013/05/25/jdk7-io-charset/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-io-charset.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-05-25-jdk7-io-charset.md
+  sha256: a2ecffd3d52a4159ca1e6460b8545b7f447062e52cf49b4cea8c1503504d6eb4
+- note_id: jdk7-reflection-invocation
+  title: 透彻学习 JDK：反射调用失败要看哪一层异常
+  date: '2013-05-15'
+  permalink: /tech/2013/05/15/jdk7-reflection-invocation/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-reflection-invocation.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-05-15-jdk7-reflection-invocation.md
+  sha256: ece435653fb03be60ce9af3b86447889f0c5b8cd437856c3f1af4ab10759f524
+- note_id: jdk7-classloader-identity
+  title: 透彻学习 JDK：类加载器也参与类型身份
+  date: '2013-05-05'
+  permalink: /tech/2013/05/05/jdk7-classloader-identity/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-classloader-identity.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-05-05-jdk7-classloader-identity.md
+  sha256: e892250a97fe2a59104c47e6d77b63007aa8679c0d4f6bed326430d74b5277af
+- note_id: jdk7-try-with-resources
+  title: 透彻学习 JDK：try-with-resources 怎样处理两个异常
+  date: '2013-04-25'
+  permalink: /tech/2013/04/25/jdk7-try-with-resources/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-try-with-resources.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-04-25-jdk7-try-with-resources.md
+  sha256: d546913d215737593d9515640286574374b69ff9ebe8c76cf4e34299b99bfec1
+- note_id: jdk7-generic-erasure
+  title: 透彻学习 JDK：泛型擦除为何仍会出现类型转换错误
+  date: '2013-04-15'
+  permalink: /tech/2013/04/15/jdk7-generic-erasure/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-generic-erasure.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-04-15-jdk7-generic-erasure.md
+  sha256: 691ad920508cfb78da2a5ab1909516a29b5182f18578f298f961975faf4e0d9b
+- note_id: jdk7-hashmap-buckets
+  title: 透彻学习 JDK 7：HashMap 的桶、冲突与扩容
+  date: '2013-04-05'
+  permalink: /tech/2013/04/05/jdk7-hashmap-buckets/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-hashmap-buckets.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-04-05-jdk7-hashmap-buckets.md
+  sha256: 380f883ffa64e14536d75e6ed28a13accb604e5b8969412372f4797d09ab7d7d
+- note_id: jdk7-arraylist-growth
+  title: 透彻学习 JDK：ArrayList 扩容与遍历删除
+  date: '2013-03-25'
+  permalink: /tech/2013/03/25/jdk7-arraylist-growth/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-arraylist-growth.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-03-25-jdk7-arraylist-growth.md
+  sha256: aeaffe4c411a5dc1ccb660f8865e831619fc01814b461909cdccc3da1fb2e19f
+- note_id: jdk7-equals-hashcode
+  title: 透彻学习 JDK：equals 与 hashCode 必须一起设计
+  date: '2013-03-15'
+  permalink: /tech/2013/03/15/jdk7-equals-hashcode/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-equals-hashcode.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-03-15-jdk7-equals-hashcode.md
+  sha256: 37d6d2b6df7c7282a5ffa1db0dfb959167551c9f9504321e100a0ab7bf5bf9c6
+- note_id: jdk7-string-equality
+  title: 透彻学习 JDK：String 相等与常量池
+  date: '2013-03-05'
+  permalink: /tech/2013/03/05/jdk7-string-equality/
+  tags: *id057
+  images:
+  - /img/tech-notes/jdk7-string-equality.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-03-05-jdk7-string-equality.md
+  sha256: 5aa1a1726ee09c6cd154aba49a5202b8295ebc08375f7bd121c2945b4fd2485a
+- note_id: exam-design-pattern-selection
+  title: 软考复习：策略、工厂和适配器不要混用
+  date: '2013-02-25'
+  permalink: /tech/2013/02/25/exam-design-pattern-selection/
+  tags: &id058
+  - 软考
+  - 软件设计
+  images:
+  - /img/tech-notes/exam-design-pattern-selection.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-02-25-exam-design-pattern-selection.md
+  sha256: 436b1613f4176c01bf899a5513c411b2fec4149c20998fe3c6472d6f34ec6862
+- note_id: exam-critical-path-slack
+  title: 软考复习：关键路径与总时差怎样手算
+  date: '2013-02-15'
+  permalink: /tech/2013/02/15/exam-critical-path-slack/
+  tags: *id058
+  images:
+  - /img/tech-notes/exam-critical-path-slack.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-02-15-exam-critical-path-slack.md
+  sha256: 8eb2972097bc2cc5195c8f9d2dce05864797a96e9aec3606c7401f3f92c935fe
+- note_id: exam-relational-normalization
+  title: 软考复习：从订单表拆出函数依赖与第三范式
+  date: '2013-02-05'
+  permalink: /tech/2013/02/05/exam-relational-normalization/
+  tags: *id058
+  images:
+  - /img/tech-notes/exam-relational-normalization.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-02-05-exam-relational-normalization.md
+  sha256: 1f6321d39744a6e6d2b0fbd15ff056488ff35405eacce90a2482c52ea1159ab1
+- note_id: exam-binary-twos-complement
+  title: 软考复习：补码、溢出与位运算边界
+  date: '2013-01-25'
+  permalink: /tech/2013/01/25/exam-binary-twos-complement/
+  tags: *id058
+  images:
+  - /img/tech-notes/exam-binary-twos-complement.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-01-25-exam-binary-twos-complement.md
+  sha256: 7d0d84548505cb5236bfe6da123de1132cb8aee5d4b7c81599eff97e8b936f28
+- note_id: exam-stack-queue-traversal
+  title: 软考复习：用迷宫理解栈、队列与搜索
+  date: '2013-01-15'
+  permalink: /tech/2013/01/15/exam-stack-queue-traversal/
+  tags: *id058
+  images:
+  - /img/tech-notes/exam-stack-queue-traversal.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-01-15-exam-stack-queue-traversal.md
+  sha256: 8337ef5ea10405d8ad487b77d791b781c321082f4e79eaeb55d46f9db9ef1908
+- note_id: exam-complexity-input-size
+  title: 软考复习：时间复杂度到底在数什么
+  date: '2013-01-05'
+  permalink: /tech/2013/01/05/exam-complexity-input-size/
+  tags: *id058
+  images:
+  - /img/tech-notes/exam-complexity-input-size.svg
+  technology_since: '2011-07-28'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2013-01-05-exam-complexity-input-size.md
+  sha256: 3f71c52cab26f68203fb47c14f2f8bd0b8761276f8d3f70cff02f66cb4d81542

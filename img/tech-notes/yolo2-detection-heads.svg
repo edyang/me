@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="660" viewBox="0 0 1120 660" role="img" aria-labelledby="title desc">
+<title id="title">Darknet 与 YOLOv2：检测头输出的是什么</title>
+<desc id="desc">图像特征：将输入编码为网格特征；候选框：由锚框和偏移形成位置；类别得分：只覆盖训练定义的类别；业务解释：标题定位与文字识别分开</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#3977b7"/></marker></defs>
+<rect width="1120" height="660" rx="18" fill="#f4f7fb"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+<text x="44" y="58" font-size="24" fill="#123555">Darknet 与 YOLOv2：检测头输出的是什么</text>
+<text x="44" y="91" font-size="17" fill="#54718b">关系示意 · 箭头表示处理或依赖方向</text>
+<rect x="44" y="132" width="470" height="142" rx="12" fill="white" stroke="#bdd0e2" stroke-width="2"/>
+<circle cx="74" cy="167" r="15" fill="#2769a4"/>
+<text x="69" y="173" font-size="17" fill="white">1</text>
+<text x="101" y="175" font-size="22" fill="#143f64">图像特征</text>
+<text x="68" y="223" font-size="17" fill="#3c5d7a">将输入编码为网格特征</text>
+<rect x="606" y="132" width="470" height="142" rx="12" fill="white" stroke="#bdd0e2" stroke-width="2"/>
+<circle cx="636" cy="167" r="15" fill="#2769a4"/>
+<text x="631" y="173" font-size="17" fill="white">2</text>
+<text x="663" y="175" font-size="22" fill="#143f64">候选框</text>
+<text x="630" y="223" font-size="17" fill="#3c5d7a">由锚框和偏移形成位置</text>
+<rect x="606" y="332" width="470" height="142" rx="12" fill="white" stroke="#bdd0e2" stroke-width="2"/>
+<circle cx="636" cy="367" r="15" fill="#2769a4"/>
+<text x="631" y="373" font-size="17" fill="white">3</text>
+<text x="663" y="375" font-size="22" fill="#143f64">类别得分</text>
+<text x="630" y="423" font-size="17" fill="#3c5d7a">只覆盖训练定义的类别</text>
+<rect x="44" y="332" width="470" height="142" rx="12" fill="white" stroke="#bdd0e2" stroke-width="2"/>
+<circle cx="74" cy="367" r="15" fill="#2769a4"/>
+<text x="69" y="373" font-size="17" fill="white">4</text>
+<text x="101" y="375" font-size="22" fill="#143f64">业务解释</text>
+<text x="68" y="423" font-size="17" fill="#3c5d7a">标题定位与文字识别分开</text>
+<g fill="none" stroke="#3977b7" stroke-width="3" marker-end="url(#arrow)">
+<path d="M516 203 H600"/>
+<path d="M841 276 V326"/>
+<path d="M603 403 H520"/>
+<path d="M279 330 V280" stroke-dasharray="7 6"/>
+</g>
+<rect x="44" y="516" width="1032" height="106" rx="10" fill="#e5eef7"/>
+<text x="64" y="546" font-size="19" fill="#174d78">观察点</text>
+<text x="64" y="577" font-size="17" fill="#244e70">类别清单与输出维度</text>
+</g></svg>

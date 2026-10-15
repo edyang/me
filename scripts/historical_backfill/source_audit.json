@@ -1,0 +1,368 @@
+{
+  "reference_count": 71,
+  "checks": [
+    {
+      "url": "https://262.ecma-international.org/5.1/",
+      "status": 200,
+      "final_url": "https://262.ecma-international.org/5.1/"
+    },
+    {
+      "url": "https://262.ecma-international.org/6.0/",
+      "status": 200,
+      "final_url": "https://262.ecma-international.org/6.0/"
+    },
+    {
+      "url": "https://arxiv.org/abs/1612.08242",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1612.08242"
+    },
+    {
+      "url": "https://arxiv.org/abs/1804.02767",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1804.02767"
+    },
+    {
+      "url": "https://developer.android.com/about/versions/nougat/android-7.1",
+      "status": 200,
+      "final_url": "https://developer.android.com/about/versions/nougat/android-7.1"
+    },
+    {
+      "url": "https://developer.android.com/build/releases/agp-2-3-0-release-notes",
+      "status": 200,
+      "final_url": "https://developer.android.com/build/releases/agp-2-3-0-release-notes"
+    },
+    {
+      "url": "https://developer.android.com/studio/releases/past-releases/as-2-3-0-release-notes",
+      "status": 200,
+      "final_url": "https://developer.android.com/studio/releases/past-releases/as-2-3-0-release-notes"
+    },
+    {
+      "url": "https://docs.arduino.cc/built-in-examples/",
+      "status": 200,
+      "final_url": "https://docs.arduino.cc/built-in-examples/"
+    },
+    {
+      "url": "https://docs.hibernate.org/orm/4.3/manual/en-US/html_single/",
+      "status": 200,
+      "final_url": "https://docs.hibernate.org/orm/4.3/manual/en-US/html_single/"
+    },
+    {
+      "url": "https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html",
+      "status": 200,
+      "final_url": "https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html"
+    },
+    {
+      "url": "https://docs.opencv.org/3.4.0/",
+      "status": 200,
+      "final_url": "https://docs.opencv.org/3.4.0/"
+    },
+    {
+      "url": "https://docs.opencv.org/3.4.0/da/d54/group__imgproc__transform.html",
+      "status": 200,
+      "final_url": "https://docs.opencv.org/3.4.0/da/d54/group__imgproc__transform.html"
+    },
+    {
+      "url": "https://docs.oracle.com/cd/E17952_01/mysql-5.6-en/index.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/cd/E17952_01/mysql-5.6-en/index.html"
+    },
+    {
+      "url": "https://docs.oracle.com/javase/7/docs/api/",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/javase/7/docs/api/"
+    },
+    {
+      "url": "https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html"
+    },
+    {
+      "url": "https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html"
+    },
+    {
+      "url": "https://docs.oracle.com/javase/specs/jls/se7/html/index.html",
+      "status": 200,
+      "final_url": "https://docs.oracle.com/javase/specs/jls/se7/html/index.html"
+    },
+    {
+      "url": "https://docs.spring.io/spring-boot/docs/1.2.2.RELEASE/reference/htmlsingle/",
+      "status": 200,
+      "final_url": "https://docs.spring.io/spring-boot/docs/1.2.2.RELEASE/reference/htmlsingle/"
+    },
+    {
+      "url": "https://docs.spring.io/spring-boot/docs/1.3.0.RELEASE/reference/htmlsingle/",
+      "status": 200,
+      "final_url": "https://docs.spring.io/spring-boot/docs/1.3.0.RELEASE/reference/htmlsingle/"
+    },
+    {
+      "url": "https://docs.spring.io/spring-framework/docs/3.2.6.RELEASE/spring-framework-reference/htmlsingle/",
+      "status": 200,
+      "final_url": "https://docs.spring.io/spring-framework/docs/3.2.6.RELEASE/spring-framework-reference/htmlsingle/"
+    },
+    {
+      "url": "https://docs.spring.io/spring-framework/docs/4.2.0.RELEASE/spring-framework-reference/htmlsingle/",
+      "status": 200,
+      "final_url": "https://docs.spring.io/spring-framework/docs/4.2.0.RELEASE/spring-framework-reference/htmlsingle/"
+    },
+    {
+      "url": "https://git-scm.com/book/en/v2",
+      "status": 200,
+      "final_url": "https://git-scm.com/book/en/v2"
+    },
+    {
+      "url": "https://github.com/arduino/Arduino/tree/1.8.5",
+      "status": 200,
+      "final_url": "https://github.com/arduino/Arduino/tree/1.8.5"
+    },
+    {
+      "url": "https://github.com/espressif/esp-idf/blob/v3.1/docs/en/api-guides/partition-tables.rst",
+      "status": 200,
+      "final_url": "https://github.com/espressif/esp-idf/blob/v3.1/docs/en/api-guides/partition-tables.rst"
+    },
+    {
+      "url": "https://github.com/espressif/esp-idf/tree/v2.1",
+      "status": 200,
+      "final_url": "https://github.com/espressif/esp-idf/tree/v2.1"
+    },
+    {
+      "url": "https://github.com/espressif/esp-idf/tree/v3.1",
+      "status": 200,
+      "final_url": "https://github.com/espressif/esp-idf/tree/v3.1"
+    },
+    {
+      "url": "https://github.com/git/git/blob/v2.2.0/Documentation/RelNotes/2.2.0.txt",
+      "status": 200,
+      "final_url": "https://github.com/git/git/blob/v2.2.0/Documentation/RelNotes/2.2.0.txt"
+    },
+    {
+      "url": "https://github.com/linux-can/can-utils",
+      "status": 200,
+      "final_url": "https://github.com/linux-can/can-utils"
+    },
+    {
+      "url": "https://github.com/mybatis/mybatis-3/tree/mybatis-3.2.8",
+      "status": 200,
+      "final_url": "https://github.com/mybatis/mybatis-3/tree/mybatis-3.2.8"
+    },
+    {
+      "url": "https://github.com/mysql/mysql-server/tree/mysql-5.6.23",
+      "status": 200,
+      "final_url": "https://github.com/mysql/mysql-server/tree/mysql-5.6.23"
+    },
+    {
+      "url": "https://github.com/netty/netty/tree/netty-4.0.32.Final",
+      "status": 200,
+      "final_url": "https://github.com/netty/netty/tree/netty-4.0.32.Final"
+    },
+    {
+      "url": "https://github.com/node-red/node-red/tree/0.18.0",
+      "status": 200,
+      "final_url": "https://github.com/node-red/node-red/tree/0.18.0"
+    },
+    {
+      "url": "https://github.com/node-red/node-red/tree/0.19.0",
+      "status": 200,
+      "final_url": "https://github.com/node-red/node-red/tree/0.19.0"
+    },
+    {
+      "url": "https://github.com/pjreddie/darknet/tree/f6d861736038da22c9eb0739dca84003c5a5e275",
+      "status": 200,
+      "final_url": "https://github.com/pjreddie/darknet/tree/f6d861736038da22c9eb0739dca84003c5a5e275"
+    },
+    {
+      "url": "https://github.com/redis/redis/blob/3.0.0/redis.conf",
+      "status": 200,
+      "final_url": "https://github.com/redis/redis/blob/3.0.0/redis.conf"
+    },
+    {
+      "url": "https://github.com/redis/redis/tree/3.0.0",
+      "status": 200,
+      "final_url": "https://github.com/redis/redis/tree/3.0.0"
+    },
+    {
+      "url": "https://github.com/spring-cloud/spring-cloud-netflix/tree/v1.0.0.RELEASE",
+      "status": 200,
+      "final_url": "https://github.com/spring-cloud/spring-cloud-netflix/tree/v1.0.0.RELEASE"
+    },
+    {
+      "url": "https://github.com/spring-cloud/spring-cloud-netflix/tree/v1.1.0.RELEASE",
+      "status": 200,
+      "final_url": "https://github.com/spring-cloud/spring-cloud-netflix/tree/v1.1.0.RELEASE"
+    },
+    {
+      "url": "https://github.com/twitter-archive/snowflake",
+      "status": 200,
+      "final_url": "https://github.com/twitter-archive/snowflake"
+    },
+    {
+      "url": "https://jcp.org/en/jsr/detail?id=315",
+      "status": 200,
+      "final_url": "https://jcp.org/en/jsr/detail?id=315"
+    },
+    {
+      "url": "https://jcp.org/en/jsr/detail?id=338",
+      "status": 200,
+      "final_url": "https://jcp.org/en/jsr/detail?id=338"
+    },
+    {
+      "url": "https://lmax-exchange.github.io/disruptor/files/Disruptor-1.0.pdf",
+      "status": 200,
+      "final_url": "https://lmax-exchange.github.io/disruptor/files/Disruptor-1.0.pdf"
+    },
+    {
+      "url": "https://maven.apache.org/ref/3.1.1/",
+      "status": 200,
+      "final_url": "https://maven.apache.org/ref/3.1.1/"
+    },
+    {
+      "url": "https://mybatis.org/mybatis-3/sqlmap-xml.html",
+      "status": 200,
+      "final_url": "https://mybatis.org/mybatis-3/sqlmap-xml.html"
+    },
+    {
+      "url": "https://netty.io/wiki/user-guide-for-4.x.html",
+      "status": 200,
+      "final_url": "https://netty.io/wiki/user-guide-for-4.x.html"
+    },
+    {
+      "url": "https://nodered.org/blog/2018/01/31/version-0-18-released",
+      "status": 200,
+      "final_url": "https://nodered.org/blog/2018/01/31/version-0-18-released"
+    },
+    {
+      "url": "https://nodered.org/blog/2018/08/14/version-0-19-released",
+      "status": 200,
+      "final_url": "https://nodered.org/blog/2018/08/14/version-0-19-released"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+      "status": 200,
+      "final_url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/"
+    },
+    {
+      "url": "https://owasp.org/www-community/attacks/xss/",
+      "status": 200,
+      "final_url": "https://community.owasp.org/attacks/xss/"
+    },
+    {
+      "url": "https://paulgraham.com/equity.html",
+      "status": 200,
+      "final_url": "https://paulgraham.com/equity.html"
+    },
+    {
+      "url": "https://paulgraham.com/fr.html",
+      "status": 200,
+      "final_url": "https://paulgraham.com/fr.html"
+    },
+    {
+      "url": "https://pjreddie.com/darknet/yolo/",
+      "status": 200,
+      "final_url": "https://pjreddie.com/darknet/yolo/"
+    },
+    {
+      "url": "https://spring.io/blog/2014/04/01/spring-boot-1-0-ga-released/",
+      "status": 200,
+      "final_url": "https://spring.io/blog/2014/04/01/spring-boot-1-0-ga-released/"
+    },
+    {
+      "url": "https://spring.io/blog/2015/03/04/spring-cloud-1-0-0-available-now/",
+      "status": 200,
+      "final_url": "https://spring.io/blog/2015/03/04/spring-cloud-1-0-0-available-now/"
+    },
+    {
+      "url": "https://spring.io/blog/2016/05/11/spring-cloud-brixton-release-is-available/",
+      "status": 200,
+      "final_url": "https://spring.io/blog/2016/05/11/spring-cloud-brixton-release-is-available/"
+    },
+    {
+      "url": "https://steveblank.com/category/customer-development/",
+      "status": 200,
+      "final_url": "https://steveblank.com/category/customer-development/"
+    },
+    {
+      "url": "https://subversion.apache.org/docs/",
+      "status": 200,
+      "final_url": "https://subversion.apache.org/docs/"
+    },
+    {
+      "url": "https://svnbook.red-bean.com/en/1.7/",
+      "status": 200,
+      "final_url": "https://svnbook.red-bean.com/en/1.7/"
+    },
+    {
+      "url": "https://theleanstartup.com/principles",
+      "status": 200,
+      "final_url": "https://theleanstartup.com/principles"
+    },
+    {
+      "url": "https://velocity.apache.org/engine/1.7/user-guide.html",
+      "status": 200,
+      "final_url": "https://velocity.apache.org/engine/1.7/user-guide.html"
+    },
+    {
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+      "status": 200,
+      "final_url": "https://documentation.espressif.com/esp32_datasheet_en.pdf"
+    },
+    {
+      "url": "https://www.kernel.org/doc/Documentation/networking/can.txt",
+      "status": 200,
+      "final_url": "https://www.kernel.org/doc/Documentation/networking/can.txt"
+    },
+    {
+      "url": "https://www.modbus.org/file/secure/modbusprotocolspecification.pdf",
+      "status": 200,
+      "final_url": "https://www.modbus.org/file/secure/modbusprotocolspecification.pdf"
+    },
+    {
+      "url": "https://www.postgresql.org/about/news/postgresql-96-released-1703/",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/about/news/postgresql-96-released-1703/"
+    },
+    {
+      "url": "https://www.postgresql.org/docs/9.6/",
+      "status": 200,
+      "final_url": "https://www.postgresql.org/docs/9.6/"
+    },
+    {
+      "url": "https://www.raspberrypi.com/documentation/",
+      "status": 200,
+      "final_url": "https://www.raspberrypi.com/documentation/"
+    },
+    {
+      "url": "https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/",
+      "status": 200,
+      "final_url": "https://www.raspberrypi.com/news/raspberry-pi-3-on-sale/"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2104",
+      "status": 200,
+      "final_url": "https://www.rfc-editor.org/info/rfc2104/"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7252",
+      "status": 200,
+      "final_url": "https://www.rfc-editor.org/info/rfc7252/"
+    },
+    {
+      "url": "https://www.w3.org/TR/2014/REC-html5-20141028/",
+      "status": 200,
+      "final_url": "https://www.w3.org/TR/2014/REC-html5-20141028/"
+    },
+    {
+      "url": "https://www.w3.org/TR/CSS21/",
+      "status": 200,
+      "final_url": "https://www.w3.org/TR/CSS2/"
+    }
+  ],
+  "version_notes": [
+    "Spring Boot 1.2 and Spring Cloud 1.0 used only after their releases.",
+    "JDK 7 collection internals remain distinct from later tree-bin implementations.",
+    "ESP-IDF 2.1 ADC uses adc1_get_voltage; verified against the pinned header.",
+    "Arduino 2018 articles use IDE 1.8.5 rather than a later AVR core tag.",
+    "YOLOv3 articles use a Darknet source revision from 2018-05-06.",
+    "Android examples use the 2017 Studio 2.3, Gradle 3.3, plugin 2.3.0 toolchain."
+  ]
+}
