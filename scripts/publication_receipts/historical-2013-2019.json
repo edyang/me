@@ -1,0 +1,6361 @@
+{
+  "checked_at": "2026-10-15T03:02:09.293440+00:00",
+  "repository": "edyang/me",
+  "pr_url": "https://github.com/edyang/me/pull/9",
+  "source_commit": "397b8071fcea1b637d366112fe4e635f08be56ab",
+  "merge_commit": "146fea85b3218cccc3abc89a799070c274899cf7",
+  "pr_validation_run": 38673649566,
+  "master_validation_run": 38673738494,
+  "pages_deployment_run": 38673738169,
+  "coverage": {
+    "2013": 36,
+    "2014": 36,
+    "2015": 36,
+    "2016": 36,
+    "2017": 36,
+    "2018": 36,
+    "2019": 36
+  },
+  "new_articles": 252,
+  "new_images": 252,
+  "site_technical_articles": 502,
+  "pages_checked": 252,
+  "images_checked": 252,
+  "entry_pages_checked": 4,
+  "valid": true,
+  "pages": [
+    {
+      "note_id": "exam-complexity-input-size",
+      "url": "https://edyang.me/tech/2013/01/05/exam-complexity-input-size/",
+      "status": 200,
+      "bytes": 45278,
+      "sha256": "d98230d8563e31df401d5bb8001b1f529ae7636dd2eeb62253725ece11463fb9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "exam-stack-queue-traversal",
+      "url": "https://edyang.me/tech/2013/01/15/exam-stack-queue-traversal/",
+      "status": 200,
+      "bytes": 45850,
+      "sha256": "77cbe5370ce522351310e7c954cb6bf2c22b7720c18fac1156a033048d5e1d8d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "exam-binary-twos-complement",
+      "url": "https://edyang.me/tech/2013/01/25/exam-binary-twos-complement/",
+      "status": 200,
+      "bytes": 46883,
+      "sha256": "0fbaf810b3e577618087cc969fffad4888f8251770b9d16fcf03d05800f24f6c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "exam-relational-normalization",
+      "url": "https://edyang.me/tech/2013/02/05/exam-relational-normalization/",
+      "status": 200,
+      "bytes": 46115,
+      "sha256": "5b6eab064f733854f0d78798bfef9742ae66ba7b887026ccd572dce3f191e5b0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "exam-critical-path-slack",
+      "url": "https://edyang.me/tech/2013/02/15/exam-critical-path-slack/",
+      "status": 200,
+      "bytes": 45735,
+      "sha256": "cf481e120d9ff46bc6d230c2c49fb436def0403700c3c4f83ad8f432d14ee11a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "exam-design-pattern-selection",
+      "url": "https://edyang.me/tech/2013/02/25/exam-design-pattern-selection/",
+      "status": 200,
+      "bytes": 47194,
+      "sha256": "59dd6c9872832841bcfe86b1e5701ba597834e3851057657f5786213e0b1920f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-string-equality",
+      "url": "https://edyang.me/tech/2013/03/05/jdk7-string-equality/",
+      "status": 200,
+      "bytes": 46431,
+      "sha256": "28e201ff8bc54b557ddd45492bfe54605149a0f1212966cba83fcd345ea122af",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-equals-hashcode",
+      "url": "https://edyang.me/tech/2013/03/15/jdk7-equals-hashcode/",
+      "status": 200,
+      "bytes": 47097,
+      "sha256": "11c3aa2386efdb77c3f629fbfc5ba7bf94e1e4556bc5a0d4ba6cff7bf17fa800",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-arraylist-growth",
+      "url": "https://edyang.me/tech/2013/03/25/jdk7-arraylist-growth/",
+      "status": 200,
+      "bytes": 46402,
+      "sha256": "ed21dd53dc7624c64c8fe2519febc9193216f04f94194199af1cc2a06bccad46",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-hashmap-buckets",
+      "url": "https://edyang.me/tech/2013/04/05/jdk7-hashmap-buckets/",
+      "status": 200,
+      "bytes": 46667,
+      "sha256": "12b51f6e4713088df610406c053834fbc0d3b263934b40fbbd0a3a729c85a597",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-generic-erasure",
+      "url": "https://edyang.me/tech/2013/04/15/jdk7-generic-erasure/",
+      "status": 200,
+      "bytes": 46821,
+      "sha256": "fe00e9171b2833d05527043fbf4d7b16e5dbe3bf9bd70abf4ee782bcb181fd43",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-try-with-resources",
+      "url": "https://edyang.me/tech/2013/04/25/jdk7-try-with-resources/",
+      "status": 200,
+      "bytes": 47029,
+      "sha256": "a1048f58281b984e8757f43193373e068375bfae088ff9619ee4235bbb81f993",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-classloader-identity",
+      "url": "https://edyang.me/tech/2013/05/05/jdk7-classloader-identity/",
+      "status": 200,
+      "bytes": 46705,
+      "sha256": "20a5b93f8e55b1424e56f3b2d3bd9619a13e5937701149a41d915099919ef3dc",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-reflection-invocation",
+      "url": "https://edyang.me/tech/2013/05/15/jdk7-reflection-invocation/",
+      "status": 200,
+      "bytes": 47066,
+      "sha256": "0d5d35170ebf716f63872919029bb6e34d27ef03d70ebbc3bd19d3cbae8f5c28",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-io-charset",
+      "url": "https://edyang.me/tech/2013/05/25/jdk7-io-charset/",
+      "status": 200,
+      "bytes": 47160,
+      "sha256": "3333192f68b1fd414af963f302f766330527924c808cdd78a3f54882cec5c6da",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-thread-lifecycle",
+      "url": "https://edyang.me/tech/2013/06/05/jdk7-thread-lifecycle/",
+      "status": 200,
+      "bytes": 46618,
+      "sha256": "caf1f7cae5f4e2f20c1803100ba5d563bed69faaadf40d07396ed9af7a06a8fd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-monitor-wait-notify",
+      "url": "https://edyang.me/tech/2013/06/15/jdk7-monitor-wait-notify/",
+      "status": 200,
+      "bytes": 46382,
+      "sha256": "5e2eebc5e6871aa06385be2055222fd80d6dc196606acd574519b8258f769ff2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-volatile-atomicity",
+      "url": "https://edyang.me/tech/2013/06/25/jdk7-volatile-atomicity/",
+      "status": 200,
+      "bytes": 46460,
+      "sha256": "d828dac7c221558457b0de46965454713f74946a4c38b3bd8646fb21490e273f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-threadpool-backpressure",
+      "url": "https://edyang.me/tech/2013/07/05/jdk7-threadpool-backpressure/",
+      "status": 200,
+      "bytes": 46483,
+      "sha256": "0134b07008c1f53f79a50d813b285080d4dd1074e363bf789f9ea70f530378a1",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-concurrenthashmap-segments",
+      "url": "https://edyang.me/tech/2013/07/15/jdk7-concurrenthashmap-segments/",
+      "status": 200,
+      "bytes": 46364,
+      "sha256": "62af5d1c7bd6ab5795feaa9eec927bf6a59d43722b4771ae01d437d14428b4d6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-future-cancellation",
+      "url": "https://edyang.me/tech/2013/07/25/jdk7-future-cancellation/",
+      "status": 200,
+      "bytes": 46327,
+      "sha256": "f361c9a521ef935e43c32bb0446cb0b976b3e28f3df4c8c5d2aeeb5113f01c14",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-jvm-memory-regions",
+      "url": "https://edyang.me/tech/2013/08/05/jdk7-jvm-memory-regions/",
+      "status": 200,
+      "bytes": 45534,
+      "sha256": "7abf10b6cee068cc21cdc7e751153c874f8f2befb75f1a6449012c4e6f81888a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-gc-reachability",
+      "url": "https://edyang.me/tech/2013/08/15/jdk7-gc-reachability/",
+      "status": 200,
+      "bytes": 46483,
+      "sha256": "7ddc3e96314d0fd2b98f8e3bd95c9fdc3d5befaf016c1b83f2df32333704fe2e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "jdk7-bounded-blockingqueue",
+      "url": "https://edyang.me/tech/2013/08/25/jdk7-bounded-blockingqueue/",
+      "status": 200,
+      "bytes": 46662,
+      "sha256": "9d98f7ba819b7010084edb95a59feda2ef8d139a91e82ce013f4b0d19ce51d18",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-order-state-machine",
+      "url": "https://edyang.me/tech/2013/09/05/payment-order-state-machine/",
+      "status": 200,
+      "bytes": 46354,
+      "sha256": "73727bcb7ff0c3ffc21f736d17c9b5aae72d2909642cd9d7aada07cb37ca344f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-idempotency-unique-key",
+      "url": "https://edyang.me/tech/2013/09/15/payment-idempotency-unique-key/",
+      "status": 200,
+      "bytes": 46603,
+      "sha256": "ae9b21be25e5a13ca48420eaf32ce07ce042f1e6e9fe07e4f40a8f41aaf5b328",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-callback-authentication",
+      "url": "https://edyang.me/tech/2013/09/25/payment-callback-authentication/",
+      "status": 200,
+      "bytes": 46030,
+      "sha256": "909a3258a55265ea6b4df76f17406b0b43cfbe62f62c6acac5bcd58d463d8e7b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-ledger-minor-units",
+      "url": "https://edyang.me/tech/2013/10/05/payment-ledger-minor-units/",
+      "status": 200,
+      "bytes": 46962,
+      "sha256": "df5f7b55355761b5927d74f64ce434e053899db65909413a88ed9dd33cdb192b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-reconciliation-differences",
+      "url": "https://edyang.me/tech/2013/10/15/payment-reconciliation-differences/",
+      "status": 200,
+      "bytes": 46033,
+      "sha256": "c799b9842c329fdc307ec1f020ca90c89be0187062bc6ffc1e70dd0f78fc749f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "payment-timeouts-retry-budget",
+      "url": "https://edyang.me/tech/2013/10/25/payment-timeouts-retry-budget/",
+      "status": 200,
+      "bytes": 46054,
+      "sha256": "0a821f5bd6d0387f85fadd40bb4a3d3deb6a096770915937bd1941ed1a5f91e5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-user-problem",
+      "url": "https://edyang.me/tech/2013/11/05/mobile-startup-user-problem/",
+      "status": 200,
+      "bytes": 46155,
+      "sha256": "c92ced545ccd52645c23677ae81bdf1e414c003393d2aed0b7e714adb49eca45",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-mvp-boundary",
+      "url": "https://edyang.me/tech/2013/11/15/mobile-startup-mvp-boundary/",
+      "status": 200,
+      "bytes": 46016,
+      "sha256": "440d504cbb615a8023e6aa4a7f0dde274cb05b24dc00d791cd50c70fd77d6d03",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-retention-cohort",
+      "url": "https://edyang.me/tech/2013/11/25/mobile-startup-retention-cohort/",
+      "status": 200,
+      "bytes": 45865,
+      "sha256": "01d3c7dbeea1a7320e650dce1012a6fcd7640d9141a3c447de4532160a981da5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-unit-economics",
+      "url": "https://edyang.me/tech/2013/12/05/mobile-startup-unit-economics/",
+      "status": 200,
+      "bytes": 46025,
+      "sha256": "ed2bacbcf7bea12eb080ac5e9464219ef3aa777a823f5bcff0066f1563eb195d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-api-network",
+      "url": "https://edyang.me/tech/2013/12/15/mobile-startup-api-network/",
+      "status": 200,
+      "bytes": 45983,
+      "sha256": "aa9e510651da453197d5461f0614a12135e981ee642ed755240f3a21cf197365",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mobile-startup-learning-roadmap",
+      "url": "https://edyang.me/tech/2013/12/25/mobile-startup-learning-roadmap/",
+      "status": 200,
+      "bytes": 45955,
+      "sha256": "004dc18f09e74036611dba2099aa7e53b7da58f17bef77e29af706af9d2e9fbd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "first-job-reproducible-bug",
+      "url": "https://edyang.me/tech/2014/01/05/first-job-reproducible-bug/",
+      "status": 200,
+      "bytes": 45992,
+      "sha256": "6be9e748efff2188c2d8dca5f5c8f7e7be0bc3d8e0ca36cebfa91ed2cc08b582",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "first-job-task-acceptance",
+      "url": "https://edyang.me/tech/2014/01/15/first-job-task-acceptance/",
+      "status": 200,
+      "bytes": 46011,
+      "sha256": "999c206ffe25046f2f570cdf9c98bdebccfa612043361ba3f80220954cc57824",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "first-job-reading-legacy-code",
+      "url": "https://edyang.me/tech/2014/01/25/first-job-reading-legacy-code/",
+      "status": 200,
+      "bytes": 45960,
+      "sha256": "dc76105d3fb1939d4addbe2818c00d27f359f29a1b09d2519bc04eaebe5efc5f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "svn-working-copy-status",
+      "url": "https://edyang.me/tech/2014/02/05/svn-working-copy-status/",
+      "status": 200,
+      "bytes": 45653,
+      "sha256": "c2a11a7ce6fba4d157ebbcc4630b350aa91fdcb977a74ec909d841ed33438ccf",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "svn-update-conflict-resolution",
+      "url": "https://edyang.me/tech/2014/02/15/svn-update-conflict-resolution/",
+      "status": 200,
+      "bytes": 45798,
+      "sha256": "aeb81cf784d0633ce3a4e558d09c54d4fc8a54fed3c3e0e2db861cae60227610",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "svn-branch-tag-merge",
+      "url": "https://edyang.me/tech/2014/02/25/svn-branch-tag-merge/",
+      "status": 200,
+      "bytes": 45717,
+      "sha256": "57b348ee3d0e780ffa8e41928c25a722ddc9741a6968f55b6e48418b2a35d54b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "eclipse-jdk-workspace",
+      "url": "https://edyang.me/tech/2014/03/05/eclipse-jdk-workspace/",
+      "status": 200,
+      "bytes": 46081,
+      "sha256": "34576acd81a4ade694d08b8164d6ef6fd99e9dad4040beddcfeb214da4311f7f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "eclipse-breakpoint-request",
+      "url": "https://edyang.me/tech/2014/03/15/eclipse-breakpoint-request/",
+      "status": 200,
+      "bytes": 45962,
+      "sha256": "82c034831fa80e37a8c09ed1462069f0eb58456f75d8a272ccff02300b840b41",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "maven-dependency-conflict",
+      "url": "https://edyang.me/tech/2014/03/25/maven-dependency-conflict/",
+      "status": 200,
+      "bytes": 46009,
+      "sha256": "2bbb24e0b6671ea912d05bc17ef62c8e02370cc8d0baa731762c78074abb9dcf",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-ioc-constructor",
+      "url": "https://edyang.me/tech/2014/04/05/spring-ioc-constructor/",
+      "status": 200,
+      "bytes": 46327,
+      "sha256": "9dab0883d43ca1f2c5247e244d0914c0ffac339131dba8ddd8f689ea18fe0dff",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-aop-proxy-boundary",
+      "url": "https://edyang.me/tech/2014/04/15/spring-aop-proxy-boundary/",
+      "status": 200,
+      "bytes": 46338,
+      "sha256": "a27b9715d54d8a848814df7cd4d8764ee7d9f1713997a2bc3d7688d6eef5e62c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-bean-lifecycle",
+      "url": "https://edyang.me/tech/2014/04/25/spring-bean-lifecycle/",
+      "status": 200,
+      "bytes": 46077,
+      "sha256": "bbfb5e43d28ad2f69fb0685ccda0f634029061833328d78c089229d7e4205b1b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-mvc-binding-validation",
+      "url": "https://edyang.me/tech/2014/05/05/spring-mvc-binding-validation/",
+      "status": 200,
+      "bytes": 46097,
+      "sha256": "96e1d6f32d8ffc91d179f6871a7b8baf91f1110dbbdeb00f72d11de8813642e4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-mvc-exception-contract",
+      "url": "https://edyang.me/tech/2014/05/15/spring-mvc-exception-contract/",
+      "status": 200,
+      "bytes": 46203,
+      "sha256": "5accb6f7eb28683d032bc4e9cd7b1b530e6e182a11024c41de127f55b9915737",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "spring-mvc-file-upload-boundary",
+      "url": "https://edyang.me/tech/2014/05/25/spring-mvc-file-upload-boundary/",
+      "status": 200,
+      "bytes": 45752,
+      "sha256": "d9db473c7e5c3990a1d99f28b056ca71f7d0d71b863f9a815588118c3f5d4cb0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-entity-state",
+      "url": "https://edyang.me/tech/2014/06/05/hibernate-entity-state/",
+      "status": 200,
+      "bytes": 46517,
+      "sha256": "2b40e0f499d7c08653e464e4e1ecdc0347e36ea679599b31cfe8f1e84ab37548",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-lazy-session",
+      "url": "https://edyang.me/tech/2014/06/15/hibernate-lazy-session/",
+      "status": 200,
+      "bytes": 46830,
+      "sha256": "08c8d8293ab1c38bd65bd63dce7ab697b64ab11c167bd11fad7a64644be640d9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-one-to-many-owner",
+      "url": "https://edyang.me/tech/2014/06/25/hibernate-one-to-many-owner/",
+      "status": 200,
+      "bytes": 46565,
+      "sha256": "82336e44fc9f2168c4fafbe7c4c258b8054262c67bd5bddf3b58a44ec976ae03",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-transaction-flush",
+      "url": "https://edyang.me/tech/2014/07/05/hibernate-transaction-flush/",
+      "status": 200,
+      "bytes": 46511,
+      "sha256": "968a7a25da5a272f4f7647df70f268d68c62363e7dc987e1404b34fa8d8e5518",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-optimistic-locking",
+      "url": "https://edyang.me/tech/2014/07/15/hibernate-optimistic-locking/",
+      "status": 200,
+      "bytes": 46188,
+      "sha256": "bbbf51e4be66f96e7366af7d249a3f111948d02cd373350796dceef4f48163d3",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "hibernate-pagination-n-plus-one",
+      "url": "https://edyang.me/tech/2014/07/25/hibernate-pagination-n-plus-one/",
+      "status": 200,
+      "bytes": 46087,
+      "sha256": "09d64ab19f94c8bacb8212bf21ee8980e01e410a8fb34c594bcd7749a8a9d1a9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "velocity-model-null-handling",
+      "url": "https://edyang.me/tech/2014/08/05/velocity-model-null-handling/",
+      "status": 200,
+      "bytes": 45771,
+      "sha256": "b4c14817db3404d0d711f326ee84615bc8e6e550c2f46830e278c8bac7aa78be",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "velocity-html-escaping",
+      "url": "https://edyang.me/tech/2014/08/15/velocity-html-escaping/",
+      "status": 200,
+      "bytes": 45739,
+      "sha256": "079159f09e3d72e8553bca84e1ae465006e1e6e9a745d5b5eb3d8f6c61260eae",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "velocity-layout-macro-cache",
+      "url": "https://edyang.me/tech/2014/08/25/velocity-layout-macro-cache/",
+      "status": 200,
+      "bytes": 45701,
+      "sha256": "54d37717688608896f7598ffa1d9627d1dfd2f7646edc0b3ba833bbbd74ee7b6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-product-sku-snapshot",
+      "url": "https://edyang.me/tech/2014/09/05/groupbuy-product-sku-snapshot/",
+      "status": 200,
+      "bytes": 45957,
+      "sha256": "ce2a61a3c7b80ac1239f755eb38605c3e6cada37b7ad72baefdf41ecc8e03a00",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-stock-conditional-update",
+      "url": "https://edyang.me/tech/2014/09/15/groupbuy-stock-conditional-update/",
+      "status": 200,
+      "bytes": 46503,
+      "sha256": "27ff32d244762b49bb609266cbf847e6b38877e103e28a13274a8cca02babb61",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-threshold-state",
+      "url": "https://edyang.me/tech/2014/09/25/groupbuy-threshold-state/",
+      "status": 200,
+      "bytes": 45979,
+      "sha256": "132d8b5cb02f6327692c21c48d3a2a7f6eb7aa2bd004a7da1ab877a1b91ffb25",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-voucher-redemption",
+      "url": "https://edyang.me/tech/2014/10/05/groupbuy-voucher-redemption/",
+      "status": 200,
+      "bytes": 46711,
+      "sha256": "7800e532fa7f6559ec82792dcabe2df7403acb9e39a047f4ba81547168d5b42f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-refund-state-machine",
+      "url": "https://edyang.me/tech/2014/10/15/groupbuy-refund-state-machine/",
+      "status": 200,
+      "bytes": 46133,
+      "sha256": "c618f607fde473dbc0021765b706283e6b9421578ff350b3f277db00affb805a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-expiry-settlement",
+      "url": "https://edyang.me/tech/2014/10/25/groupbuy-expiry-settlement/",
+      "status": 200,
+      "bytes": 45994,
+      "sha256": "012cca927912457eb93dbab27fba28d11cae7e810782f73230a2688eee7da318",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "java-web-request-logging",
+      "url": "https://edyang.me/tech/2014/11/05/java-web-request-logging/",
+      "status": 200,
+      "bytes": 45962,
+      "sha256": "61740f7826c6c9605518790d95343502afe2af13a32d9c39178f19c5de735730",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "java-web-war-reproducible-build",
+      "url": "https://edyang.me/tech/2014/11/15/java-web-war-reproducible-build/",
+      "status": 200,
+      "bytes": 46075,
+      "sha256": "b07f22b79baec7b54903fbcca42bb3b277fd6e4120009a6fa6c970a230837541",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "java-web-deployment-context",
+      "url": "https://edyang.me/tech/2014/11/25/java-web-deployment-context/",
+      "status": 200,
+      "bytes": 46133,
+      "sha256": "4a30a363ed69e9bb86a3a89d308896756b9b9edb6916a0b960c5946b1e96b02b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-merchant-onboarding",
+      "url": "https://edyang.me/tech/2014/12/05/groupbuy-merchant-onboarding/",
+      "status": 200,
+      "bytes": 46077,
+      "sha256": "090eabda69cd002bda68ed38b7d020077e1751b40782585cda6744ca139e3e98",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-funnel-definition",
+      "url": "https://edyang.me/tech/2014/12/15/groupbuy-funnel-definition/",
+      "status": 200,
+      "bytes": 46117,
+      "sha256": "a6f7b029b9b6b841708b41290afe75073c5f80ac1b6590d5d2b117532fb39469",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "groupbuy-customer-service-loop",
+      "url": "https://edyang.me/tech/2014/12/25/groupbuy-customer-service-loop/",
+      "status": 200,
+      "bytes": 46211,
+      "sha256": "5a6fed65ad04b7f07745ea68c0399e2fe2388f011885156364f9c4f0d9ccf502",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-working-index-head",
+      "url": "https://edyang.me/tech/2015/01/05/git-working-index-head/",
+      "status": 200,
+      "bytes": 45850,
+      "sha256": "2662443d2500535f69efb142fef54f7e70e67f35387104b0089ae49371b2a0d7",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-commit-dag-branches",
+      "url": "https://edyang.me/tech/2015/01/15/git-commit-dag-branches/",
+      "status": 200,
+      "bytes": 45891,
+      "sha256": "b5b91105117bd52af02b655818d1c86f0046b5e90464dc186e230d9c10a5c9f9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-ignore-tracked-files",
+      "url": "https://edyang.me/tech/2015/01/25/git-ignore-tracked-files/",
+      "status": 200,
+      "bytes": 45932,
+      "sha256": "7f51c94db5847b488a0b6ade8364e5df4c4f658f05c6f982d25688df32b0fb52",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-merge-conflict-intent",
+      "url": "https://edyang.me/tech/2015/02/05/git-merge-conflict-intent/",
+      "status": 200,
+      "bytes": 45967,
+      "sha256": "cba158fc25a0905dab34c9494eb79eae0620d5b523a324dd81b972555476eecc",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-rebase-shared-history",
+      "url": "https://edyang.me/tech/2015/02/15/git-rebase-shared-history/",
+      "status": 200,
+      "bytes": 45914,
+      "sha256": "26ca6db0c90ba6b00945974eba8e5dbe5bf4a40bc83e265704cb5216daf35504",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-revert-versus-reset",
+      "url": "https://edyang.me/tech/2015/02/25/git-revert-versus-reset/",
+      "status": 200,
+      "bytes": 45815,
+      "sha256": "6d286b994b3c615f888ee2ca1456858e057f74bbafc123bd732a262950df92a2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-fetch-pull-remote",
+      "url": "https://edyang.me/tech/2015/03/05/git-fetch-pull-remote/",
+      "status": 200,
+      "bytes": 45730,
+      "sha256": "cfbbb1a1cdbc66f0530217b0ad63363970cbaa85280ac21312c8bc5a9afbeeee",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-bisect-regression",
+      "url": "https://edyang.me/tech/2015/03/15/git-bisect-regression/",
+      "status": 200,
+      "bytes": 45600,
+      "sha256": "ae49b1394c064dc16d78f3639a619a13669ab370ec90f961ce6fceb771348b2d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "git-small-commits-review",
+      "url": "https://edyang.me/tech/2015/03/25/git-small-commits-review/",
+      "status": 200,
+      "bytes": 45632,
+      "sha256": "5428d25dd6116168ce8032aa93ef95fc0727654a9cded4fb345aade81c4a0f5e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-minimal-web-project",
+      "url": "https://edyang.me/tech/2015/04/05/boot12-minimal-web-project/",
+      "status": 200,
+      "bytes": 46991,
+      "sha256": "c6f62c618d999bf940d8553b8aafa4aa4f2af8bb15575e60534bf88fec72baa9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-auto-configuration",
+      "url": "https://edyang.me/tech/2015/04/15/boot12-auto-configuration/",
+      "status": 200,
+      "bytes": 46041,
+      "sha256": "504525862e59af77f1d5a2d5f5bf5c1ae56761600fc51a38f38599c5c10e661a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-configuration-precedence",
+      "url": "https://edyang.me/tech/2015/04/25/boot12-configuration-precedence/",
+      "status": 200,
+      "bytes": 46096,
+      "sha256": "a22a3f90aeb7fcac6ddd6f018a916091b2a929ee62d3b22fb68f60bb44a0c09e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-request-validation",
+      "url": "https://edyang.me/tech/2015/05/05/boot12-request-validation/",
+      "status": 200,
+      "bytes": 46227,
+      "sha256": "7edeed29c4a32e2cff057cbf2637cc0199112e27bde120a437e92596a3b0d2b5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-jdbc-transaction",
+      "url": "https://edyang.me/tech/2015/05/15/boot12-jdbc-transaction/",
+      "status": 200,
+      "bytes": 46718,
+      "sha256": "7707ac7296ad04f6f5ecc0476d6f9b42c081968f803a53b10a8eebe24de3138d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-health-endpoint",
+      "url": "https://edyang.me/tech/2015/05/25/boot12-health-endpoint/",
+      "status": 200,
+      "bytes": 45976,
+      "sha256": "46e33b5475c340d1bc987136b9b9f9a8b09f6dde3fe5dc1b9b22aa7fd94b0f3b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-configuration-properties",
+      "url": "https://edyang.me/tech/2015/06/05/boot12-configuration-properties/",
+      "status": 200,
+      "bytes": 46361,
+      "sha256": "08515da428fb8fe23b97f1cd4685befb796932ef0c3f783aae667a4151065484",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-executable-jar-deployment",
+      "url": "https://edyang.me/tech/2015/06/15/boot12-executable-jar-deployment/",
+      "status": 200,
+      "bytes": 46080,
+      "sha256": "1e8cd523b50308670b21a5b6161bae96de69069721faf8af782f1f1569e2d347",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot12-test-layering",
+      "url": "https://edyang.me/tech/2015/06/25/boot12-test-layering/",
+      "status": 200,
+      "bytes": 46113,
+      "sha256": "0570800dd3398eb7556015e96f6f92735e44cbb20f5829e2bba67651bfdbb302",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-parameter-binding",
+      "url": "https://edyang.me/tech/2015/07/05/mybatis-parameter-binding/",
+      "status": 200,
+      "bytes": 45928,
+      "sha256": "db92b1588626cfa40234bff27934dc8368876a16d028ee465a61bd4821fa7fd5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-dynamic-where",
+      "url": "https://edyang.me/tech/2015/07/15/mybatis-dynamic-where/",
+      "status": 200,
+      "bytes": 45751,
+      "sha256": "978c88c427371126d43752459f00e045504faab388b7b2837c0722816dfe17e7",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-resultmap-alias",
+      "url": "https://edyang.me/tech/2015/07/25/mybatis-resultmap-alias/",
+      "status": 200,
+      "bytes": 46333,
+      "sha256": "76b9ee69baf6365b308c8b4b27c156038e92ed42864a9a30ed01051a19682be8",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-cache-invalidation",
+      "url": "https://edyang.me/tech/2015/08/05/mybatis-cache-invalidation/",
+      "status": 200,
+      "bytes": 45745,
+      "sha256": "8c83bb73d58404df14d39db1606a3468250cbbc118121b12819cf132bbb9df27",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-batch-insert-flush",
+      "url": "https://edyang.me/tech/2015/08/15/mybatis-batch-insert-flush/",
+      "status": 200,
+      "bytes": 45709,
+      "sha256": "132bddeb766d440d25adce68e6398bb60ade661259d2139cf61f6ecf113d478b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mybatis-pagination-stable-order",
+      "url": "https://edyang.me/tech/2015/08/25/mybatis-pagination-stable-order/",
+      "status": 200,
+      "bytes": 46585,
+      "sha256": "a495fd2fb592394339d65bd5e7623ac7986e1a5d51f7e14bc3b847f0040d416e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-btree-composite-index",
+      "url": "https://edyang.me/tech/2015/09/05/mysql56-btree-composite-index/",
+      "status": 200,
+      "bytes": 46474,
+      "sha256": "da63671a3b5e283592c5f166098d8052de438af9bcc423317a3cf3aebe6d168d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-mvcc-read-view",
+      "url": "https://edyang.me/tech/2015/09/15/mysql56-mvcc-read-view/",
+      "status": 200,
+      "bytes": 46277,
+      "sha256": "f8fddc9c6e9eadd44a2a8e785337b5bf13ab7751dcfec2b7b1491d6e2ef66c62",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-deadlock-order",
+      "url": "https://edyang.me/tech/2015/09/25/mysql56-deadlock-order/",
+      "status": 200,
+      "bytes": 45830,
+      "sha256": "3119d8b47a1b977270dd92472ce9d43f7c8e680ae1b50f030c76d9f33ec4cbce",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-explain-estimation",
+      "url": "https://edyang.me/tech/2015/10/05/mysql56-explain-estimation/",
+      "status": 200,
+      "bytes": 46245,
+      "sha256": "c596181fcf5db7478467e79b08772ff5ca22a43d4db9164d62eac7e57f7dc678",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-redo-binlog",
+      "url": "https://edyang.me/tech/2015/10/15/mysql56-redo-binlog/",
+      "status": 200,
+      "bytes": 46109,
+      "sha256": "62ae6b5940c9b8ec7129e754efc18c5422c4575040eee3b299343b72c4d82bd5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mysql56-replication-lag",
+      "url": "https://edyang.me/tech/2015/10/25/mysql56-replication-lag/",
+      "status": 200,
+      "bytes": 46194,
+      "sha256": "3b0dfd52c0b7417adc9f340eb773e4836fb101f79ce5b03c4f2e6f35978d3a8f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-service-boundary",
+      "url": "https://edyang.me/tech/2015/11/05/cloud10-service-boundary/",
+      "status": 200,
+      "bytes": 46123,
+      "sha256": "8a6dfe46b84b304947109691195f005494fe4aecd6dd58e462c90a3eb6fb5bfd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-eureka-eventual-view",
+      "url": "https://edyang.me/tech/2015/11/15/cloud10-eureka-eventual-view/",
+      "status": 200,
+      "bytes": 46537,
+      "sha256": "02dd4990d61fe8c93b387a6b9ba43668fc12e065f94dd87cccc4b8be03453c9c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-ribbon-client-balancing",
+      "url": "https://edyang.me/tech/2015/11/25/cloud10-ribbon-client-balancing/",
+      "status": 200,
+      "bytes": 46247,
+      "sha256": "e4e1ca1a11baa030efd6f042939859fa6d8dfeffaa876de928da0f22b9c0d4a0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-config-version",
+      "url": "https://edyang.me/tech/2015/12/05/cloud10-config-version/",
+      "status": 200,
+      "bytes": 45991,
+      "sha256": "93110205de4c38ce33abdb4f752a54d0c73e7bb474318e32cf20dd5820a7d4ba",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-hystrix-isolation",
+      "url": "https://edyang.me/tech/2015/12/15/cloud10-hystrix-isolation/",
+      "status": 200,
+      "bytes": 45895,
+      "sha256": "f87e7a45d5486e5e88d1cb712dabfaa87a168c30fb62af4021daaac9081029e3",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud10-distributed-request-trace",
+      "url": "https://edyang.me/tech/2015/12/25/cloud10-distributed-request-trace/",
+      "status": 200,
+      "bytes": 46026,
+      "sha256": "c9bc0d0d8168e14ca74934b5f3541bb5472d2aa4e626d3d88a32d9947f9a0537",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "html5-semantic-document",
+      "url": "https://edyang.me/tech/2016/01/05/html5-semantic-document/",
+      "status": 200,
+      "bytes": 46083,
+      "sha256": "ad6b9618caa6655a570cdfafc271d2d30fd6d3fadb269e3490ca4525b580f503",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "html-form-submit-validation",
+      "url": "https://edyang.me/tech/2016/01/15/html-form-submit-validation/",
+      "status": 200,
+      "bytes": 46800,
+      "sha256": "2018b4032e4130e58e1c3e5acb5e532deead60c68ce64c86eed9134422e33c8d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "html-image-responsive-dimensions",
+      "url": "https://edyang.me/tech/2016/01/25/html-image-responsive-dimensions/",
+      "status": 200,
+      "bytes": 46202,
+      "sha256": "7d372c404b161eaaa7a74c11878fae35843ab6447a934fdc16fbdaa10770348d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "css-box-sizing-width",
+      "url": "https://edyang.me/tech/2016/02/05/css-box-sizing-width/",
+      "status": 200,
+      "bytes": 46264,
+      "sha256": "a531944344d0dc9abdeb3a4417d2eb808a5aad9b243cee1fabfeba4c2cabed33",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "css-bfc-float-collapse",
+      "url": "https://edyang.me/tech/2016/02/15/css-bfc-float-collapse/",
+      "status": 200,
+      "bytes": 46536,
+      "sha256": "fbe93305423147a0fadaccc8c671b2c7b313fd0deaa5ba9d487b7450fe57531b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "css-flex-min-width",
+      "url": "https://edyang.me/tech/2016/02/25/css-flex-min-width/",
+      "status": 200,
+      "bytes": 46547,
+      "sha256": "c6f8d183a69647a7c8183c4e64f62cdc3e766e31acbcf849a0f9c682805e53ea",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-scope-hoisting",
+      "url": "https://edyang.me/tech/2016/03/05/js-scope-hoisting/",
+      "status": 200,
+      "bytes": 46521,
+      "sha256": "61d519d75d53be125b179c78e66f25ee611fa02ac88cd9a0ab545d69b605ceb0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-closure-loop",
+      "url": "https://edyang.me/tech/2016/03/15/js-closure-loop/",
+      "status": 200,
+      "bytes": 47052,
+      "sha256": "fa1fb8c080f4d6d680b861e0a62068da1205f1cdc5458d1a7d93fea69e4e62ee",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-this-call-site",
+      "url": "https://edyang.me/tech/2016/03/25/js-this-call-site/",
+      "status": 200,
+      "bytes": 46935,
+      "sha256": "bb64002eab93e78fcf0cb206a8b882e93bc0df13e469d208db116c025e7bbb4b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-event-delegation",
+      "url": "https://edyang.me/tech/2016/04/05/js-event-delegation/",
+      "status": 200,
+      "bytes": 47427,
+      "sha256": "69159e27cc648fe53973ec30e05df9099985622a270e1d8b43ac3d786443ce64",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-timer-event-loop",
+      "url": "https://edyang.me/tech/2016/04/15/js-timer-event-loop/",
+      "status": 200,
+      "bytes": 46407,
+      "sha256": "224cd87273c66de3ef27c7cdcb24e74698d4eabc8157b11c006c920442510ca1",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "js-xhr-stale-response",
+      "url": "https://edyang.me/tech/2016/04/25/js-xhr-stale-response/",
+      "status": 200,
+      "bytes": 46754,
+      "sha256": "35117d395d3eff572965b8f413ad4f1ab784afc511379f992249c39d72f60620",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "browser-cors-preflight",
+      "url": "https://edyang.me/tech/2016/05/05/browser-cors-preflight/",
+      "status": 200,
+      "bytes": 45981,
+      "sha256": "7cfd8f025a7d45745fef246d6808f31c5f5e319391f358606b6565621e14c12e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "frontend-xss-text-output",
+      "url": "https://edyang.me/tech/2016/05/15/frontend-xss-text-output/",
+      "status": 200,
+      "bytes": 46457,
+      "sha256": "80f0bdb6cb17674ca85eeb42f720a60dd6f19f881996f248719bca73db9fd2a9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "frontend-reflow-batch-dom",
+      "url": "https://edyang.me/tech/2016/05/25/frontend-reflow-batch-dom/",
+      "status": 200,
+      "bytes": 47573,
+      "sha256": "f0f0c6ca51ed0eca8b45305318ae363780a193f8efd58858bcf8eb06d7552722",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot13-connection-pool-budget",
+      "url": "https://edyang.me/tech/2016/06/05/boot13-connection-pool-budget/",
+      "status": 200,
+      "bytes": 46117,
+      "sha256": "812df083394702610dcb7860e5b093fe8e7da33984d179d983d9a8dea994a870",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot13-async-context",
+      "url": "https://edyang.me/tech/2016/06/15/boot13-async-context/",
+      "status": 200,
+      "bytes": 46136,
+      "sha256": "d54cd6d7dc3d541c93a98587088230630841237047cbbc42cc1d7693f80e82d2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "boot13-scheduled-multi-instance",
+      "url": "https://edyang.me/tech/2016/06/25/boot13-scheduled-multi-instance/",
+      "status": 200,
+      "bytes": 45983,
+      "sha256": "e623d81ebbec1b4ee208c734f3d247ed872264ae651d7d1dcbbb25e1cd132e26",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud-brixton-zuul-routing",
+      "url": "https://edyang.me/tech/2016/07/05/cloud-brixton-zuul-routing/",
+      "status": 200,
+      "bytes": 45922,
+      "sha256": "713443dd77ad016d79ec5c923d2c8cf4e82d59ecb610b62fad858e871d8133df",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud-timeout-total-budget",
+      "url": "https://edyang.me/tech/2016/07/15/cloud-timeout-total-budget/",
+      "status": 200,
+      "bytes": 45995,
+      "sha256": "babd672f54e9d54dd42c5db6bda6871e0517bb384dd20c0055402e9e12f1c679",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "cloud-bulkhead-fallback-capacity",
+      "url": "https://edyang.me/tech/2016/07/25/cloud-bulkhead-fallback-capacity/",
+      "status": 200,
+      "bytes": 46047,
+      "sha256": "22a7c2bbd8418e12d3f429a18dd85f08e601384dc193d3d9647cd793bf27e0cb",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "concurrency-littles-law",
+      "url": "https://edyang.me/tech/2016/08/05/concurrency-littles-law/",
+      "status": 200,
+      "bytes": 45912,
+      "sha256": "e416269f8d1efd124c794879a9b9ec2a933f8e6f181d94dd92d762da468767b2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "load-test-open-closed-model",
+      "url": "https://edyang.me/tech/2016/08/15/load-test-open-closed-model/",
+      "status": 200,
+      "bytes": 46057,
+      "sha256": "759ef974d409b808097c4f1b6580af6cfd7cca5b280b5ab2343fc65ad133d02d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "latency-percentiles-queue",
+      "url": "https://edyang.me/tech/2016/08/25/latency-percentiles-queue/",
+      "status": 200,
+      "bytes": 45859,
+      "sha256": "50f66ced3db89adfc9352dc7e1c6cc45cdb71ead532dd5f15ecee999f181b0ae",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "netty-tcp-frame-decoder",
+      "url": "https://edyang.me/tech/2016/09/05/netty-tcp-frame-decoder/",
+      "status": 200,
+      "bytes": 45645,
+      "sha256": "732fb4f9a3e71cb40a178bde456b125ad26b4318eeb9567aa661244ecba47d9d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "netty-eventloop-blocking",
+      "url": "https://edyang.me/tech/2016/09/15/netty-eventloop-blocking/",
+      "status": 200,
+      "bytes": 45945,
+      "sha256": "0e0c8806edfacd4e214519c41f883bed030c85893107d3e6a8943db3c00c4d4d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "netty-bytebuf-reference-count",
+      "url": "https://edyang.me/tech/2016/09/25/netty-bytebuf-reference-count/",
+      "status": 200,
+      "bytes": 46472,
+      "sha256": "fd5d0245ca6683e85c768ce32f235ba095cc8bf9d2dcfc806e8d0b27ae4550d6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "sharding-key-query-affinity",
+      "url": "https://edyang.me/tech/2016/10/05/sharding-key-query-affinity/",
+      "status": 200,
+      "bytes": 45845,
+      "sha256": "e9ae84a9c7ac5f254ce1e39ee424a872c72254b6836dbd15419405ccb76bfe9a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "distributed-id-clock-boundary",
+      "url": "https://edyang.me/tech/2016/10/15/distributed-id-clock-boundary/",
+      "status": 200,
+      "bytes": 45811,
+      "sha256": "42bf7403f9a4f0d42370f9d9c0c4523daf21798abb8da26ee13c034b5d68683d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "sharding-cross-shard-pagination",
+      "url": "https://edyang.me/tech/2016/10/25/sharding-cross-shard-pagination/",
+      "status": 200,
+      "bytes": 45901,
+      "sha256": "30258d8468dcf6a61e34af3cdd5ef7a67086691ee87f7355ea8e29c77e316b34",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "redis-cache-aside-race",
+      "url": "https://edyang.me/tech/2016/11/05/redis-cache-aside-race/",
+      "status": 200,
+      "bytes": 45968,
+      "sha256": "b4d4cda03822f927cd50998b2ebceb5564e49fff53a21438378190fef9f572b5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "redis-cache-stampede",
+      "url": "https://edyang.me/tech/2016/11/15/redis-cache-stampede/",
+      "status": 200,
+      "bytes": 45894,
+      "sha256": "a9b9375b8223643396194403865bee3a375b8b1fa2738e5dce600ad88141d3c6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "redis-hot-key-large-value",
+      "url": "https://edyang.me/tech/2016/11/25/redis-hot-key-large-value/",
+      "status": 200,
+      "bytes": 45844,
+      "sha256": "eafbf14250d7dc6afd07074aa3552c02eb2c56d0575de110e15db08041fe8cc0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "disruptor-ring-buffer-sequence",
+      "url": "https://edyang.me/tech/2016/12/05/disruptor-ring-buffer-sequence/",
+      "status": 200,
+      "bytes": 45862,
+      "sha256": "2aaea9a59c09644371f9e9413c130bd97c0667a659bbe14d46991bb07a376aa0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "high-performance-memory-allocation",
+      "url": "https://edyang.me/tech/2016/12/15/high-performance-memory-allocation/",
+      "status": 200,
+      "bytes": 46128,
+      "sha256": "a81b61a379e8bb7ca5f693bcede407dd9282906d5d44c747eea69e3b5daf9318",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "high-concurrency-overload-design",
+      "url": "https://edyang.me/tech/2016/12/25/high-concurrency-overload-design/",
+      "status": 200,
+      "bytes": 46142,
+      "sha256": "6fd8cc7a08e19406efbf4293252ab9d7758f1884008a0be86a69d8a02a6de4de",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "startup-financing-problem-fit",
+      "url": "https://edyang.me/tech/2017/01/05/startup-financing-problem-fit/",
+      "status": 200,
+      "bytes": 45981,
+      "sha256": "0f8c8bab04fcefa513911ee3b5e3b3d5b32245e4b73755d99a2493e7c5577ebf",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "startup-pre-post-money-dilution",
+      "url": "https://edyang.me/tech/2017/01/15/startup-pre-post-money-dilution/",
+      "status": 200,
+      "bytes": 46122,
+      "sha256": "edd12d69168c7030fb6ddcf0865dd8d66569c7cbf5640641ee5ee8dfd31606b6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "startup-data-room-evidence",
+      "url": "https://edyang.me/tech/2017/01/25/startup-data-room-evidence/",
+      "status": 200,
+      "bytes": 46132,
+      "sha256": "aa18af7d1d94ec57cf26b9a3a697c0111819011015b4ef6152ce795ad8bf772f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "company-cash-runway-scenarios",
+      "url": "https://edyang.me/tech/2017/02/05/company-cash-runway-scenarios/",
+      "status": 200,
+      "bytes": 46023,
+      "sha256": "5f0281f82860abb635e24d539e1198cb2b45c7e037a4798e2cfa07fbff12af65",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "company-project-contribution-cost",
+      "url": "https://edyang.me/tech/2017/02/15/company-project-contribution-cost/",
+      "status": 200,
+      "bytes": 46099,
+      "sha256": "779cdcb53c4da9d170e5dccb2447d7c4bee67cec8bfca385062f361070787dc0",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "company-scope-change-control",
+      "url": "https://edyang.me/tech/2017/02/25/company-scope-change-control/",
+      "status": 200,
+      "bytes": 46045,
+      "sha256": "6d5420e007bcceb744f795388528923b94bac9730e38008883c6bacba42c9a4e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-connection-schema",
+      "url": "https://edyang.me/tech/2017/03/05/postgres96-connection-schema/",
+      "status": 200,
+      "bytes": 46433,
+      "sha256": "5b0b8121402f8fd15451c50e1f09193b99e65c9d3817ca4c799d9f50aceb1d8d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-encoding-timezone",
+      "url": "https://edyang.me/tech/2017/03/15/postgres96-encoding-timezone/",
+      "status": 200,
+      "bytes": 46402,
+      "sha256": "9eb28b0e611e2a16585f423c9c0915bccf5663d5110aaf57aa9866dad2448523",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-backup-restore",
+      "url": "https://edyang.me/tech/2017/03/25/postgres96-backup-restore/",
+      "status": 200,
+      "bytes": 45779,
+      "sha256": "37cdda6ae014cce2db16d93d42f986b651cb27d9db6ffc0a8f8d62c058871db1",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-mvcc-vacuum",
+      "url": "https://edyang.me/tech/2017/04/05/postgres96-mvcc-vacuum/",
+      "status": 200,
+      "bytes": 46227,
+      "sha256": "62f607abb91bb1342a0bbc8cb631e866932da41120ded0947ee54feb2b3cfe6b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-explain-analyze",
+      "url": "https://edyang.me/tech/2017/04/15/postgres96-explain-analyze/",
+      "status": 200,
+      "bytes": 46243,
+      "sha256": "b5b692a14311fdef48c7a9cda1636312b5dfee51120b24eb7a8e746db430c895",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-index-types",
+      "url": "https://edyang.me/tech/2017/04/25/postgres96-index-types/",
+      "status": 200,
+      "bytes": 46389,
+      "sha256": "5972de416418fe7755fedb6671898b9bfa3cadbef6efb354e2bc45b4b3a3ae48",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-jsonb-relational-boundary",
+      "url": "https://edyang.me/tech/2017/05/05/postgres96-jsonb-relational-boundary/",
+      "status": 200,
+      "bytes": 46495,
+      "sha256": "ff101f77f9e7bb0dcbd9c88a824281057af97d1bec92459a972ba8d16311a58e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-recursive-cte-tree",
+      "url": "https://edyang.me/tech/2017/05/15/postgres96-recursive-cte-tree/",
+      "status": 200,
+      "bytes": 47794,
+      "sha256": "0a6f197a92d345263c95cd213fa629a316d13b626a819331ff7c4239c9ef3fcd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "postgres96-window-functions",
+      "url": "https://edyang.me/tech/2017/05/25/postgres96-window-functions/",
+      "status": 200,
+      "bytes": 46747,
+      "sha256": "56ca1fb286a3f50e722e40c5d1114c86590e41d8bf12a25eee68a87222fd3fa9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "frontend-state-draft-versus-saved",
+      "url": "https://edyang.me/tech/2017/06/05/frontend-state-draft-versus-saved/",
+      "status": 200,
+      "bytes": 46778,
+      "sha256": "88429ae7bcc485206d85bd041bc5920d20dad48be6a80cdb14371bfddeb4723f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "frontend-css-grid-progressive",
+      "url": "https://edyang.me/tech/2017/06/15/frontend-css-grid-progressive/",
+      "status": 200,
+      "bytes": 46704,
+      "sha256": "524151d846691d942a554da946a08e6309ab77c832733947fef379d5f0c43d6c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "frontend-component-contract",
+      "url": "https://edyang.me/tech/2017/06/25/frontend-component-contract/",
+      "status": 200,
+      "bytes": 45833,
+      "sha256": "77f6e91037dbdc8862343826ee9015b0121eaa22be71b4f3dbc722c6fa643482",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android23-environment-toolchain",
+      "url": "https://edyang.me/tech/2017/07/05/android23-environment-toolchain/",
+      "status": 200,
+      "bytes": 46197,
+      "sha256": "3c27ff800f87b3f2997adfd83ba5cd6fa93f762193d5e9aef27c0c5826894161",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android23-gradle-project-structure",
+      "url": "https://edyang.me/tech/2017/07/15/android23-gradle-project-structure/",
+      "status": 200,
+      "bytes": 46358,
+      "sha256": "10e0ec0c6e2635a97e516884dddabe2af94fddd6e8dd9bd00fd32a473b48e04f",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android23-first-activity-install",
+      "url": "https://edyang.me/tech/2017/07/25/android23-first-activity-install/",
+      "status": 200,
+      "bytes": 46888,
+      "sha256": "70810150e113b0208f58d757a83a0305f4225b09399d6acf215a936b5379ee75",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-activity-lifecycle-state",
+      "url": "https://edyang.me/tech/2017/08/05/android-activity-lifecycle-state/",
+      "status": 200,
+      "bytes": 46774,
+      "sha256": "8716c78e03c7b2af89c338f24dce3b185f0eb1f8cf64f05f4b1c14b37092c1b9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-layout-density-units",
+      "url": "https://edyang.me/tech/2017/08/15/android-layout-density-units/",
+      "status": 200,
+      "bytes": 46246,
+      "sha256": "4bf2a15a14670308a06c9f4e6ac17b1f39e9a6cbf0636c72d6f478785f62263b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-recyclerview-reuse",
+      "url": "https://edyang.me/tech/2017/08/25/android-recyclerview-reuse/",
+      "status": 200,
+      "bytes": 47739,
+      "sha256": "735a4c2357298624e2ceb2f59c125858e3395df7a1bf3c58a3cfa0315b95c09a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-network-main-thread",
+      "url": "https://edyang.me/tech/2017/09/05/android-network-main-thread/",
+      "status": 200,
+      "bytes": 46122,
+      "sha256": "2ecc43a13290dc0830a86664ce0c1e9036aa39f19d4c654ce4d2fbcbff540ef2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-sqlite-upgrade",
+      "url": "https://edyang.me/tech/2017/09/15/android-sqlite-upgrade/",
+      "status": 200,
+      "bytes": 46722,
+      "sha256": "2aa90c6bf5e6d537933cb516c22e3217b417b647189e775215c08d18aa5b520c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-runtime-permission",
+      "url": "https://edyang.me/tech/2017/09/25/android-runtime-permission/",
+      "status": 200,
+      "bytes": 46182,
+      "sha256": "1a67a715917676ebe026d891d2b33b22f2bfa12bfefc785f3f9222227b741d6d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-app-complete-notes",
+      "url": "https://edyang.me/tech/2017/10/05/android-app-complete-notes/",
+      "status": 200,
+      "bytes": 46198,
+      "sha256": "d00db4a27d0a55bd09c3fc1458c62c4aafc6f83da88391781194563b6efd21da",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-apk-signing-release",
+      "url": "https://edyang.me/tech/2017/10/15/android-apk-signing-release/",
+      "status": 200,
+      "bytes": 46107,
+      "sha256": "a5a4d0c59ff711a2b65cbe816ab61c28d2855839ee8a77c6ce1b4c129ce0c298",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "android-release-acceptance-matrix",
+      "url": "https://edyang.me/tech/2017/10/25/android-release-acceptance-matrix/",
+      "status": 200,
+      "bytes": 46100,
+      "sha256": "8b2b96754e36f8508bf0c8b85279ec836048ac06f6bdb941c97cbf664474e74a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "canbus-arbitration-physical-layer",
+      "url": "https://edyang.me/tech/2017/11/05/canbus-arbitration-physical-layer/",
+      "status": 200,
+      "bytes": 45971,
+      "sha256": "7242005a4efe13ab189a950968d2ffefdea2d38f88cf95b777c5b3d71a84b016",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "socketcan-listen-capture",
+      "url": "https://edyang.me/tech/2017/11/15/socketcan-listen-capture/",
+      "status": 200,
+      "bytes": 46049,
+      "sha256": "0edc6836616afe5acff5a8e3f4ee8d3d76d57262543927c1e0f4d1265cc60cb4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "scirocco-can-signal-candidates",
+      "url": "https://edyang.me/tech/2017/11/25/scirocco-can-signal-candidates/",
+      "status": 200,
+      "bytes": 46200,
+      "sha256": "ab7ef18406473616cd73b6f3faff1ce68adca0aa3b5250b9ed20b7feadd4d103",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "scirocco-can-gateway-topology",
+      "url": "https://edyang.me/tech/2017/12/05/scirocco-can-gateway-topology/",
+      "status": 200,
+      "bytes": 46189,
+      "sha256": "62bea521dbf5bc1259b5c72f06f8efc23670447e8b21d8713e694c8df0cb1c71",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "can-vcan-turn-signal-state",
+      "url": "https://edyang.me/tech/2017/12/15/can-vcan-turn-signal-state/",
+      "status": 200,
+      "bytes": 46264,
+      "sha256": "539857ac4b7a21cebff80e7baafd2c8851a9b88d2f9fb3115fa4db963e95737d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "can-control-feedback-stop",
+      "url": "https://edyang.me/tech/2017/12/25/can-control-feedback-stop/",
+      "status": 200,
+      "bytes": 46253,
+      "sha256": "80ec2d1cabf229653fc433c139901f1852bb596d5421109fd0f4072d55b5108b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mqtt311-topics-command-telemetry",
+      "url": "https://edyang.me/tech/2018/01/05/mqtt311-topics-command-telemetry/",
+      "status": 200,
+      "bytes": 46009,
+      "sha256": "005ed023b561ee20c5c52905c221a28174284ecd413a7ea1acdda74fc0e573c6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mqtt311-qos-business-once",
+      "url": "https://edyang.me/tech/2018/01/15/mqtt311-qos-business-once/",
+      "status": 200,
+      "bytes": 45988,
+      "sha256": "003b4046e4988c1d0bf0527f7bc8c77ba56c37c0eb57fab13bc112fd0b2cf215",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mqtt-retained-message-state",
+      "url": "https://edyang.me/tech/2018/01/25/mqtt-retained-message-state/",
+      "status": 200,
+      "bytes": 46167,
+      "sha256": "165b5d9af2c7cd71836a871eff62baf1de8c854f609f295a983ed6ee2c8fd623",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-device-data-contract",
+      "url": "https://edyang.me/tech/2018/02/05/iot-device-data-contract/",
+      "status": 200,
+      "bytes": 46487,
+      "sha256": "26738d8be0fa6749e1444175ab0108420f03e6073474122f365cbc5ce6a2eab7",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-coap-http-mqtt-selection",
+      "url": "https://edyang.me/tech/2018/02/15/iot-coap-http-mqtt-selection/",
+      "status": 200,
+      "bytes": 45790,
+      "sha256": "1761c4844e237c1ec7f779042ea45190c2b0037a6886fd459b3f93ad2f9cee71",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mijia-device-gateway-cloud",
+      "url": "https://edyang.me/tech/2018/02/25/mijia-device-gateway-cloud/",
+      "status": 200,
+      "bytes": 46038,
+      "sha256": "f71d790d853f83cabf55e93c2e1471bb05851bbfdae2ccb113f709e541d78827",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered018-message-schema",
+      "url": "https://edyang.me/tech/2018/03/05/nodered018-message-schema/",
+      "status": 200,
+      "bytes": 47176,
+      "sha256": "53d2dbef9ce5856f8c9a099a8338a73bf8d53b1734539492a80ffe60aa60fcea",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered-context-lifecycle",
+      "url": "https://edyang.me/tech/2018/03/15/nodered-context-lifecycle/",
+      "status": 200,
+      "bytes": 46763,
+      "sha256": "a82688d9040887b95141632d32148eb8c2ca1c24525e18f1a95e0d7d09a01e0d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered-error-retry-branch",
+      "url": "https://edyang.me/tech/2018/03/25/nodered-error-retry-branch/",
+      "status": 200,
+      "bytes": 45925,
+      "sha256": "bc3ee63c8462a483e9ba0a53646c080cdbd0fed5e21155f5c03166d41977efe1",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-idf21-flash-monitor",
+      "url": "https://edyang.me/tech/2018/04/05/esp32-idf21-flash-monitor/",
+      "status": 200,
+      "bytes": 45759,
+      "sha256": "2bd0f9789a82e82022ebc5ef49be701d2780eec2ced89e8bd6b40c151ee25a0b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-adc-raw-calibration",
+      "url": "https://edyang.me/tech/2018/04/15/esp32-adc-raw-calibration/",
+      "status": 200,
+      "bytes": 46326,
+      "sha256": "cfa250e85c509803bd06bbb154f9dfde773b22bb813cfe770f3f54c7b320db66",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-wifi-reconnect-state",
+      "url": "https://edyang.me/tech/2018/04/25/esp32-wifi-reconnect-state/",
+      "status": 200,
+      "bytes": 45907,
+      "sha256": "4c819f559a38c1ef4843301e4f5d7af18906059fcf43634ca3b33688515617c5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "arduino18-board-library-version",
+      "url": "https://edyang.me/tech/2018/05/05/arduino18-board-library-version/",
+      "status": 200,
+      "bytes": 45873,
+      "sha256": "af923b6cead5b829181870a3fe4dceee2aa3eb00f5cd8cc21e85a05bf050e721",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "arduino-millis-nonblocking",
+      "url": "https://edyang.me/tech/2018/05/15/arduino-millis-nonblocking/",
+      "status": 200,
+      "bytes": 46652,
+      "sha256": "fdf28d92da73011ac13928af4b8881f29d463e6b4444145536ca4bb271db442c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "arduino-serial-command-framing",
+      "url": "https://edyang.me/tech/2018/05/25/arduino-serial-command-framing/",
+      "status": 200,
+      "bytes": 45712,
+      "sha256": "9bbf5e5340fc968665428cd9e338ce4283bbcd362a6c9437441b75e3833f15aa",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "raspberrypi3-power-sd-reliability",
+      "url": "https://edyang.me/tech/2018/06/05/raspberrypi3-power-sd-reliability/",
+      "status": 200,
+      "bytes": 45921,
+      "sha256": "f6c7fd9ed47d3fd05079f512c815db53afe4e2aa459b7db32ac2b13c8701bc4a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "raspberrypi-systemd-service",
+      "url": "https://edyang.me/tech/2018/06/15/raspberrypi-systemd-service/",
+      "status": 200,
+      "bytes": 46041,
+      "sha256": "275eaf25dfb5c6b5d016791fc7a477ad83bb872580b08393dd60df310bef0a83",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "raspberrypi-uart-voltage",
+      "url": "https://edyang.me/tech/2018/06/25/raspberrypi-uart-voltage/",
+      "status": 200,
+      "bytes": 45782,
+      "sha256": "a7cfb87afeb168fc98b33608028d35aa7f90aa5caab9eda6f7a58632c416d1ba",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mijia-local-cloud-boundary",
+      "url": "https://edyang.me/tech/2018/07/05/mijia-local-cloud-boundary/",
+      "status": 200,
+      "bytes": 45882,
+      "sha256": "0f72892b2b910593d4a03cd01897bc4ae871ef7b081aeeb16b99aa5fe992a3ca",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "home-automation-hysteresis",
+      "url": "https://edyang.me/tech/2018/07/15/home-automation-hysteresis/",
+      "status": 200,
+      "bytes": 45842,
+      "sha256": "9cd12b9e97a5a5f48f039cfd6ceca88b74d13932103433e96ce30cca51953b34",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered-device-adapter-layer",
+      "url": "https://edyang.me/tech/2018/07/25/nodered-device-adapter-layer/",
+      "status": 200,
+      "bytes": 46337,
+      "sha256": "b5c9a48625ab7145315e526131baa92c6a40b57f175135f1d9bd620d0a62307a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "darknet2018-cpu-first-build",
+      "url": "https://edyang.me/tech/2018/08/05/darknet2018-cpu-first-build/",
+      "status": 200,
+      "bytes": 45974,
+      "sha256": "3ad49ba9a06160c1941773414cb0175ca5b6831787f3d885b4ed8a86bd06a0fd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "yolo2-detection-heads",
+      "url": "https://edyang.me/tech/2018/08/15/yolo2-detection-heads/",
+      "status": 200,
+      "bytes": 45858,
+      "sha256": "9e26b43ce8b57eb38babaebe1efe4dbf1860d54c3da794f02cc1cb513ef7ef80",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "darknet-dataset-layout",
+      "url": "https://edyang.me/tech/2018/08/25/darknet-dataset-layout/",
+      "status": 200,
+      "bytes": 45940,
+      "sha256": "027e88728a5b34678de699923971f88d402fcf08d395276ee355269808f3783a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-title-label-policy",
+      "url": "https://edyang.me/tech/2018/09/05/document-title-label-policy/",
+      "status": 200,
+      "bytes": 45794,
+      "sha256": "f6d9f0df24e21671554b0ebd07298ee49a4a43c7a74dd5085ba4ddb46d9b49e2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "yolo-normalized-box-coordinates",
+      "url": "https://edyang.me/tech/2018/09/15/yolo-normalized-box-coordinates/",
+      "status": 200,
+      "bytes": 47011,
+      "sha256": "98205ee6fd014fa4e9c62b7d03bca8652b96a8371304e3a05500c7881d25d6a4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-dataset-split-leakage",
+      "url": "https://edyang.me/tech/2018/09/25/document-dataset-split-leakage/",
+      "status": 200,
+      "bytes": 45980,
+      "sha256": "2f8f01994190a4b394a5a36d654a846993f3648ecb7b69bcd743b89fcae72f79",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "yolov3-custom-classes-filters",
+      "url": "https://edyang.me/tech/2018/10/05/yolov3-custom-classes-filters/",
+      "status": 200,
+      "bytes": 46317,
+      "sha256": "c267f4dd9600b2e5fce34bfcf21120157428d2a3dd28381fe1b64a1e33735d69",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "darknet-training-resume-artifacts",
+      "url": "https://edyang.me/tech/2018/10/15/darknet-training-resume-artifacts/",
+      "status": 200,
+      "bytes": 46244,
+      "sha256": "ca3a26f24e17d4f6d96ad67093419de75d56a0b9db8d7ea4c03dd1aa2f65f9d4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "detection-precision-recall-iou",
+      "url": "https://edyang.me/tech/2018/10/25/detection-precision-recall-iou/",
+      "status": 200,
+      "bytes": 45731,
+      "sha256": "72c34d4c64e1949914d00932372b58dc12262876100c98509c2e9313de927b59",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "stamp-color-segmentation-baseline",
+      "url": "https://edyang.me/tech/2018/11/05/stamp-color-segmentation-baseline/",
+      "status": 200,
+      "bytes": 47109,
+      "sha256": "0651dbd906629845a61034446b2b45496b5b6b897c94499af442fe0fd854fe62",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "stamp-detection-overlap-title",
+      "url": "https://edyang.me/tech/2018/11/15/stamp-detection-overlap-title/",
+      "status": 200,
+      "bytes": 45994,
+      "sha256": "6d7d15e60cb7c06e5984655e3b3bdef9f428fe4a76a35118f7af5883f39e1094",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "stamp-box-versus-authenticity",
+      "url": "https://edyang.me/tech/2018/11/25/stamp-box-versus-authenticity/",
+      "status": 200,
+      "bytes": 46659,
+      "sha256": "011464937cbac34362e6a9de7cc90371bcc439099fe6bc3c3c5c0bb757589374",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-detection-ocr-pipeline",
+      "url": "https://edyang.me/tech/2018/12/05/document-detection-ocr-pipeline/",
+      "status": 200,
+      "bytes": 45861,
+      "sha256": "e86bc7808088b8930bd74f6a040eaf59502174df4915edc7a74ac3b4eca34a71",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "darknet-document-api-contract",
+      "url": "https://edyang.me/tech/2018/12/15/darknet-document-api-contract/",
+      "status": 200,
+      "bytes": 46104,
+      "sha256": "6f34f547c24e056e0d6e775161a311e104164d045192d7c06e7e98320676fb8a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-model-release-record",
+      "url": "https://edyang.me/tech/2018/12/25/vision-model-release-record/",
+      "status": 200,
+      "bytes": 46039,
+      "sha256": "54baecaa0ca240fcb2a7012da64376f990e343e7062fb9a693d20b6411fe04bc",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mqtt-last-will-heartbeat-freshness",
+      "url": "https://edyang.me/tech/2019/01/05/mqtt-last-will-heartbeat-freshness/",
+      "status": 200,
+      "bytes": 46081,
+      "sha256": "7b3497b46c5df3a1e86927ee40a4db9d286326787d21115c00ed0cfb43a875ed",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "mqtt-session-reconnect-duplicates",
+      "url": "https://edyang.me/tech/2019/01/15/mqtt-session-reconnect-duplicates/",
+      "status": 200,
+      "bytes": 46074,
+      "sha256": "f770e2608a05c05f3a645f2e2851409e261386d80c5f957286e188c3161369a6",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-sample-time-receive-time",
+      "url": "https://edyang.me/tech/2019/01/25/iot-sample-time-receive-time/",
+      "status": 200,
+      "bytes": 46338,
+      "sha256": "c15924bd533921f19e98e34958672c8255201713039931bad06fbfa0efd8c3f8",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-nvs-config-version",
+      "url": "https://edyang.me/tech/2019/02/05/esp32-nvs-config-version/",
+      "status": 200,
+      "bytes": 47264,
+      "sha256": "badcea41ec64c25c0e07705fbb200c4b0f4e28af85084e6f157b719e2c7f1960",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-ota-partition-recovery",
+      "url": "https://edyang.me/tech/2019/02/15/esp32-ota-partition-recovery/",
+      "status": 200,
+      "bytes": 45790,
+      "sha256": "e7aa9c428d1d96a1ed447b65879410f0efd6d2e2020a7000df03088767a4f007",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "esp32-watchdog-task-health",
+      "url": "https://edyang.me/tech/2019/02/25/esp32-watchdog-task-health/",
+      "status": 200,
+      "bytes": 45921,
+      "sha256": "32aedd7ab8c82483c9cb6e4812a980fd5ce395a6e1d4a91375f124f1a1c77ea9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered019-file-context-durability",
+      "url": "https://edyang.me/tech/2019/03/05/nodered019-file-context-durability/",
+      "status": 200,
+      "bytes": 46219,
+      "sha256": "a46abecb2530fcd9572a97ef2ee8b7d068f85076cac78674d6b336f5b68bd03e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered-flow-replay-test",
+      "url": "https://edyang.me/tech/2019/03/15/nodered-flow-replay-test/",
+      "status": 200,
+      "bytes": 45791,
+      "sha256": "5a361fca526f063f67b1a3da82def3489a8856f76aae07649d017ecd14686707",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "nodered-flow-project-dependencies",
+      "url": "https://edyang.me/tech/2019/03/25/nodered-flow-project-dependencies/",
+      "status": 200,
+      "bytes": 45918,
+      "sha256": "87e321c5259ff44d4d809ebcccc0751816d84dfffe188fe7b8668915b5978337",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "modbus-register-addressing",
+      "url": "https://edyang.me/tech/2019/04/05/modbus-register-addressing/",
+      "status": 200,
+      "bytes": 45822,
+      "sha256": "963f48e997d33d35448511b45b662579118674d7827fc1a7f9346c059b10e756",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "modbus-byte-word-order",
+      "url": "https://edyang.me/tech/2019/04/15/modbus-byte-word-order/",
+      "status": 200,
+      "bytes": 46330,
+      "sha256": "8cf27d20e4d80d2933a9164cdb38cc45d871c595974d8c4e44c65ed848a18bdd",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "gateway-offline-buffer-replay",
+      "url": "https://edyang.me/tech/2019/04/25/gateway-offline-buffer-replay/",
+      "status": 200,
+      "bytes": 46043,
+      "sha256": "68616c1438d266465c3da41b543a6aa316cae9122ddd2fb82e7ecaacdbab8baa",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-letterbox-inverse-mapping",
+      "url": "https://edyang.me/tech/2019/05/05/vision-letterbox-inverse-mapping/",
+      "status": 200,
+      "bytes": 46238,
+      "sha256": "68bef77fc4973e12f6ceca00dd6fa789d94797e02276264fb8b353a6928a22bc",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-perspective-rectification",
+      "url": "https://edyang.me/tech/2019/05/15/document-perspective-rectification/",
+      "status": 200,
+      "bytes": 46470,
+      "sha256": "f0532bcdfb72b6c2f592e441b94958bd81e2469138ecddd1a49faa520c240194",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-rotation-box-transform",
+      "url": "https://edyang.me/tech/2019/05/25/document-rotation-box-transform/",
+      "status": 200,
+      "bytes": 45909,
+      "sha256": "a3c842b7528e7c467f8176f478e78ecf98b82845281608fa3b11d5cd9f1aeea3",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "yolov3-anchor-document-shapes",
+      "url": "https://edyang.me/tech/2019/06/05/yolov3-anchor-document-shapes/",
+      "status": 200,
+      "bytes": 46046,
+      "sha256": "1219e224969ee6a40a2084015a756a1f26e6f460fdd5fd1f6e2a4a86c413cc3b",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-class-imbalance-negative",
+      "url": "https://edyang.me/tech/2019/06/15/vision-class-imbalance-negative/",
+      "status": 200,
+      "bytes": 45916,
+      "sha256": "b9e6e707f22205d9581b690ccdd0a303248dfcb99b8a40446b77fb4ae7275cf4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-augmentation-document-realism",
+      "url": "https://edyang.me/tech/2019/06/25/vision-augmentation-document-realism/",
+      "status": 200,
+      "bytes": 46014,
+      "sha256": "3ef7b7e67e7df0f53d85d73aa5754b8adc0bd562655c16a297cdb9981a0ba408",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-threshold-pr-curve",
+      "url": "https://edyang.me/tech/2019/07/05/vision-threshold-pr-curve/",
+      "status": 200,
+      "bytes": 45907,
+      "sha256": "7110333c667faf01d93c41576daf8b3f695fc29582b454b81e4df768a4f2d108",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-small-object-document-scale",
+      "url": "https://edyang.me/tech/2019/07/15/vision-small-object-document-scale/",
+      "status": 200,
+      "bytes": 46181,
+      "sha256": "0930ba28947b297f7f6538b9c95172496509f07580a5be4b861ba4d1b45afe98",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-tiling-boundary-merge",
+      "url": "https://edyang.me/tech/2019/07/25/vision-tiling-boundary-merge/",
+      "status": 200,
+      "bytes": 46015,
+      "sha256": "5c7cf5c8f5a3733c2ebb1a80e773323e38cb48f1b057865fe608ea5ed89eb098",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-tls-server-identity",
+      "url": "https://edyang.me/tech/2019/08/05/iot-tls-server-identity/",
+      "status": 200,
+      "bytes": 45907,
+      "sha256": "b510ffa1e0cbe685d7346feaa13b51f21837faddfffc39a632b933e982548332",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-device-credential-lifecycle",
+      "url": "https://edyang.me/tech/2019/08/15/iot-device-credential-lifecycle/",
+      "status": 200,
+      "bytes": 45832,
+      "sha256": "1ff9a96fe5b0fbb9af35fa0a721f8152e8bc279d133e6d30bc274fa00dee3d38",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-command-authorization-audit",
+      "url": "https://edyang.me/tech/2019/08/25/iot-command-authorization-audit/",
+      "status": 200,
+      "bytes": 45872,
+      "sha256": "aec5efd88590acccbdaad1736f0e361304430802f47d9b7e60503ebe136dc51a",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "edge-inference-resource-budget",
+      "url": "https://edyang.me/tech/2019/09/05/edge-inference-resource-budget/",
+      "status": 200,
+      "bytes": 46140,
+      "sha256": "31a848fa8a04dfbaafd3f14fb48eeb4d8d14421089e069c16d924f21f706b5c4",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-latency-stage-measurement",
+      "url": "https://edyang.me/tech/2019/09/15/vision-latency-stage-measurement/",
+      "status": 200,
+      "bytes": 46022,
+      "sha256": "371816e13ccc6191d5adaf34f80c28d6806f03505063502402b8eb169989da13",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-alert-dedup-clear",
+      "url": "https://edyang.me/tech/2019/09/25/iot-alert-dedup-clear/",
+      "status": 200,
+      "bytes": 46149,
+      "sha256": "8a1db9e6d4ed21541ed7c11d3c084d24ba47059dd5121fe61b312584078669f5",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-hard-negative-feedback",
+      "url": "https://edyang.me/tech/2019/10/05/vision-hard-negative-feedback/",
+      "status": 200,
+      "bytes": 45964,
+      "sha256": "5da7764c54c1aa71c5d1d93c2e8eb65bc26623ab9f828a122fd172ec061634e9",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-domain-shift-scanner",
+      "url": "https://edyang.me/tech/2019/10/15/vision-domain-shift-scanner/",
+      "status": 200,
+      "bytes": 46020,
+      "sha256": "6a3123def94518c5054abd3aa5afc61b7beb1d6c7292d271ee39e6c31ff0402e",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "vision-human-review-confidence",
+      "url": "https://edyang.me/tech/2019/10/25/vision-human-review-confidence/",
+      "status": 200,
+      "bytes": 46007,
+      "sha256": "b4e4a5f68d6a15f97e8e6c239c82e827d6e35782864dbb59c580a2dbe3fb2bf2",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-vision-event-correlation",
+      "url": "https://edyang.me/tech/2019/11/05/iot-vision-event-correlation/",
+      "status": 200,
+      "bytes": 46217,
+      "sha256": "64e41946543c832c30c19a8a424745054bb455889f53efd5e7bad71d73437987",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "edge-queue-backpressure-images",
+      "url": "https://edyang.me/tech/2019/11/15/edge-queue-backpressure-images/",
+      "status": 200,
+      "bytes": 46195,
+      "sha256": "3122cd1fb19521c9566b8d28efd419de7d3e99ad5380ce3a69834ed7b6979e57",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-vision-command-result-boundary",
+      "url": "https://edyang.me/tech/2019/11/25/iot-vision-command-result-boundary/",
+      "status": 200,
+      "bytes": 46296,
+      "sha256": "9ed1c30c556de5cd43781413d24d92c7ed4753cb10d1265fcf166c6d25a7ff4d",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-environment-monitoring-demo",
+      "url": "https://edyang.me/tech/2019/12/05/iot-environment-monitoring-demo/",
+      "status": 200,
+      "bytes": 46411,
+      "sha256": "1f5361103282ea018dde8ba69622469661636d578fcbe938611571555bdd6e14",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "document-title-seal-demo-completion",
+      "url": "https://edyang.me/tech/2019/12/15/document-title-seal-demo-completion/",
+      "status": 200,
+      "bytes": 46445,
+      "sha256": "96a31da993989552b4a685c85970338b64ea21d7f61f7241ffadf1387a36ce64",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    },
+    {
+      "note_id": "iot-vision-research-review-2019",
+      "url": "https://edyang.me/tech/2019/12/25/iot-vision-research-review-2019/",
+      "status": 200,
+      "bytes": 46433,
+      "sha256": "54ee6bda7ec817add71c93a4c55f6b4c258ccd66abe25aa19962aea081f9e14c",
+      "checks": {
+        "title": true,
+        "date": true,
+        "problem": true,
+        "reasoning": true,
+        "image": true,
+        "table": true,
+        "headings": true,
+        "ordinary_date_only": true
+      },
+      "valid": true
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-complexity-input-size.svg",
+      "status": 200,
+      "bytes": 2777,
+      "sha256": "11a7be7dd5afedfd4f1785d4516a82a8063f571c9998f0a98f0b0f563b73d1ac",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-stack-queue-traversal.svg",
+      "status": 200,
+      "bytes": 2789,
+      "sha256": "c482a81abd947cfad9e48ecb5938aef281957be0f63bfdd6c994f00b848e9b78",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-binary-twos-complement.svg",
+      "status": 200,
+      "bytes": 2774,
+      "sha256": "36ebb62405588bfe49a7014de15213f1d81b7787de29ad16c3d3a3161b1bbab5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-relational-normalization.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "89954d1600f8eec826a214db0df2a57dbd0a5d247255b2737da96ed3746227b8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-critical-path-slack.svg",
+      "status": 200,
+      "bytes": 2777,
+      "sha256": "37b0484d6678d2a3418fab739e318f89a0f69c1c2a625be6a275a121ee68ebcc",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/exam-design-pattern-selection.svg",
+      "status": 200,
+      "bytes": 2819,
+      "sha256": "ce431c0fc083b9ccbe6fd25e72ad7e61b201025fa507b719f09052cfe7f8a020",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-string-equality.svg",
+      "status": 200,
+      "bytes": 2816,
+      "sha256": "4f4c6059daf60abd8b70ccf276e40c647b1a287bfe6f70843deb435798e6cbcf",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-equals-hashcode.svg",
+      "status": 200,
+      "bytes": 2836,
+      "sha256": "51134dc28ab03f15f1c3be8ddce902302dc2f74d5c98cff9db5e2a184e4f521b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-arraylist-growth.svg",
+      "status": 200,
+      "bytes": 2811,
+      "sha256": "c5e0ed5610a3b93e03bf379c95eff2a0dd4f280e1d7336a489c3a5c923d811b9",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-hashmap-buckets.svg",
+      "status": 200,
+      "bytes": 2777,
+      "sha256": "3b9ce9e0d8a4cd36614ca32286dac4f5d6abe1c45418cec4a63198ff77b15d88",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-generic-erasure.svg",
+      "status": 200,
+      "bytes": 2845,
+      "sha256": "9134ffa91506c6815b89036e374f67b114742628d79584ac1326141128b457fa",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-try-with-resources.svg",
+      "status": 200,
+      "bytes": 2847,
+      "sha256": "79b05450401e7c7081a2b9027003e93e5c4decf06df9450a8a15521de901f522",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-classloader-identity.svg",
+      "status": 200,
+      "bytes": 2818,
+      "sha256": "a3a310c8fa0f8a3bb3ca08b97772587184ba7a977915aa0680490a93c1c86e45",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-reflection-invocation.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "e512f6e38acbdbeaa8091cf15bf6126b407f200f5bccc4ca0e9ea6f91b09392b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-io-charset.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "438e7849c541cd3665b8aee8985382bd2a3674fee71656dc9e9e9bb4e4274264",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-thread-lifecycle.svg",
+      "status": 200,
+      "bytes": 2807,
+      "sha256": "d9cef2dfff4828ec586d92895237d8a375e67bae05fbca877c63946e462d6164",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-monitor-wait-notify.svg",
+      "status": 200,
+      "bytes": 2798,
+      "sha256": "0633d6dd85b00d437d400281303cecc37fc9fd7a5470c6c740bef0af01bf3202",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-volatile-atomicity.svg",
+      "status": 200,
+      "bytes": 2845,
+      "sha256": "f1235c37b2f69ad2ce4b27538579727e52298034ab27c7ac80c917f2083e3930",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-threadpool-backpressure.svg",
+      "status": 200,
+      "bytes": 2797,
+      "sha256": "580a04d9e617fa1477d4198590c8ba1f87133d597a9cff49f1ef891ca133ad83",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-concurrenthashmap-segments.svg",
+      "status": 200,
+      "bytes": 2792,
+      "sha256": "a4fc1501bb200e6acaba0665dea512b31940f69d1aba2c745064b99b52fd748e",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-future-cancellation.svg",
+      "status": 200,
+      "bytes": 2801,
+      "sha256": "1c25da90ca4fa4c2e04c83f716270a8cacc80c07c5d09d472bd64d52e3537a0f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-jvm-memory-regions.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "babc4c04aa13600e97fccf3453252c7f18780c2685622db7b4f1197cfb062384",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-gc-reachability.svg",
+      "status": 200,
+      "bytes": 2839,
+      "sha256": "417638b639a0069c018b896e0b8bdcc022184014acc7180616f3d49619096180",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/jdk7-bounded-blockingqueue.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "48581f47b206153b8ea4d2bd1adf5ed99cd5e0c16413ff7837fe72070a04fb0a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-order-state-machine.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "088ed1d768d3eb8be7d2e3c96d0ff5163ba96f9ca3b776b6c3f2da7de76cc8c1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-idempotency-unique-key.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "614e0e8f4423deef237bfb1e22895979f6f1fe45bcfc5445f97453b7a194036d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-callback-authentication.svg",
+      "status": 200,
+      "bytes": 2837,
+      "sha256": "3fa93d9b6663bcd2b890760d62585d90d0fe0f3079dfb325e2793bee59efe28c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-ledger-minor-units.svg",
+      "status": 200,
+      "bytes": 2827,
+      "sha256": "8d2641562ba0969622d10260923f02bf90f85cb2099ac96d1826135633a0413b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-reconciliation-differences.svg",
+      "status": 200,
+      "bytes": 2810,
+      "sha256": "ebd362d698c7dedcd755d1e1f48403701d83513f02ebac6494d2ece4ea64cde6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/payment-timeouts-retry-budget.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "0e46c1b36c54c542d3e2ed87e4764bec9ed3ef7475262ba3f71f95cd43c920be",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-user-problem.svg",
+      "status": 200,
+      "bytes": 2834,
+      "sha256": "65b5c420bf990e1834f796e69aca2fd39ff570e63ddfa4df894964011192756f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-mvp-boundary.svg",
+      "status": 200,
+      "bytes": 2813,
+      "sha256": "9ff39e000f57540c3078a383f0e93c7ee2451a1602987bf9e486bd47066662e8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-retention-cohort.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "f77dc3a4e03620297efd0754d25783c8f3dc72775d16b32f424e0932fd5711e4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-unit-economics.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "654edc3535a71360f7e8ea2de49cb02321fa0e8f234683647c866326ee1df7ca",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-api-network.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "9a7c54071a5b044eea01167eec5162561bbdab829da08bfca4af5164758bacc6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mobile-startup-learning-roadmap.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "7a7e2eb3c4d8439419b8377bc838f7aa317d49b14aa0fb374b4f58abb03111cd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/first-job-reproducible-bug.svg",
+      "status": 200,
+      "bytes": 2825,
+      "sha256": "55f2c5926de7183bbed34f0a3386eb6dec7a5ccc54393fea028dfe6bcd4bfe08",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/first-job-task-acceptance.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "c4fd4676eba7dfd6f93e655bca9acdf97cb960afa5b33c1864088386dd6f6a49",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/first-job-reading-legacy-code.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "4c1879ce9415db093901e6605f2f3b8dfe50cabdf3ae0370726f095420a8445b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/svn-working-copy-status.svg",
+      "status": 200,
+      "bytes": 2810,
+      "sha256": "9f58379b05b35804e3a73e82044399e4f301916922c205d6582824a59151def4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/svn-update-conflict-resolution.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "df3c236712353587483a28fbdaec74b75a65c31aa09e03ceaa7d99d336f012ee",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/svn-branch-tag-merge.svg",
+      "status": 200,
+      "bytes": 2815,
+      "sha256": "9cf1ade87445f49507e5e0459f4eaafab5e65fef563af932eed84123b8ad521c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/eclipse-jdk-workspace.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "380ab8b7f6cc40ed86fe4ffc1ccfeefc0be303b761cce3d9828d0a10d96a9a38",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/eclipse-breakpoint-request.svg",
+      "status": 200,
+      "bytes": 2802,
+      "sha256": "1d6a7b42efc8d0c468b31b1bd07b5984e5e817295039e5ecb37d62d09ff546ad",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/maven-dependency-conflict.svg",
+      "status": 200,
+      "bytes": 2826,
+      "sha256": "ebec3b7ed9b7ca373724272fb82e6d133bd0dc81cd04d5dcf2f96d7d2de90b99",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-ioc-constructor.svg",
+      "status": 200,
+      "bytes": 2804,
+      "sha256": "998b4b036efa0ab3609617eaafdbf50fafa9a3e75e858683e2649e4ac473018a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-aop-proxy-boundary.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "aaa5af0bbf373c06c505abd754a7e79b7640ac5780dfd04ad4c1bf7bd3e31a7d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-bean-lifecycle.svg",
+      "status": 200,
+      "bytes": 2783,
+      "sha256": "4249bba2fcfcada643af08827d2fd169b1178653a27d3c365e74175cc4407064",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-mvc-binding-validation.svg",
+      "status": 200,
+      "bytes": 2836,
+      "sha256": "4660b47ad590a16e22c3b7962232c6b54285c1a02c00459db800e8e92d38dbf2",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-mvc-exception-contract.svg",
+      "status": 200,
+      "bytes": 2815,
+      "sha256": "760568c61fd5a92834f0ad626cc7135dcf92998ba6d2292cf99e9543b9b0796b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/spring-mvc-file-upload-boundary.svg",
+      "status": 200,
+      "bytes": 2833,
+      "sha256": "6a739403dacba164840befb1fd7e35bff3b61a9959ec601a06798d522eb2b61f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-entity-state.svg",
+      "status": 200,
+      "bytes": 2834,
+      "sha256": "cc203018b59a2b27f3d4854231ae2a5bd3cf54fd77e2161a460da52e8feadb42",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-lazy-session.svg",
+      "status": 200,
+      "bytes": 2849,
+      "sha256": "064d05651dbce9a47f42620d39c518566759ca0fa3aca7842726777d8dda4669",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-one-to-many-owner.svg",
+      "status": 200,
+      "bytes": 2810,
+      "sha256": "d02651313177152509823cf16e4b9508e7f2699f2abcbac8bf1b357618fbdd51",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-transaction-flush.svg",
+      "status": 200,
+      "bytes": 2841,
+      "sha256": "ab4585a4a2b2f99333f87b73cb1876238793634ecbced8a4091ab874719e5475",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-optimistic-locking.svg",
+      "status": 200,
+      "bytes": 2813,
+      "sha256": "c6cd8c2d995392168a102c70d288f7ea00e8c1d1a876a474d082fdd0f76f9503",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/hibernate-pagination-n-plus-one.svg",
+      "status": 200,
+      "bytes": 2817,
+      "sha256": "372b179caee5c4d2eb5c435392f289f29725c91efc63d984d81eeb48c888a0a5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/velocity-model-null-handling.svg",
+      "status": 200,
+      "bytes": 2784,
+      "sha256": "87deec0b487c72c1ae1d6811e5bf6269134e6a05f81350e130874eed91818b43",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/velocity-html-escaping.svg",
+      "status": 200,
+      "bytes": 2839,
+      "sha256": "975a41a693233aec399901b99cafe33df3d59005a20f16d6916ddf140d6d79cd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/velocity-layout-macro-cache.svg",
+      "status": 200,
+      "bytes": 2796,
+      "sha256": "a45f1f0e93e9f1cfaece6dffd970b40b28436f59c66f8b47c6442298ab9ca778",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-product-sku-snapshot.svg",
+      "status": 200,
+      "bytes": 2804,
+      "sha256": "b9e1758019c36c1ba6d881a225db73e7fda9fb0bd7c39ae11213051b077f77f1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-stock-conditional-update.svg",
+      "status": 200,
+      "bytes": 2837,
+      "sha256": "ea2741d9a1cb63223f07cae2c2cca8e116488d1b10558bbef1f4066a06a53395",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-threshold-state.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "76d7b16a05cf34df004d3c46dea45dd18f7a18807d0c5e93c3c9ec2d6cedbebf",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-voucher-redemption.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "93fd533d5df8c14ae1811abba48697e8c0103feed4bac761650fbdf0b9f952aa",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-refund-state-machine.svg",
+      "status": 200,
+      "bytes": 2831,
+      "sha256": "142ea32c6e616d6aa49ea3df1f6ddd83e2be246d4ca658ef0bc4d4fb53fabbe4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-expiry-settlement.svg",
+      "status": 200,
+      "bytes": 2849,
+      "sha256": "3255885cc6b7dae5fb2365d0ef715c531c506dff13ba232648acd7a5b6a801cc",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/java-web-request-logging.svg",
+      "status": 200,
+      "bytes": 2816,
+      "sha256": "68c731470862a35eab986af2774492e6b59e4f7d2185ab9b595b1830c4313a0d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/java-web-war-reproducible-build.svg",
+      "status": 200,
+      "bytes": 2827,
+      "sha256": "ca6a1e36dd28f832975c9f798eb817a5acef3237386c2c771cc9040817610c3c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/java-web-deployment-context.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "decfe14cee98ae7629cc180cab5d55f0e009f2491919fbe31e9dbfe48dc3a3c5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-merchant-onboarding.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "0fdcaaec19fe9bd5e3add29afb97aeaca86bb87b96e3eefebd8e63adf6fc784d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-funnel-definition.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "c491f5eb52cfb9109ed154ccaa6c6ca976b0b6c850e68a437135d44eb3c01850",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/groupbuy-customer-service-loop.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "9180ff2a80461bb6951cada058876ed6afa4735e27dc695729e1e0e7e4a43dcf",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-working-index-head.svg",
+      "status": 200,
+      "bytes": 2832,
+      "sha256": "8825758fa1f0d5df63a35517eacf93944e8d8460bf07b38423c485d608af6268",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-commit-dag-branches.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "8c46d2f8cec1b4a685865985a0b636bf47e90033d28cc1e6c44563d3220e6ab9",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-ignore-tracked-files.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "eed155a550e2711c6387af40c32e3320da0fa61bf3481a0c515b80cb3d1a3b2a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-merge-conflict-intent.svg",
+      "status": 200,
+      "bytes": 2839,
+      "sha256": "54b13f015a10528d95ce22d78c78d0b203cbf6e82c0cb57c60ebde5d96c0b47c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-rebase-shared-history.svg",
+      "status": 200,
+      "bytes": 2790,
+      "sha256": "cf9c93691245da7a233c3b392ededaaa3b2c4536f0978764e904748d02be7f29",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-revert-versus-reset.svg",
+      "status": 200,
+      "bytes": 2860,
+      "sha256": "9a54a496cd07d51dd8b01c384ac5c0ccaadbc40ca858b40259b6e85bce686786",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-fetch-pull-remote.svg",
+      "status": 200,
+      "bytes": 2790,
+      "sha256": "240cc0449ddba5cea1c14d14c90beac299d43a6f8517f2b694f33569de4452c1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-bisect-regression.svg",
+      "status": 200,
+      "bytes": 2788,
+      "sha256": "1017456d5f1668d271184dc68fef8a73f773d71f953e548657135ebf54a4291a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/git-small-commits-review.svg",
+      "status": 200,
+      "bytes": 2818,
+      "sha256": "09dcf3a5cee876ec56500c3a42d6bd00e0d610604d2a736353e8f13455844858",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-minimal-web-project.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "8e84b07a031572478059b5a83cbf8388512ee2d1d19f749b7f49633c04cfa028",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-auto-configuration.svg",
+      "status": 200,
+      "bytes": 2837,
+      "sha256": "f77bbfed944ba89690a1a44cdd422307e93be321c400192e6c37cc9aaad81cf1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-configuration-precedence.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "ff7ca8bcdb2bc49139d0b06d201131ea328b8d206983d17ee092b5d1a4a66eec",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-request-validation.svg",
+      "status": 200,
+      "bytes": 2787,
+      "sha256": "e9ff9329c5dd321feda850be3d49b8c0943975e2357faf663563ee19c132d6a6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-jdbc-transaction.svg",
+      "status": 200,
+      "bytes": 2823,
+      "sha256": "c88a1a9d45a014df63f9f2bb2d3e9c9102c051a11a5d16ee2bbf9636070d2621",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-health-endpoint.svg",
+      "status": 200,
+      "bytes": 2835,
+      "sha256": "c830c44c6ea8e63f649f6906577c6b4cd3ad95c3c8ce0d11520c17617ea9a7ae",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-configuration-properties.svg",
+      "status": 200,
+      "bytes": 2820,
+      "sha256": "7a1a5ed91be39c1d78ca8759c39febff91dbe27b708d2b7de7750e4f6dff0652",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-executable-jar-deployment.svg",
+      "status": 200,
+      "bytes": 2814,
+      "sha256": "5c0c885438e9e11d25f5cb68f5a79590d7bdb1cbb96363d064c071907d7c5447",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot12-test-layering.svg",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "3daee73c67aa93b89bfcc7ded16ba211994ab2f62f8686bc56910efc75a48daf",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-parameter-binding.svg",
+      "status": 200,
+      "bytes": 2832,
+      "sha256": "1765309b5b07250e885669ceaafa270082dfc72c871296b879d0d99cbf94e8f3",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-dynamic-where.svg",
+      "status": 200,
+      "bytes": 2843,
+      "sha256": "404797e3d9ec3be4dfffee98189e9e05e1977389f2f2e432c0a7f99d322d03d0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-resultmap-alias.svg",
+      "status": 200,
+      "bytes": 2805,
+      "sha256": "0aee1856dc521d74e1dd6fa412c9dbc4c45bf57ce529d9361cc8534cbe25f85f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-cache-invalidation.svg",
+      "status": 200,
+      "bytes": 2825,
+      "sha256": "63451bb07620c62c03e15acd9b2f93af0f8c2fef3c314c9f4f3e2820ad427e56",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-batch-insert-flush.svg",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "a4c2a215ef6689184a47bf4ee5a8bcaf71ed921cdc47f449010de2a5de71a0cd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mybatis-pagination-stable-order.svg",
+      "status": 200,
+      "bytes": 2807,
+      "sha256": "7614d10ce80321714899b4c9c6c9d67b29682ff594e6d5e8f67cf1ae0fa0ac79",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-btree-composite-index.svg",
+      "status": 200,
+      "bytes": 2820,
+      "sha256": "2789752d58b4042259028ece4e86de61d7df61b319eeaba7b1b0e900e62ff697",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-mvcc-read-view.svg",
+      "status": 200,
+      "bytes": 2810,
+      "sha256": "0f2edc4c24822b539120ea40217f1dea51333344c5a71bd70a50db26d88ba47c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-deadlock-order.svg",
+      "status": 200,
+      "bytes": 2780,
+      "sha256": "2448679f9db3ce3fc6c095d69aecd60055a048bd537490484ecc51f2224894c6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-explain-estimation.svg",
+      "status": 200,
+      "bytes": 2811,
+      "sha256": "e41b138a49610ad051b55aa1c26ff4349dc132b5d01aa6fffa266c6a48297307",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-redo-binlog.svg",
+      "status": 200,
+      "bytes": 2865,
+      "sha256": "5427fa2a9398c9e406d8956754763ca2db056937523009c2d55666dc512c7c60",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mysql56-replication-lag.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "1360a6f27aceeeca04c53b5524d5a8e22e5cded010f01d8e643c99fe5967d344",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-service-boundary.svg",
+      "status": 200,
+      "bytes": 2860,
+      "sha256": "e91c2529c4bfaa716ce85223245155964644af018420cae3f622675d9f64cbe8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-eureka-eventual-view.svg",
+      "status": 200,
+      "bytes": 2866,
+      "sha256": "b11bcf7fd43b6ff0b5b69426a334e31f20382941e160474b8eefbfd12bf53337",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-ribbon-client-balancing.svg",
+      "status": 200,
+      "bytes": 2878,
+      "sha256": "1a3d37f546bd8bb67b37c9382fc7efc88f3900d8cdea70002eb5fef2b0357227",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-config-version.svg",
+      "status": 200,
+      "bytes": 2836,
+      "sha256": "e71e620163d76eb1d811e76de55d7fb1d281bfdc1da12d3e174188372ae74a60",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-hystrix-isolation.svg",
+      "status": 200,
+      "bytes": 2829,
+      "sha256": "aa299ebbc5d720d1cec45b1f6d74b246ccdd4218c1ed6f1ddec70ee0717b0fae",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud10-distributed-request-trace.svg",
+      "status": 200,
+      "bytes": 2836,
+      "sha256": "1ef4b709149a26315e8c24c479e1c10fc07507082518c446a3858af620c681e5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/html5-semantic-document.svg",
+      "status": 200,
+      "bytes": 2818,
+      "sha256": "3e6051ba5e350bde0be9041e7c9b2c292899ed28973baf863b43aa9fb77e5a5d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/html-form-submit-validation.svg",
+      "status": 200,
+      "bytes": 2827,
+      "sha256": "ef528794020a0c5c66a6a415295d704d4276b8d510c2981497345439b36a3567",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/html-image-responsive-dimensions.svg",
+      "status": 200,
+      "bytes": 2823,
+      "sha256": "5b58097c189acbad0a5e9518fc6751a62a82f4033bbe5c953b8517f6bad015b4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/css-box-sizing-width.svg",
+      "status": 200,
+      "bytes": 2814,
+      "sha256": "7aad866ee942ac3e3338d4c6e465af11f70fb9076ce6143bb4f6ae9187588b39",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/css-bfc-float-collapse.svg",
+      "status": 200,
+      "bytes": 2817,
+      "sha256": "8b471054048b5a66a7d7cd12efce48cdcce4bbb42c4dc24ec19860d21df78ffe",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/css-flex-min-width.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "32714e73606f1c3302852a33dfbd69e14dbdd28a237be096f009fadcd461c708",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-scope-hoisting.svg",
+      "status": 200,
+      "bytes": 2814,
+      "sha256": "c31bd04b43975d5e2f2193f07d2b85977e995877bec1f645d18788fc5a31ca3b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-closure-loop.svg",
+      "status": 200,
+      "bytes": 2859,
+      "sha256": "8c05d619555dc54f1dc776fd26e8792f73bc4ed1d39bf276258a2e4463263a04",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-this-call-site.svg",
+      "status": 200,
+      "bytes": 2865,
+      "sha256": "f905d57a7b6ac4a0a7b89fd297a71d5be9983e7d13ba41d3eb604e4701a7c59b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-event-delegation.svg",
+      "status": 200,
+      "bytes": 2821,
+      "sha256": "748e4b09c451fc5dc004e20a7ebe44dd43b37e74bbabf7feecab403c98fa39a5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-timer-event-loop.svg",
+      "status": 200,
+      "bytes": 2842,
+      "sha256": "854ca68ab3e079283c6aa8385f30218742642df3e5020c67083164839dfb85da",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/js-xhr-stale-response.svg",
+      "status": 200,
+      "bytes": 2820,
+      "sha256": "eaf23b886ea6704c7089ae4a6eb2888567ccfe5403df16a5a09280ed9db3cd89",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/browser-cors-preflight.svg",
+      "status": 200,
+      "bytes": 2866,
+      "sha256": "e304fc55502e70282144b1cf2c1ed710c8fe4f28c07ef4ab24d17bb854cbe252",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/frontend-xss-text-output.svg",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "85ffa600fe6998dea453e483faf11107c2886097c062a62a4614d16035363cf0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/frontend-reflow-batch-dom.svg",
+      "status": 200,
+      "bytes": 2825,
+      "sha256": "89688367830318b887d304343c85d748f1071cd06c41fdba4dcc100529292119",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot13-connection-pool-budget.svg",
+      "status": 200,
+      "bytes": 2816,
+      "sha256": "7b189ddf6423f14c85c8044a6994fdbe9963d716f6fad1d98edee698b9ead9d3",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot13-async-context.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "6d4e56e35a771ee632aa3b458db8b0bdfed9989ab5df92619283fcd8b7d7cbf0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/boot13-scheduled-multi-instance.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "7d602361071ba415c3c1f2a51d2a266b807ce3d836f63f5e7a9a36075dee8b12",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud-brixton-zuul-routing.svg",
+      "status": 200,
+      "bytes": 2862,
+      "sha256": "0039f0a5f0aa59c382ba58c5a25eca41d97c4cd48a0ca385ab01a649b7591ccd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud-timeout-total-budget.svg",
+      "status": 200,
+      "bytes": 2854,
+      "sha256": "c9c71517dfdb17f5f9b668942a666f04487abe157b80c48d11d1babf3b539392",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/cloud-bulkhead-fallback-capacity.svg",
+      "status": 200,
+      "bytes": 2860,
+      "sha256": "293e1b4cd45296150fea21edb303aa9d071ac61fc1cd19eb04c856bcecb2a4a4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/concurrency-littles-law.svg",
+      "status": 200,
+      "bytes": 2829,
+      "sha256": "9a9f97863f61a94ddf052d5d11b84427d09cdcd04226071e3f8836e87605d2c4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/load-test-open-closed-model.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "68aed3c6ebba929844564af345c21bf5d834c9e88c95ed46db9c17bc96271845",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/latency-percentiles-queue.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "941cf932dee92202539789f3f33e70f3e72bffbaf1da8e46e1df25a425a923b1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/netty-tcp-frame-decoder.svg",
+      "status": 200,
+      "bytes": 2849,
+      "sha256": "9c3f72a5250e9a1b546e9ae3a27ffc38b4a8287bcaf257b62acff19796b74e4f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/netty-eventloop-blocking.svg",
+      "status": 200,
+      "bytes": 2866,
+      "sha256": "69e973ea9b9db0ecd64f7831aeb6bf7076d47e8ed25ba488c6ebd16bfe5c2a09",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/netty-bytebuf-reference-count.svg",
+      "status": 200,
+      "bytes": 2865,
+      "sha256": "1274a0ee70d1ac7451c7e5f44c4e2309a1abb7dfa5b4294de3c07eb61229e1bd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/sharding-key-query-affinity.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "1595b3b0f7fbd90b489489d17185d57ee8d6f7c1fe80bd17cd40bfbb6d8f2c25",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/distributed-id-clock-boundary.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "019b0cfba2361a4d6aed8564b38c444b0fafe40b398c71309a6a7a2e587d463b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/sharding-cross-shard-pagination.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "d1026f4ab2e6c96b359a2644e5f8f21ea7ac1f8f0abdc817578671987b50ce9b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/redis-cache-aside-race.svg",
+      "status": 200,
+      "bytes": 2885,
+      "sha256": "558775dd873c4bb27d1cebe5e27028922b924490de53f9acf8eac031764c3d53",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/redis-cache-stampede.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "f746380dd0625d20a03f5eb8227e66aa7f2a94a20cadf76710b2a6a758838133",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/redis-hot-key-large-value.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "b2a89483f8f23ec9bb696dec32343c8110bcb50794aa2c9c2d08beb9166891a2",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/disruptor-ring-buffer-sequence.svg",
+      "status": 200,
+      "bytes": 2845,
+      "sha256": "b813b0870942e8d802687a4aaf35d0b17aaabfe55c570969fcd92f065ce8473a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/high-performance-memory-allocation.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "3c7b91acbdd448ee2822ef2ffe98af0262946a8be4e299186d44a7d5ae48a100",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/high-concurrency-overload-design.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "0f455356e8ed9c82c128043298638a1ae93a47fd9286b2d1d3e0b38198e4da63",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/startup-financing-problem-fit.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "a813ae01f750e6b1ec15fe14a792b2af9965edb7ca1109fac5b114e0b21f5f3b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/startup-pre-post-money-dilution.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "2bb043cdaf7ae4df83ef6f2462f53736ad7513729b8edaa99f1fb40c78e1005a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/startup-data-room-evidence.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "2428d5cfb1ab2f5bae0026d120b502fa08fe41a449f03337d1979c24f93896ac",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/company-cash-runway-scenarios.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "6b861f1cbdd6ab9b3d08c009e40ffe76d6318cfe3cf39945ceb0f953a1de9bc5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/company-project-contribution-cost.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "452a36e61306e3233a3ac8b045356cfcb8bff434fb2d3492eb626ee2dc2763a7",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/company-scope-change-control.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "e77f346326d9a8e375c2007fccb8e488116510bf617c04d77a3b1e599b342f8e",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-connection-schema.svg",
+      "status": 200,
+      "bytes": 2853,
+      "sha256": "0b783830cce221155f5119f013745656e62f4386d0cc91a9aa293ea1939d7c19",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-encoding-timezone.svg",
+      "status": 200,
+      "bytes": 2850,
+      "sha256": "5a87bffe7f26e9415af7b73b7be297f9d473fec881d752c884ab33432bf7c19d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-backup-restore.svg",
+      "status": 200,
+      "bytes": 2836,
+      "sha256": "0e81b0be87c5ed7a821b519fbab42a79fb09f17b48bb2d69864c99373b4820af",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-mvcc-vacuum.svg",
+      "status": 200,
+      "bytes": 2829,
+      "sha256": "9f4ef67190807763401242a9e6e9236c844b280b4de6251ca468ae3ed1152deb",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-explain-analyze.svg",
+      "status": 200,
+      "bytes": 2835,
+      "sha256": "b28f41790c7b18965affafe34388d26c9a7c6f69deea92b7fedcd798bddef442",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-index-types.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "61d24b9e0e6609481d1ae54737070284200c05aecd5da65ca2b5def6a1c78725",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-jsonb-relational-boundary.svg",
+      "status": 200,
+      "bytes": 2868,
+      "sha256": "816e8dd44b513a24b5d7c9fe40412c0883f2acf4efbe411c41051d1868e2d210",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-recursive-cte-tree.svg",
+      "status": 200,
+      "bytes": 2830,
+      "sha256": "5b7059c92cb80986b824f408b818e50469a8656e4983b66e9695d0c693080210",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/postgres96-window-functions.svg",
+      "status": 200,
+      "bytes": 2826,
+      "sha256": "6e253496beee56d764004eeafbcd1cefcec632187ff3d793d16bf430dd311347",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/frontend-state-draft-versus-saved.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "8047ae862ba9b2f85a36a74f09a7bced9bf17cf615c2f478b9202afc2127de30",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/frontend-css-grid-progressive.svg",
+      "status": 200,
+      "bytes": 2852,
+      "sha256": "6147be00b26eb8cf24e6fbf067ec79b6512452da945b43ea177d107d89adcc10",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/frontend-component-contract.svg",
+      "status": 200,
+      "bytes": 2833,
+      "sha256": "ba65ba6c929d0a5d87d9a1180cc0e91fc8eaaf15823d48cb8f89f69e68d9f3d5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android23-environment-toolchain.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "fb03e82d329e00d6481979e4141eb9958ccfdae2b2e1ea70cd2909e5b3fe9971",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android23-gradle-project-structure.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "1fbf68dd846e3a969df72d52fd9ec7160839df5c5866764d6aa393b4c1f72993",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android23-first-activity-install.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "c8c2c5643d909a105719d960d43a9859867211519396a995312bc8d87070f616",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-activity-lifecycle-state.svg",
+      "status": 200,
+      "bytes": 2834,
+      "sha256": "8ed2114e5db74fb2f5e1e300576586b8c0d535a4ef7c28a5ffaa854527e1e6a7",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-layout-density-units.svg",
+      "status": 200,
+      "bytes": 2832,
+      "sha256": "21bd75e9aa18668f72257a80dffe21c8e75acdcd0af524a3856714ff281dbdfa",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-recyclerview-reuse.svg",
+      "status": 200,
+      "bytes": 2892,
+      "sha256": "a192ccb1254b45393224e29bb72a9a1620fd857337949d894acca8d078923296",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-network-main-thread.svg",
+      "status": 200,
+      "bytes": 2832,
+      "sha256": "612fa887948da2effc256a348a618556d8bec627b2efcb59de7a4722a0113010",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-sqlite-upgrade.svg",
+      "status": 200,
+      "bytes": 2831,
+      "sha256": "64f55e692098dd0739a98bcb74821659304018dbfd264459e6997ae9dd7af19f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-runtime-permission.svg",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "288a6a9d8404742fce7d68209264a42fd0103acec1de3fe5adc5303f777c30f6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-app-complete-notes.svg",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "40a8dca737204ba6c93cab7f281e2147c02f3d2e663c1f62eb003ae374c86586",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-apk-signing-release.svg",
+      "status": 200,
+      "bytes": 2826,
+      "sha256": "2d36a1f7b0feb6b250f07077af59c0197389592d08bad33e09887c8aca6b68d6",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-release-acceptance-matrix.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "3485d7158f254f176866ed5f3a089b2da446e3191ca2a0c875164def4597e0e8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/canbus-arbitration-physical-layer.svg",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "1624ef35e9ccbe6e238b2321773738265ae633c15d6c76d2f20f8871c2b87c5e",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/socketcan-listen-capture.svg",
+      "status": 200,
+      "bytes": 2865,
+      "sha256": "7e0f34eeae6d8268ca5145692df1beba9353ad6fc49ab8a9e786efd142958da0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/scirocco-can-signal-candidates.svg",
+      "status": 200,
+      "bytes": 2880,
+      "sha256": "0b1d622352d585135849f67d1f1a14e90c4cbabe6afa01734f03b79afd0ebb34",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/scirocco-can-gateway-topology.svg",
+      "status": 200,
+      "bytes": 2876,
+      "sha256": "15e4a7a01cd98a5f2ed296f7846db46c34e3f344d46ea2f44efbd967cb8fd6a1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/can-vcan-turn-signal-state.svg",
+      "status": 200,
+      "bytes": 2856,
+      "sha256": "053f1ccb01f703de28966fcf7aa1470d66a627ac1e7367ae963d0e54ec99ba21",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/can-control-feedback-stop.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "46165d94f96f50f6c939e261adfe861f5497369d815d2d1705c348ff2b638c08",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mqtt311-topics-command-telemetry.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "d41000fca8fea31b2a5ee4c60e32008d05378b14977a5b48fda367f226662168",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mqtt311-qos-business-once.svg",
+      "status": 200,
+      "bytes": 2863,
+      "sha256": "6f9cca956cbea3a0dacf70d1116aa5fb075160a5313aa31ecd2bb7e0eaeb2cf0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mqtt-retained-message-state.svg",
+      "status": 200,
+      "bytes": 2853,
+      "sha256": "8f3593d4c5ec43785419cdb80f937025cb5893360ad62bc4e3c890a2f0a846ee",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-device-data-contract.svg",
+      "status": 200,
+      "bytes": 2834,
+      "sha256": "5386541317689d4948f8d295b62f9fde3c649009b2fe5c3d2d5d456db4a60c84",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-coap-http-mqtt-selection.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "ac43b75d93300bd52e40188d07536c1b489ca411ba7a19068d0e88519395964e",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mijia-device-gateway-cloud.svg",
+      "status": 200,
+      "bytes": 2867,
+      "sha256": "3304192060a177f8186f8f896b40d05a25d473ebbeedd61dc05d0fd17e0c5d81",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered018-message-schema.svg",
+      "status": 200,
+      "bytes": 2833,
+      "sha256": "a111a6c5afc25b6beeb71b6d2aa38ba683f9f876cdd2310887966ba6dbc71ec5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered-context-lifecycle.svg",
+      "status": 200,
+      "bytes": 2859,
+      "sha256": "55384d05707342e41b0e12a836267dcf18d804a352ac2df7a2e902ac343803d5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered-error-retry-branch.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "8411e654804ba48b63ce6edbd42b8ec150989a842ddf035f0b9c54a99965d76a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-idf21-flash-monitor.svg",
+      "status": 200,
+      "bytes": 2843,
+      "sha256": "476a6097d0747ff65a8eb13b11050e77c1ca9cffc95c4ce28a23b7eb7c6d5d65",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-adc-raw-calibration.svg",
+      "status": 200,
+      "bytes": 2814,
+      "sha256": "075a8ac5142ddb31f2aaf95369f9cbbf37ffa9f55f74363422775e53011fca90",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-wifi-reconnect-state.svg",
+      "status": 200,
+      "bytes": 2816,
+      "sha256": "22301a01a73f366b2abd58a5cdd560994b8cc149a8fd7c5a2578760018ee3b2a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/arduino18-board-library-version.svg",
+      "status": 200,
+      "bytes": 2850,
+      "sha256": "f30db5ac84c0ef4fd4dfd48ef88c96a4863ffb541a3849c2849ba3b353995775",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/arduino-millis-nonblocking.svg",
+      "status": 200,
+      "bytes": 2842,
+      "sha256": "ab408a70e4b918aeaa1e944337b8d7c8e9efc3d8d39dd33213ad800f79e8d4fc",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/arduino-serial-command-framing.svg",
+      "status": 200,
+      "bytes": 2814,
+      "sha256": "b988cb95e99f3ce348f559df6bb4ef4f9bb3ccde52f98bd2d7eec6d6f2b30924",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/raspberrypi3-power-sd-reliability.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "3bfe125254896bc1bd682b5ab30ba518789d0b75cf37d2b9370418039cde9393",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/raspberrypi-systemd-service.svg",
+      "status": 200,
+      "bytes": 2873,
+      "sha256": "41cf0d4dd00d9315279f382e61b6be851ae5fe204168e2aff970958c3929cbfc",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/raspberrypi-uart-voltage.svg",
+      "status": 200,
+      "bytes": 2865,
+      "sha256": "be1654d72515f3d0d12db0812e6bb7138bd40d10bd775b4d299e03006a72dd4c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mijia-local-cloud-boundary.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "2cc36497c4b9e32a53a9371bad672a5efd1c075ff02d08239f01e7e19df9f348",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/home-automation-hysteresis.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "aecaf7cc6bf6f603538278fb21d58b8cf09fbabe98a7e193c02438564915be58",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered-device-adapter-layer.svg",
+      "status": 200,
+      "bytes": 2867,
+      "sha256": "0a7a8a73c2fc682ae752d1473f8a468248bd25bf3f713028e3fc0012e9b1e85f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/darknet2018-cpu-first-build.svg",
+      "status": 200,
+      "bytes": 2869,
+      "sha256": "19e4b1214f53a36718d790ba87b7ec0891e2fdd4d9f1f9afe200cc97dbed5a08",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/yolo2-detection-heads.svg",
+      "status": 200,
+      "bytes": 2834,
+      "sha256": "7a423bc410f0e55505dd62c672c37357a60a2e0d3ae8182de9b92fde67ba0cbb",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/darknet-dataset-layout.svg",
+      "status": 200,
+      "bytes": 2841,
+      "sha256": "3aed3da9d22ea52c3a6dc44e31ac581f9806ad518f6e2c4504d59d711a5ea706",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-title-label-policy.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "188f264cb9802af6877f17bdde04a793547aac8d44640b8c480ab233ca0e14e3",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/yolo-normalized-box-coordinates.svg",
+      "status": 200,
+      "bytes": 2825,
+      "sha256": "bb7f4e46765416926bdbcd1a363e5b83f5259be6bd98907759f45b60409db58c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-dataset-split-leakage.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "860ffd94891741b0baf471cbaec0f305bcd39fb7e8daa77e24006cc1f9ba97d8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/yolov3-custom-classes-filters.svg",
+      "status": 200,
+      "bytes": 2847,
+      "sha256": "d125e7f1e917e03b0ff6e3566b39e8745ac6b526ef337df62bd2b9b5fdf25425",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/darknet-training-resume-artifacts.svg",
+      "status": 200,
+      "bytes": 2850,
+      "sha256": "9d714bde6b3ebb87be460d752a4fb4fb27a4d5a13428d1a40920bc5d80f9b25b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/detection-precision-recall-iou.svg",
+      "status": 200,
+      "bytes": 2844,
+      "sha256": "c13f6bb2a3d02eefa0bc99779cc949471f2dc17e7b00fc0c2652034bfb0ff419",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/stamp-color-segmentation-baseline.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "5d0712e00d57e9df0d4a763878f0eac7cc50f428dd467f08809a8fefa8389f32",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/stamp-detection-overlap-title.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "b5c178b82fb31261c49a9d08cef88b44edd5ecfca72a47ba447b37f8730f0747",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/stamp-box-versus-authenticity.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "facade7b9273e9be99022cd79bde9b11cf67574f63dc1448a1f16b0038ef2087",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-detection-ocr-pipeline.svg",
+      "status": 200,
+      "bytes": 2841,
+      "sha256": "36a0b956a8cb52d9f5cf719197fec9abe71fe9e407a0d359fa1a8f6ed42db3b5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/darknet-document-api-contract.svg",
+      "status": 200,
+      "bytes": 2862,
+      "sha256": "86697764af9d1c8b2bfc5a137f54467507560c8ce015cb727ff733cba7895f7f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-model-release-record.svg",
+      "status": 200,
+      "bytes": 2921,
+      "sha256": "9378f200967f1ccaf73e24e60f7502b61fcb353073ac4e5481f5dce7de98bc70",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mqtt-last-will-heartbeat-freshness.svg",
+      "status": 200,
+      "bytes": 2856,
+      "sha256": "17a7b1291ce5abf67047c0b3ae783ff78431bca9198c9bc7fa2c5ac26a7d524f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/mqtt-session-reconnect-duplicates.svg",
+      "status": 200,
+      "bytes": 2842,
+      "sha256": "f6bb9a6df3614d32d38af3f03963a04b79c0b27cd4946dd85e355f2d346fb5d5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-sample-time-receive-time.svg",
+      "status": 200,
+      "bytes": 2888,
+      "sha256": "13f413905223c56d7466db9026a3bac421c0fd8dd2ec8a0d464e4906b0c78bb0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-nvs-config-version.svg",
+      "status": 200,
+      "bytes": 2842,
+      "sha256": "37bd9ba6d485b0b61603eac61afdddf945b11b1ac0c9a356b50d52639e6b3ed8",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-ota-partition-recovery.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "727e67c64e34869cb3ddd290d7649d75dbbc19ef78fec7cd04de2265f658c2c5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/esp32-watchdog-task-health.svg",
+      "status": 200,
+      "bytes": 2846,
+      "sha256": "da34b70e5ab06239f0cfd870aa22bf8decb1562cbd737c1fd2425d68a58fcf51",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered019-file-context-durability.svg",
+      "status": 200,
+      "bytes": 2877,
+      "sha256": "cea5c1d49e2190dca971ad98eea0a0d97bdf4c1ab544b5bc1117ace3f5541bb9",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered-flow-replay-test.svg",
+      "status": 200,
+      "bytes": 2861,
+      "sha256": "1128dba5e5ab5a0541c2c9acf25dde66dec90d7b7e5d0bcc4872f7786ee903ff",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/nodered-flow-project-dependencies.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "0ebd961ea3b706cd249602cdb6a532504d106a12a26f4fbea18594eb5e913c05",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/modbus-register-addressing.svg",
+      "status": 200,
+      "bytes": 2857,
+      "sha256": "8465b810b198b472fac95ff2cf1d71436b6d3805f89dc1b4f3b7061fe585da1c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/modbus-byte-word-order.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "05a44c130d13cd95e930067e669a0d6bea6e7537860514392270c54b3a5f7edf",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/gateway-offline-buffer-replay.svg",
+      "status": 200,
+      "bytes": 2867,
+      "sha256": "e4770233330bac67fd84c268a539b0246ef4923e3b0d8a76a9d9869847ff9ffd",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-letterbox-inverse-mapping.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "2eef95970a27a9511134d6bc5bf3ff56c3c301f73836b0eda5ed5d427dcb2d65",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-perspective-rectification.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "0584657fab17c2850210bc26503f4a77b4d24d7fc2d8ba25df63400acdb45f9f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-rotation-box-transform.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "f9dc87f47eb8b271afc557ef871f63a9d111c399f059305c33cccca6c23b473a",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/yolov3-anchor-document-shapes.svg",
+      "status": 200,
+      "bytes": 2854,
+      "sha256": "5d09e6346fa8a996195461af7aa713503673c7abce901512d78d9b3234baf227",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-class-imbalance-negative.svg",
+      "status": 200,
+      "bytes": 2879,
+      "sha256": "35ab584d76256f4ee39bcc7812a1046228e472b1ac8e655ba0cf05be4d0c8aa0",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-augmentation-document-realism.svg",
+      "status": 200,
+      "bytes": 2822,
+      "sha256": "ffcd4ddb1a9aaa87eb5c03496a0864eb24111ae3b2e48dc32ef07a683a726ea5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-threshold-pr-curve.svg",
+      "status": 200,
+      "bytes": 2840,
+      "sha256": "7a4c4473203663961db69623c09e47564e8924fa9de3091f902618b64d4645e4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-small-object-document-scale.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "7b2adf583262a5990797f364c53bd5c1e39d7e2d9ed950d24a1716b71ca818d9",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-tiling-boundary-merge.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "f6c7295b82db6f0a59de8715d05b49429fe5bcd0f476789a06e0dbeb7c765491",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-tls-server-identity.svg",
+      "status": 200,
+      "bytes": 2830,
+      "sha256": "e227edca4854e8ffb1a73d4dece7b2d8bb5ab37815b3af07f3e72433244837fb",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-device-credential-lifecycle.svg",
+      "status": 200,
+      "bytes": 2862,
+      "sha256": "7972311731a1e645ed7b9616d129806dc77f75ec485141c396071739a94cd1d3",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-command-authorization-audit.svg",
+      "status": 200,
+      "bytes": 2873,
+      "sha256": "baf01816c96531a318404666e9287df9b48e0b8adde180cf689a58f76226331d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/edge-inference-resource-budget.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "242e5fae666a7afbc1f21b09352013dedcc54250a12edbe7938d1021f1e52a3d",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-latency-stage-measurement.svg",
+      "status": 200,
+      "bytes": 2873,
+      "sha256": "38d6d9b2a9b27b3512d310abd952305a12d36f90c30e3504e01882ed6d8a8f26",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-alert-dedup-clear.svg",
+      "status": 200,
+      "bytes": 2864,
+      "sha256": "1d296e5e258ad6209eb3e9b6a7b8ce111450f7762178bd27ad6345f3f8778053",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-hard-negative-feedback.svg",
+      "status": 200,
+      "bytes": 2861,
+      "sha256": "025e4f6a63c36472183221149150028c699cf49fc71d5f3ee4771b377b10b174",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-domain-shift-scanner.svg",
+      "status": 200,
+      "bytes": 2873,
+      "sha256": "858139a1f5022e8e61756f0410ea02a532f5e01ec24862be62d1071babba2251",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/vision-human-review-confidence.svg",
+      "status": 200,
+      "bytes": 2870,
+      "sha256": "9dfa11c6e643f54b1e0043030a6489fc35b7331cff36d396b9e802d789b9f876",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-vision-event-correlation.svg",
+      "status": 200,
+      "bytes": 2855,
+      "sha256": "b75ea8d8ff5e0c7c5c24bcb093ac548e9b84580e6b9b62aa12db4c7a16db380c",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/edge-queue-backpressure-images.svg",
+      "status": 200,
+      "bytes": 2882,
+      "sha256": "5bf6791b67e6d7af44c77dd131df90937d11fd8246fe5970af4a8929de11a8de",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-vision-command-result-boundary.svg",
+      "status": 200,
+      "bytes": 2888,
+      "sha256": "369826dd7719baa4b56e4be864faeb60f26c67fb19e4ac8ff4bba45b03209803",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-environment-monitoring-demo.svg",
+      "status": 200,
+      "bytes": 2858,
+      "sha256": "951d32300bdd3d38b6097eb2608482c15978da80cbd9bdb7452612e8947c1c48",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/document-title-seal-demo-completion.svg",
+      "status": 200,
+      "bytes": 2906,
+      "sha256": "b11586bf02ecf3194934ca54d7854733eb0fd2e7d15e9a3f5e38d8118f437103",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/iot-vision-research-review-2019.svg",
+      "status": 200,
+      "bytes": 2891,
+      "sha256": "91b397f7f7882f6c5af1de9063a9d3bd91b7ebd1be5b5bb630998435dee032da",
+      "valid": true
+    }
+  ],
+  "entries": [
+    {
+      "url": "https://edyang.me/",
+      "status": 200,
+      "sha256": "9718e153171726d1e7489400f506c3057076ecdafaffe30440ea378fe6a69d99",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/tech-notes/",
+      "status": 200,
+      "sha256": "c0fc17afa92c67cd303da6fad81af78c204a331ea4062e608b72d3c82b45aec4",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/archive/",
+      "status": 200,
+      "sha256": "e52e510d228cacf4afb3103aa39c79e407468abf4c31171be8a9f4ec20a971e3",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/feed.xml",
+      "status": 200,
+      "sha256": "c5a52815f80b9d5b2ffb2c152434cf2a7cf5272d57ef6bd65dd9f62e64c4a6a8",
+      "valid": true
+    }
+  ],
+  "browser_visual_review": {
+    "url": "https://edyang.me/tech/2013/01/05/exam-complexity-input-size/",
+    "title_body_diagram_code": "passed",
+    "archive_url": "https://edyang.me/tech-notes/"
+  }
+}
