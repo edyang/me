@@ -80,8 +80,21 @@ for path in sorted((ROOT/'_posts').glob('*.md')):
             if url not in h or not (args.site/url.lstrip('/')).is_file():error(rel,'rendered image missing')
 dates=sorted(day(m['date']) for p,m,b in notes)
 if len(notes)!=len(registry) or state['article_count']!=len(notes):error('registry','count mismatch')
-if not dates or dates[0]!=date(2020,1,5):error('registry','wrong first date')
-if any(not 5<=(b-a).days<=10 for a,b in zip(dates,dates[1:])):error('registry','interval outside 5-10 days')
+if not dates or dates[0]!=date(2013,1,5) or str(dates[0])!=state['first_article_date']:error('registry','wrong first date')
+# The requested historical extension has its own monthly coverage rule. Keep the
+# existing regular publishing cadence strict for the established 2020+ series.
+regular_dates=[d for d in dates if d>=date(2020,1,5)]
+if not regular_dates or regular_dates[0]!=date(2020,1,5):error('registry','wrong regular-series first date')
+if any(not 5<=(b-a).days<=10 for a,b in zip(regular_dates,regular_dates[1:])):error('registry','interval outside 5-10 days')
+historical=[(p,m,b) for p,m,b in notes if 2013<=day(m['date']).year<=2019]
+historical_months=Counter(str(day(m['date']))[:7] for p,m,b in historical)
+for year in range(2013,2020):
+    for month in range(1,13):
+        key=f'{year}-{month:02}'
+        if historical_months[key]<3:error(key,'historical month has fewer than three articles')
+coverage=state.get('historical_coverage',{})
+if coverage.get('start')!='2013-01' or coverage.get('end')!='2019-12':error('state','historical coverage range missing')
+if coverage.get('article_count')!=len(historical):error('state','historical coverage count mismatch')
 if dates and str(dates[-1])!=state['last_article_date']:error('state','last date mismatch')
 if len(state['topics'])!=len(registry):error('state','topic count mismatch')
 if not 5<=(day(state['next_article_date'])-day(state['last_article_date'])).days<=10:error('state','next date outside interval')
