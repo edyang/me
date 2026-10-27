@@ -1,3 +1,18 @@
+- note_id: plc-centering-cycle-ownership
+  title: 双 PLC 归中工位排障：取料二次触发为何造成重复夹紧
+  date: '2026-10-24'
+  permalink: /tech/2026/10/24/plc-centering-cycle-ownership/
+  tags:
+  - PLC
+  - 状态机
+  - 工业控制
+  images:
+  - /img/tech-notes/plc-centering-cycle-ownership.svg
+  technology_since: '2019-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2026-10-24-plc-centering-cycle-ownership.md
+  sha256: edb6c103f5a70d8fbf71894f6674d5bef60613c111ba6030daefe98d356477d9
 - note_id: talking-video-avatar-voice-pipeline
   title: 初步研究数字人各种方案
   path: _posts/2026-10-14-talking-video-avatar-voice-pipeline.md

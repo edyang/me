@@ -1,0 +1,15 @@
+{
+  "status": "prepared",
+  "run_date": "2026-10-28",
+  "base_commit": "e56202c4a4c93c9b0bf77b12a4515d9f7abdcfd2",
+  "note_id": "plc-centering-cycle-ownership",
+  "article_date": "2026-10-24",
+  "schedule_reason": "prior scheduled date elapsed; chose last+10 days, within current date and after source observations; no claimed historical experiment",
+  "new_articles": 1,
+  "updated_articles": 0,
+  "source_coverage": "accessible fragments; not full export",
+  "privacy_review": "semantic generalization of protocol labels, addresses, identities and production timing; no raw source committed",
+  "evidence_boundary": "reported symptoms and candidate causal chains; no confirmed on-machine fix",
+  "local_validation": "passed 503 articles, 503 diagrams",
+  "publication": "not yet merged or deployed"
+}

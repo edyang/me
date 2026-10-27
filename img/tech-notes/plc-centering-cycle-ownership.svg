@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" role="img" aria-labelledby="title desc">
+<title id="title">归中周期所有权与取料隔离</title><desc id="desc">只有等待新件阶段消费到位边沿；归中请求需要执行端完成反馈，取料阶段再次遮挡不能回流到夹紧入口。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#47769b"/></marker></defs>
+<rect width="1120" height="730" fill="#f3f7fb"/>
+<g font-family="sans-serif" fill="#17354e">
+<text x="40" y="48" font-size="28">夹紧只能由当前周期、当前阶段共同授权</text>
+<text x="40" y="82" font-size="18">流程示意：不表示现场接线或可直接执行的控制程序</text>
+<rect x="40" y="130" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="58" y="165" font-size="23">IDLE → WAIT_PART</text>
+<text x="58" y="196" font-size="17">空闲条件 + 新周期受理</text>
+<rect x="415" y="130" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="433" y="165" font-size="23">CENTERING</text>
+<text x="433" y="196" font-size="17">到位边沿 → 消费一次许可</text>
+<rect x="790" y="130" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="808" y="165" font-size="23">执行 PLC</text>
+<text x="808" y="196" font-size="17">受理 / 忙碌 / 完成 / 故障</text>
+<path d="M330 175 L415 175" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M705 158 L790 158" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M790 196 L705 196" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="725" y="140" font-size="16">请求</text>
+<text x="712" y="221" font-size="15">本周期完成</text>
+<rect x="415" y="300" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="433" y="335" font-size="23">INSPECTING</text>
+<text x="433" y="366" font-size="17">归中完成后等待检测许可</text>
+<path d="M560 220 L560 300" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="575" y="263" font-size="17">CENTERED</text>
+<rect x="415" y="475" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="433" y="510" font-size="23">UNLOADING</text>
+<text x="433" y="541" font-size="17">旋转完成 → 取料与清空</text>
+<path d="M560 390 L560 475" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="475" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="58" y="510" font-size="23">到位再次遮挡</text>
+<text x="58" y="541" font-size="17">真实边沿，但不是新件</text>
+<path d="M330 520H398" stroke="#c25947" stroke-width="3"/><path d="M382 509L398 531M398 509L382 531" stroke="#c25947" stroke-width="3"/>
+<text x="40" y="602" font-size="19">取料阶段：禁止生成新的夹紧请求</text>
+<rect x="790" y="475" width="290" height="90" rx="12" fill="white" stroke="#9eb5ca"/>
+<text x="808" y="510" font-size="23">重新布防</text>
+<text x="808" y="541" font-size="17">取料完成 + 清空 + 机构就绪</text>
+<path d="M705 520 L790 520" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M935 475V275H185V220" fill="none" stroke="#47769b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="45" y="670" font-size="20">约束：同一周期最多受理一次归中；超时和重启进入明确的恢复流程。</text>
+</g></svg>
