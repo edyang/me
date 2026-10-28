@@ -1,5 +1,5 @@
 {
-  "status": "prepared",
+  "status": "published",
   "run_date": "2026-10-28",
   "base_commit": "e56202c4a4c93c9b0bf77b12a4515d9f7abdcfd2",
   "note_id": "plc-centering-cycle-ownership",
@@ -11,5 +11,61 @@
   "privacy_review": "semantic generalization of protocol labels, addresses, identities and production timing; no raw source committed",
   "evidence_boundary": "reported symptoms and candidate causal chains; no confirmed on-machine fix",
   "local_validation": "passed 503 articles, 503 diagrams",
-  "publication": "not yet merged or deployed"
+  "publication": "verified",
+  "content_commit": "da881bd0878dac3b26d9df9aafeadc0c7dc87331",
+  "merge_commit": "8537039499e415e4590ef19bfd8e0e10d00dfe75",
+  "content_pr": 10,
+  "ci_pr_run": 40605877205,
+  "ci_master_run": 40606043578,
+  "pages_run": 40606044262,
+  "pages_conclusion": "success",
+  "source_validation": "passed",
+  "jekyll_rendered_validation": "passed",
+  "svg_xml_and_visual_review": "passed",
+  "verified_at": "2026-10-28T00:03:46.549270+00:00",
+  "live_verification": [
+    {
+      "url": "https://edyang.me/tech/2026/10/24/plc-centering-cycle-ownership/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "41615670b62e3efc42ec50a0d161ca1283539517a0974b300ce80e0a04cbb13f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/plc-centering-cycle-ownership.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "sha256": "12f693a2c0efdeb82104a21edadf8f305d32986d03b12cd95cc4ccf84c9cbc1f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/tech-notes/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "0b7821ccb65d8a04c547fc9ac076a154d443f81ed260ae8cc3abee9bb42ee62b",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "b8273c4de5d03877dfc3c460eeb7eadd716eb72c3bdd78553c134bb1f94801f5",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/archive/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "85b58a066784125f6934cadb39a62316e604effb6e91cb567c326357b0b5fbe7",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/feed.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "sha256": "bdbe9912e6331a457a10c356b89d895d6529336a1d40e566d1cc85ef8d38ccd1",
+      "valid": true
+    }
+  ]
 }
+
