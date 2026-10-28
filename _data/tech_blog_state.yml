@@ -1,7 +1,7 @@
 format_version: 3
-article_count: 502
-last_article_date: '2026-10-14'
-next_article_date: '2026-10-21'
+article_count: 503
+last_article_date: '2026-10-24'
+next_article_date: '2026-10-31'
 min_interval_days: 5
 max_interval_days: 10
 first_article_date: '2013-01-05'
@@ -2014,8 +2014,20 @@ topics:
   title: 初步研究数字人各种方案
   date: '2026-10-14'
   permalink: /tech/2026/10/14/talking-video-avatar-voice-pipeline/
+- note_id: plc-centering-cycle-ownership
+  title: 双 PLC 归中工位排障：取料二次触发为何造成重复夹紧
+  date: '2026-10-24'
+  permalink: /tech/2026/10/24/plc-centering-cycle-ownership/
 historical_coverage:
   start: 2013-01
   end: 2019-12
   min_articles_per_month: 3
   article_count: 252
+last_processed_window:
+  from: '2026-10-12'
+  through: '2026-10-27'
+  overlap_days: 7
+  coverage: accessible_fragments_only
+  processed_note_ids:
+  - plc-centering-cycle-ownership
+  unprocessed_topics_remain: true
