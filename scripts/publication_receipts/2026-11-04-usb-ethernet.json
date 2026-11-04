@@ -1,0 +1,73 @@
+{
+  "status": "published",
+  "run_date": "2026-11-04",
+  "base_commit": "b06c500d71e98e8a20424f5868d69090825079bc",
+  "note_id": "android-usb-ethernet-poe-reenumeration",
+  "article_date": "2026-11-03",
+  "schedule_reason": "Prior planned date elapsed; chose last article plus 10 days, after observations and not in future. Next article date 2026-11-10.",
+  "new_articles": 1,
+  "updated_articles": 0,
+  "source_coverage": "accessible fragments only; overlap 2026-10-20 through 2026-11-03",
+  "privacy_review": "Device and deployment identity generalized; no customer, production values, addresses, original logs or attachments committed.",
+  "evidence_boundary": "Manual USB-C reconnect and PoE power cycle reported effective; automatic reset and unique root cause unverified.",
+  "deduplication": "Compared registry and USB hub / service recovery articles; this article adds Android enumeration and PoE reset evidence.",
+  "version_check": "Linux v5.10 r8152 source read through connected GitHub; Android USB Host and AOSP Port Reset official documentation checked. Android 13 reset capability not attributed to Android 11.",
+  "local_validation": "Passed 504 articles and 504 SVG diagrams; XML and rendered SVG reviewed, English technical labels used for font portability.",
+  "branch_byte_comparison": "All four remote branch files exactly match locally validated bytes.",
+  "content_commit": "61ea3ee90346c0dfdb05c2602bbb869a61e76bcb",
+  "merge_commit": "266274ecc5289517a4def55897c8a564bd5c6a6e",
+  "content_pr": 12,
+  "ci_pr_run": 41744649961,
+  "source_validation": "passed",
+  "jekyll_rendered_validation": "passed",
+  "ci_master_run": 41744766653,
+  "pages_run": 41744766476,
+  "verified_at": "2026-11-04T00:11:57.259410+00:00",
+  "live_verification": [
+    {
+      "url": "https://edyang.me/tech/2026/11/03/android-usb-ethernet-poe-reenumeration/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a83b4d62224ea7a7afdbfbd50e8c842839a4889df2521dbcc6b1e70c9c884b00",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-usb-ethernet-poe-reenumeration.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "sha256": "2adb1f9bfa1edda69d1a57518c58b9a68492cbcda89bfb5596ce4a8f27a3d1c1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/tech-notes/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "d9cae1b0797d53bc9d805d8515ffee71b68729bce13cb24d1dc6243a3997c056",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6d330a752128880ee4af7d9583b01c89ee9efa00070ac8b28c8d06d33e19e233",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/archive/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6c6d163b216dfd045da37b302713e10a1db7b2a3c090a24d848b94c912f6eddb",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/feed.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "sha256": "1a6716e3c7bff10c945955044a8d0c897d7efe73e186c70d40b9783bcc9fafb6",
+      "valid": true
+    }
+  ],
+  "publication": "verified",
+  "pages_conclusion": "success",
+  "master_validation": "passed"
+}
