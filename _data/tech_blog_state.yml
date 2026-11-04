@@ -1,7 +1,7 @@
 format_version: 3
-article_count: 503
-last_article_date: '2026-10-24'
-next_article_date: '2026-10-31'
+article_count: 504
+last_article_date: '2026-11-03'
+next_article_date: '2026-11-10'
 min_interval_days: 5
 max_interval_days: 10
 first_article_date: '2013-01-05'
@@ -2018,16 +2018,20 @@ topics:
   title: 双 PLC 归中工位排障：取料二次触发为何造成重复夹紧
   date: '2026-10-24'
   permalink: /tech/2026/10/24/plc-centering-cycle-ownership/
+- note_id: android-usb-ethernet-poe-reenumeration
+  title: 安卓平板重启后没有网卡：从 USB 枚举定位到 PoE 复位边界
+  date: '2026-11-03'
+  permalink: /tech/2026/11/03/android-usb-ethernet-poe-reenumeration/
 historical_coverage:
   start: 2013-01
   end: 2019-12
   min_articles_per_month: 3
   article_count: 252
 last_processed_window:
-  from: '2026-10-12'
-  through: '2026-10-27'
+  from: '2026-10-20'
+  through: '2026-11-03'
   overlap_days: 7
   coverage: accessible_fragments_only
   processed_note_ids:
-  - plc-centering-cycle-ownership
+  - android-usb-ethernet-poe-reenumeration
   unprocessed_topics_remain: true
