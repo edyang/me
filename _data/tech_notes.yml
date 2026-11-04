@@ -1,3 +1,18 @@
+- note_id: android-usb-ethernet-poe-reenumeration
+  title: 安卓平板重启后没有网卡：从 USB 枚举定位到 PoE 复位边界
+  date: '2026-11-03'
+  permalink: /tech/2026/11/03/android-usb-ethernet-poe-reenumeration/
+  tags:
+  - Android
+  - USB
+  - 网络排障
+  images:
+  - /img/tech-notes/android-usb-ethernet-poe-reenumeration.svg
+  technology_since: '2020-12-13'
+  privacy_reviewed: true
+  content_revision: 3
+  path: _posts/2026-11-03-android-usb-ethernet-poe-reenumeration.md
+  sha256: 71cb94419deb19573a168add0e5cd6e6596b5e32d66429216bb8b50292c05664
 - note_id: plc-centering-cycle-ownership
   title: 双 PLC 归中工位排障：取料二次触发为何造成重复夹紧
   date: '2026-10-24'
