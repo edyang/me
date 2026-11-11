@@ -1,0 +1,74 @@
+{
+  "status": "published",
+  "run_date": "2026-11-11",
+  "base_commit": "c364503ee65bf162694bd2a55637adfe3dd4876e",
+  "note_id": "glass-line-scan-multilight-visibility",
+  "article_date": "2026-11-10",
+  "schedule_reason": "Used state next date, 7 days after previous article, not in future; next 2026-11-17.",
+  "new_articles": 1,
+  "updated_articles": 0,
+  "source_coverage": "accessible fragments only; overlapping window 2026-10-27 through 2026-11-10",
+  "deduplication": "Existing glass anomaly article addresses modeling and acceptance; this article adds multi-illumination optical mechanism, channel comparison, synchronization and display example.",
+  "privacy_review": "Generalized equipment and project geometry; no IP, device identity, production settings, customer or attachments.",
+  "evidence_boundary": "Observed broad dark regions with partial backlight masking; no claim of complete defect coverage or measured production performance. Proposed oblique and patterned channels remain to be validated.",
+  "version_check": "Official Basler runner manual release 2013-02-07 and Edmund Optics 2024-named line scan PDF checked; ordinary NumPy/Pillow operations predate article date.",
+  "local_validation": "python3 scripts/validate_tech_notes.py passed 505 articles / 505 SVGs. SVG XML parsed and rasterized with visual inspection. Extracted Python example verified RGB source identity and mismatched-size rejection on synthetic arrays.",
+  "branch_byte_comparison": "All four branch files matched local validated content.",
+  "content_commit": "f8ca97f9c4a238292f786c7d80110ab96bd4c31c",
+  "merge_commit": "176a69b015cf3f2b2d62df3dfc8f12bf5894745a",
+  "content_pr": 14,
+  "ci_pr_run": 42928297922,
+  "source_validation": "passed",
+  "jekyll_rendered_validation": "passed",
+  "ci_master_run": 42928422048,
+  "master_validation": "passed",
+  "pages_run": 42928421817,
+  "pages_conclusion": "success",
+  "verified_at": "2026-11-11T00:07:34.651164+00:00",
+  "live_verification": [
+    {
+      "url": "https://edyang.me/tech/2026/11/10/glass-line-scan-multilight-visibility/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "19ec6bbb238aef0891df45fe7b45a8ec23a34c8c003602221ac1c1bd49a8b962",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/glass-line-scan-multilight-visibility.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "sha256": "8b6ad6ad7d0970af0e9131683e3f6e8eb62f994e14d4f4be3980179363752718",
+      "matches_repository_bytes": true,
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/tech-notes/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6f8d255505a8b08d35b0b1dece119f248092fa3be120dc5b2c928d0337bb509f",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "85a77b9962b2ea792bc40035cf80d546ca881f7153bc2b9f35b7d92a23137212",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/archive/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7aa0e678479fb70937b29c477a0bb2cff162acb836507f9cb9454b1d1dd7d874",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/feed.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "sha256": "e681b55b0c000d4c98f4f39c2217f8f74824d4cc145446cde575ebd2bc613957",
+      "valid": true
+    }
+  ],
+  "publication": "verified"
+}
