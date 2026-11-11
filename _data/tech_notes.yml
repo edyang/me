@@ -1,3 +1,18 @@
+- note_id: glass-line-scan-multilight-visibility
+  title: 玻璃瓶线扫多光源成像：遮光暗区从哪里来，怎样验证缺陷显影
+  permalink: /tech/2026/11/10/glass-line-scan-multilight-visibility/
+  tags:
+  - 机器视觉
+  - 线扫成像
+  - 光学实验
+  images:
+  - /img/tech-notes/glass-line-scan-multilight-visibility.svg
+  technology_since: '2024-01-01'
+  privacy_reviewed: true
+  content_revision: 3
+  date: '2026-11-10'
+  path: _posts/2026-11-10-glass-line-scan-multilight-visibility.md
+  sha256: a49cabd0716c65db204fca72bbf99eb68026b88ec7d235aa198487e57496a731
 - note_id: android-usb-ethernet-poe-reenumeration
   title: 安卓平板重启后没有网卡：从 USB 枚举定位到 PoE 复位边界
   date: '2026-11-03'

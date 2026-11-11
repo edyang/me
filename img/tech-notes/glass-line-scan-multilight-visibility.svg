@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Multi-illumination line-scan experiment</title><desc id="desc">Backlight, patterned transmission and separate left and right oblique channels serve different observations. Acquire each revolution from the same angular reference, verify geometry, then compare sources. Do not fuse if registration fails.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0 0L9 3.5L0 7Z" fill="#375775"/></marker></defs>
+<rect width="1200" height="760" fill="#f3f6fb"/>
+<g font-family="Arial, sans-serif" fill="#172d46">
+<text x="45" y="50" font-size="28" font-weight="bold">Glass line scan: separate light sources before fusion</text>
+<text x="45" y="82" font-size="17">Concept diagram only / no measured images / channels collected on separate revolutions</text>
+<g stroke="#bccbda" fill="white"><rect x="40" y="110" width="350" height="290" rx="12"/><rect x="425" y="110" width="350" height="290" rx="12"/><rect x="810" y="110" width="350" height="290" rx="12"/></g>
+<g font-size="21" font-weight="bold"><text x="60" y="145">Uniform transmission</text><text x="445" y="145">Patterned transmission</text><text x="830" y="145">Oblique illumination</text></g>
+<g fill="#ffe7a0" stroke="#bf9839"><rect x="65" y="185" width="25" height="105"/><rect x="450" y="185" width="25" height="105"/></g>
+<g stroke="#25374a" stroke-width="6"><path d="M450 196h25m-25 25h25m-25 25h25m-25 25h25"/></g>
+<g fill="#d5ebf8" stroke="#4380a4" stroke-width="2"><ellipse cx="210" cy="238" rx="32" ry="67"/><ellipse cx="595" cy="238" rx="32" ry="67"/><ellipse cx="970" cy="238" rx="32" ry="67"/></g>
+<g fill="#375775"><rect x="319" y="221" width="42" height="34" rx="4"/><rect x="704" y="221" width="42" height="34" rx="4"/><rect x="1094" y="221" width="42" height="34" rx="4"/></g>
+<g fill="none" stroke="#b68b29" stroke-width="2" marker-end="url(#arrow)"><path d="M93 223L178 223L243 231L315 231"/><path d="M478 223L563 223L627 245L700 231"/></g>
+<g fill="#ffe7a0" stroke="#bf9839"><rect x="1030" y="166" width="29" height="19"/><rect x="1030" y="288" width="29" height="19"/></g>
+<g fill="none" stroke="#b68b29" stroke-width="2"><path d="M1030 178L995 225L1060 276"/><path d="M1030 298L995 249L1060 201"/></g>
+<path d="M995 238H1090" stroke="#a04c4c" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<g font-size="16"><text x="60" y="338">Baseline: contour and transmission</text><text x="60" y="365">Curvature can create normal dark bands</text><text x="445" y="338">Probe light-path displacement</text><text x="445" y="365">Period and phase need controlled tests</text><text x="830" y="338">Probe directional scattering (dashed)</text><text x="830" y="365">Left / right ON separately; backlight OFF</text></g>
+<text x="45" y="442" font-size="21" font-weight="bold">Acquisition and geometry gate</text>
+<g fill="#e2edf7" stroke="#8ba9c3"><rect x="45" y="464" width="240" height="90" rx="8"/><rect x="335" y="464" width="240" height="90" rx="8"/><rect x="625" y="464" width="240" height="90" rx="8"/><rect x="915" y="464" width="240" height="90" rx="8"/></g>
+<g font-size="18" text-anchor="middle"><text x="165" y="495">Same angle reference</text><text x="165" y="526">Light settles before capture</text><text x="455" y="495">One light per revolution</text><text x="455" y="526">Keep raw channel images</text><text x="745" y="495">Check repeated geometry</text><text x="745" y="526">Reject slip and local stretch</text><text x="1035" y="495">Compare / color-compose</text><text x="1035" y="526">Never a defect probability</text></g>
+<g stroke="#375775" stroke-width="2" marker-end="url(#arrow)"><path d="M285 508H330"/><path d="M575 508H620"/><path d="M865 508H910"/></g>
+<rect x="45" y="590" width="1110" height="125" rx="10" fill="#fff2e7" stroke="#d3a984"/>
+<text x="65" y="624" font-size="20" font-weight="bold">STOP fusion if angle registration or same-light repeatability fails</text>
+<text x="65" y="657" font-size="18">Dark bands are observations, not defect labels. Stronger contrast is not proof of complete coverage.</text>
+<text x="65" y="687" font-size="18">Validate normal curvature, known flaws, dust, saturation, light switching and orientation separately.</text>
+</g></svg>
