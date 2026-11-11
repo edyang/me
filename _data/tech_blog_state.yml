@@ -1,7 +1,7 @@
 format_version: 3
-article_count: 504
-last_article_date: '2026-11-03'
-next_article_date: '2026-11-10'
+article_count: 505
+last_article_date: '2026-11-10'
+next_article_date: '2026-11-17'
 min_interval_days: 5
 max_interval_days: 10
 first_article_date: '2013-01-05'
@@ -2022,16 +2022,20 @@ topics:
   title: 安卓平板重启后没有网卡：从 USB 枚举定位到 PoE 复位边界
   date: '2026-11-03'
   permalink: /tech/2026/11/03/android-usb-ethernet-poe-reenumeration/
+- note_id: glass-line-scan-multilight-visibility
+  title: 玻璃瓶线扫多光源成像：遮光暗区从哪里来，怎样验证缺陷显影
+  date: '2026-11-10'
+  permalink: /tech/2026/11/10/glass-line-scan-multilight-visibility/
 historical_coverage:
   start: 2013-01
   end: 2019-12
   min_articles_per_month: 3
   article_count: 252
 last_processed_window:
-  from: '2026-10-20'
-  through: '2026-11-03'
+  from: '2026-10-27'
+  through: '2026-11-10'
   overlap_days: 7
   coverage: accessible_fragments_only
   processed_note_ids:
-  - android-usb-ethernet-poe-reenumeration
+  - glass-line-scan-multilight-visibility
   unprocessed_topics_remain: true
