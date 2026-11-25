@@ -2,7 +2,7 @@
 <title id="title">WebView 页面恢复的就绪合同与代次隔离</title><desc id="desc">同一恢复代次从加载进入验证，主文档完成与业务信号齐全后才就绪；超时进入失败，预算内退避开启新代次，旧回调被丢弃。</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#416282" stroke-width="2"/></marker></defs>
 <rect width="1200" height="760" fill="#f2f6fa"/>
-<g font-family="sans-serif" fill="#19334d">
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#19334d">
 <text x="55" y="62" font-size="30" font-weight="bold">灰屏恢复：加载完成之后，还要验证业务可用</text>
 <text x="55" y="100" font-size="19">设计示意 · 每次主框架导航开启新代次 · 全程受同一个截止时间约束</text>
 <g stroke="#416282" stroke-width="2" marker-end="url(#arrow)" fill="none">
