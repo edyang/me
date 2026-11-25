@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">WebView 页面恢复的就绪合同与代次隔离</title><desc id="desc">同一恢复代次从加载进入验证，主文档完成与业务信号齐全后才就绪；超时进入失败，预算内退避开启新代次，旧回调被丢弃。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="none" stroke="#416282" stroke-width="2"/></marker></defs>
+<rect width="1200" height="760" fill="#f2f6fa"/>
+<g font-family="sans-serif" fill="#19334d">
+<text x="55" y="62" font-size="30" font-weight="bold">灰屏恢复：加载完成之后，还要验证业务可用</text>
+<text x="55" y="100" font-size="19">设计示意 · 每次主框架导航开启新代次 · 全程受同一个截止时间约束</text>
+<g stroke="#416282" stroke-width="2" marker-end="url(#arrow)" fill="none">
+<path d="M325 235H440"/><path d="M750 235H870"/><path d="M595 300V420"/><path d="M440 470H275V300"/>
+</g>
+<g stroke="#7d9fbc" stroke-width="2">
+<rect x="55" y="165" width="270" height="135" rx="14" fill="#fff"/>
+<rect x="440" y="165" width="310" height="135" rx="14" fill="#e1edff"/>
+<rect x="870" y="165" width="275" height="135" rx="14" fill="#e2f3e9"/>
+<rect x="440" y="420" width="310" height="115" rx="14" fill="#ffebdf"/>
+</g>
+<text x="80" y="204" font-size="25" font-weight="bold">LOADING</text>
+<text x="80" y="242" font-size="20">创建或加载受控入口</text><text x="80" y="276" font-size="18">epoch = 当前代次</text>
+<text x="462" y="204" font-size="25" font-weight="bold">VERIFYING</text><text x="462" y="242" font-size="20">文档完成 + 业务信号齐全</text><text x="462" y="276" font-size="18">可暂存早到信号，核对代次</text>
+<text x="895" y="204" font-size="25" font-weight="bold">READY</text><text x="895" y="242" font-size="20">页面与必要依赖可用</text><text x="895" y="276" font-size="18">数据新鲜度另行监控</text>
+<text x="335" y="218" font-size="17">文档完成</text><text x="763" y="218" font-size="17">验证通过</text>
+<text x="615" y="365" font-size="19">加载 / 验证超时</text>
+<text x="465" y="460" font-size="25" font-weight="bold">FAILED</text><text x="465" y="498" font-size="20">保留阶段与错误，停止转圈</text>
+<text x="72" y="385" font-size="19">预算内：退避后新代次</text><text x="72" y="418" font-size="18">预算耗尽：等待人工操作</text>
+<rect x="55" y="585" width="1090" height="130" rx="12" fill="#fff" stroke="#b1c4d5"/>
+<text x="80" y="620" font-size="21" font-weight="bold">任何异步回调进入前，核对：代次 + 实例 + 阶段</text>
+<text x="80" y="655" font-size="19">旧页面就绪、过期超时、重复手势 → 丢弃或合并，不得销毁新实例</text>
+<text x="80" y="688" font-size="19">普通刷新保留会话；清 Cookie / 本地存储属于独立维护动作</text>
+</g></svg>
