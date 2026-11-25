@@ -1,0 +1,74 @@
+{
+  "status": "published",
+  "run_date": "2026-11-25",
+  "base_commit": "78a53193f52bce30d00cb618ed0374a4eea899d6",
+  "note_id": "android-webview-gray-screen-readiness",
+  "article_date": "2026-11-17",
+  "schedule_reason": "Retained state next_article_date, seven days after prior article. Actual execution delayed eight days; no evidence of a prior attempt. This run publishes one article only; next_article_date 2026-11-24 remains due for a subsequent run, rather than silently skipping a cadence slot.",
+  "new_articles": 1,
+  "updated_articles": 0,
+  "source_coverage": "Accessible fragments only, overlapping retrieval window 2026-11-03 through 2026-11-24; selected pre-article-date WebView issue. Other retrieved topics remain unprocessed.",
+  "deduplication": "Existing WebSocket lifecycle article focuses connection teardown; new independent note covers application readiness contract, stale callbacks, bounded recovery, renderer lifecycle and session reset semantics. Existing USB enumeration note linked for lower-layer distinction.",
+  "privacy_review": "Generalized equipment, topology and observed problem; omitted model, project, identities, private addresses, source code and exact production timing. Semantic review plus validator scans passed.",
+  "evidence_boundary": "Gray page, unsuccessful refresh and later recovery after reboot were observed. Root cause unconfirmed; recovery design is proposed. No production success, customer acceptance, performance or benefit claims.",
+  "version_check": "Official Android references checked: onPageFinished API1, onPageCommitVisible API23, onRenderProcessGone API26, WebViewRenderProcess API29 (2019); Python example requires 3.8+.",
+  "local_validation": "python3 scripts/validate_tech_notes.py passed 506 notes / 506 diagrams; XML validated; 1200x760 SVG rasterized with explicit Chinese font and visually reviewed; Python example executed including stale, duplicate and timeout cases; diff and byte match of all four branch files checked.",
+  "content_commit": "774c0e23b6e3f8919e5fe962a63545447eeff64b",
+  "merge_commit": "89d854a86695e38e9ca490043543c92d7148af23",
+  "content_pr": 16,
+  "ci_pr_run": 45515472719,
+  "source_validation": "passed",
+  "jekyll_rendered_validation": "passed",
+  "ci_master_run": 45515631745,
+  "pages_run": 45515632310,
+  "verified_at": "2026-11-25T00:09:13.363359+00:00",
+  "live_verification": [
+    {
+      "url": "https://edyang.me/tech/2026/11/17/android-webview-gray-screen-readiness/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c0996fd658eca0cf2a0beee13bb184153fbe145ac99e1024f23ba479c00b1608",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/img/tech-notes/android-webview-gray-screen-readiness.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "sha256": "e31508446c389f6536d5c8dd611dc6c8c020ed1bdea92b08e47356e3b770e531",
+      "valid": true,
+      "matches_repository_bytes": true
+    },
+    {
+      "url": "https://edyang.me/tech-notes/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "2029b0ae8a3c67e8bd03e66feab2f1509934cbc4bb03bfa7476389f57ccba720",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "fd34206b7497aa95378c72cb956a4bb9691b64cf033807e857750fe13b6b33b1",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/archive/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "90752e3ab6990b2b25f8e23c427ded93fd04c41cbc9070370a6093aa1cb72314",
+      "valid": true
+    },
+    {
+      "url": "https://edyang.me/feed.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "sha256": "0154349986c507d92413c764b809b2081123af26c5b0359d4cfc686bfa1afde6",
+      "valid": true
+    }
+  ],
+  "publication": "verified",
+  "pages_conclusion": "success",
+  "master_validation": "passed"
+}
+
