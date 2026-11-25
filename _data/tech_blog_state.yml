@@ -1,7 +1,7 @@
 format_version: 3
-article_count: 505
-last_article_date: '2026-11-10'
-next_article_date: '2026-11-17'
+article_count: 506
+last_article_date: '2026-11-17'
+next_article_date: '2026-11-24'
 min_interval_days: 5
 max_interval_days: 10
 first_article_date: '2013-01-05'
@@ -2026,16 +2026,20 @@ topics:
   title: 玻璃瓶线扫多光源成像：遮光暗区从哪里来，怎样验证缺陷显影
   date: '2026-11-10'
   permalink: /tech/2026/11/10/glass-line-scan-multilight-visibility/
+- note_id: android-webview-gray-screen-readiness
+  title: Android WebView 灰屏排障：用业务就绪信号约束页面恢复
+  date: '2026-11-17'
+  permalink: /tech/2026/11/17/android-webview-gray-screen-readiness/
 historical_coverage:
   start: 2013-01
   end: 2019-12
   min_articles_per_month: 3
   article_count: 252
 last_processed_window:
-  from: '2026-10-27'
-  through: '2026-11-10'
+  from: '2026-11-03'
+  through: '2026-11-24'
   overlap_days: 7
   coverage: accessible_fragments_only
   processed_note_ids:
-  - glass-line-scan-multilight-visibility
+  - android-webview-gray-screen-readiness
   unprocessed_topics_remain: true

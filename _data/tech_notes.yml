@@ -1,3 +1,18 @@
+- title: Android WebView 灰屏排障：用业务就绪信号约束页面恢复
+  tags:
+  - Android
+  - WebView
+  - 故障恢复
+  note_id: android-webview-gray-screen-readiness
+  permalink: /tech/2026/11/17/android-webview-gray-screen-readiness/
+  privacy_reviewed: true
+  content_revision: 3
+  images:
+  - /img/tech-notes/android-webview-gray-screen-readiness.svg
+  technology_since: '2019-09-03'
+  date: '2026-11-17'
+  path: _posts/2026-11-17-android-webview-gray-screen-readiness.md
+  sha256: 3d9f8038853e59c1f8e39b75415825847a7487b9ddc64f0443b217def91106e9
 - note_id: glass-line-scan-multilight-visibility
   title: 玻璃瓶线扫多光源成像：遮光暗区从哪里来，怎样验证缺陷显影
   permalink: /tech/2026/11/10/glass-line-scan-multilight-visibility/
